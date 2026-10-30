@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Allow: /api/cms/media/
+Disallow: /dashboard/
+Disallow: /api/
+
+Sitemap: https://plastship.com/sitemap.xml

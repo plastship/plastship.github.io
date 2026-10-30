@@ -1,0 +1,5 @@
+.work/
+.build.log
+shots/
+interim-site.zip
+.DS_Store
