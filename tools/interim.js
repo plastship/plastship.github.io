@@ -1,56 +1,98 @@
-// Interim-Seite: Kontaktformular ohne Server. Das Formular bleibt (1:1), Absenden ist
-// abgefangen und darueber steht ein Hinweis mit Mail-Adresse.
+// Interim-Seite: Formulare ohne Server. Das Kontaktformular bleibt 1:1 sichtbar und
+// ausfuellbar. Beim Absenden faengt dieses Skript den Submit ab, bevor React ihn sieht (kein
+// Request an /api, keine Erfolgs- oder Fehlermeldung der App), prueft die Pflichtfelder und
+// oeffnet stattdessen eine E-Mail an info@plastship.com mit allen Feldern als Vorlage.
+// Darunter erscheint ein kurzer Hinweis.
 (function () {
+  var MAIL = 'info@plastship.com';
   var TEXT = {
-    de: ['Das Kontaktformular ist vorübergehend nicht verfügbar.', 'Bitte schreiben Sie uns an', 'oder rufen Sie an:'],
-    en: ['The contact form is temporarily unavailable.', 'Please email us at', 'or call:']
+    de: { subject: 'Kontaktanfrage plastship.com', topic: 'Anliegen',
+      hint: 'Ihr E-Mail-Programm öffnet sich mit der Anfrage. Falls nicht: ' },
+    en: { subject: 'Contact request plastship.com', topic: 'Topic',
+      hint: 'Your e-mail program opens with your request. If not: ' }
   };
+  // alle oeffentlichen Formulare (derzeit nur das Kontaktformular, de und en)
   var FORM = 'form[data-testid$="contact-form-form"]';
+  // Reihenfolge im Mail-Text; Felder per data-field, Anliegen ueber die Radio-Gruppe
+  var ORDER = ['name', 'company', 'email', 'phone', 'topic', 'message'];
 
-  // Absenden abfangen, bevor React es sieht (Erfassungsphase am window)
-  window.addEventListener('submit', function (e) {
-    if (e.target && e.target.matches && e.target.matches(FORM)) {
-      e.preventDefault();
-      e.stopImmediatePropagation();
-    }
-  }, true);
+  function lang() { return TEXT[(document.documentElement.lang || 'de').slice(0, 2)] || TEXT.de; }
+  function clean(s) { return (s || '').replace(/\s*\*\s*$/, '').replace(/\s+/g, ' ').trim(); }
 
-  function note() {
-    var t = TEXT[(document.documentElement.lang || 'de').slice(0, 2)] || TEXT.de;
-    var box = document.createElement('div');
-    box.className = 'interim-form-note';
-    box.setAttribute('data-testid', 'interim-form-note');
-    box.setAttribute('role', 'note');
-    var strong = document.createElement('strong');
-    strong.textContent = t[0];
-    var mail = document.createElement('a');
-    mail.href = 'mailto:info@plastship.com';
-    mail.textContent = 'info@plastship.com';
-    var tel = document.createElement('a');
-    tel.href = 'tel:+4961265898010';
-    tel.textContent = '+49 6126 5898010';
-    box.append(strong, document.createElement('br'), t[1] + ' ', mail, ' ' + t[2] + ' ', tel);
-    return box;
+  function labelFor(form, el) {
+    var l = el.id && form.querySelector('label[for="' + el.id + '"]');
+    if (!l) return clean(el.getAttribute('aria-label') || el.getAttribute('data-field'));
+    // nur der Text des Labels selbst, ohne Zusaetze wie "(optional)" oder Pflicht-Sternchen
+    var own = Array.prototype.filter.call(l.childNodes, function (n) { return n.nodeType === 3; })
+      .map(function (n) { return n.textContent; }).join(' ');
+    return clean(own) || clean(l.textContent);
   }
 
-  // Hinweis als Geschwister vor dem Formular (nicht im React-Baum des Formulars);
-  // nach der Hydration und erneut, falls React den Bereich neu aufbaut
-  function place() {
-    document.querySelectorAll(FORM).forEach(function (form) {
-      var prev = form.previousElementSibling;
-      if (prev && prev.classList.contains('interim-form-note')) return;
-      form.parentNode.insertBefore(note(), form);
+  function topic(form) {
+    var r = form.querySelector('input[type="radio"]:checked');
+    if (!r) return '';
+    var l = r.closest('label');
+    // Titel der Anliegen-Karte (erstes sichtbares Textelement, ohne Icon und Erlaeuterung)
+    var title = l && l.querySelector('span:not([aria-hidden])');
+    return clean(title ? title.textContent : l ? l.textContent : r.value);
+  }
+
+  function collect(form) {
+    var lines = [];
+    ORDER.forEach(function (f) {
+      if (f === 'topic') {
+        var t = topic(form);
+        if (t) lines.push(lang().topic + ': ' + t);
+        return;
+      }
+      var el = form.querySelector('[data-field="' + f + '"]');
+      if (!el) return;
+      var v = (el.value || '').trim();
+      if (f === 'message') lines.push('', labelFor(form, el) + ':', v);
+      else lines.push(labelFor(form, el) + ': ' + v);
     });
+    return lines;
   }
-  function start() {
-    place();
-    var queued = false;
-    new MutationObserver(function () {
-      if (queued) return;
-      queued = true;
-      setTimeout(function () { queued = false; place(); }, 300);
-    }).observe(document.body, { childList: true, subtree: true });
+
+  function mailto(form) {
+    var t = lang();
+    var tp = topic(form);
+    var subject = t.subject + (tp ? ': ' + tp : '');
+    var body = collect(form).join('\r\n');
+    return 'mailto:' + MAIL + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
   }
-  if (document.readyState === 'complete') setTimeout(start, 500);
-  else window.addEventListener('load', function () { setTimeout(start, 500); });
+
+  function showHint(form) {
+    var btn = form.querySelector('[type="submit"]');
+    var old = form.querySelector('.interim-form-hint') || (btn && btn.parentNode.querySelector('.interim-form-hint'));
+    if (old) return;
+    var p = document.createElement('p');
+    p.className = 'interim-form-hint';
+    p.setAttribute('data-testid', 'interim-form-hint');
+    p.setAttribute('role', 'status');
+    var a = document.createElement('a');
+    a.href = 'mailto:' + MAIL;
+    a.textContent = MAIL;
+    p.append(lang().hint, a);
+    if (btn) btn.insertAdjacentElement('afterend', p); else form.appendChild(p);
+  }
+
+  window.addEventListener('submit', function (e) {
+    var form = e.target;
+    if (!form || !form.matches || !form.matches(FORM)) return;
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    // Pflichtfelder und Formate (required, type=email) wie im Browser pruefen (greift auch
+    // bei noValidate). Das Captcha (altcha) braucht den Server und ist ausgeblendet: auslassen.
+    var fields = Array.prototype.filter.call(form.elements, function (el) {
+      return el.willValidate && !el.closest('[data-testid$="altcha-slot"]') && !/^altcha/.test(el.id || '');
+    });
+    for (var i = 0; i < fields.length; i++) {
+      if (!fields[i].checkValidity()) { fields[i].reportValidity(); return; }
+    }
+    var url = mailto(form);
+    window.dispatchEvent(new CustomEvent('interim:mailto', { detail: url }));
+    window.location.href = url;
+    showHint(form);
+  }, true);
 })();

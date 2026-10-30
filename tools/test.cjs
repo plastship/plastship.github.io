@@ -14,6 +14,11 @@ function watch(page, bag) {
   page.on('console', m => { if (m.type() === 'error' || m.type() === 'warning') bag.console.push(`${m.type()}: ${m.text().slice(0, 300)}`); });
   page.on('pageerror', e => bag.errors.push(String(e.message || e).slice(0, 300)));
   page.on('response', r => { if (r.status() >= 400) bag.bad.push(`${r.status()} ${r.url()}`); });
+  page.on('requestfailed', r => {
+    const t = r.failure() ? r.failure().errorText : '';
+    // abgebrochene Bild-/Medienanfragen beim Seitenwechsel sind normal, alles andere zaehlt
+    if (!(t === 'net::ERR_ABORTED' && /^(image|media)$/.test(r.resourceType()))) bag.bad.push(`FAILED ${t} ${r.url()}`);
+  });
 }
 
 async function scroll(page) {
@@ -25,6 +30,11 @@ async function scroll(page) {
 }
 
 (async () => {
+  // Vollstaendigkeit: jede /_next/static- und Medien-Referenz in allen Seiten, CSS und
+  // JS-Chunks hat eine Datei (build.py check, bricht sonst ab)
+  const docs = process.env.DOCS || path.join(__dirname, '..', 'docs');
+  const chk = require('child_process').spawnSync('python3', ['-I', path.join(__dirname, 'build.py'), 'check', docs], { encoding: 'utf8' });
+  res('Vollstaendigkeit (alle Verweise haben eine Datei)', chk.status === 0, (chk.stdout || '').trim().split('\n').slice(0, 4).join(' | '));
   const browser = await chromium.launch();
   const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
   // Live-Seite nie wirklich aufrufen: Weiterleitungen dorthin nur protokollieren
@@ -43,10 +53,11 @@ async function scroll(page) {
       const sw = await page.evaluate(() => !!(navigator.serviceWorker && navigator.serviceWorker.controller));
       const brokenImgs = await page.evaluate(() => [...document.images].filter(i => i.complete && i.naturalWidth === 0 && i.currentSrc).map(i => i.currentSrc).slice(0, 5));
       const bad = bag.bad.filter(x => !/[?&]_rsc=/.test(x));
-      const known = bad.filter(x => /_1vp-rpbrgbncx|HeroSlider_tsx_1zwefv35iu_ts|altcha_1s_pshnzoawaq/.test(x));
+      // erwartet: der Service Worker beantwortet den Kontakt-Token mit 503 (kein vorgetaeuschter Erfolg)
+      const known = bad.filter(x => /^503 .*\/api\/contact-requests\/token\//.test(x));
       const unexpected = bad.filter(x => !known.includes(x));
       res(`(a) ${r} ${pass}`, unexpected.length === 0 && bag.errors.length === 0 && brokenImgs.length === 0,
-        `SW=${sw} 4xx=${unexpected.length} (bekannt aus Quelle: ${known.length}) JS-Fehler=${bag.errors.length} kaputte Bilder=${brokenImgs.length}` +
+        `SW=${sw} 4xx=${unexpected.length} (erwartet 503 Kontakt-Token: ${known.length}) JS-Fehler=${bag.errors.length} kaputte Bilder=${brokenImgs.length}` +
         (unexpected.length ? ' | ' + unexpected.slice(0, 5).join(' ; ') : '') + (bag.errors.length ? ' | ' + bag.errors.slice(0, 3).join(' ; ') : '') +
         (brokenImgs.length ? ' | ' + brokenImgs.join(' ; ') : ''));
       if (pass === 'mit Service Worker') {
@@ -74,6 +85,15 @@ async function scroll(page) {
   let i1 = await hero.getAttribute('data-active-index');
   let how = 'automatisch';
   if (i1 === i0) { await page.click('[data-testid="cms-block-start-hero-pagination-item-2"]'); await page.waitForTimeout(2000); i1 = await hero.getAttribute('data-active-index'); how = 'per Pagination'; }
+  // alle Folien durchklicken: kein Bild/keine Textur darf fehlen (sonst bricht der Uebergang)
+  const heroBad = [];
+  const onResp = r => { if (r.status() >= 400 && /\.(jpe?g|png|webp|avif)|_next\/image/.test(r.url())) heroBad.push(r.status() + ' ' + r.url()); };
+  page.on('response', onResp);
+  const dots = page.locator('[data-testid^="cms-block-start-hero-pagination-item-"]');
+  const nd = await dots.count();
+  for (let k = 0; k < nd; k++) { await dots.nth(k).click(); await page.waitForTimeout(1500); }
+  page.off('response', onResp);
+  res('(b2) Hero: alle Folien ohne fehlende Bilder', heroBad.length === 0, `${nd} Folien` + (heroBad.length ? ' | ' + heroBad.join(' ; ') : ''));
   await page.screenshot({ path: path.join(SHOTS, 'interim-hero.png') });
   res('(b) Hero-Slider wechselt', i0 !== i1, `Index ${i0} -> ${i1} (${how}), Canvas=${heroInfo.canvas}, Bild=${heroInfo.img}`);
 
@@ -138,16 +158,41 @@ async function scroll(page) {
   res('Weiterleitung /login/ -> Live', p2.url().startsWith('https://plastship.com/login/'), p2.url());
   await p2.close();
 
-  // Kontaktformular: Hinweis da, Absenden ausgeblendet
-  const p3 = await ctx.newPage();
-  await p3.goto(BASE + '/contact-us/', { waitUntil: 'load' });
-  await p3.waitForTimeout(3000);
-  const noteOk = await p3.locator('[data-testid="interim-form-note"]').isVisible().catch(() => false);
-  const submitVis = await p3.locator('[data-testid$="contact-form-submit"]').isVisible().catch(() => false);
-  await p3.locator('[data-testid="interim-form-note"]').scrollIntoViewIfNeeded().catch(() => {});
-  await p3.screenshot({ path: path.join(SHOTS, 'interim-contact-note.png') });
-  res('Kontaktformular-Hinweis', noteOk && !submitVis, `Hinweis=${noteOk} Absenden sichtbar=${submitVis}`);
-  await p3.close();
+  // Kontaktformular: ausfuellen, absenden -> mailto statt Request an /api
+  for (const r of ['/contact-us/', '/en/contact-us/']) {
+    const p3 = await ctx.newPage();
+    await p3.addInitScript(() => { window.__mailto = []; window.addEventListener('interim:mailto', e => window.__mailto.push(e.detail)); });
+    const apiCalls = [];
+    p3.on('request', q => { if (/\/api\/contact/.test(q.url()) && q.method() !== 'GET') apiCalls.push(q.method() + ' ' + q.url()); });
+    await p3.goto(BASE + r, { waitUntil: 'load' });
+    await p3.waitForTimeout(3000);
+    const F = '[data-testid="cms-block-contact-us-form-contact-form-';
+    const submitVis = await p3.locator(F + 'submit"]').isVisible();
+    // leer absenden: Pflichtfeldpruefung greift, keine Mail
+    await p3.click(F + 'submit"]');
+    await p3.waitForTimeout(300);
+    const emptyMails = await p3.evaluate(() => window.__mailto.length);
+    await p3.click(F + 'topic-quality_lab"]');
+    await p3.fill(F + 'name"]', 'Erika Muster');
+    await p3.fill(F + 'company"]', 'Muster GmbH');
+    await p3.fill(F + 'email"]', 'erika@example.com');
+    await p3.fill(F + 'phone"]', '+49 123 456');
+    await p3.fill(F + 'message"]', 'Zeile eins\nZeile zwei');
+    await p3.click(F + 'submit"]');
+    await p3.waitForTimeout(800);
+    const mails = await p3.evaluate(() => window.__mailto);
+    const hint = await p3.locator('[data-testid="interim-form-hint"]').isVisible().catch(() => false);
+    const status = await p3.locator(F + 'form"]').evaluate(f => f.closest('section').getAttribute('data-status'));
+    await p3.locator(F + 'submit"]').scrollIntoViewIfNeeded();
+    await p3.evaluate(() => window.scrollBy(0, 250));
+    await p3.screenshot({ path: path.join(SHOTS, `interim-${slug(r)}-mailto.png`) });
+    const m = mails[0] || '';
+    const ok = submitVis && emptyMails === 0 && mails.length === 1 && m.startsWith('mailto:info@plastship.com?subject=') &&
+      m.includes('%0D%0A') && m.includes('Erika%20Muster') && hint && apiCalls.length === 0 && status === 'idle';
+    res(`Kontaktformular ${r} -> mailto`, ok, `Absenden sichtbar=${submitVis}, leer abgesendet: ${emptyMails} Mails, ` +
+      `Mails=${mails.length}, Hinweis=${hint}, API-Aufrufe=${apiCalls.length}, Formularstatus=${status} | ${decodeURIComponent(m).slice(0, 220).replace(/\r\n/g, ' / ')}`);
+    await p3.close();
+  }
 
   // (h) mobil 390 px
   const m = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, deviceScaleFactor: 2 });

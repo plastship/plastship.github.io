@@ -12,13 +12,8 @@
 /* Entwicklungswerkzeuge von Next (Quelle ist der Entwicklungsserver) */
 nextjs-portal { display: none !important; }
 
-/* Kontaktformular: Absenden geht ohne Server nicht; Hinweis setzt interim.js */
-[data-testid$="contact-form-submit"] { display: none !important; }
-.interim-form-note {
-  margin: 0 0 24px; padding: 16px 20px; border-radius: 4px; line-height: 1.6;
-  border: 1px solid #c8d3df; background: #f4f7fa; color: #003d6b;
-}
-.interim-form-note a { color: inherit; font-weight: 600; }
-html.dark .interim-form-note, html[data-theme="dark"] .interim-form-note {
-  border-color: #2c4a66; background: #10273b; color: #e3eaf1;
-}
+/* Kontaktformular: bleibt sichtbar; Absenden oeffnet eine E-Mail (interim.js).
+   Das Captcha braucht den Server und entfaellt. */
+[data-testid$="contact-form-altcha-slot"] { display: none !important; }
+.interim-form-hint { margin: 12px 0 0; line-height: 1.5; font-size: 0.95em; }
+.interim-form-hint a { color: inherit; font-weight: 600; }

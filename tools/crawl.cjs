@@ -31,6 +31,13 @@ async function visit(page, r, mobile) {
     const b = page.locator('[data-testid="mobile-menu-open"]');
     if (await b.count()) { await b.first().click().catch(() => {}); await page.waitForTimeout(800); }
   } else {
+    // Slider: jede Folie einmal anklicken, damit ihre Bilder/Texturen geladen werden
+    const dots = page.locator('[data-testid*="-pagination-item-"]');
+    const nd = await dots.count();
+    for (let k = 0; k < nd; k++) {
+      await dots.nth(k).click({ timeout: 2000 }).catch(() => {});
+      await page.waitForTimeout(700);
+    }
     const toggles = page.locator('[data-testid^="header-public-nav-item-"][data-testid$="-toggle"]');
     const n = await toggles.count();
     for (let k = 0; k < n; k++) {

@@ -19,6 +19,10 @@ from concurrent.futures import ThreadPoolExecutor
 BASE = os.environ.get('SOURCE', 'http://localhost').rstrip('/')
 LIVE = os.environ.get('LIVE', 'https://plastship.com').rstrip('/')
 PAR = int(os.environ.get('PAR', '2'))
+# NOINDEX=1: Paket nicht indexierbar machen (nur fuer eine Auslieferung ohne eigene Domain,
+# z. B. plastship.github.io). Standard aus: das Paket laeuft unter plastship.com und
+# behaelt die SEO-Angaben der Quelle 1:1.
+NOINDEX = os.environ.get('NOINDEX', '') == '1'
 NOTFOUND = '/diese-seite-gibt-es-nicht-interim/'
 TOOLS = os.path.dirname(os.path.abspath(__file__))
 UA = 'plastship-interim-mirror'
@@ -170,10 +174,10 @@ def rewrite_flight(doc, route, warnings):
                 return False
         return True
     do_origin = all(safe(re.escape(o.encode())) for o in ORIGINS)
-    do_robots = safe(ROBOTS_FLIGHT.pattern.encode())
+    do_robots = NOINDEX and safe(ROBOTS_FLIGHT.pattern.encode())
     if not do_origin:
         warnings.append(f'{route}: Ursprungs-URL in Flight-Textzeile, dort unveraendert')
-    if not do_robots:
+    if NOINDEX and not do_robots:
         warnings.append(f'{route}: robots in Flight-Textzeile, dort unveraendert')
 
     def fix(m):
@@ -193,30 +197,34 @@ def to_live(s):
     return s
 
 
-def head_inject(routes_json, is404, route):
-    debug = '/404-debug.bin' if is404 else route + 'interim-debug.bin'
+def head_inject(routes_json, is404, route, has_debug):
     parts = [
-        '<script>window.__INTERIM_DEBUG__=' + json.dumps(debug) + ';</script>',
-        '<meta name="robots" content="' + ROBOTS + '">',
         # Verbindungen nur zum eigenen Ursprung: keine Fehlerberichte an Sentry o. ae., auch vor dem Service Worker
         '<meta http-equiv="Content-Security-Policy" content="connect-src \'self\' blob: data:">',
         '<link rel="stylesheet" href="/interim.css">',
         '<script src="/interim-boot.js"></script>',
     ]
+    if NOINDEX:
+        parts.insert(0, '<meta name="robots" content="' + ROBOTS + '">')
+    if has_debug:
+        # nur bei einer Entwicklungs-Quelle: React-Debug-Daten fuer den HMR-Platzhalter
+        debug = '/404-debug.bin' if is404 else route + 'interim-debug.bin'
+        parts.insert(0, '<script>window.__INTERIM_DEBUG__=' + json.dumps(debug) + ';</script>')
     if is404:
         parts.insert(0, '<script>window.__INTERIM_ROUTES__=' + routes_json + ';</script>')
     return ''.join(parts)
 
 
-def rewrite(doc, route, routes_json, warnings):
+def rewrite(doc, route, routes_json, warnings, has_debug=False):
     is404 = route == NOTFOUND
     # 1. Bildoptimierer -> Originalbild (nur Markup; Flight enthaelt keine Optimierer-URLs,
     #    clientseitig gemountete Bilder biegen interim-boot.js und der Service Worker um)
     doc = outside_scripts(doc, lambda s: NEXT_IMG.sub(rewrite_next_img, s))
     # 2. absolute Quell-URLs (canonical, hreflang, og, twitter, JSON-LD) -> LIVE
     doc = rewrite_flight(doc, route, warnings)
-    # 2b. nie indexieren (Ersatzseite); vorhandene robots-Angaben angleichen, eigene vorn im head
-    doc = outside_scripts(doc, lambda s: re.sub(r'(<meta name="robots" content=")[^"]*(")', r'\g<1>' + ROBOTS + r'\g<2>', s))
+    # 2b. nur mit NOINDEX=1: nie indexieren; vorhandene robots-Angaben angleichen
+    if NOINDEX:
+        doc = outside_scripts(doc, lambda s: re.sub(r'(<meta name="robots" content=")[^"]*(")', r'\g<1>' + ROBOTS + r'\g<2>', s))
     doc = re.sub(r'<link[^>]*rel="(?:canonical|alternate)"[^>]*>', lambda m: to_live(m.group(0)), doc)
     doc = re.sub(r'<meta[^>]*>', lambda m: to_live(m.group(0)), doc)
     doc = re.sub(r'<script[^>]*application/ld\+json[^>]*>.*?</script>', lambda m: to_live(m.group(0)), doc, flags=re.S)
@@ -224,7 +232,7 @@ def rewrite(doc, route, routes_json, warnings):
     m = re.search(r'<head[^>]*>', doc)
     if not m:
         raise RuntimeError(f'{route}: kein <head>')
-    doc = doc[:m.end()] + head_inject(routes_json, is404, route) + doc[m.end():]
+    doc = doc[:m.end()] + head_inject(routes_json, is404, route, has_debug) + doc[m.end():]
     doc = doc.replace('</body>', '<script src="/interim.js" defer></script></body>', 1)
     return doc
 
@@ -235,6 +243,8 @@ LOCAL_PREFIXES = ('/_next/static/', '/__nextjs_font/', '/IH/', '/images/', '/tea
 ATTR_RE = re.compile(r'(?:src|href|poster|srcSet|srcset|imageSrcSet|imagesrcset|content|data-src)="([^"]+)"')
 CSS_URL = re.compile(r'url\(\s*(?:&quot;|["\'])?([^)"\'&]+?)(?:&quot;|["\'])?\s*\)')
 JS_REF = re.compile(r'(?:/_next/)?static/(?:chunks|media)/[A-Za-z0-9_.%\-\[\]@~+]+\.(?:js|css|woff2?|ttf|otf|svg|png|jpe?g|webp|avif|gif|wasm|json|glb|hdr|ktx2|mp4|webm)')
+PROP_ASSET = re.compile(r'(?<=["(\s])(/(?:IH|images|team|brands|videos|files|downloads|fonts|icons|logos|api/cms/media)/'
+                        r'[^"\\\s<>)]+?\.(?:jpe?g|png|webp|avif|gif|svg|mp4|webm|pdf|docx?|xlsx?|pptx?|zip|glb|json))(?=[\\"\s)])')
 FILE_EXT = re.compile(r'\.[A-Za-z0-9]{2,5}$')
 
 
@@ -272,6 +282,12 @@ def refs_in_html(doc, static_paths):
         a = local_asset(m.group(1), static_paths)
         if a:
             refs.add(a)
+    # Dateien, die nur in Flight-Daten/Props stehen und erst im Browser geladen werden
+    # (z. B. Folienbilder des Hero-Sliders, die die WebGL-Stage beim Wechsel nachlaedt)
+    for m in PROP_ASSET.finditer(doc):
+        a = local_asset(m.group(1), static_paths)
+        if a:
+            refs.add(a)
     # Chunk-/Medienverweise in Flight-Daten und Inline-Skripten
     for m in JS_REF.finditer(doc):
         p = m.group(0)
@@ -295,9 +311,17 @@ def cmd_assemble(html_dir, urls_file, out):
     routes_json = json.dumps(pages_routes, separators=(',', ':'))
     log(f'{len(pages_routes)} Seiten + 404')
 
+    # docs/CNAME legt GitHub fuer die eigene Domain an: nie loeschen oder ueberschreiben
+    cname = None
+    if os.path.exists(os.path.join(out, 'CNAME')):
+        cname = open(os.path.join(out, 'CNAME'), 'rb').read()
     if os.path.isdir(out):
         shutil.rmtree(out)
     os.makedirs(out)
+    if cname is not None:
+        with open(os.path.join(out, 'CNAME'), 'wb') as f:
+            f.write(cname)
+        log('docs/CNAME erhalten')
 
     def write(rel, data):
         fp = disk_path(out, rel)
@@ -309,13 +333,16 @@ def cmd_assemble(html_dir, urls_file, out):
     for r in routes:
         doc = open(html_file(html_dir, r), encoding='utf-8').read()
         todo |= refs_in_html(doc, static_paths)
-        new = rewrite(doc, r, routes_json, warnings)
+        dbg = os.path.join(os.path.dirname(html_file(html_dir, r)), 'debug.bin')
+        new = rewrite(doc, r, routes_json, warnings, os.path.exists(dbg) and os.path.getsize(dbg) > 0)
         todo |= refs_in_html(new, static_paths)
         write('/404.html' if r == NOTFOUND else (r + 'index.html'), new.encode('utf-8'))
         dbg = os.path.join(os.path.dirname(html_file(html_dir, r)), 'debug.bin')
-        write('/404-debug.bin' if r == NOTFOUND else (r + 'interim-debug.bin'), open(dbg, 'rb').read() if os.path.exists(dbg) else b'')
+        if os.path.exists(dbg) and os.path.getsize(dbg):
+            write('/404-debug.bin' if r == NOTFOUND else (r + 'interim-debug.bin'), open(dbg, 'rb').read())
     for w in warnings:
         log('  WARNUNG', w)
+    seo_check(html_dir, out, routes)
 
     # zur Laufzeit im Browser angefragte URLs
     for line in open(urls_file).read().split('\n'):
@@ -329,11 +356,25 @@ def cmd_assemble(html_dir, urls_file, out):
         shutil.copy(os.path.join(TOOLS, f), os.path.join(out, f))
     sw = open(os.path.join(TOOLS, 'interim-sw.js'), encoding='utf-8').read()
     write('/interim-sw.js', sw.replace('__ROUTES__', routes_json).replace('__LIVE__', LIVE).encode('utf-8'))
-    # Ersatzseite nie indexieren: robots.txt sperrt alles (ohne Sitemap-Zeile)
-    write('/robots.txt', b'User-agent: *\nDisallow: /\n')
+    # robots.txt 1:1 von der Quelle (Origin -> LIVE); mit NOINDEX=1 alles gesperrt
+    if NOINDEX:
+        write('/robots.txt', b'User-agent: *\nDisallow: /\n')
+    else:
+        st, b, _ = fetch('/robots.txt')
+        if st != 200:
+            sys.exit(f'robots.txt lieferte {st}')
+        write('/robots.txt', to_live(b.decode()).encode())
+    # sitemap.xml von der Quelle, nur Eintraege der gespiegelten Seiten, absolute LIVE-URLs
     st, b, _ = fetch('/sitemap.xml')
-    if st == 200:
-        write('/sitemap.xml', to_live(b.decode()).encode())
+    if st != 200:
+        sys.exit(f'sitemap.xml lieferte {st}')
+    sm = to_live(b.decode())
+    def keep(m):
+        loc = re.search(r'<loc>([^<]+)</loc>', m.group(0))
+        return m.group(0) if loc and norm(urllib.parse.urlsplit(html.unescape(loc.group(1))).path or '/') in static_paths else ''
+    sm = re.sub(r'\s*<url>.*?</url>', keep, sm, flags=re.S)
+    write('/sitemap.xml', sm.encode())
+    log(f'sitemap.xml: {sm.count("<url>")} URLs, robots.txt: ' + ('NOINDEX' if NOINDEX else 'von der Quelle'))
 
     # herunterladen, CSS/JS/Manifest rekursiv nach weiteren Verweisen durchsuchen
     done, missing = set(), []
@@ -368,6 +409,49 @@ def cmd_assemble(html_dir, urls_file, out):
         log(f'  NICHT LADBAR {st} {u}')
 
 
+# --- SEO: Titel, Description, JSON-LD, canonical/hreflang wie in der Quelle ----------
+def seo_fields(doc):
+    head = doc.split('</head>')[0]
+    title = re.search(r'<title[^>]*>(.*?)</title>', head, re.S)
+    desc = re.search(r'<meta name="description" content="([^"]*)"', head)
+    ld = re.findall(r'<script[^>]*application/ld\+json[^>]*>(.*?)</script>', doc, re.S)
+    canon = re.search(r'<link rel="canonical" href="([^"]*)"', head)
+    alts = re.findall(r'<link rel="alternate" hrefLang="([^"]*)" href="([^"]*)"', head)
+    robots = re.findall(r'<meta name="robots" content="([^"]*)"', head)
+    return {'title': title and title.group(1), 'desc': desc and desc.group(1), 'ld': [to_live(x) for x in ld],
+            'canon': canon and canon.group(1), 'alts': alts, 'robots': robots}
+
+
+def seo_check(html_dir, out, routes):
+    bad = []
+    for r in routes:
+        src = seo_fields(open(html_file(html_dir, r), encoding='utf-8').read())
+        dst_doc = open(disk_path(out, '/404.html' if r == NOTFOUND else r + 'index.html'), encoding='utf-8').read()
+        dst = seo_fields(dst_doc)
+        if r != NOTFOUND and not (src['title'] and src['desc'] and src['canon']):
+            bad.append(f'{r}: Quelle ohne Titel/Description/canonical')
+        for k in ('title', 'desc', 'ld'):
+            if src[k] != dst[k]:
+                bad.append(f'{r}: {k} weicht ab')
+        if src['canon'] and dst['canon'] != to_live(src['canon']):
+            bad.append(f'{r}: canonical {dst["canon"]}')
+        if dst['canon'] and not dst['canon'].startswith(LIVE + '/'):
+            bad.append(f'{r}: canonical nicht auf {LIVE}')
+        if any(not h.startswith(LIVE + '/') for _, h in dst['alts']):
+            bad.append(f'{r}: hreflang nicht auf {LIVE}')
+        if not NOINDEX and r != NOTFOUND and any('noindex' in x for x in dst['robots']):
+            bad.append(f'{r}: noindex im Paket')
+        if re.search(r'<nextjs-portal|data-nextjs-dev|__nextjs_original-stack', dst_doc):
+            bad.append(f'{r}: Reste des Next-Entwicklungs-Overlays')
+        if re.search(r'https?://localhost', dst_doc.split('</head>')[0]):
+            bad.append(f'{r}: localhost im <head>')
+    log(f'SEO-Pruefung: {len(routes)} Seiten, {len(bad)} Abweichungen')
+    for b in bad[:40]:
+        log('  SEO', b)
+    if bad:
+        sys.exit('SEO-Pruefung fehlgeschlagen')
+
+
 # --- check: jede lokale Referenz hat eine Datei ---------------------------------
 def cmd_check(out):
     routes = set()
@@ -400,6 +484,8 @@ def cmd_check(out):
     log(f'Pruefung: {len(missing)} Verweise ohne Datei')
     for r, src in sorted(missing.items()):
         log(f'  OHNE DATEI {r}  (in {len(src)} Datei(en), z. B. {sorted(src)[0]})')
+    if missing and os.environ.get('ALLOW_MISSING') != '1':
+        sys.exit('Paket unvollstaendig (ALLOW_MISSING=1 erlaubt es, z. B. bei Entwicklungsquelle)')
 
 
 if __name__ == '__main__':

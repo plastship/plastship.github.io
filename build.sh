@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 # Erzeugt docs/ (und interim-site.zip) neu aus der laufenden App. Idempotent: .work/,
-# docs/ und die ZIP werden jedes Mal komplett neu gebaut.
+# docs/ und die ZIP werden jedes Mal komplett neu gebaut (docs/CNAME bleibt erhalten).
 #
 #   ./build.sh                                # Quelle http://localhost
-#   SOURCE=http://localhost:3000 PAR=3 ./build.sh
+#   SOURCE=http://localhost:3110 PAR=3 ./build.sh   # Produktions-Build (empfohlen)
+#   NOINDEX=1 ./build.sh                            # nur fuer plastship.github.io ohne eigene Domain
 #
 # Voraussetzungen: python3, node, zip und ein plastship-Checkout mit installiertem
 # Playwright (PLASTSHIP_REPO, Vorgabe ~/plastship/plastship).
@@ -12,6 +13,8 @@ HERE="$(cd "$(dirname "$0")" && pwd)"
 export SOURCE="${SOURCE:-http://localhost}"
 export LIVE="${LIVE:-https://plastship.com}"
 export PAR="${PAR:-2}"
+export NOINDEX="${NOINDEX:-}"          # 1 = nicht indexierbar (nur ohne eigene Domain)
+export ALLOW_MISSING="${ALLOW_MISSING:-}"  # 1 = fehlende Dateien nur melden (Entwicklungsquelle)
 REPO="${PLASTSHIP_REPO:-$HOME/plastship/plastship}"
 export PW_MODULE="$REPO/node_modules/playwright"
 WORK="$HERE/.work"

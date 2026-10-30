@@ -1,5 +1,6 @@
 // Service Worker der Interim-Seite (statischer Spiegel ohne Server).
 // - /_next/image?url=X  -> X (Bildoptimierer gibt es statisch nicht)
+// - /api/contact*       -> 503 (kein vorgetaeuschter Erfolg)
 // - /api/*              -> 200 {} (GET) bzw. 204 (sonst); /api/cms/media/ bleibt Datei
 // - Sentry              -> 204 (keine Fehlerberichte vom Interim)
 // - Seitenaufrufe ausserhalb des Spiegels (/login/, /map/, geschuetzte Seiten)
@@ -38,6 +39,12 @@ self.addEventListener('fetch', event => {
     return;
   }
 
+  // Kontakt-Endpunkte: kein vorgetaeuschter Erfolg. Das Formular schickt im Interim gar
+  // nicht ab (interim.js oeffnet eine E-Mail); kommt doch eine Anfrage an, dann 503.
+  if (p.startsWith('/api/contact')) {
+    event.respondWith(new Response('{"error":"unavailable"}', { status: 503, headers: { 'Content-Type': 'application/json' } }));
+    return;
+  }
   if (p.startsWith('/api/') && !p.startsWith('/api/cms/media/')) {
     event.respondWith(req.method === 'GET' || req.method === 'HEAD'
       ? new Response('{}', { status: 200, headers: { 'Content-Type': 'application/json' } })
