@@ -1,0 +1,413 @@
+:N1793317103175.172
+3:"$EObject.defineProperty(()=>{ctx.componentMod.preloadStyle(fullHref,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+4:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+5:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+6:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+2:{"name":"Preloads","key":null,"env":"Server","stack":[],"props":{"preloadCallbacks":["$3","$4","$5","$6"]}}
+7:{"time":0.12895900011062622}
+8:{"time":0.1487089991569519}
+9:[]
+f:[]
+11:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+12:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+13:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+14:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+17:I["[project]/node_modules/next/dist/client/components/layout-router.js [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js"],"default"]
+19:I["[project]/apps/web/src/app/error.tsx [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js","/_next/static/chunks/apps_web_src_app_components_Template_Default_Default_tsx_0cwoqne_kn9rg._.js","/_next/static/chunks/apps_web_src_app_0lnso837mnog3._.js"],"default"]
+1a:{"type":"error","pagePath":"error.tsx","children":[]}
+1b:[["Promise.all","",0,0,0,0,true]]
+18:{"parallelRouterKey":"children","error":"$19","errorStyles":["$","$Le",null,"$1a",null,"$1b",0],"errorScripts":"$Y","template":"$Y","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$Y","forbidden":"$undefined","unauthorized":"$undefined","segmentViewBoundaries":"$Y"}
+1c:[["Promise.all","",0,0,0,0,true]]
+16:{"name":"RootLayout","key":null,"env":"Server","stack":[],"props":{"children":["$","$L17",null,"$18",null,"$1c",1],"params":"$Y"}}
+1d:{"time":0.47062499821186066}
+1f:[["Promise.all","",0,0,0,0,true]]
+20:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+23:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+28:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+29:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2a:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2c:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2d:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2f:{"name":"NewsArticlePage","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"params":"$@30","searchParams":"$@31"}}
+32:{"time":1.7193339988589287}
+33:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+34:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+35:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+38:"$EObject.defineProperty(()=>__turbopack_context__.r(\"[project]/apps/web/src/app/news/[slug]/page.tsx [app-rsc] (ecmascript, Next.js Server Component)\"),\"name\",{value:\"\"})"
+37:{"name":"Next.MetadataOutlet","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"tree":["__PAGE__",{},{"metadata":{},"page":["$38","[project]/apps/web/src/app/news/[slug]/page.tsx"]},[]]}}
+39:{"time":2.134333997964859}
+3a:[]
+3b:{"time":3.5444590002298355}
+3e:[]
+41:[]
+44:"$EObject.defineProperty(function(type,config,children){for(var propName,i=2;i<arguments.length;i++)validateChildKeys(arguments[i]);i={};var key=null;if(null!=config)for(propName in didWarnAboutOldJSXRuntime||!(\"__self\"in config)||\"key\"in config||(didWarnAboutOldJSXRuntime=!0,console.warn(\"Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform\")),hasValidKey(config)&&(checkKeyStringCoercion(config.key),key=\"\"+config.key),config)hasOwnProperty.call(config,propName)&&\"key\"!==propName&&\"__self\"!==propName&&\"__source\"!==propName&&(i[propName]=config[propName]);var childrenLength=arguments.length-2;if(1===childrenLength)i.children=children;else if(1<childrenLength){for(var childArray=Array(childrenLength),_i=0;_i<childrenLength;_i++)childArray[_i]=arguments[_i+2];Object.freeze&&Object.freeze(childArray),i.children=childArray}if(type&&type.defaultProps)for(propName in childrenLength=type.defaultProps)void 0===i[propName]&&(i[propName]=childrenLength[propName]);return key&&function(props,displayName){function warnAboutAccessingKey(){specialPropKeyWarningShown||(specialPropKeyWarningShown=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",displayName))}warnAboutAccessingKey.isReactWarning=!0,Object.defineProperty(props,\"key\",{get:warnAboutAccessingKey,configurable:!0})}(i,\"function\"==typeof type?type.displayName||type.name||\"Unknown\":type),(propName=1e4>ReactSharedInternals.recentlyCreatedOwnerStacks++)?(childArray=Error.stackTraceLimit,Error.stackTraceLimit=10,childrenLength=Error(\"react-stack-top-frame\"),Error.stackTraceLimit=childArray):childrenLength=unknownOwnerDebugStack,ReactElement(type,key,i,getOwner(),childrenLength,propName?createTask(getTaskName(type)):unknownOwnerDebugTask)},\"name\",{value:\"\"})"
+43:{"name":"NonIndex","key":null,"env":"Server","stack":[],"props":{"createElement":"$44","pagePath":"/news/[slug]","statusCode":200,"isPossibleServerAction":false}}
+45:{"time":3.7837920002639294}
+46:{"time":3.789666999131441}
+48:{"name":"ViewportWrapper","key":null,"env":"Server","stack":[],"props":{}}
+49:{"time":3.8086670003831387}
+4a:[]
+4b:{"time":3.847791999578476}
+4f:{"name":"Next.Viewport","key":null,"env":"Server","owner":"$48","stack":[],"props":{}}
+50:{"time":3.8699169978499413}
+52:{"name":"MetadataWrapper","key":null,"env":"Server","stack":[],"props":{}}
+53:{"time":4.144249998033047}
+54:[]
+55:{"time":4.211749996989965}
+58:[]
+59:[]
+5b:{"name":"Next.Metadata","key":null,"env":"Server","owner":"$52","stack":[],"props":{}}
+5c:{"time":4.251208998262882}
+5e:{"name":"MetadataBlocker","key":null,"env":"Server","owner":"$52","stack":[],"props":{}}
+5f:{"time":4.529999997466803}
+60:{"time":4.532333999872208}
+61:[]
+66:[]
+67:[]
+30:{"slug":"plastship-entsorger-circle-digitalisierung"}
+31:
+68:{"time":6.293917000293732}
+69:[]
+6a:[]
+6b:[]
+6d:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+6c:J{"name":"headers","start":0.6984999999403954,"end":11.085292000323534,"env":"Server","stack":"$6d","owner":"$16","value":"$@6e"}
+6f:{"time":5.103583998978138}
+70:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+71:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$70"}
+72:{"time":11.259792000055313}
+73:{"time":5.103583998978138}
+74:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+75:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$74"}
+76:{"time":11.259792000055313}
+77:["host","localhost"]
+78:["user-agent","plastship-interim-mirror"]
+79:["accept","text/html"]
+7a:["accept-encoding","gzip, deflate"]
+7b:["accept-language","*"]
+7c:["sec-fetch-mode","cors"]
+7d:["via","1.1 Caddy"]
+7e:["x-forwarded-for","172.18.0.1"]
+7f:["x-forwarded-host","localhost"]
+80:["x-forwarded-proto","http"]
+81:["x-real-ip","172.18.0.1"]
+82:["x-forwarded-port","3000"]
+83:["content-security-policy","default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+84:["x-nonce","iVrrDZVGjs+UO3xbAl1c1w=="]
+85:["x-plastship-locale","en"]
+86:["x-plastship-route-kind","public"]
+87:["cache-control","private, no-cache, must-revalidate"]
+88:["content-security-policy-report-only","default-src 'self'; script-src 'self' 'nonce-iVrrDZVGjs+UO3xbAl1c1w==' 'strict-dynamic' 'wasm-unsafe-eval' 'report-sample' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+89:["permissions-policy","camera=(), microphone=(self), geolocation=(), interest-cohort=()"]
+8a:["referrer-policy","same-origin"]
+8b:["reporting-endpoints","csp-endpoint=\"https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local\""]
+8c:["strict-transport-security","max-age=63072000; includeSubDomains; preload"]
+8d:["x-content-type-options","nosniff"]
+8e:["x-frame-options","DENY"]
+6e:["$77","$78","$79","$7a","$7b","$7c","$7d","$7e","$7f","$80","$81","$82","$83","$84","$85","$86","$87","$88","$89","$8a","$8b","$8c","$8d","$8e"]
+8f:{"time":32.59308400005102}
+90:{"time":32.60779199749231}
+91:[]
+92:[]
+93:[]
+94:[]
+95:[]
+96:[]
+97:[]
+98:[]
+99:[]
+9a:[]
+9b:[]
+9c:[]
+9d:[]
+9e:[]
+9f:[]
+a0:[]
+a1:[]
+a2:[]
+a3:[]
+a4:[]
+a5:[]
+a6:[]
+a7:[]
+a8:[]
+a9:[]
+aa:[]
+ab:[]
+ac:[]
+ad:[]
+ae:[]
+af:[]
+b0:[]
+b1:[]
+b2:[]
+b3:[]
+b4:[]
+b5:[]
+b6:[]
+b7:[]
+bb:{"time":0.7912089973688126}
+bc:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+bd:{"awaited":"$6c","env":"Server","owner":"$16","stack":"$bc"}
+be:{"time":11.08712499961257}
+c0:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+bf:J{"name":"cookies","start":11.701833996921778,"end":39.911291997879744,"env":"Server","stack":"$c0","owner":"$16","value":"$@c1"}
+c2:{"time":11.733167000114918}
+c3:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+c4:{"awaited":"$bf","env":"Server","owner":"$16","stack":"$c3"}
+c5:{"time":39.913417000323534}
+c1:[]
+c6:[]
+c7:[]
+c8:{"time":71.89195900037885}
+c9:[]
+ca:{"time":71.94233400002122}
+cb:[]
+cc:{"time":71.9652089998126}
+cf:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2425,256,2369,1,false]]
+d0:{"time":72.02987499907613}
+d1:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2429,270,2369,1,false]]
+d2:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2431,268,2369,1,false]]
+d3:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2443,268,2369,1,false]]
+d4:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2454,268,2369,1,false]]
+d8:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2457,282,2369,1,false]]
+d9:{"time":104.79362499713898}
+dc:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2458,286,2369,1,false]]
+e0:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2461,290,2369,1,false]]
+e3:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2463,288,2369,1,false]]
+e7:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2465,302,2369,1,false]]
+ea:[["Promise.all","",0,0,0,0,true]]
+ef:[["Promise.all","",0,0,0,0,true]]
+f0:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+f1:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+f2:[["Promise.all","",0,0,0,0,true]]
+f3:[]
+f5:{"name":"NotFound","key":null,"env":"Server","stack":[],"props":{}}
+f6:{"time":105.17466699704528}
+f7:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",87,263,86,1,false]]
+f8:{"time":105.257458999753}
+fd:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",88,270,86,1,false]]
+100:[["Promise.all","",0,0,0,0,true]]
+101:[["Promise.all","",0,0,0,0,true]]
+102:[["Promise.all","",0,0,0,0,true]]
+103:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2479,288,2369,1,false]]
+106:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2484,288,2369,1,false]]
+109:[["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,24,1071,1,true],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,24,1086,1,true],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+10a:{"time":5.103583998978138}
+10b:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+10c:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$10b"}
+10d:{"time":11.259792000055313}
+10e:{"time":12.03345900028944}
+10f:[["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13518,212,13516,245,false],["resolveCmsDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13531,9,13524,1,false],["resolveCmsPublicDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13540,12,13539,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",370,188,361,1,false]]
+110:{"awaited":"$bf","env":"Server","owner":"$2f","stack":"$10f"}
+111:{"time":51.05649999901652}
+113:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",8092,53,8091,193,true],["Promise.all","",0,0,0,0,true],["ladeInhalte","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",23526,77,23524,1,true],["sitemapEntries","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",23567,21,23565,1,true],["GET","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",2280,23,2278,1,true]]
+112:J{"name":"a","start":-39182.66114300117,"end":69.66541699692607,"env":"Server","stack":"$113","value":"$@114"}
+115:{"time":51.660209000110626}
+116:[["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1088,204,1086,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",392,194,361,1,false]]
+117:{"awaited":"$112","env":"Server","owner":"$2f","stack":"$116"}
+118:{"time":69.90029199793935}
+11a:[["loadCmsTranslationStates","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",11066,40,11066,1,false],["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,214,1071,1,false],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,30,1086,1,false],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+119:J{"name":"loadCmsTranslationStates","start":69.9481669999659,"end":70.0001669973135,"env":"Server","stack":"$11a","owner":"$2f","value":"$@11b"}
+11c:{"time":69.98433399945498}
+11d:[["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,214,1071,1,false],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,30,1086,1,false],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+11e:{"awaited":"$119","env":"Server","owner":"$2f","stack":"$11d"}
+11f:{"time":141.00420899689198}
+114:"$undefined"
+11b:
+120:[["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",395,263,361,1,false]]
+121:{"time":180.83083399757743}
+12b:T1190,**A strong network for waste management companies, recyclers and solution providers – shaping innovation together**
+
+*Waldems, October 2025* – The circular economy thrives on collaboration, practical relevance and innovation. By joining the **Entsorger Circle**, plastship is strengthening exactly this connection: the new network unites waste management companies, recyclers, waste producers and solution providers who are jointly driving digital transformation and sustainability in the recycling sector.
+
+Under the motto **“Together. Practical. Solution-oriented.”**, the Entsorger Circle offers a platform where knowledge transfer, digitalisation and AI take centre stage – with the goal of increasing productivity and profitability within the waste management industry.
+
+## FOCUS: Digitalisation, AI & Innovation in Waste Management Practice
+
+The Entsorger Circle already connects more than 50 companies from the recycling sector in a unique exchange format. With twelve specialist events per year – ranging from online sessions and site visits to innovation workshops – the network showcases practical solutions and technologies that are already delivering results today.
+
+[Learn more](https://entsorger-circle.org/)
+
+![](/images/cms/20230925-logo-entsorger-circle-grun-rgb-7d829c.webp)
+
+> We are seeing that many waste management companies and recyclers are actively seeking tangible solutions for digitalisation – and this is precisely where the Circle comes in: it brings practitioners together to share experiences and learn from one another,
+
+explains **Andreas Bastian, Managing Director of plastship**.
+
+## plastship contributes digital expertise & practical use cases
+
+As a digitalisation partner for the circular economy, plastship contributes its expertise in recyclate management, data integration and AI-driven material flow optimisation to the network.
+
+One example is the [**KISS Project**](/benchmark/) (“AI-based Qualification, Control and Optimisation of Material Flows”):\
+A platform demonstrating how Artificial Intelligence analyses material flows, optimises recycling pathways and enables more efficient use of recyclates – practical and cross-sectoral.
+
+In addition, plastship connects manufacturers, recyclers and waste managers along the value chain to jointly develop market-ready and sustainable solutions.
+
+## Insights from the network – current programme: AI, Digitalisation & Practical Solutions
+
+*"With the Entsorger Circle, we are creating a platform that unites digitalisation, AI and practical expertise – helping companies to achieve tangible progress. Our goal is to make working solutions visible and to develop them further together"*,
+
+says **Dr Moritz Gomm, Founder of the Entsorger Circle**.
+
+Members can look forward to a diverse programme covering key topics of the circular economy and digital transformation.
+
+**Upcoming Events in 2025:**
+
+📅 5 November 2025 (online)\
+**AI in Waste Collection & Sorting – More Efficient, More Accurate, More Cost-Effective**
+
+📅 3 December 2025 (online)\
+**The Digital Customer Interface – Portals, Apps & Messengers for Successful Customer Engagement**
+
+[See the full programme](https://entsorger-circle.org/programm/)
+
+![](/images/cms/firefly-kunststoff-rezyklat-handeschutte-e3c701.webp)
+
+## Member Benefits: Knowledge, Exchange & Visibility
+
+Members of the *Entsorger Circle* benefit from:
+
+- Early access to new technologies, solutions and market trends
+- Practical exchange with industry peers on challenges and best practices
+- Exclusive networking with over 50 leading companies in the sector
+- Increased visibility as an active driver of the circular economy
+
+## TOGETHER FOR THE FUTURE
+
+> The *Entsorger Circle* represents what the industry needs most: collaboration instead of isolated solutions. We are delighted to contribute our know-how and, together with the members, drive new impulses for digitalisation, AI and the circular economy,
+
+adds **Andreas Bastian**.
+
+plastship invites companies from the waste and recycling industries to join the network and shape the future of the sector together.
+
+#### Entsorger Circle – The Network for Digitalisation, AI & Innovation in Waste Management
+
+**👉** [**Join now**](https://entsorger-circle.org)
+
+If you have questions or suggestions, please contact me!
+
+**Mirco Gattinger**, Marketing & Social Media Manager\
+[+49 172 1369 774](tel:+49-172-1369-774) · [gattinger@plastship.com](mailto:gattinger@plastship.com)12c:"$EObject.defineProperty(function remarkGfm(options) {\n    // @ts-expect-error: TS is wrong about `this`.\n    // eslint-disable-next-line unicorn/no-this-assignment\n    const self = this;\n    const settings = options || emptyOptions;\n    const data = self.data();\n    const micromarkExtensions = data.micromarkExtensions || (data.micromarkExtensions = []);\n    const fromMarkdownExtensions = data.fromMarkdownExtensions || (data.fromMarkdownExtensions = []);\n    const toMarkdownExtensions = data.toMarkdownExtensions || (data.toMarkdownExtensions = []);\n    micromarkExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$micromark$2d$extension$2d$gfm$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfm\"])(settings));\n    fromMarkdownExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$mdast$2d$util$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfmFromMarkdown\"])());\n    toMarkdownExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$mdast$2d$util$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfmToMarkdown\"])(settings));\n},\"name\",{value:\"remarkGfm\"})"
+12a:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$2f","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",381,202,361,1,false]],"props":{"content":"$12b","eagerFirstImage":false,"imageAlt":"plastship joins the “Entsorger Circle”: Driving Digitalisation, AI and Connectivity for the Circular Economy","remarkPlugins":["$12c"]}}
+12d:{"time":201.9861249998212}
+12f:"$EObject.defineProperty(function SiteMarkdownLink({ href, children }) {\n    const ziel = href ?? '#';\n    const zweck = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$LinkPurpose$2f$LinkPurpose$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"LinkPurpose\"], {\n        text: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$a11y$2f$linkPurpose$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"textOfChildren\"])(children),\n        href: ziel\n    }, void 0, false, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 92,\n        columnNumber: 17\n    }, this);\n    if (ziel.startsWith('/') && !ziel.startsWith('//') && !istDatei(ziel)) {\n        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$NavLink$2f$NavLink$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NavLink\"], {\n            href: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$trailingSlash$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"ensureTrailingSlashHref\"])(ziel),\n            children: [\n                children,\n                zweck\n            ]\n        }, void 0, true, {\n            fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n            lineNumber: 95,\n            columnNumber: 7\n        }, this);\n    }\n    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(\"a\", {\n        href: ziel,\n        ...(0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"externalLinkProps\"])(ziel),\n        children: [\n            children,\n            zweck\n        ]\n    }, void 0, true, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 102,\n        columnNumber: 5\n    }, this);\n},\"name\",{value:\"SiteMarkdownLink\"})"
+130:"$EObject.defineProperty((url)=>TEL.test(url) ? url : (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"defaultUrlTransform\"])(url),\"name\",{value:\"siteUrlTransform\"})"
+131:"$EObject.defineProperty(function rehypePageHeading(options = {}) {\n    const zeile = options.pageHeadingLine ?? null;\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    // `#` sieht aus wie die h2, aus der es jetzt wird\n                    const aussehen = Math.max(2, Number(match[1]));\n                    if (zeile !== null && node.position?.start.line === zeile) {\n                        node.tagName = 'h1';\n                        node.properties['data-render-as'] = String(aussehen);\n                    } else if (node.tagName === 'h1') {\n                        node.tagName = 'h2';\n                    }\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypePageHeading\"})"
+132:"$EObject.defineProperty(function rehypeSiteImages(options = {}) {\n    return (tree)=>{\n        let index = 0;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    Object.assign(node.properties, siteImageProperties(node.properties['src'], index, options));\n                    index += 1;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeSiteImages\"})"
+133:"$EObject.defineProperty(function rehypeImageAlt(options = {}) {\n    const content = options.content ?? '';\n    const quelle = {\n        headings: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownHeadings\"])(content),\n        lead: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownLead\"])(content)\n    };\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    const eigener = node.properties['alt'];\n                    node.properties['alt'] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"imageAltFor\"])(typeof eigener === 'string' ? eigener : undefined, node.position?.start.line, quelle, options.fallback);\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeImageAlt\"})"
+134:"$EObject.defineProperty(function rehypeHeadingOrder(options = {}) {\n    return (tree)=>{\n        let previous = options.parentLevel ?? 1;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    const chosen = Number(match[1]);\n                    const level = headingLevel(chosen, previous);\n                    if (level !== chosen) {\n                        node.tagName = `h${level}`;\n                        node.properties['data-render-as'] = String(chosen);\n                    }\n                    previous = level;\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeHeadingOrder\"})"
+135:"$EObject.defineProperty(function rehypeExternalLinks() {\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'a') {\n                    const href = node.properties['href'];\n                    if (typeof href === 'string' && (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"isExternalHref\"])(href)) {\n                        const rel = relListe(node.properties['rel']);\n                        for (const noetig of __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_REL\"].split(' ')){\n                            if (!rel.some((r)=>r.toLowerCase() === noetig)) rel.push(noetig);\n                        }\n                        node.properties['rel'] = rel;\n                        node.properties['target'] = '_blank';\n                        node.properties['referrerPolicy'] = __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_POLICY\"];\n                    }\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeExternalLinks\"})"
+12e:{"name":"Markdown","key":null,"env":"Server","owner":"$12a","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":{"a":"$12f"},"urlTransform":"$130","remarkPlugins":"$12a:props:remarkPlugins","rehypePlugins":[["$131",{"pageHeadingLine":null}],["$132",{"eagerFirst":false}],["$133","$Y"],"$134","$135"],"children":"$Y"}}
+136:{"time":202.07187499850988}
+137:{"time":207.21770899742842}
+138:[]
+139:[]
+13a:[]
+13b:[]
+13c:[]
+13d:[]
+13e:[]
+13f:[]
+140:[]
+141:[]
+143:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12e","stack":[],"props":{"href":"https://entsorger-circle.org/","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://entsorger-circle.org/","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"Learn more","position":{"start":{"line":11,"column":2,"offset":1180},"end":"$Y"}}],"position":"$Y"},"children":"Learn more"}}
+144:{"time":207.39179199934006}
+145:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+146:{"time":207.46141699701548}
+147:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+14a:[]
+14b:[]
+14c:[]
+14d:[]
+14e:[]
+14f:[]
+150:[]
+151:[]
+152:[]
+154:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12e","stack":[],"props":{"href":"/benchmark/","node":{"type":"element","tagName":"a","properties":{"href":"/benchmark/"},"children":[{"type":"element","tagName":"strong","properties":{},"children":[{"type":"text","value":"KISS Project","position":"$Y"}],"position":"$Y"}],"position":"$Y"},"children":"$Y"}}
+155:{"time":207.63212499767542}
+156:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",185,267,174,1,false]]
+157:{"time":207.67358399927616}
+15a:[]
+15b:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+15c:[]
+15d:[]
+15e:[]
+15f:[]
+160:[]
+173:[]
+174:{"time":244.31866699829698}
+175:[]
+176:[]
+177:{"time":244.35716699808836}
+178:[]
+179:{"time":244.37166699767113}
+17a:[]
+17b:[]
+17c:{"time":244.39816699922085}
+17d:[]
+17e:[]
+17f:[]
+180:{"time":244.43320899829268}
+181:[]
+182:[]
+183:[]
+184:{"time":244.46829199790955}
+186:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12e","stack":[],"props":{"href":"https://entsorger-circle.org/programm/","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://entsorger-circle.org/programm/","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"See the full programme","position":{"start":{"line":44,"column":2,"offset":3140},"end":"$Y"}}],"position":"$Y"},"children":"See the full programme"}}
+187:{"time":244.49541699886322}
+188:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+189:{"time":244.56291699782014}
+18a:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+18b:[]
+18c:{"time":244.5957089997828}
+18d:[]
+18e:[]
+18f:{"time":244.625}
+190:[]
+191:{"time":244.64087499678135}
+192:[]
+193:[]
+194:{"time":244.6660420000553}
+195:[]
+196:[]
+197:[]
+198:[]
+199:[]
+19a:{"time":244.72041700035334}
+19b:[]
+19c:{"time":244.73266699910164}
+19d:[]
+19e:[]
+19f:[]
+1a0:{"time":244.7707919999957}
+1a1:[]
+1a2:[]
+1a3:{"time":244.79449999704957}
+1a4:[]
+1a5:{"time":244.80637499690056}
+1a6:[]
+1a7:{"time":244.820458997041}
+1a8:[]
+1aa:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12e","stack":[],"props":{"href":"https://entsorger-circle.org","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://entsorger-circle.org","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"element","tagName":"strong","properties":{},"children":["$Y"],"position":"$Y"}],"position":"$Y"},"children":"$Y"}}
+1ab:{"time":244.85229199752212}
+1ac:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+1ad:{"time":244.89295899868011}
+1ae:[]
+1af:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+1b0:[]
+1b1:{"time":244.9410419985652}
+1b2:[]
+1b3:{"time":244.954916998744}
+1b4:[]
+1b5:[]
+1b7:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12e","stack":[],"props":{"href":"tel:+49-172-1369-774","node":{"type":"element","tagName":"a","properties":{"href":"tel:+49-172-1369-774"},"children":[{"type":"text","value":"+49 172 1369 774","position":{"start":{"line":72,"column":2,"offset":4358},"end":{"line":72,"column":18,"offset":4374}}}],"position":"$Y"},"children":"+49 172 1369 774"}}
+1b8:{"time":244.99533399939537}
+1b9:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+1ba:{"time":245.02649999782443}
+1bb:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+1bd:{"name":"SiteMarkdownLink","key":"a-1","env":"Server","owner":"$12e","stack":[],"props":{"href":"mailto:gattinger@plastship.com","node":{"type":"element","tagName":"a","properties":{"href":"mailto:gattinger@plastship.com"},"children":[{"type":"text","value":"gattinger@plastship.com","position":{"start":{"line":72,"column":45,"offset":4401},"end":{"line":72,"column":68,"offset":4424}}}],"position":"$Y"},"children":"gattinger@plastship.com"}}
+1be:{"time":245.06066699698567}
+1bf:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+1c0:{"time":245.09045900031924}
+1c1:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]

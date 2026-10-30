@@ -1,0 +1,512 @@
+:N1793317102787.92
+3:"$EObject.defineProperty(()=>{ctx.componentMod.preloadStyle(fullHref,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+4:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+5:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+6:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+2:{"name":"Preloads","key":null,"env":"Server","stack":[],"props":{"preloadCallbacks":["$3","$4","$5","$6"]}}
+7:{"time":0.10216600075364113}
+8:{"time":0.11549999937415123}
+9:[]
+f:[]
+11:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+12:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+13:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+14:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+17:I["[project]/node_modules/next/dist/client/components/layout-router.js [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js"],"default"]
+19:I["[project]/apps/web/src/app/error.tsx [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js","/_next/static/chunks/apps_web_src_app_components_Template_Default_Default_tsx_0cwoqne_kn9rg._.js","/_next/static/chunks/apps_web_src_app_0lnso837mnog3._.js"],"default"]
+1a:{"type":"error","pagePath":"error.tsx","children":[]}
+1b:[["Promise.all","",0,0,0,0,true]]
+18:{"parallelRouterKey":"children","error":"$19","errorStyles":["$","$Le",null,"$1a",null,"$1b",0],"errorScripts":"$Y","template":"$Y","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$Y","forbidden":"$undefined","unauthorized":"$undefined","segmentViewBoundaries":"$Y"}
+1c:[["Promise.all","",0,0,0,0,true]]
+16:{"name":"RootLayout","key":null,"env":"Server","stack":[],"props":{"children":["$","$L17",null,"$18",null,"$1c",1],"params":"$Y"}}
+1d:{"time":0.37083300203084946}
+1f:[["Promise.all","",0,0,0,0,true]]
+20:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+23:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+28:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+29:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2a:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2c:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2d:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2f:{"name":"NewsArticlePage","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"params":"$@30","searchParams":"$@31"}}
+32:{"time":1.1684999987483025}
+33:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+34:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+35:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+38:"$EObject.defineProperty(()=>__turbopack_context__.r(\"[project]/apps/web/src/app/news/[slug]/page.tsx [app-rsc] (ecmascript, Next.js Server Component)\"),\"name\",{value:\"\"})"
+37:{"name":"Next.MetadataOutlet","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"tree":["__PAGE__",{},{"metadata":{},"page":["$38","[project]/apps/web/src/app/news/[slug]/page.tsx"]},[]]}}
+39:{"time":1.4942910000681877}
+3a:[]
+3b:{"time":2.6688329987227917}
+3e:[]
+41:[]
+44:"$EObject.defineProperty(function(type,config,children){for(var propName,i=2;i<arguments.length;i++)validateChildKeys(arguments[i]);i={};var key=null;if(null!=config)for(propName in didWarnAboutOldJSXRuntime||!(\"__self\"in config)||\"key\"in config||(didWarnAboutOldJSXRuntime=!0,console.warn(\"Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform\")),hasValidKey(config)&&(checkKeyStringCoercion(config.key),key=\"\"+config.key),config)hasOwnProperty.call(config,propName)&&\"key\"!==propName&&\"__self\"!==propName&&\"__source\"!==propName&&(i[propName]=config[propName]);var childrenLength=arguments.length-2;if(1===childrenLength)i.children=children;else if(1<childrenLength){for(var childArray=Array(childrenLength),_i=0;_i<childrenLength;_i++)childArray[_i]=arguments[_i+2];Object.freeze&&Object.freeze(childArray),i.children=childArray}if(type&&type.defaultProps)for(propName in childrenLength=type.defaultProps)void 0===i[propName]&&(i[propName]=childrenLength[propName]);return key&&function(props,displayName){function warnAboutAccessingKey(){specialPropKeyWarningShown||(specialPropKeyWarningShown=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",displayName))}warnAboutAccessingKey.isReactWarning=!0,Object.defineProperty(props,\"key\",{get:warnAboutAccessingKey,configurable:!0})}(i,\"function\"==typeof type?type.displayName||type.name||\"Unknown\":type),(propName=1e4>ReactSharedInternals.recentlyCreatedOwnerStacks++)?(childArray=Error.stackTraceLimit,Error.stackTraceLimit=10,childrenLength=Error(\"react-stack-top-frame\"),Error.stackTraceLimit=childArray):childrenLength=unknownOwnerDebugStack,ReactElement(type,key,i,getOwner(),childrenLength,propName?createTask(getTaskName(type)):unknownOwnerDebugTask)},\"name\",{value:\"\"})"
+43:{"name":"NonIndex","key":null,"env":"Server","stack":[],"props":{"createElement":"$44","pagePath":"/news/[slug]","statusCode":200,"isPossibleServerAction":false}}
+45:{"time":2.8832910023629665}
+46:{"time":2.886165998876095}
+48:{"name":"ViewportWrapper","key":null,"env":"Server","stack":[],"props":{}}
+49:{"time":2.904416002333164}
+4a:[]
+4b:{"time":2.9390409998595715}
+4f:{"name":"Next.Viewport","key":null,"env":"Server","owner":"$48","stack":[],"props":{}}
+50:{"time":2.960291001945734}
+52:{"name":"MetadataWrapper","key":null,"env":"Server","stack":[],"props":{}}
+53:{"time":3.197833001613617}
+54:[]
+55:{"time":3.254041001200676}
+58:[]
+59:[]
+5b:{"name":"Next.Metadata","key":null,"env":"Server","owner":"$52","stack":[],"props":{}}
+5c:{"time":3.291916001588106}
+5e:{"name":"MetadataBlocker","key":null,"env":"Server","owner":"$52","stack":[],"props":{}}
+5f:{"time":3.5434579998254776}
+60:{"time":3.5454160012304783}
+61:[]
+66:[]
+67:[]
+30:{"slug":"kreislaufwirtschaft-zwischen-regulierung-und-realitaet"}
+31:
+68:{"time":4.949457999318838}
+69:[]
+6a:[]
+6b:[]
+6d:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+6c:J{"name":"headers","start":0.49275000020861626,"end":44.88462499901652,"env":"Server","stack":"$6d","owner":"$16","value":"$@6e"}
+6f:{"time":4.052500002086163}
+70:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+71:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$70"}
+72:{"time":45.02349999919534}
+73:{"time":4.052500002086163}
+74:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+75:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$74"}
+76:{"time":45.02349999919534}
+77:["host","localhost"]
+78:["user-agent","plastship-interim-mirror"]
+79:["accept","text/html"]
+7a:["accept-encoding","gzip, deflate"]
+7b:["accept-language","*"]
+7c:["sec-fetch-mode","cors"]
+7d:["via","1.1 Caddy"]
+7e:["x-forwarded-for","172.18.0.1"]
+7f:["x-forwarded-host","localhost"]
+80:["x-forwarded-proto","http"]
+81:["x-real-ip","172.18.0.1"]
+82:["x-forwarded-port","3000"]
+83:["content-security-policy","default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+84:["x-nonce","c0g/HhKohymxICsuIlmCQA=="]
+85:["x-plastship-locale","en"]
+86:["x-plastship-route-kind","public"]
+87:["cache-control","private, no-cache, must-revalidate"]
+88:["content-security-policy-report-only","default-src 'self'; script-src 'self' 'nonce-c0g/HhKohymxICsuIlmCQA==' 'strict-dynamic' 'wasm-unsafe-eval' 'report-sample' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+89:["permissions-policy","camera=(), microphone=(self), geolocation=(), interest-cohort=()"]
+8a:["referrer-policy","same-origin"]
+8b:["reporting-endpoints","csp-endpoint=\"https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local\""]
+8c:["strict-transport-security","max-age=63072000; includeSubDomains; preload"]
+8d:["x-content-type-options","nosniff"]
+8e:["x-frame-options","DENY"]
+6e:["$77","$78","$79","$7a","$7b","$7c","$7d","$7e","$7f","$80","$81","$82","$83","$84","$85","$86","$87","$88","$89","$8a","$8b","$8c","$8d","$8e"]
+8f:{"time":56.42575000226498}
+90:{"time":56.433458000421524}
+91:[]
+92:[]
+93:[]
+94:[]
+95:[]
+96:[]
+97:[]
+98:[]
+99:[]
+9a:[]
+9b:[]
+9c:[]
+9d:[]
+9e:[]
+9f:[]
+a0:[]
+a1:[]
+a2:[]
+a3:[]
+a4:[]
+a5:[]
+a6:[]
+a7:[]
+a8:[]
+a9:[]
+aa:[]
+ab:[]
+ac:[]
+ad:[]
+ae:[]
+af:[]
+b0:[]
+b1:[]
+b2:[]
+b3:[]
+b4:[]
+b5:[]
+b6:[]
+b7:[]
+bb:{"time":0.5466249994933605}
+bc:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+bd:{"awaited":"$6c","env":"Server","owner":"$16","stack":"$bc"}
+be:{"time":44.885916002094746}
+c0:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+bf:J{"name":"cookies","start":45.36675000190735,"end":61.10895800217986,"env":"Server","stack":"$c0","owner":"$16","value":"$@c1"}
+c2:{"time":45.3913329988718}
+c3:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+c4:{"awaited":"$bf","env":"Server","owner":"$16","stack":"$c3"}
+c5:{"time":61.11454100161791}
+c1:[]
+c6:[]
+c7:{"time":86.20541600137949}
+c8:[]
+c9:{"time":86.23316600173712}
+ca:[]
+cb:{"time":86.25145800039172}
+ce:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2425,256,2369,1,false]]
+cf:{"time":86.31404099985957}
+d0:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2429,270,2369,1,false]]
+d1:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2431,268,2369,1,false]]
+d2:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2443,268,2369,1,false]]
+d3:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2454,268,2369,1,false]]
+d7:[]
+d8:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2457,282,2369,1,false]]
+d9:{"time":109.9919999986887}
+dc:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2458,286,2369,1,false]]
+e0:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2461,290,2369,1,false]]
+e3:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2463,288,2369,1,false]]
+e7:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2465,302,2369,1,false]]
+ea:[["Promise.all","",0,0,0,0,true]]
+ef:[["Promise.all","",0,0,0,0,true]]
+f0:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+f1:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+f2:[["Promise.all","",0,0,0,0,true]]
+f3:[]
+f5:{"name":"NotFound","key":null,"env":"Server","stack":[],"props":{}}
+f6:{"time":110.34441700205207}
+f7:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",87,263,86,1,false]]
+f8:{"time":110.42295800149441}
+fd:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",88,270,86,1,false]]
+100:[["Promise.all","",0,0,0,0,true]]
+101:[["Promise.all","",0,0,0,0,true]]
+102:[["Promise.all","",0,0,0,0,true]]
+103:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2479,288,2369,1,false]]
+106:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2484,288,2369,1,false]]
+109:[["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,24,1071,1,true],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,24,1086,1,true],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+10a:{"time":4.052500002086163}
+10b:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+10c:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$10b"}
+10d:{"time":45.02349999919534}
+10e:{"time":45.64716599881649}
+10f:[["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13518,212,13516,245,false],["resolveCmsDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13531,9,13524,1,false],["resolveCmsPublicDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13540,12,13539,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",370,188,361,1,false]]
+110:{"awaited":"$bf","env":"Server","owner":"$2f","stack":"$10f"}
+111:{"time":71.75637499988079}
+113:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",8050,50,8049,190,true],["Promise.all","",0,0,0,0,true],["ladeInhalte","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",23526,77,23524,1,true],["sitemapEntries","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",23567,21,23565,1,true],["GET","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",2280,23,2278,1,true]]
+112:J{"name":"a","start":-38795.968518000096,"end":105.06595800071955,"env":"Server","stack":"$113","value":"$@114"}
+115:{"time":72.2455409988761}
+116:[["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1088,204,1086,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",392,194,361,1,false]]
+117:{"awaited":"$112","env":"Server","owner":"$2f","stack":"$116"}
+118:{"time":105.31599999964237}
+11a:[["loadCmsTranslationStates","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",11066,40,11066,1,false],["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,214,1071,1,false],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,30,1086,1,false],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+119:J{"name":"loadCmsTranslationStates","start":105.36816700175405,"end":105.42550000175834,"env":"Server","stack":"$11a","owner":"$2f","value":"$@11b"}
+11c:{"time":105.40945800021291}
+11d:[["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,214,1071,1,false],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,30,1086,1,false],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+11e:{"awaited":"$119","env":"Server","owner":"$2f","stack":"$11d"}
+11f:{"time":144.67833299934864}
+114:"$undefined"
+11b:
+120:[["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",395,263,361,1,false]]
+121:{"time":161.65291700139642}
+12b:T251e,The plastics circular economy is undergoing a profound transformation. New regulatory requirements such as the European Packaging and Packaging Waste Regulation (PPWR), economic pressure and technological innovation are colliding with a historically grown industry that must fundamentally rethink its structures, processes and mindsets. Tensions arise between ambition and reality – but so do new opportunities.
+
+In conversation with **Dr Peter Orth**, chemist, long-standing industry expert and co-editor of the specialist book *“Circular Economy of Plastics – From Plastics Recycling Towards Feedstock Transformation”*, we discuss the actual state of the circular economy, the limits of political steering, the real value of digitalisation – and why responsibility and cooperation ultimately matter more than any individual technology.
+
+## Dr Peter Orth – Industry expertise from first-hand and multiple perspectives
+
+Dr Orth looks back on several decades of experience in the plastics industry and recycling sector. A PhD chemist by training, he worked in industry, helped establish associations and spent many years operating at the interface between business, politics and society.
+
+The result is deep technical expertise combined with a clear understanding of economic and regulatory interdependencies. Today, from the perspective of retirement, Orth speaks calmly, reflectively and deliberately free from institutional constraints – a position that makes his assessments particularly valuable.
+
+![](/images/cms/unbenannt-2-17-f495e5.webp)
+
+## A book as a synthesis of an industrial transformation
+
+Together with Jürgen Bruder, Ulrich Liman and Manfred Rink, Orth has brought this perspective together in the book *“Circular Economy of Plastics – From Plastics Recycling Towards Feedstock Transformation”*. Around 70 authors from industry, academia, politics and the waste management sector shed light on the transformation of the plastics industry across the entire value chain – including Andreas Bastian, Managing Director of plastship, who contributed to the chapter *“Digitization – Enhancing the Circular Economy”*.
+
+For Orth, the starting point of the book was a simple question from his grandson:\
+“You talk about and know so much – where can I read all of this?”
+
+What emerged is a well-founded snapshot of change in the plastics circular economy: a shift away from linear, fossil-based value creation models towards closed carbon cycles.
+
+[Read more about the publication](https://link.springer.com/book/10.1007/978-3-031-78829-1)
+
+![](/images/cms/ufiguohijo-d909ea.webp)
+
+## Dr Peter Orth in conversation with plastship
+
+### “We were further ahead – and then we forgot how”
+
+For Orth, the circular economy is not a new invention. Historically, raw materials were valuable and reuse was self-evident. Today, much of that mindset has been lost.
+
+> The biggest problem of the circular economy is not technology – it is the lack of awareness of responsibility.
+
+Convenience, short-term market logic and an “out of sight, out of mind” mentality prevent material loops from being consistently closed. Technology cannot replace a missing sense of responsibility.
+
+Orth is particularly critical of the role of users: products are used, disposed of – and mentally written off. Responsibility ends at the bin. From his perspective, this way of thinking is systemically flawed.
+
+### Digitalisation: an enabler for transparency, quality and cooperation
+
+Digitalisation plays a central role in Orth’s thinking – not as an end in itself, but as a decisive enabler of functioning circular systems.
+
+> Digitalisation in itself is essentially useless. It consumes energy and resources. Its value only emerges through the communication of data across the entire cycle.
+
+Especially in complex value chains, Orth sees digital solutions as a major opportunity: they make information available, comparable and usable – across company and industry boundaries. Without reliable data on material composition, additives and end-of-life product properties, high-quality recycling is simply not possible.
+
+Orth views concepts such as digital product passports particularly positively. They create the basis for clearly identifying products, controlling recycling processes in a targeted way and ensuring reproducible quality.
+
+> If we want mechanical recycling to reach a level where recyclates can replace virgin material, we need maximum transparency about the product.
+
+Orth sees enormous development potential in mechanical recycling in particular. Advances in sensor technology, sorting, data availability and plant control systems are helping to make recyclates more reliable and marketable.
+
+Digitalisation thus becomes the connecting element between product requirements, material quality and the market.
+
+This is precisely where Orth sees the added value of digital platforms such as plastship: they create transparency around material flows, provide quality-assured data and connect market players along the entire value chain – not as a technical gimmick, but as a concrete foundation for functioning, economically viable circular systems.
+
+### Standardisation means mutual understanding
+
+Closely linked to digitalisation is the topic of standardisation. For Orth, standards are not a bureaucratic burden, but communication tools.
+
+> Standards define how materials behave – they create a shared language.
+
+In practice, however, the fear of losing intellectual property often prevents the necessary openness. This becomes particularly evident, for example, in the automotive industry, where end-of-life vehicles are shredded rather than dismantled in a targeted way because reliable information about the materials used is lacking.
+
+### Recycling in crisis – but in transition
+
+Orth takes a differentiated view of the current economic situation of the recycling industry. For him, this is not a failure, but a transitional phase.
+
+Many plastics recyclers are small and medium-sized enterprises with limited capital and innovation capacity. Under these conditions, research, scaling and efficiency gains are difficult to achieve.
+
+> In the long term, larger units are needed. The critical minimum scale is well above 100,000 tonnes of output per year.
+
+Consolidation, cooperation and new investments are therefore unavoidable – and at the same time a prerequisite for stability.
+
+### Mechanical and chemical recycling: complementarity instead of ideology
+
+Orth explicitly warns against ideological battles between recycling approaches.
+
+> With mechanical recycling alone, we will not be able to manage all material streams.
+
+In particular, mixed and heavily contaminated waste streams require chemical processes. Both approaches have their justification – the key lies in their intelligent combination.
+
+An additional driver of this development is CO₂ pricing. It fundamentally changes economic conditions: incineration becomes more expensive, while recycling becomes more attractive.
+
+> What is uneconomical today can be a viable business model tomorrow.
+
+### Politics: necessary, but limited in impact
+
+Orth considers regulation indispensable – but never sufficient. Politics usually reacts to market developments rather than actively steering them.
+
+Using the PPWR as an example, he sees a familiar pattern: high complexity, ambitious targets and difficult implementation.
+
+> Rules only work if they are monitored and enforced.
+
+Orth calls for greater practical relevance and less blind faith in regulation.
+
+### What drives him
+
+Why does Orth continue to engage so intensively with the circular economy even in retirement?
+
+> I want to consolidate my experience and pass it on.
+
+This is accompanied by a sense of responsibility towards future generations – and, not least, genuine enjoyment.
+
+> I simply enjoy it.
+
+### Conclusion: realistic confidence instead of technological silver bullets
+
+The plastics circular economy undoubtedly faces major challenges. At the same time, according to Orth, the technical, economic and organisational conditions for success have never been better than they are today. Mechanical and chemical recycling are developing dynamically, CO₂ pricing is changing market mechanisms, and digital solutions are finally creating the transparency required along the value chain.
+
+The next five to ten years will be a decisive phase of transformation:
+
+- cooperation and consolidation will increase,
+- digitalisation and professional data management will become the standard,
+- mechanical and chemical recycling processes will not replace one another, but complement each other,
+- political regulation will become more ambitious – but will only be effective if it is consistently implemented and supported by all stakeholders.
+
+Ultimately, one central insight remains, which Orth emphasises repeatedly:
+
+> The circular economy does not begin with technology, but with mindset, communication and cooperation.
+
+The final appeal is therefore clear:
+
+### Take responsibility and cooperate.
+
+Only if all stakeholders along the entire value chain act together can regulation and technology unfold their full potential – and ambitious goals turn into a functioning, genuine circular economy.
+
+If you have questions or suggestions, please contact me!
+
+**Mirco Gattinger**, Marketing & Social Media Manager\
+[+49 172 1369 774](tel:+49-172-1369-774) · [gattinger@plastship.com](mailto:gattinger@plastship.com)12c:"$EObject.defineProperty(function remarkGfm(options) {\n    // @ts-expect-error: TS is wrong about `this`.\n    // eslint-disable-next-line unicorn/no-this-assignment\n    const self = this;\n    const settings = options || emptyOptions;\n    const data = self.data();\n    const micromarkExtensions = data.micromarkExtensions || (data.micromarkExtensions = []);\n    const fromMarkdownExtensions = data.fromMarkdownExtensions || (data.fromMarkdownExtensions = []);\n    const toMarkdownExtensions = data.toMarkdownExtensions || (data.toMarkdownExtensions = []);\n    micromarkExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$micromark$2d$extension$2d$gfm$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfm\"])(settings));\n    fromMarkdownExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$mdast$2d$util$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfmFromMarkdown\"])());\n    toMarkdownExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$mdast$2d$util$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfmToMarkdown\"])(settings));\n},\"name\",{value:\"remarkGfm\"})"
+12a:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$2f","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",381,202,361,1,false]],"props":{"content":"$12b","eagerFirstImage":false,"imageAlt":"Circular economy in the plastics industry: between regulation, reality – and well-founded optimism","remarkPlugins":["$12c"]}}
+12d:{"time":188.82212499901652}
+12f:"$EObject.defineProperty(function SiteMarkdownLink({ href, children }) {\n    const ziel = href ?? '#';\n    const zweck = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$LinkPurpose$2f$LinkPurpose$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"LinkPurpose\"], {\n        text: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$a11y$2f$linkPurpose$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"textOfChildren\"])(children),\n        href: ziel\n    }, void 0, false, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 92,\n        columnNumber: 17\n    }, this);\n    if (ziel.startsWith('/') && !ziel.startsWith('//') && !istDatei(ziel)) {\n        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$NavLink$2f$NavLink$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NavLink\"], {\n            href: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$trailingSlash$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"ensureTrailingSlashHref\"])(ziel),\n            children: [\n                children,\n                zweck\n            ]\n        }, void 0, true, {\n            fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n            lineNumber: 95,\n            columnNumber: 7\n        }, this);\n    }\n    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(\"a\", {\n        href: ziel,\n        ...(0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"externalLinkProps\"])(ziel),\n        children: [\n            children,\n            zweck\n        ]\n    }, void 0, true, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 102,\n        columnNumber: 5\n    }, this);\n},\"name\",{value:\"SiteMarkdownLink\"})"
+130:"$EObject.defineProperty((url)=>TEL.test(url) ? url : (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"defaultUrlTransform\"])(url),\"name\",{value:\"siteUrlTransform\"})"
+131:"$EObject.defineProperty(function rehypePageHeading(options = {}) {\n    const zeile = options.pageHeadingLine ?? null;\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    // `#` sieht aus wie die h2, aus der es jetzt wird\n                    const aussehen = Math.max(2, Number(match[1]));\n                    if (zeile !== null && node.position?.start.line === zeile) {\n                        node.tagName = 'h1';\n                        node.properties['data-render-as'] = String(aussehen);\n                    } else if (node.tagName === 'h1') {\n                        node.tagName = 'h2';\n                    }\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypePageHeading\"})"
+132:"$EObject.defineProperty(function rehypeSiteImages(options = {}) {\n    return (tree)=>{\n        let index = 0;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    Object.assign(node.properties, siteImageProperties(node.properties['src'], index, options));\n                    index += 1;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeSiteImages\"})"
+133:"$EObject.defineProperty(function rehypeImageAlt(options = {}) {\n    const content = options.content ?? '';\n    const quelle = {\n        headings: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownHeadings\"])(content),\n        lead: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownLead\"])(content)\n    };\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    const eigener = node.properties['alt'];\n                    node.properties['alt'] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"imageAltFor\"])(typeof eigener === 'string' ? eigener : undefined, node.position?.start.line, quelle, options.fallback);\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeImageAlt\"})"
+134:"$EObject.defineProperty(function rehypeHeadingOrder(options = {}) {\n    return (tree)=>{\n        let previous = options.parentLevel ?? 1;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    const chosen = Number(match[1]);\n                    const level = headingLevel(chosen, previous);\n                    if (level !== chosen) {\n                        node.tagName = `h${level}`;\n                        node.properties['data-render-as'] = String(chosen);\n                    }\n                    previous = level;\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeHeadingOrder\"})"
+135:"$EObject.defineProperty(function rehypeExternalLinks() {\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'a') {\n                    const href = node.properties['href'];\n                    if (typeof href === 'string' && (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"isExternalHref\"])(href)) {\n                        const rel = relListe(node.properties['rel']);\n                        for (const noetig of __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_REL\"].split(' ')){\n                            if (!rel.some((r)=>r.toLowerCase() === noetig)) rel.push(noetig);\n                        }\n                        node.properties['rel'] = rel;\n                        node.properties['target'] = '_blank';\n                        node.properties['referrerPolicy'] = __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_POLICY\"];\n                    }\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeExternalLinks\"})"
+12e:{"name":"Markdown","key":null,"env":"Server","owner":"$12a","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":{"a":"$12f"},"urlTransform":"$130","remarkPlugins":"$12a:props:remarkPlugins","rehypePlugins":[["$131",{"pageHeadingLine":null}],["$132",{"eagerFirst":false}],["$133","$Y"],"$134","$135"],"children":"$Y"}}
+136:{"time":188.91699999943376}
+137:{"time":199.31695799902081}
+138:[]
+139:[]
+13a:[]
+13b:[]
+13c:[]
+13d:[]
+13e:[]
+13f:[]
+140:[]
+141:[]
+142:[]
+143:[]
+144:[]
+145:[]
+146:[]
+147:[]
+148:[]
+14a:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12e","stack":[],"props":{"href":"https://link.springer.com/book/10.1007/978-3-031-78829-1","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://link.springer.com/book/10.1007/978-3-031-78829-1","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"Read more about the publication","position":{"start":{"line":22,"column":2,"offset":2456},"end":"$Y"}}],"position":"$Y"},"children":"Read more about the publication"}}
+14b:{"time":199.59991700202227}
+14c:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+14d:{"time":199.69162499904633}
+14e:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+151:[]
+152:[]
+153:[]
+154:[]
+186:[]
+187:{"time":239.4025419987738}
+188:[]
+189:{"time":239.43545800074935}
+18a:[]
+18b:[]
+18c:{"time":239.46512500196695}
+18d:[]
+18e:{"time":239.47908300161362}
+18f:[]
+190:{"time":239.49300000071526}
+191:[]
+192:{"time":239.50666699931026}
+193:[]
+194:{"time":239.52179200202227}
+195:[]
+196:[]
+197:{"time":239.54533300176263}
+198:[]
+199:{"time":239.5655420012772}
+19a:[]
+19b:{"time":239.57966700196266}
+19c:[]
+19d:[]
+19e:{"time":239.60416699945927}
+19f:[]
+1a0:{"time":239.6171669997275}
+1a1:[]
+1a2:{"time":239.6297920010984}
+1a3:[]
+1a4:{"time":239.64191700145602}
+1a5:[]
+1a6:{"time":239.65370799973607}
+1a7:[]
+1a8:{"time":239.66558299958706}
+1a9:[]
+1aa:[]
+1ab:{"time":239.6889169998467}
+1ac:[]
+1ad:{"time":239.70091700181365}
+1ae:[]
+1af:{"time":239.71241699904203}
+1b0:[]
+1b1:{"time":239.72629199922085}
+1b2:[]
+1b3:{"time":239.74033300206065}
+1b4:[]
+1b5:[]
+1b6:{"time":239.769375000149}
+1b7:[]
+1b8:{"time":239.78191700205207}
+1b9:[]
+1ba:{"time":239.7999170012772}
+1bb:[]
+1bc:{"time":239.8112500011921}
+1bd:[]
+1be:[]
+1bf:{"time":239.8403749987483}
+1c0:[]
+1c1:{"time":239.8520830012858}
+1c2:[]
+1c3:{"time":239.86616700142622}
+1c4:[]
+1c5:[]
+1c6:{"time":239.88970800116658}
+1c7:[]
+1c8:{"time":239.90454199910164}
+1c9:[]
+1ca:{"time":239.9172499999404}
+1cb:[]
+1cc:{"time":239.93600000068545}
+1cd:[]
+1ce:[]
+1cf:{"time":239.95812499895692}
+1d0:[]
+1d1:{"time":239.9715830013156}
+1d2:[]
+1d3:{"time":239.98416700214148}
+1d4:[]
+1d5:{"time":239.99925000220537}
+1d6:[]
+1d7:[]
+1d8:{"time":240.02091700211167}
+1d9:[]
+1da:{"time":240.0342920012772}
+1db:[]
+1dc:[]
+1dd:{"time":240.0571670010686}
+1de:[]
+1df:{"time":240.07070799916983}
+1e0:[]
+1e1:{"time":240.0860829986632}
+1e2:[]
+1e3:{"time":240.10008300095797}
+1e4:[]
+1e5:[]
+1e6:[]
+1e7:[]
+1e8:[]
+1e9:{"time":240.1532079987228}
+1ea:[]
+1eb:{"time":240.1663750000298}
+1ec:[]
+1ed:[]
+1ee:{"time":240.19375000149012}
+1ef:[]
+1f0:{"time":240.20762500166893}
+1f1:[]
+1f2:{"time":240.2204999998212}
+1f3:[]
+1f4:{"time":240.23316700011492}
+1f5:[]
+1f6:{"time":240.2462919987738}
+1f7:[]
+1f8:[]
+1fa:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12e","stack":[],"props":{"href":"tel:+49-172-1369-774","node":{"type":"element","tagName":"a","properties":{"href":"tel:+49-172-1369-774"},"children":[{"type":"text","value":"+49 172 1369 774","position":{"start":{"line":130,"column":2,"offset":9325},"end":{"line":130,"column":18,"offset":9341}}}],"position":"$Y"},"children":"+49 172 1369 774"}}
+1fb:{"time":240.2979580014944}
+1fc:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+1fd:{"time":240.380708001554}
+1fe:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+200:{"name":"SiteMarkdownLink","key":"a-1","env":"Server","owner":"$12e","stack":[],"props":{"href":"mailto:gattinger@plastship.com","node":{"type":"element","tagName":"a","properties":{"href":"mailto:gattinger@plastship.com"},"children":[{"type":"text","value":"gattinger@plastship.com","position":{"start":{"line":130,"column":45,"offset":9368},"end":{"line":130,"column":68,"offset":9391}}}],"position":"$Y"},"children":"gattinger@plastship.com"}}
+201:{"time":240.42662500217557}
+202:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+203:{"time":240.46175000071526}
+204:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]

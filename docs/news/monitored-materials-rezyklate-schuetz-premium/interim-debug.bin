@@ -1,0 +1,358 @@
+:N1793317091013.7004
+3:"$EObject.defineProperty(()=>{ctx.componentMod.preloadStyle(fullHref,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+4:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+5:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+6:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+2:{"name":"Preloads","key":null,"env":"Server","stack":[],"props":{"preloadCallbacks":["$3","$4","$5","$6"]}}
+7:{"time":0.1494159996509552}
+8:{"time":0.17150000110268593}
+9:[]
+f:[]
+11:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+12:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+13:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+14:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+17:I["[project]/node_modules/next/dist/client/components/layout-router.js [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js"],"default"]
+19:I["[project]/apps/web/src/app/error.tsx [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js","/_next/static/chunks/apps_web_src_app_components_Template_Default_Default_tsx_0cwoqne_kn9rg._.js","/_next/static/chunks/apps_web_src_app_0lnso837mnog3._.js"],"default"]
+1a:{"type":"error","pagePath":"error.tsx","children":[]}
+1b:[["Promise.all","",0,0,0,0,true]]
+18:{"parallelRouterKey":"children","error":"$19","errorStyles":["$","$Le",null,"$1a",null,"$1b",0],"errorScripts":"$Y","template":"$Y","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$Y","forbidden":"$undefined","unauthorized":"$undefined","segmentViewBoundaries":"$Y"}
+1c:[["Promise.all","",0,0,0,0,true]]
+16:{"name":"RootLayout","key":null,"env":"Server","stack":[],"props":{"children":["$","$L17",null,"$18",null,"$1c",1],"params":"$Y"}}
+1d:{"time":0.5111659988760948}
+1f:[["Promise.all","",0,0,0,0,true]]
+20:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+23:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+28:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+29:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2a:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2c:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2d:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2f:{"name":"NewsArticlePage","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"params":"$@30","searchParams":"$@31"}}
+32:{"time":1.8733749985694885}
+33:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+34:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+35:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+38:"$EObject.defineProperty(()=>__turbopack_context__.r(\"[project]/apps/web/src/app/news/[slug]/page.tsx [app-rsc] (ecmascript, Next.js Server Component)\"),\"name\",{value:\"\"})"
+37:{"name":"Next.MetadataOutlet","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"tree":["__PAGE__",{},{"metadata":{},"page":["$38","[project]/apps/web/src/app/news/[slug]/page.tsx"]},[]]}}
+39:{"time":2.306166000664234}
+3a:[]
+3b:{"time":4.137958001345396}
+3e:[]
+41:[]
+44:"$EObject.defineProperty(function(type,config,children){for(var propName,i=2;i<arguments.length;i++)validateChildKeys(arguments[i]);i={};var key=null;if(null!=config)for(propName in didWarnAboutOldJSXRuntime||!(\"__self\"in config)||\"key\"in config||(didWarnAboutOldJSXRuntime=!0,console.warn(\"Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform\")),hasValidKey(config)&&(checkKeyStringCoercion(config.key),key=\"\"+config.key),config)hasOwnProperty.call(config,propName)&&\"key\"!==propName&&\"__self\"!==propName&&\"__source\"!==propName&&(i[propName]=config[propName]);var childrenLength=arguments.length-2;if(1===childrenLength)i.children=children;else if(1<childrenLength){for(var childArray=Array(childrenLength),_i=0;_i<childrenLength;_i++)childArray[_i]=arguments[_i+2];Object.freeze&&Object.freeze(childArray),i.children=childArray}if(type&&type.defaultProps)for(propName in childrenLength=type.defaultProps)void 0===i[propName]&&(i[propName]=childrenLength[propName]);return key&&function(props,displayName){function warnAboutAccessingKey(){specialPropKeyWarningShown||(specialPropKeyWarningShown=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",displayName))}warnAboutAccessingKey.isReactWarning=!0,Object.defineProperty(props,\"key\",{get:warnAboutAccessingKey,configurable:!0})}(i,\"function\"==typeof type?type.displayName||type.name||\"Unknown\":type),(propName=1e4>ReactSharedInternals.recentlyCreatedOwnerStacks++)?(childArray=Error.stackTraceLimit,Error.stackTraceLimit=10,childrenLength=Error(\"react-stack-top-frame\"),Error.stackTraceLimit=childArray):childrenLength=unknownOwnerDebugStack,ReactElement(type,key,i,getOwner(),childrenLength,propName?createTask(getTaskName(type)):unknownOwnerDebugTask)},\"name\",{value:\"\"})"
+43:{"name":"NonIndex","key":null,"env":"Server","stack":[],"props":{"createElement":"$44","pagePath":"/news/[slug]","statusCode":200,"isPossibleServerAction":false}}
+45:{"time":4.441165998578072}
+46:{"time":4.463375002145767}
+48:{"name":"ViewportWrapper","key":null,"env":"Server","stack":[],"props":{}}
+49:{"time":4.511791002005339}
+4a:[]
+4b:{"time":4.57820799946785}
+4f:{"name":"Next.Viewport","key":null,"env":"Server","owner":"$48","stack":[],"props":{}}
+50:{"time":4.610125001519918}
+52:{"name":"MetadataWrapper","key":null,"env":"Server","stack":[],"props":{}}
+53:{"time":4.990000002086163}
+54:[]
+55:{"time":5.091083001345396}
+58:[]
+59:[]
+5b:{"name":"Next.Metadata","key":null,"env":"Server","owner":"$52","stack":[],"props":{}}
+5c:{"time":5.151208002120256}
+5e:{"name":"MetadataBlocker","key":null,"env":"Server","owner":"$52","stack":[],"props":{}}
+5f:{"time":5.620165999978781}
+60:{"time":5.622916001826525}
+61:[]
+66:[]
+67:[]
+30:{"slug":"monitored-materials-rezyklate-schuetz-premium"}
+31:
+68:{"time":7.718416001647711}
+69:[]
+6a:[]
+6b:[]
+6d:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+6c:J{"name":"headers","start":0.7804579995572567,"end":134.2134159989655,"env":"Server","stack":"$6d","owner":"$16","value":"$@6e"}
+6f:{"time":6.361124999821186}
+70:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+71:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$70"}
+72:{"time":134.34104099869728}
+73:{"time":6.361124999821186}
+74:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+75:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$74"}
+76:{"time":134.34104099869728}
+77:["host","localhost"]
+78:["user-agent","plastship-interim-mirror"]
+79:["accept","text/html"]
+7a:["accept-encoding","gzip, deflate"]
+7b:["accept-language","*"]
+7c:["sec-fetch-mode","cors"]
+7d:["via","1.1 Caddy"]
+7e:["x-forwarded-for","172.18.0.1"]
+7f:["x-forwarded-host","localhost"]
+80:["x-forwarded-proto","http"]
+81:["x-real-ip","172.18.0.1"]
+82:["x-forwarded-port","3000"]
+83:["content-security-policy","default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+84:["x-nonce","auptOXKJ3eWo3W/Lx/z7kg=="]
+85:["x-plastship-locale","de"]
+86:["x-plastship-route-kind","public"]
+87:["cache-control","private, no-cache, must-revalidate"]
+88:["content-security-policy-report-only","default-src 'self'; script-src 'self' 'nonce-auptOXKJ3eWo3W/Lx/z7kg==' 'strict-dynamic' 'wasm-unsafe-eval' 'report-sample' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+89:["permissions-policy","camera=(), microphone=(self), geolocation=(), interest-cohort=()"]
+8a:["referrer-policy","same-origin"]
+8b:["reporting-endpoints","csp-endpoint=\"https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local\""]
+8c:["strict-transport-security","max-age=63072000; includeSubDomains; preload"]
+8d:["x-content-type-options","nosniff"]
+8e:["x-frame-options","DENY"]
+6e:["$77","$78","$79","$7a","$7b","$7c","$7d","$7e","$7f","$80","$81","$82","$83","$84","$85","$86","$87","$88","$89","$8a","$8b","$8c","$8d","$8e"]
+8f:{"time":238.15454100072384}
+90:{"time":238.16558299958706}
+91:[]
+92:[]
+93:[]
+94:[]
+95:[]
+96:[]
+97:[]
+98:[]
+99:[]
+9a:[]
+9b:[]
+9c:[]
+9d:[]
+9e:[]
+9f:[]
+a0:[]
+a1:[]
+a2:[]
+a3:[]
+a4:[]
+a5:[]
+a6:[]
+a7:[]
+a8:[]
+a9:[]
+aa:[]
+ab:[]
+ac:[]
+ad:[]
+ae:[]
+af:[]
+b0:[]
+b1:[]
+b2:[]
+b3:[]
+b4:[]
+b5:[]
+b6:[]
+b7:[]
+bb:{"time":0.8897910006344318}
+bc:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+bd:{"awaited":"$6c","env":"Server","owner":"$16","stack":"$bc"}
+be:{"time":134.21462500095367}
+c0:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+bf:J{"name":"cookies","start":134.7265410013497,"end":243.38770800083876,"env":"Server","stack":"$c0","owner":"$16","value":"$@c1"}
+c2:{"time":134.754416000098}
+c3:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+c4:{"awaited":"$bf","env":"Server","owner":"$16","stack":"$c3"}
+c5:{"time":243.39466600120068}
+c1:[]
+c6:[]
+c7:{"time":286.55104099959135}
+c8:[]
+c9:{"time":286.5873330011964}
+ca:[]
+cb:{"time":286.60945799946785}
+ce:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2425,256,2369,1,false]]
+cf:{"time":286.70229100063443}
+d0:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2429,270,2369,1,false]]
+d1:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2431,268,2369,1,false]]
+d2:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2443,268,2369,1,false]]
+d3:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2454,268,2369,1,false]]
+d7:[]
+d8:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2457,282,2369,1,false]]
+d9:{"time":304.17158300057054}
+dc:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2458,286,2369,1,false]]
+e0:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2461,290,2369,1,false]]
+e3:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2463,288,2369,1,false]]
+e7:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2465,302,2369,1,false]]
+ea:[["Promise.all","",0,0,0,0,true]]
+ef:[["Promise.all","",0,0,0,0,true]]
+f0:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+f1:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+f2:[["Promise.all","",0,0,0,0,true]]
+f3:[]
+f5:{"name":"NotFound","key":null,"env":"Server","stack":[],"props":{}}
+f6:{"time":304.5528750009835}
+f7:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",87,263,86,1,false]]
+f8:{"time":304.6498330011964}
+fd:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",88,270,86,1,false]]
+100:[["Promise.all","",0,0,0,0,true]]
+101:[["Promise.all","",0,0,0,0,true]]
+102:[["Promise.all","",0,0,0,0,true]]
+103:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2479,288,2369,1,false]]
+106:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2484,288,2369,1,false]]
+109:[["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,24,1071,1,true],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,24,1086,1,true],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+10a:{"time":6.361124999821186}
+10b:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+10c:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$10b"}
+10d:{"time":134.34104099869728}
+10e:{"time":135.02862500026822}
+10f:[["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13518,212,13516,245,false],["resolveCmsDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13531,9,13524,1,false],["resolveCmsPublicDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13540,12,13539,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",370,188,361,1,false]]
+110:{"awaited":"$bf","env":"Server","owner":"$2f","stack":"$10f"}
+111:{"time":248.0678329989314}
+113:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",8050,50,8049,190,true],["Promise.all","",0,0,0,0,true],["ladeInhalte","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",23526,77,23524,1,true],["sitemapEntries","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",23567,21,23565,1,true],["GET","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",2280,23,2278,1,true]]
+112:J{"name":"a","start":-27021.748971000314,"end":297.12966600060463,"env":"Server","stack":"$113","value":"$@114"}
+115:{"time":248.66712500154972}
+116:[["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1088,204,1086,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",392,194,361,1,false]]
+117:{"awaited":"$112","env":"Server","owner":"$2f","stack":"$116"}
+118:{"time":297.4261660017073}
+11a:[["loadCmsTranslationStates","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",11066,40,11066,1,false],["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,214,1071,1,false],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,30,1086,1,false],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+119:J{"name":"loadCmsTranslationStates","start":297.4862909987569,"end":297.55066600069404,"env":"Server","stack":"$11a","owner":"$2f","value":"$@11b"}
+11c:{"time":297.53562499955297}
+11d:[["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,214,1071,1,false],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,30,1086,1,false],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+11e:{"awaited":"$119","env":"Server","owner":"$2f","stack":"$11d"}
+11f:{"time":313.4569999985397}
+114:"$undefined"
+11b:
+120:[["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",395,263,361,1,false]]
+121:{"time":318.5718749985099}
+12b:T182c,**Erste Premium-Einstufung geht an Schütz**
+
+Auf der interpack 2026 erhielt Schütz die erste Bewertungsurkunde, die auf dem neuen System der plastship Monitored Materials basiert; rechts Andreas Bastian, Geschäftsführer der plastship GmbH, links Patrick Bauer, Global Head of SHEQ Management and Technical Customer Service bei der Schütz GmbH & Co. KGaA. © plastship/Schütz
+
+Das Regranulat der Schütz GmbH & Co. KGaA, Selters, für ihre Green-Layer-Verpackungen verwendet, ist der erste Recycling-Kunststoff, der im Rahmen des neuen Monitored-Materials-Systems bewertet und mit einer Qualitätsurkunde ausgezeichnet wurde. Das von plastship entwickelte System stellt Daten bereit und ermöglicht so mehr Transparenz und Vergleichbarkeit bei Rezyklaten. Anlässlich der Interpack 2026 überreichte Andreas Bastian, Geschäftsführer der plastship GmbH, diese erste Urkunde ihrer Art an Patrick Bauer, Global Head of SHEQ Management and Technical Customer Service bei der Schütz GmbH & Co. KGaA – ein weltweit führender Hersteller von industriellen Verpackungen. Die dabei erteilte Premium-Einstufung bestätigt die hohe Qualität dieses von Schütz selbst aufbereiteten Kunststoffs zu hochwertigen, mit Neuware vergleichbaren Rezyklats.
+
+![](/images/cms/bild1-16f77f.webp)
+
+## Belastbare Entscheidungsgrundlage
+
+Das System der plastship Monitored Materials bietet eine belastbare Datengrundlage, um Rezyklatqualitäten unternehmensübergreifend einzuordnen, objektiv zu vergleichen und sicher einzusetzen. Es ersetzt die bislang uneinheitliche Struktur individueller Datenblätter (TDS) durch eine standardisierte, direkt vergleichbare Sprache. Durch gezielte Prüfungen werden die strukturellen Unterschiede zwischen Neuware und Rezyklaten, die sich aus Stoffströmen, Aufbereitungsprozessen und Anwendungen ergeben, transparent abgebildet. Die auf diese Weise mittels Labordaten und Stoffstrominformationen greifbar gemachten Materialqualitäten schaffen mehr Sicherheit entlang der gesamten Wertschöpfungskette.
+
+[Mehr zu plastship Monitored Materials](/recyclate-performance/)
+
+![](/images/cms/plastship-siegel-quality-all-grades-colo-3470df.webp)
+
+> Mit Monitored Materials schaffen wir eine neutrale Datengrundlage für die Qualität von Kunststoffrezyklaten. Sie ermöglicht der Industrie belastbare Entscheidungen und trägt zum gemeinsamen Verständnis von Rezyklatqualität bei – die Grundlage für mehr hochwertigen Rezyklateinsatz.
+
+– Andreas Bastian, Geschäftsführer der plastship GmbH
+
+Rezyklathersteller können ihre Produkte mithilfe der plastship Monitored Materials präzise im Markt verorten. Die kunststoffverarbeitende Industrie erhält dadurch eine tragfähige, schnelle Entscheidungsgrundlage für den Einsatz dieser Materialien. Die strukturierte Datenbasis reduziert den Such- und Qualifizierungsaufwand für neue Materialien erheblich und spart somit Zeit und Kosten. Die Materialidentifikation in der Beschaffung sowie Freigabeprozesse sind weniger zeitaufwendig, da direkt auf validierte Datensätze zurückgegriffen werden kann. Die Bewertung erfolgt transparent mit einer Punktzahl von 0 bis 10 sowie der Einordnung in eines der drei Qualitätssegmente Premium, Plus oder Proven.
+
+Das Regranulat, das Schütz als mittig angeordnete Schicht für seine extrusionsblasgeformten Green-Layer-IBC, -Fässer und -Kanister verwendet, erzielte bei der Bewertung nach dem Monitored-Materials-System hervorragende 9,3 Punkte. Die Premium-Einstufung bescheinigt, dass sich das Material hinsichtlich der Gebrauchs- und Verarbeitungseigenschaften mit der Qualität von Neuware vergleichen lässt. In der wachsenden 224 Materialien umfassenden Datenbank positioniert es sich aktuell in den oberen 5 % des europäischen Marktes.
+
+## Mehrwert für Abonnenten durch dynamischen Zugriff auf Marktdaten
+
+Über die Bewertung hinaus profitieren Kunden, die einen Werkstoff als „Monitored Material” prüfen lassen, sowie Abonnenten eines Jahresabos von weiteren Vorteilen. Der damit verbundene exklusive Zugang zur zugehörigen Datenbank eignet sich als zentrales Werkzeug für das strategische Rohstoffmanagement. Damit lassen sich dynamische Qualitätsrankings erstellen, Rezyklate datengestützt mit Virgin-Referenzmaterialien oder dem Gesamtmarkt abgleichen und direkte Materialvergleiche durchführen.
+
+Neben Tiefenanalysen wie dem Mapping von Qualitäten zu spezifischen Abfallströmen integriert das System auch Marktdaten zu Produktionskapazitäten. Dadurch wird aus einer reinen Qualitätsübersicht ein ganzheitliches Steuerungsinstrument für den sicheren und planbaren Rezyklateinkauf.
+
+## Daten als Basis für Compliance
+
+Künftige Regulierungen, wie die europäische Verpackungsverordnung (PPWR), werden die Anforderungen an den Einsatz von Rezyklaten und deren technische Dokumentation weiter erhöhen. Um der Industrie hierfür eine praxistaugliche Lösung zu bieten, bilden die Monitored Materials den Grundstein für künftige Compliance-Nachweise. Das System orientiert sich an der Norm EN 18065 zur institutionalisierten Datenqualität und macht bislang oft schwer greifbare Rezyklat-Angaben zu verlässlichen Qualitätsaussagen.
+
+![](/images/cms/img-452613-23fd69.webp)
+
+## Urkunde als Qualitätsnachweis
+
+Die für ein „Monitored Material“ ermittelten Daten sind in der zugehörigen Verifizierungsurkunde dokumentiert. Diese dient Recyclern als objektives, neutrales und validiertes Vertriebsargument, während sie Kunststoffverarbeitern zugleich als belastbare Qualitätsbestätigung für Kunden und Markenartikler dient. Beiden Seiten wird bescheinigt, dass die Erfüllung von Nachhaltigkeitszielen nicht zu Lasten der industriellen Materialperformance geht.
+
+![](/images/cms/screenshot-2026-04-28-115746-793fcf.webp)
+
+## Downloads
+
+- [**Pressemitteilung als Word-Dokument**](/downloads/20260908_plastship_Neues-Verfahren-zur-Qualitätsbewertung.docx)
+- [**Grafik herunterladen**](/downloads/Bild1.jpg)
+
+Falls Sie Fragen oder Anregungen haben, melden Sie sich gerne bei mir.
+
+**Mirco Gattinger**, Marketing & Social Media Manager\
+[+49 172 1369 774](tel:+49-172-1369-774) · [gattinger@plastship.com](mailto:gattinger@plastship.com)12c:"$EObject.defineProperty(function remarkGfm(options) {\n    // @ts-expect-error: TS is wrong about `this`.\n    // eslint-disable-next-line unicorn/no-this-assignment\n    const self = this;\n    const settings = options || emptyOptions;\n    const data = self.data();\n    const micromarkExtensions = data.micromarkExtensions || (data.micromarkExtensions = []);\n    const fromMarkdownExtensions = data.fromMarkdownExtensions || (data.fromMarkdownExtensions = []);\n    const toMarkdownExtensions = data.toMarkdownExtensions || (data.toMarkdownExtensions = []);\n    micromarkExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$micromark$2d$extension$2d$gfm$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfm\"])(settings));\n    fromMarkdownExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$mdast$2d$util$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfmFromMarkdown\"])());\n    toMarkdownExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$mdast$2d$util$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfmToMarkdown\"])(settings));\n},\"name\",{value:\"remarkGfm\"})"
+12a:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$2f","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",381,202,361,1,false]],"props":{"content":"$12b","eagerFirstImage":false,"imageAlt":"Mit Monitored Materials zu mehr Sicherheit beim Bewerten von Rezyklaten","remarkPlugins":["$12c"]}}
+12d:{"time":335.5699580013752}
+12f:"$EObject.defineProperty(function SiteMarkdownLink({ href, children }) {\n    const ziel = href ?? '#';\n    const zweck = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$LinkPurpose$2f$LinkPurpose$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"LinkPurpose\"], {\n        text: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$a11y$2f$linkPurpose$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"textOfChildren\"])(children),\n        href: ziel\n    }, void 0, false, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 92,\n        columnNumber: 17\n    }, this);\n    if (ziel.startsWith('/') && !ziel.startsWith('//') && !istDatei(ziel)) {\n        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$NavLink$2f$NavLink$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NavLink\"], {\n            href: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$trailingSlash$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"ensureTrailingSlashHref\"])(ziel),\n            children: [\n                children,\n                zweck\n            ]\n        }, void 0, true, {\n            fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n            lineNumber: 95,\n            columnNumber: 7\n        }, this);\n    }\n    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(\"a\", {\n        href: ziel,\n        ...(0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"externalLinkProps\"])(ziel),\n        children: [\n            children,\n            zweck\n        ]\n    }, void 0, true, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 102,\n        columnNumber: 5\n    }, this);\n},\"name\",{value:\"SiteMarkdownLink\"})"
+130:"$EObject.defineProperty((url)=>TEL.test(url) ? url : (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"defaultUrlTransform\"])(url),\"name\",{value:\"siteUrlTransform\"})"
+131:"$EObject.defineProperty(function rehypePageHeading(options = {}) {\n    const zeile = options.pageHeadingLine ?? null;\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    // `#` sieht aus wie die h2, aus der es jetzt wird\n                    const aussehen = Math.max(2, Number(match[1]));\n                    if (zeile !== null && node.position?.start.line === zeile) {\n                        node.tagName = 'h1';\n                        node.properties['data-render-as'] = String(aussehen);\n                    } else if (node.tagName === 'h1') {\n                        node.tagName = 'h2';\n                    }\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypePageHeading\"})"
+132:"$EObject.defineProperty(function rehypeSiteImages(options = {}) {\n    return (tree)=>{\n        let index = 0;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    Object.assign(node.properties, siteImageProperties(node.properties['src'], index, options));\n                    index += 1;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeSiteImages\"})"
+133:"$EObject.defineProperty(function rehypeImageAlt(options = {}) {\n    const content = options.content ?? '';\n    const quelle = {\n        headings: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownHeadings\"])(content),\n        lead: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownLead\"])(content)\n    };\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    const eigener = node.properties['alt'];\n                    node.properties['alt'] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"imageAltFor\"])(typeof eigener === 'string' ? eigener : undefined, node.position?.start.line, quelle, options.fallback);\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeImageAlt\"})"
+134:"$EObject.defineProperty(function rehypeHeadingOrder(options = {}) {\n    return (tree)=>{\n        let previous = options.parentLevel ?? 1;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    const chosen = Number(match[1]);\n                    const level = headingLevel(chosen, previous);\n                    if (level !== chosen) {\n                        node.tagName = `h${level}`;\n                        node.properties['data-render-as'] = String(chosen);\n                    }\n                    previous = level;\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeHeadingOrder\"})"
+135:"$EObject.defineProperty(function rehypeExternalLinks() {\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'a') {\n                    const href = node.properties['href'];\n                    if (typeof href === 'string' && (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"isExternalHref\"])(href)) {\n                        const rel = relListe(node.properties['rel']);\n                        for (const noetig of __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_REL\"].split(' ')){\n                            if (!rel.some((r)=>r.toLowerCase() === noetig)) rel.push(noetig);\n                        }\n                        node.properties['rel'] = rel;\n                        node.properties['target'] = '_blank';\n                        node.properties['referrerPolicy'] = __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_POLICY\"];\n                    }\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeExternalLinks\"})"
+12e:{"name":"Markdown","key":null,"env":"Server","owner":"$12a","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":{"a":"$12f"},"urlTransform":"$130","remarkPlugins":"$12a:props:remarkPlugins","rehypePlugins":[["$131",{"pageHeadingLine":null}],["$132",{"eagerFirst":false}],["$133","$Y"],"$134","$135"],"children":"$Y"}}
+136:{"time":335.6772079989314}
+137:{"time":342.0804160013795}
+138:[]
+139:[]
+13a:[]
+13b:[]
+13c:[]
+13d:[]
+13e:[]
+13f:[]
+140:[]
+142:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12e","stack":[],"props":{"href":"/recyclate-performance/","node":{"type":"element","tagName":"a","properties":{"href":"/recyclate-performance/"},"children":[{"type":"text","value":"Mehr zu plastship Monitored Materials","position":{"start":{"line":13,"column":2,"offset":2000},"end":{"line":13,"column":39,"offset":2037}}}],"position":"$Y"},"children":"Mehr zu plastship Monitored Materials"}}
+143:{"time":342.3044579997659}
+144:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",185,267,174,1,false]]
+145:{"time":342.38870799914}
+148:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+14b:[]
+14c:[]
+14d:[]
+14e:[]
+14f:[]
+150:[]
+15f:[]
+160:{"time":371.22666599974036}
+161:[]
+162:{"time":371.26270800083876}
+163:[]
+164:{"time":371.2910000011325}
+165:[]
+166:{"time":371.3044999986887}
+167:[]
+168:{"time":371.3180410005152}
+169:[]
+16a:{"time":371.33083299919963}
+16b:[]
+16c:{"time":371.34883300215006}
+16d:[]
+16e:[]
+16f:{"time":371.3837080001831}
+170:[]
+171:{"time":371.39641600102186}
+172:[]
+173:{"time":371.41062499955297}
+174:[]
+175:[]
+176:{"time":371.43475000187755}
+177:[]
+178:{"time":371.44841600209475}
+179:[]
+17b:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12e","stack":[],"props":{"href":"/downloads/20260908_plastship_Neues-Verfahren-zur-Qualit%C3%A4tsbewertung.docx","node":{"type":"element","tagName":"a","properties":{"href":"/downloads/20260908_plastship_Neues-Verfahren-zur-Qualit%C3%A4tsbewertung.docx"},"children":[{"type":"element","tagName":"strong","properties":{},"children":[{"type":"text","value":"Pressemitteilung als Word-Dokument","position":"$Y"}],"position":"$Y"}],"position":"$Y"},"children":"$Y"}}
+17c:{"time":371.49533300101757}
+17d:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+17e:{"time":371.5952080003917}
+17f:[]
+180:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+181:[]
+183:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12e","stack":[],"props":{"href":"/downloads/Bild1.jpg","node":{"type":"element","tagName":"a","properties":{"href":"/downloads/Bild1.jpg"},"children":[{"type":"element","tagName":"strong","properties":{},"children":[{"type":"text","value":"Grafik herunterladen","position":"$Y"}],"position":"$Y"}],"position":"$Y"},"children":"$Y"}}
+184:{"time":371.6646250002086}
+185:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+186:{"time":371.7094999998808}
+187:[]
+188:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+189:[]
+18a:{"time":371.74920799955726}
+18b:[]
+18c:{"time":371.7622079998255}
+18d:[]
+18e:[]
+190:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12e","stack":[],"props":{"href":"tel:+49-172-1369-774","node":{"type":"element","tagName":"a","properties":{"href":"tel:+49-172-1369-774"},"children":[{"type":"text","value":"+49 172 1369 774","position":{"start":{"line":51,"column":2,"offset":5989},"end":{"line":51,"column":18,"offset":6005}}}],"position":"$Y"},"children":"+49 172 1369 774"}}
+191:{"time":371.81862499937415}
+192:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+193:{"time":371.86229100078344}
+194:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+196:{"name":"SiteMarkdownLink","key":"a-1","env":"Server","owner":"$12e","stack":[],"props":{"href":"mailto:gattinger@plastship.com","node":{"type":"element","tagName":"a","properties":{"href":"mailto:gattinger@plastship.com"},"children":[{"type":"text","value":"gattinger@plastship.com","position":{"start":{"line":51,"column":45,"offset":6032},"end":{"line":51,"column":68,"offset":6055}}}],"position":"$Y"},"children":"gattinger@plastship.com"}}
+197:{"time":371.89391599968076}
+198:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+199:{"time":371.93349999934435}
+19a:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]

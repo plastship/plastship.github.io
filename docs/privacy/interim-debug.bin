@@ -1,0 +1,862 @@
+:N1793317089731.6987
+3:"$EObject.defineProperty(()=>{ctx.componentMod.preloadStyle(fullHref,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+4:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+5:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+6:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+2:{"name":"Preloads","key":null,"env":"Server","stack":[],"props":{"preloadCallbacks":["$3","$4","$5","$6"]}}
+7:{"time":0.10691699758172035}
+8:{"time":0.12129199877381325}
+9:[]
+f:[]
+11:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+12:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+13:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+14:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+17:I["[project]/node_modules/next/dist/client/components/layout-router.js [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js"],"default"]
+19:I["[project]/apps/web/src/app/error.tsx [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js","/_next/static/chunks/apps_web_src_app_components_Template_Default_Default_tsx_0cwoqne_kn9rg._.js","/_next/static/chunks/apps_web_src_app_0lnso837mnog3._.js"],"default"]
+1a:{"type":"error","pagePath":"error.tsx","children":[]}
+1b:[["Promise.all","",0,0,0,0,true]]
+18:{"parallelRouterKey":"children","error":"$19","errorStyles":["$","$Le",null,"$1a",null,"$1b",0],"errorScripts":"$Y","template":"$Y","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$Y","forbidden":"$undefined","unauthorized":"$undefined","segmentViewBoundaries":"$Y"}
+1c:[["Promise.all","",0,0,0,0,true]]
+16:{"name":"RootLayout","key":null,"env":"Server","stack":[],"props":{"children":["$","$L17",null,"$18",null,"$1c",1],"params":"$Y"}}
+1d:{"time":1.5658329986035824}
+1f:[["Promise.all","",0,0,0,0,true]]
+20:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+23:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+28:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+29:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2b:{"name":"CmsCatchAllPage","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"params":"$@2c","searchParams":"$@2d"}}
+2e:{"time":2.431082997471094}
+2f:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+30:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+31:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+32:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+33:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+34:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+35:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+36:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+39:"$EObject.defineProperty(()=>__turbopack_context__.r(\"[project]/apps/web/src/app/[...slug]/page.tsx [app-rsc] (ecmascript, Next.js Server Component)\"),\"name\",{value:\"\"})"
+38:{"name":"Next.MetadataOutlet","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"tree":["__PAGE__",{},{"metadata":{},"page":["$39","[project]/apps/web/src/app/[...slug]/page.tsx"]},[]]}}
+3a:{"time":3.168249998241663}
+3b:[]
+3c:{"time":4.622375000268221}
+3f:[]
+42:[]
+45:"$EObject.defineProperty(function(type,config,children){for(var propName,i=2;i<arguments.length;i++)validateChildKeys(arguments[i]);i={};var key=null;if(null!=config)for(propName in didWarnAboutOldJSXRuntime||!(\"__self\"in config)||\"key\"in config||(didWarnAboutOldJSXRuntime=!0,console.warn(\"Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform\")),hasValidKey(config)&&(checkKeyStringCoercion(config.key),key=\"\"+config.key),config)hasOwnProperty.call(config,propName)&&\"key\"!==propName&&\"__self\"!==propName&&\"__source\"!==propName&&(i[propName]=config[propName]);var childrenLength=arguments.length-2;if(1===childrenLength)i.children=children;else if(1<childrenLength){for(var childArray=Array(childrenLength),_i=0;_i<childrenLength;_i++)childArray[_i]=arguments[_i+2];Object.freeze&&Object.freeze(childArray),i.children=childArray}if(type&&type.defaultProps)for(propName in childrenLength=type.defaultProps)void 0===i[propName]&&(i[propName]=childrenLength[propName]);return key&&function(props,displayName){function warnAboutAccessingKey(){specialPropKeyWarningShown||(specialPropKeyWarningShown=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",displayName))}warnAboutAccessingKey.isReactWarning=!0,Object.defineProperty(props,\"key\",{get:warnAboutAccessingKey,configurable:!0})}(i,\"function\"==typeof type?type.displayName||type.name||\"Unknown\":type),(propName=1e4>ReactSharedInternals.recentlyCreatedOwnerStacks++)?(childArray=Error.stackTraceLimit,Error.stackTraceLimit=10,childrenLength=Error(\"react-stack-top-frame\"),Error.stackTraceLimit=childArray):childrenLength=unknownOwnerDebugStack,ReactElement(type,key,i,getOwner(),childrenLength,propName?createTask(getTaskName(type)):unknownOwnerDebugTask)},\"name\",{value:\"\"})"
+44:{"name":"NonIndex","key":null,"env":"Server","stack":[],"props":{"createElement":"$45","pagePath":"/[...slug]","statusCode":200,"isPossibleServerAction":false}}
+46:{"time":4.869624998420477}
+47:{"time":4.87279199808836}
+49:{"name":"ViewportWrapper","key":null,"env":"Server","stack":[],"props":{}}
+4a:{"time":4.895541999489069}
+4b:[]
+4c:{"time":4.931541997939348}
+50:{"name":"Next.Viewport","key":null,"env":"Server","owner":"$49","stack":[],"props":{}}
+51:{"time":4.949707999825478}
+53:{"name":"MetadataWrapper","key":null,"env":"Server","stack":[],"props":{}}
+54:{"time":5.2006249986588955}
+55:[]
+56:{"time":5.2644999995827675}
+59:[]
+5a:[]
+5c:{"name":"Next.Metadata","key":null,"env":"Server","owner":"$53","stack":[],"props":{}}
+5d:{"time":5.298332996666431}
+5f:{"name":"MetadataBlocker","key":null,"env":"Server","owner":"$53","stack":[],"props":{}}
+60:{"time":5.562832999974489}
+61:{"time":5.564582999795675}
+62:[]
+67:[]
+68:[]
+2c:{"slug":["privacy"]}
+2d:
+69:{"time":6.608291998505592}
+6a:[]
+6b:[]
+6c:[]
+6e:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+6d:J{"name":"headers","start":1.7091669999063015,"end":30.025874998420477,"env":"Server","stack":"$6e","owner":"$16","value":"$@6f"}
+70:{"time":6.95066699758172}
+71:[["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",4056,346,4054,240,false],["getPageTranslation","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",4073,207,4071,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2334,182,2332,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+72:{"awaited":"$6d","env":"Server","owner":"$38","stack":"$71"}
+73:{"time":30.13008299842477}
+75:[["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",178,44,177,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+74:J{"name":"laden","start":7.6844999976456165,"end":7.935082998126745,"env":"Server","stack":"$75","owner":"$38","value":"$@76"}
+77:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",178,44,177,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+78:{"awaited":"$74","env":"Server","owner":"$38","stack":"$77"}
+79:{"time":30.13008299842477}
+7a:{"time":6.95066699758172}
+7b:[["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",4056,346,4054,240,false],["getPageTranslation","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",4073,207,4071,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2334,182,2332,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+7c:{"awaited":"$6d","env":"Server","owner":"$38","stack":"$7b"}
+7d:{"time":30.13008299842477}
+7e:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",178,44,177,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+7f:{"awaited":"$74","env":"Server","owner":"$38","stack":"$7e"}
+80:{"time":30.13008299842477}
+81:["host","localhost"]
+82:["user-agent","plastship-interim-mirror"]
+83:["accept","text/html"]
+84:["accept-encoding","gzip, deflate"]
+85:["accept-language","*"]
+86:["sec-fetch-mode","cors"]
+87:["via","1.1 Caddy"]
+88:["x-forwarded-for","172.18.0.1"]
+89:["x-forwarded-host","localhost"]
+8a:["x-forwarded-proto","http"]
+8b:["x-real-ip","172.18.0.1"]
+8c:["x-forwarded-port","3000"]
+8d:["content-security-policy","default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+8e:["x-nonce","ekGZA72QmKl3Nt83Iorr/w=="]
+8f:["x-plastship-locale","de"]
+90:["x-plastship-route-kind","public"]
+91:["cache-control","private, no-cache, must-revalidate"]
+92:["content-security-policy-report-only","default-src 'self'; script-src 'self' 'nonce-ekGZA72QmKl3Nt83Iorr/w==' 'strict-dynamic' 'wasm-unsafe-eval' 'report-sample' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+93:["permissions-policy","camera=(), microphone=(self), geolocation=(), interest-cohort=()"]
+94:["referrer-policy","same-origin"]
+95:["reporting-endpoints","csp-endpoint=\"https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local\""]
+96:["strict-transport-security","max-age=63072000; includeSubDomains; preload"]
+97:["x-content-type-options","nosniff"]
+98:["x-frame-options","DENY"]
+6f:["$81","$82","$83","$84","$85","$86","$87","$88","$89","$8a","$8b","$8c","$8d","$8e","$8f","$90","$91","$92","$93","$94","$95","$96","$97","$98"]
+76:{}
+99:{"time":73.50375000014901}
+9a:{"time":73.5115419998765}
+9b:[]
+9c:[]
+9d:[]
+9e:[]
+9f:[]
+a0:[]
+a1:[]
+a2:[]
+a3:[]
+a4:[]
+a5:[]
+a6:[]
+a7:[]
+a8:[]
+a9:[]
+aa:[]
+ab:[]
+ac:[]
+ad:[]
+ae:[]
+af:[]
+b0:[]
+b1:[]
+b2:[]
+b3:[]
+b4:[]
+b5:[]
+b6:[]
+b7:[]
+b8:[]
+b9:[]
+ba:[]
+bb:[]
+bc:[]
+bd:[]
+be:[]
+bf:[]
+c0:[]
+c1:[]
+c2:[]
+c3:[]
+c4:[]
+c7:{"time":1.764624997973442}
+c8:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+c9:{"awaited":"$6d","env":"Server","owner":"$16","stack":"$c8"}
+ca:{"time":30.027374997735023}
+cc:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+cb:J{"name":"cookies","start":30.469749998301268,"end":79.43104199692607,"env":"Server","stack":"$cc","owner":"$16","value":"$@cd"}
+ce:{"time":30.49624999985099}
+cf:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+d0:{"awaited":"$cb","env":"Server","owner":"$16","stack":"$cf"}
+d1:{"time":79.43316699936986}
+d3:[["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",196,44,195,1,false]]
+d2:J{"name":"laden","start":2.7117499969899654,"end":5.722207996994257,"env":"Server","stack":"$d3","owner":"$2b","value":"$@d4"}
+d5:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",196,44,195,1,false]]
+d6:{"awaited":"$d2","env":"Server","owner":"$2b","stack":"$d5"}
+d7:{"time":79.43316699936986}
+d8:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",178,44,177,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+d9:{"awaited":"$74","env":"Server","owner":"$38","stack":"$d8"}
+da:{"time":79.43316699936986}
+dc:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+db:J{"name":"","start":-0.4276670031249523,"end":29.932124998420477,"env":"Server","stack":"$dc","value":"$@dd"}
+de:[["sprachParameter","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",160,31,159,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",210,431,195,1,false]]
+df:{"awaited":"$db","env":"Server","owner":"$2b","stack":"$de"}
+e0:{"time":79.43316699936986}
+cd:[]
+d4:{}
+dd:"$undefined"
+e1:{"time":2.7500829994678497}
+e2:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",196,44,195,1,false]]
+e3:{"awaited":"$d2","env":"Server","owner":"$2b","stack":"$e2"}
+e4:{"time":29.937707997858524}
+e5:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",178,44,177,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+e6:{"awaited":"$74","env":"Server","owner":"$38","stack":"$e5"}
+e7:{"time":29.937707997858524}
+e8:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",157,421,157,234,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",179,39,177,1,false]]
+e9:{"awaited":"$6d","env":"Server","owner":"$38","stack":"$e8"}
+ea:{"time":30.13441699743271}
+eb:{"time":30.631082996726036}
+ec:[["sprachParameter","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",160,31,159,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",210,431,195,1,false]]
+ed:{"awaited":"$db","env":"Server","owner":"$2b","stack":"$ec"}
+ee:{"time":30.648667000234127}
+ef:{"time":30.864749997854233}
+f0:[["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13518,212,13516,245,false],["resolveCmsDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13531,9,13524,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",158,520,158,333,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",210,412,195,1,false]]
+f1:{"awaited":"$cb","env":"Server","owner":"$2b","stack":"$f0"}
+f2:{"time":84.0186249986291}
+f3:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2425,256,2369,1,false]]
+f4:{"time":167.14587499946356}
+f5:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2429,270,2369,1,false]]
+f6:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2431,268,2369,1,false]]
+f7:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2443,268,2369,1,false]]
+f8:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2454,268,2369,1,false]]
+fc:[["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",226,267,195,1,false]]
+fd:{"time":168.29254199936986}
+10a:T50bd,## Allgemeiner Hinweis und Pflichtinformationen
+
+**1. Name und Kontaktdaten des für die Verarbeitung Verantwortlichen sowie des Datenschutzbeauftragten**
+
+Diese Datenschutz-Information gilt für die Datenverarbeitung durch den Verantwortlichen:
+
+plastship GmbH\
+Auf der Lind 10\
+65529 Waldems\
+Vertreten durch Andreas Bastian und Markus Dambeck
+
+Telefon: [+49 6126 58 980 10](tel:+4961265898010)\
+E-Mail: [info@plastship.com](mailto:info@plastship.com)
+
+**2. Begriffsbestimmungen**
+
+Plastship verwendet in dieser Datenschutzerklärung unter anderem die folgenden Begriffe:
+
+**a) personenbezogene Daten**
+
+Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person (im Folgenden: Ihr, Ihre, etc.) beziehen. Als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen Merkmalen, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind, identifiziert werden kann.
+
+**b) betroffene Person**
+
+Betroffene Person ist jede identifizierte oder identifizierbare natürliche Person, deren personenbezogene Daten von dem für die Verarbeitung Verantwortlichen verarbeitet werden.
+
+**c) Verarbeitung**
+
+Verarbeitung ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das Erheben, das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder die Veränderung, das Auslesen, das Abfragen, die Verwendung, die Offenlegung durch Übermittlung, die Verbreitung oder eine andere Form der Bereitstellung, den Abgleich oder die Verknüpfung, die Einschränkung, das Löschen oder das Vernichten.
+
+**d) Verantwortlicher oder für die Verarbeitung Verantwortlicher**
+
+Verantwortlicher oder für die Verarbeitung Verantwortlicher ist die natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet. Sind die Zwecke und Mittel dieser Verarbeitung durch das Unionsrecht oder das Recht der Mitgliedstaaten vorgegeben, so kann der Verantwortliche beziehungsweise können die bestimmten Kriterien seiner Benennung nach dem Unionsrecht oder dem Recht der Mitgliedstaaten vorgesehen werden.
+
+**e) Auftragsverarbeiter**
+
+Auftragsverarbeiter ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet.
+
+**f) Empfänger**
+
+Empfänger ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, der personenbezogene Daten offengelegt werden, unabhängig davon, ob es sich bei ihr um einen Dritten handelt oder nicht. Behörden, die im Rahmen eines bestimmten Untersuchungsauftrags nach dem Unionsrecht oder dem Recht der Mitgliedstaaten möglicherweise personenbezogene Daten erhalten, gelten jedoch nicht als Empfänger.
+
+**g) Dritter**
+
+Dritter ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle außer Ihnen, dem Verantwortlichen, dem Auftragsverarbeiter und den Personen, die unter der unmittelbaren Verantwortung des Verantwortlichen oder des Auftragsverarbeiters befugt sind, die personenbezogenen Daten zu verarbeiten.
+
+**h) Einwilligung**
+
+Einwilligung ist jede von Ihnen freiwillig, für den bestimmten Fall, in informierter Weise und unmissverständlich abgegebene Willensbekundung in Form einer Erklärung oder einer sonstigen eindeutigen bestätigenden Handlung, mit der Sie zu verstehen geben, dass Sie mit der Verarbeitung der Sie betreffenden personenbezogenen Daten einverstanden sind.
+
+**3. Erhebung und Speicherung personenbezogener Daten beim Besuch der Website**
+
+**a) beim Besuch der Website**
+
+Beim Aufrufen der Website [plastship.com](/) sendet der Browser Ihres Endgeräts automatisch Informationen an unseren Server. Diese Informationen werden vorübergehend in Protokolldateien (Logfiles) gespeichert. Erfasst werden dabei ohne Ihr Zutun:
+
+- IP-Adresse des anfragenden Rechners
+- Datum und Uhrzeit des Zugriffs
+- aufgerufene Adresse und Ergebnis der Anfrage
+- Website, von der aus der Zugriff erfolgt (Referrer-URL), soweit Ihr Browser sie übermittelt
+- verwendeter Browser und Betriebssystem
+
+Zwecke: Aufbau und Stabilität der Verbindung, Erkennung und Abwehr von Angriffen und Störungen, Fehlersuche. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO; unser berechtigtes Interesse folgt aus diesen Zwecken. Die Protokolle werden nicht genutzt, um Rückschlüsse auf Ihre Person zu ziehen. Die Server-Protokolle werden nach 90 Tagen automatisch gelöscht.
+
+Darüber hinaus setzen wir technisch notwendige Cookies und – nur mit Ihrer Einwilligung – eine anonyme Reichweitenmessung ein. Nähere Erläuterungen dazu erhalten Sie unter Ziff. 8 und 9 dieser Datenschutzerklärung.
+
+**b) Kontaktformular und Anfragen**
+
+Wenn Sie uns über das Kontaktformular schreiben, verarbeiten wir Ihre Angaben (Name, E-Mail-Adresse, Telefonnummer, Unternehmen, Anliegen sowie freiwillige Angaben etwa zu Material, Menge, Anwendung und Postleitzahl) und Ihre Nachricht, um Ihre Anfrage zu beantworten. Ihre Anfrage wird zunächst in unserer eigenen Datenbank auf unseren Servern bei der Hetzner Online GmbH in Deutschland gespeichert und von dort als Vorgang an unser Kundenverwaltungssystem Salesforce (Salesforce, Inc.; siehe Ziff. 4) weitergegeben, wo unser Team sie bearbeitet; ist Ihre E-Mail-Adresse dort bereits einem Kontakt zugeordnet, verknüpfen wir die Anfrage mit diesem Kontakt. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. b DSGVO, soweit Ihre Anfrage auf einen Vertrag oder dessen Anbahnung zielt, im Übrigen lit. f DSGVO (berechtigtes Interesse an der Beantwortung von Anfragen). Wir speichern die Anfrage, solange es für ihre Bearbeitung und eine daraus entstehende Geschäftsbeziehung erforderlich ist, und löschen sie danach, soweit keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
+
+**c) Schutz vor automatisierten Anfragen (ALTCHA)**
+
+Zum Schutz unserer Formulare vor Spam und automatisierten Angriffen verwenden wir ALTCHA, ein Verfahren, das wir selbst auf unseren Servern betreiben. Ihr Browser löst dabei eine kleine Rechenaufgabe; es werden keine Cookies gesetzt und keine Daten an Dritte übermittelt. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO (Schutz unserer Systeme vor Missbrauch).
+
+**d) Kontakt per E-Mail und Telefon**
+
+Wenn Sie uns per E-Mail oder telefonisch kontaktieren, verarbeiten wir Ihre Angaben zur Bearbeitung Ihres Anliegens. Unsere E-Mail-Kommunikation läuft über Microsoft 365 (Microsoft Ireland Operations Limited; siehe Ziff. 4). Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. b bzw. lit. f DSGVO. Geschäftliche E-Mails bewahren wir im Rahmen der handels- und steuerrechtlichen Pflichten auf (Art. 6 Abs. 1 S. 1 lit. c DSGVO).
+
+**4. Weitergabe von Daten, Empfänger und Übermittlung in Drittländer**
+
+Eine Übermittlung Ihrer persönlichen Daten an Dritte zu anderen als den im Folgenden aufgeführten Zwecken findet nicht statt. Wir geben Ihre persönlichen Daten nur an Dritte weiter, wenn:
+
+- Sie nach Art. 6 Abs. 1 S. 1 lit. a DSGVO ausdrücklich eingewilligt haben,
+- die Weitergabe nach Art. 6 Abs. 1 S. 1 lit. f DSGVO zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist und kein Grund zur Annahme besteht, dass Sie ein überwiegendes schutzwürdiges Interesse an der Nichtweitergabe Ihrer Daten haben,
+- für die Weitergabe nach Art. 6 Abs. 1 S. 1 lit. c DSGVO eine gesetzliche Verpflichtung besteht, oder
+- dies gesetzlich zulässig und nach Art. 6 Abs. 1 S. 1 lit. b DSGVO für die Abwicklung von Vertragsverhältnissen mit Ihnen erforderlich ist.
+
+Für den Betrieb setzen wir Dienstleister ein, die Daten in unserem Auftrag und nach unseren Weisungen verarbeiten (Auftragsverarbeiter, Art. 28 DSGVO):
+
+- **Hetzner Online GmbH** (Deutschland): Betrieb von Website, Plattform und Datenbank in Rechenzentren in Deutschland; verschlüsselte Sicherungskopien in Finnland (EU)
+- **Microsoft Ireland Operations Limited** (Irland; Konzernmutter Microsoft Corporation, USA): E-Mail-Versand und -Kommunikation (Microsoft 365) sowie KI-Dienste (Azure OpenAI, Azure Speech)
+- **Salesforce, Inc.** (USA, mit Konzerngesellschaften in der EU): Kundenverwaltung (CRM), Anfragen und Geschäftsvorgänge
+- **Functional Software, Inc. (Sentry)** (USA; Datenhaltung in der EU-Datenregion): Erkennung technischer Fehler und, nur mit Einwilligung, Leistungsmessung
+
+Bei Anbietern mit Sitz in den USA oder deren Konzerngesellschaften kann ein Zugriff aus den USA nicht ausgeschlossen werden. Für solche Übermittlungen stützen wir uns auf den Angemessenheitsbeschluss der Europäischen Kommission zum EU-US Data Privacy Framework (Art. 45 DSGVO), soweit der Anbieter dort zertifiziert ist, und im Übrigen auf die Standardvertragsklauseln der Europäischen Kommission (Art. 46 Abs. 2 lit. c DSGVO). Eine Kopie der Garantien erhalten Sie auf Anfrage unter [info@plastship.com](mailto:info@plastship.com).
+
+**5. Umfang der Verarbeitung personenbezogener Daten**
+
+plastship verarbeitet personenbezogene Daten deren Nutzer grundsätzlich nur, soweit dies zur Bereitstellung einer funktionsfähigen Website sowie von Inhalten und Leistungen von plastship erforderlich ist. Auf welcher Rechtsgrundlage wir Daten verarbeiten, ist bei der jeweiligen Verarbeitung angegeben; eine Einwilligung holen wir nur ein, wo das Gesetz sie verlangt.
+
+**6. Rechtsgrundlage für die Verarbeitung personenbezogener Daten**
+
+Soweit plastship für Verarbeitungsvorgänge personenbezogener Daten eine Einwilligung von Ihnen einholt, dient Art. 6 Abs. 1 lit. a DSGVO als Rechtsgrundlage.
+
+Bei der Verarbeitung von personenbezogenen Daten, die zur Erfüllung oder Abwicklung eines Vertrages oder vorvertraglicher Maßnahmen erforderlich ist, dient Art. 6 Abs. 1 lit. b DSGVO als Rechtsgrundlage.
+
+Soweit eine Verarbeitung personenbezogener Daten zur Erfüllung einer rechtlichen Verpflichtung, der plastship unterliegt, erforderlich ist, dient Art. 6 Abs. 1 lit. c DSGVO als Rechtsgrundlage.
+
+Ist die Verarbeitung zur Wahrung eines berechtigten Interesses von plastship oder eines Dritten erforderlich und überwiegen die Interessen, Grundrechte und Grundfreiheiten von Ihnen das erstgenannte Interesse nicht, so dient Art. 6 Abs. 1 lit. f DSGVO als Rechtsgrundlage für die Verarbeitung.
+
+**7. Datenlöschung und Speicherdauer**
+
+Die personenbezogenen Daten von Ihnen werden gelöscht oder gesperrt, sobald der Zweck der Speicherung entfällt. Eine Speicherung kann darüber hinaus erfolgen, wenn dies durch den europäischen oder nationalen Gesetzgeber in unionsrechtlichen Verordnungen, Gesetzen oder sonstigen Vorschriften, denen der Verantwortliche unterliegt, vorgesehen wurde. Eine Sperrung oder Löschung der Daten erfolgt auch dann, wenn eine durch die genannten Normen vorgeschriebene Speicherfrist abläuft, es sei denn, dass eine Erforderlichkeit zur weiteren Speicherung der Daten für einen Vertragsabschluss oder eine Vertragserfüllung besteht.
+
+**8. Cookies und Zugriffe auf Ihr Endgerät**
+
+Cookies sind kleine Textdateien, die Ihr Browser auf Ihrem Endgerät speichert. Das Speichern von Informationen auf Ihrem Endgerät und der Zugriff darauf sind nach § 25 Abs. 1 TDDDG nur mit Ihrer Einwilligung zulässig, es sei denn, sie sind unbedingt erforderlich, damit wir den von Ihnen ausdrücklich gewünschten Dienst bereitstellen können (§ 25 Abs. 2 Nr. 2 TDDDG).
+
+Ohne Einwilligung setzen wir nur solche unbedingt erforderlichen Cookies ein:
+
+- `next-auth.session-token` (auf https mit Vorsilbe `__Secure-`, bei großen Sitzungen in mehrere Teile `.0`, `.1` … aufgeteilt): Anmelde-Cookie, hält Ihre Sitzung; Erstanbieter-Cookie, bis zu 30 Tage, bei der Abmeldung gelöscht; nur nach der Anmeldung
+- `next-auth.csrf-token` (auf https `__Host-next-auth.csrf-token`): Schutz der Anmeldung vor Cross-Site-Request-Forgery; Erstanbieter-Cookie, Sitzungsdauer
+- `next-auth.callback-url` (auf https `__Secure-next-auth.callback-url`): Rücksprungadresse nach der Anmeldung; Erstanbieter-Cookie, Sitzungsdauer
+- `pr-csrf-binding`: Schutz des Vorgangs „Passwort zurücksetzen“; Erstanbieter-Cookie, 1 Stunde
+- `NEXT_LOCALE`: gewählte Sprache; Erstanbieter-Cookie, 1 Jahr
+- `plastship_consent`: Ihre Entscheidung im Cookie-Hinweis (`necessary` oder `all`); Erstanbieter-Cookie, 1 Jahr
+- nur auf unseren nicht öffentlichen Test- und Vorabsystemen: `ps_zugang`, merkt die bestandene Zugangsprüfung; Erstanbieter-Cookie, 180 Tage
+
+Der Spamschutz ALTCHA (Ziff. 3 c) setzt keine Cookies. Darstellungseinstellungen (etwa heller oder dunkler Modus, Seitenleiste, Listenansichten) und die gewählte Sprache speichern wir zusätzlich im lokalen Speicher Ihres Browsers, wenn Sie sie selbst wählen; sie verlassen Ihr Gerät nicht.
+
+Beim ersten Besuch fragt ein Hinweis, ob Sie zusätzlich der anonymen Reichweitenmessung (Ziff. 9) und der Messung der technischen Leistung der Website zustimmen. Ihre Entscheidung speichern wir im Cookie `plastship_consent` für ein Jahr. Sie können Ihre Entscheidung jederzeit mit Wirkung für die Zukunft ändern und eine Einwilligung ebenso einfach widerrufen, wie Sie sie erteilt haben: über den Link „Cookie-Einstellungen“ unten auf jeder Seite, der den Hinweis erneut öffnet („Nur notwendige“ widerruft die Einwilligung). Rechtsgrundlage für die notwendigen Cookies ist § 25 Abs. 2 Nr. 2 TDDDG in Verbindung mit Art. 6 Abs. 1 S. 1 lit. b und f DSGVO, für die einwilligungspflichtigen Zwecke § 25 Abs. 1 TDDDG in Verbindung mit Art. 6 Abs. 1 S. 1 lit. a DSGVO.
+
+Wir setzen keine Cookies zu Werbezwecken und keine Cookies von Drittanbietern ein. Sie können Ihren Browser so einstellen, dass keine Cookies gespeichert werden; ohne die notwendigen Cookies ist eine Anmeldung auf der Plattform jedoch nicht möglich.
+
+**9. Reichweitenmessung**
+
+Wir setzen auf unserer Website keine Analyse-, Tracking- oder Werbedienste von Drittanbietern ein. Nur wenn Sie im Cookie-Hinweis zugestimmt haben, zählen wir Aufrufe öffentlicher Seiten anonym in unserer eigenen Datenbank: gespeichert werden die aufgerufene Seite, die Seite, von der Sie kamen, und der Zeitpunkt — ohne IP-Adresse, ohne Nutzerkennung, ohne Geräte-Fingerabdruck und ohne eigenes Kennungs-Cookie. Zusätzlich erfassen wir in diesem Fall über Sentry (Ziff. 4) Messwerte zur technischen Leistung der Seiten (Ladezeiten). Zweck ist, zu erkennen, welche Inhalte genutzt werden und wo die Website technisch verbessert werden muss. Rechtsgrundlage ist Ihre Einwilligung (§ 25 Abs. 1 TDDDG, Art. 6 Abs. 1 S. 1 lit. a DSGVO), die Sie jederzeit widerrufen können (Ziff. 8). Die einzelnen Zählungen werden nach 90 Tagen gelöscht; danach bleiben nur Tageszahlen.
+
+Zur Nutzungsanalyse innerhalb der angemeldeten Anwendung siehe die „Ergänzenden Hinweise zur plastship-Anwendung“ unten.
+
+**10. Links zu sozialen Netzwerken und anderen Websites**
+
+Unsere Seiten enthalten einfache Links zu anderen Websites, etwa zu LinkedIn oder YouTube. Wir binden keine Plugins, Schaltflächen oder Videos dieser Anbieter ein; beim bloßen Aufruf unserer Seiten werden keine Daten an sie übermittelt. Erst wenn Sie einen solchen Link anklicken, ruft Ihr Browser die Seite des jeweiligen Anbieters auf; ab dann gelten dessen Datenschutzhinweise, etwa [LinkedIn](https://www.linkedin.com/legal/privacy-policy) oder [YouTube/Google](https://policies.google.com/privacy).
+
+**11. Betroffenenrechte**
+
+Sie haben das Recht:
+
+gemäß Art. 15 DSGVO Auskunft über Ihre von plastship verarbeiteten personenbezogenen Daten zu verlangen. Insbesondere können Sie Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfängern, gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante Speicherdauer, das Bestehen eines Rechts auf Berichtigung, Löschung, Einschränkung der Verarbeitung oder Widerspruch, das Bestehen eines Beschwerderechts, die Herkunft ihrer Daten, sofern diese nicht bei plastship erhoben wurden sowie über das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling und ggf. aussagekräftigen Informationen zu deren Einzelheiten verlangen;
+
+gemäß Art. 16 DSGVO unverzüglich die Berichtigung unrichtiger oder Vervollständigung Ihrer bei plastship gespeicherten personenbezogenen Daten zu verlangen;
+
+gemäß Art. 17 DSGVO die Löschung Ihrer bei plastship gespeicherten personenbezogenen Daten zu verlangen, soweit nicht die Verarbeitung zur Ausübung des Rechts auf freie Meinungsäußerung und Information, zur Erfüllung einer rechtlichen Verpflichtung, aus Gründen des öffentlichen Interesses oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist;
+
+gemäß Art. 18 DSGVO die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen, soweit die Richtigkeit der Daten von Ihnen bestritten wird, die Verarbeitung unrechtmäßig ist, Sie aber deren Löschung ablehnen und plastship die Daten nicht mehr benötigt, Sie jedoch diese zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigt oder Sie gemäß Art. 21 DSGVO Widerspruch gegen die Verarbeitung eingelegt haben;
+
+gemäß Art. 20 DSGVO Ihre personenbezogenen Daten, die Sie plastship bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesebaren Format zu erhalten oder die Übermittlung an einen anderen Verantwortlichen zu verlangen;
+
+gemäß Art. 7 Abs. 3 DSGVO Ihre einmal erteilte Einwilligung jederzeit gegenüber plastship zu widerrufen. Dies hat zur Folge, dass plastship die Datenverarbeitung, die auf dieser Einwilligung beruhte, für die Zukunft nicht mehr fortführen darf und
+
+gemäß Art. 77 DSGVO sich bei einer Aufsichtsbehörde zu beschweren. In der Regel können Sie sich hierfür an die Aufsichtsbehörde Ihres üblichen Aufenthaltsortes oder Arbeitsplatzes oder an die für plastship zuständige Behörde wenden: Der Hessische Beauftragte für Datenschutz und Informationsfreiheit, Wilhelmstraße 7, 65185 Wiesbaden, [datenschutz.hessen.de](https://datenschutz.hessen.de).
+
+Eine ausschließlich automatisierte Entscheidung einschließlich Profiling, die Ihnen gegenüber rechtliche Wirkung entfaltet oder Sie in ähnlicher Weise erheblich beeinträchtigt (Art. 22 DSGVO), findet nicht statt.
+
+**12. Widerspruchsrecht**
+
+Sofern Ihre personenbezogenen Daten auf Grundlage von berechtigten Interessen gemäß Art. 6 Abs. 1 S. 1 lit. f DSGVO verarbeitet werden, haben Sie das Recht, gemäß Art. 21 DSGVO Widerspruch gegen die Verarbeitung Ihrer personenbezogenen Daten einzulegen, soweit dafür Gründe vorliegen, die sich aus Ihrer besonderen Situation ergeben oder sich der Widerspruch gegen Direktwerbung richtet. Im letzteren Fall haben Sie ein generelles Widerspruchsrecht, das ohne Angabe einer besonderen Situation von plastship umgesetzt wird.
+
+Möchten Sie von Ihrem Widerrufs- oder Widerspruchsrecht Gebrauch machen, genügt eine E-Mail an [info@plastship.com](mailto:info@plastship.com).
+
+**13. Datensicherheit**
+
+Die Verbindung zu unserer Website und zur Plattform ist durchgehend mit TLS verschlüsselt (erkennbar an „https://“ und dem Schloss-Symbol Ihres Browsers); unverschlüsselte Verbindungen werden auf verschlüsselte umgeleitet.
+
+Wir bedienen uns im Übrigen geeigneter technischer und organisatorischer Sicherheitsmaßnahmen, um Ihre Daten gegen zufällige oder vorsätzliche Manipulationen, teilweisen oder vollständigen Verlust, Zerstörung oder gegen den unbefugten Zugriff Dritter zu schützen. Unsere Sicherheitsmaßnahmen werden entsprechend der technologischen Entwicklung fortlaufend verbessert.
+
+**14. Aktualität und Änderung dieser Datenschutzerklärung**
+
+Diese Datenschutzerklärung hat den Stand Oktober 2026. Durch die Weiterentwicklung unserer Website und Angebote oder aufgrund geänderter gesetzlicher beziehungsweise behördlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung zu ändern. Die jeweils aktuelle Datenschutzerklärung können Sie jederzeit auf der Website unter [Datenschutz](/privacy) abrufen und ausdrucken.
+
+Diese Datenschutzerklärung wird auf Deutsch verfasst. Die englische Fassung ist eine unverbindliche Übersetzung; maßgeblich ist die deutsche Fassung.109:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$2b","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1308,232,1301,32,false],["Array.map","",0,0,0,0,false],["renderCmsMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1301,28,1295,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",216,221,195,1,false]],"props":{"content":"$10a","eagerFirstImage":false,"pageHeading":false,"remarkPlugins":"$undefined"}}
+10b:{"time":168.41124999895692}
+10d:"$EObject.defineProperty(function SiteMarkdownLink({ href, children }) {\n    const ziel = href ?? '#';\n    const zweck = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$LinkPurpose$2f$LinkPurpose$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"LinkPurpose\"], {\n        text: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$a11y$2f$linkPurpose$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"textOfChildren\"])(children),\n        href: ziel\n    }, void 0, false, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 92,\n        columnNumber: 17\n    }, this);\n    if (ziel.startsWith('/') && !ziel.startsWith('//') && !istDatei(ziel)) {\n        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$NavLink$2f$NavLink$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NavLink\"], {\n            href: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$trailingSlash$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"ensureTrailingSlashHref\"])(ziel),\n            children: [\n                children,\n                zweck\n            ]\n        }, void 0, true, {\n            fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n            lineNumber: 95,\n            columnNumber: 7\n        }, this);\n    }\n    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(\"a\", {\n        href: ziel,\n        ...(0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"externalLinkProps\"])(ziel),\n        children: [\n            children,\n            zweck\n        ]\n    }, void 0, true, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 102,\n        columnNumber: 5\n    }, this);\n},\"name\",{value:\"SiteMarkdownLink\"})"
+10e:"$EObject.defineProperty((url)=>TEL.test(url) ? url : (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"defaultUrlTransform\"])(url),\"name\",{value:\"siteUrlTransform\"})"
+10f:"$EObject.defineProperty(function rehypePageHeading(options = {}) {\n    const zeile = options.pageHeadingLine ?? null;\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    // `#` sieht aus wie die h2, aus der es jetzt wird\n                    const aussehen = Math.max(2, Number(match[1]));\n                    if (zeile !== null && node.position?.start.line === zeile) {\n                        node.tagName = 'h1';\n                        node.properties['data-render-as'] = String(aussehen);\n                    } else if (node.tagName === 'h1') {\n                        node.tagName = 'h2';\n                    }\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypePageHeading\"})"
+110:"$EObject.defineProperty(function rehypeSiteImages(options = {}) {\n    return (tree)=>{\n        let index = 0;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    Object.assign(node.properties, siteImageProperties(node.properties['src'], index, options));\n                    index += 1;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeSiteImages\"})"
+111:"$EObject.defineProperty(function rehypeImageAlt(options = {}) {\n    const content = options.content ?? '';\n    const quelle = {\n        headings: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownHeadings\"])(content),\n        lead: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownLead\"])(content)\n    };\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    const eigener = node.properties['alt'];\n                    node.properties['alt'] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"imageAltFor\"])(typeof eigener === 'string' ? eigener : undefined, node.position?.start.line, quelle, options.fallback);\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeImageAlt\"})"
+112:"$EObject.defineProperty(function rehypeHeadingOrder(options = {}) {\n    return (tree)=>{\n        let previous = options.parentLevel ?? 1;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    const chosen = Number(match[1]);\n                    const level = headingLevel(chosen, previous);\n                    if (level !== chosen) {\n                        node.tagName = `h${level}`;\n                        node.properties['data-render-as'] = String(chosen);\n                    }\n                    previous = level;\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeHeadingOrder\"})"
+113:"$EObject.defineProperty(function rehypeExternalLinks() {\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'a') {\n                    const href = node.properties['href'];\n                    if (typeof href === 'string' && (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"isExternalHref\"])(href)) {\n                        const rel = relListe(node.properties['rel']);\n                        for (const noetig of __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_REL\"].split(' ')){\n                            if (!rel.some((r)=>r.toLowerCase() === noetig)) rel.push(noetig);\n                        }\n                        node.properties['rel'] = rel;\n                        node.properties['target'] = '_blank';\n                        node.properties['referrerPolicy'] = __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_POLICY\"];\n                    }\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeExternalLinks\"})"
+10c:{"name":"Markdown","key":null,"env":"Server","owner":"$109","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":{"a":"$10d"},"urlTransform":"$10e","remarkPlugins":"$undefined","rehypePlugins":[["$10f",{"pageHeadingLine":null}],["$110",{"eagerFirst":false}],["$111","$Y"],"$112","$113"],"children":"$Y"}}
+114:{"time":168.51645799726248}
+115:{"time":185.3387499973178}
+116:[]
+117:[]
+118:[]
+119:[]
+11a:[]
+11b:[]
+11c:[]
+11d:[]
+11e:[]
+120:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$10c","stack":[],"props":{"href":"tel:+4961265898010","node":{"type":"element","tagName":"a","properties":{"href":"tel:+4961265898010"},"children":[{"type":"text","value":"+49 6126 58 980 10","position":{"start":{"line":12,"column":11,"offset":355},"end":{"line":12,"column":29,"offset":373}}}],"position":"$Y"},"children":"+49 6126 58 980 10"}}
+121:{"time":185.55933300033212}
+122:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+123:{"time":185.65883299708366}
+124:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+127:[]
+129:{"name":"SiteMarkdownLink","key":"a-1","env":"Server","owner":"$10c","stack":[],"props":{"href":"mailto:info@plastship.com","node":{"type":"element","tagName":"a","properties":{"href":"mailto:info@plastship.com"},"children":[{"type":"text","value":"info@plastship.com","position":{"start":{"line":13,"column":10,"offset":405},"end":{"line":13,"column":28,"offset":423}}}],"position":"$Y"},"children":"info@plastship.com"}}
+12a:{"time":185.81383299827576}
+12b:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+12c:{"time":185.8543749973178}
+12d:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+12e:[]
+12f:[]
+130:[]
+131:[]
+132:[]
+133:[]
+134:[]
+135:[]
+136:[]
+137:[]
+138:[]
+139:[]
+13a:[]
+13b:[]
+13c:[]
+181:T3265,## Ergänzende Hinweise zur plastship-Anwendung
+
+**Erhebung und Speicherung personenbezogener Daten beim Aufruf**
+
+Beim Aufrufen der Anwendung sendet Ihr Browser automatisch Informationen an unseren Server. Diese werden vorübergehend in Protokolldateien gespeichert und bis zur automatischen Löschung aufbewahrt:
+
+- IP-Adresse des anfragenden Rechners
+- Datum und Uhrzeit des Zugriffs
+- aufgerufene Adresse und Ergebnis der Anfrage
+- verwendeter Browser und Betriebssystem
+
+Zweck: Aufbau und Stabilität der Verbindung, Erkennung von Angriffen und Störungen, Fehlersuche. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO; unser berechtigtes Interesse folgt aus diesen Zwecken. Die Protokolle werden nicht genutzt, um Rückschlüsse auf Ihr Verhalten zu ziehen, und nach 90 Tagen automatisch gelöscht.
+
+**Cookies**
+
+Die Anwendung setzt ausschließlich Cookies, die für den Betrieb unbedingt erforderlich sind (§ 25 Abs. 2 Nr. 2 TDDDG): einen Anmelde-Cookie, der Ihre Sitzung hält, technische Cookies zum Schutz vor Angriffen sowie Cookies für die gewählte Sprache und Ihre Entscheidung im Cookie-Hinweis (Einzelheiten in Ziff. 8 oben). Der Anmelde-Cookie ist bis zu 30 Tage gültig und wird bei der Abmeldung gelöscht. Er enthält neben der Sitzungskennung Ihre Nutzerkennung, E-Mail-Adresse, Rolle, Sprache und Darstellungseinstellung, damit die Anwendung ohne weitere Abfragen arbeiten kann.
+
+Es werden keine Cookies zu Werbe- oder Analysezwecken gesetzt, und es werden keine Daten an Werbenetzwerke übermittelt. Rechtsgrundlage für die Verarbeitung der Cookie-Daten ist Art. 6 Abs. 1 S. 1 lit. b und lit. f DSGVO.
+
+**Protokolle innerhalb der Anwendung**
+
+Als angemeldeter Nutzer werden folgende Vorgänge in unserer eigenen Datenbank gespeichert; sie verlassen unsere Server nicht:
+
+- **Anmeldungen und Sicherheitsereignisse** (erfolgreiche und fehlgeschlagene Anmeldung, Passwortänderung, Zwei-Faktor-Vorgänge, Anmeldung von einem neuen Gerät) mit IP-Adresse und Browser. Zweck: Schutz Ihres Kontos, Erkennung von Missbrauch. Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. f DSGVO. Automatische Löschung nach 180 Tagen.
+- **Aktive Sitzungen** mit IP-Adresse, Browser und Zeitpunkt der letzten Aktivität, damit Sie und Administratoren Sitzungen beenden können. Abgelaufene Sitzungen werden täglich automatisch gelöscht, spätestens 30 Tage nach der Anmeldung.
+- **Datensatz-Aufrufe** für Nutzer der Rollen Kunde und Agent: welche Datensätze (etwa Aufträge, Konten, Aufgaben) Sie angesehen, angelegt oder bearbeitet haben. Zweck: die Funktion „Zuletzt angesehen“ in der Suche und die Betreuung durch Ihre Ansprechpartner; Administratoren können diese Liste je Nutzer einsehen. Automatische Löschung nach 12 Monaten.
+- **Fachliche Änderungen** (Statuswechsel, Aktionen des KI-Assistenten) als Nachweis, wer wann was geändert hat. Aufbewahrung, solange der jeweilige Datensatz besteht.
+- **Nutzungsanalyse**: welche Seite der Anwendung Sie wann aufrufen und von welcher Seite der Anwendung aus sowie einzelne Bedienschritte ohne Inhalte (etwa der Klick auf einen Kontaktlink, nur Art und Ort), mit Ihrer Nutzerkennung und Rolle, ohne IP-Adresse, ohne Browserdaten, ohne Inhalte oder Datensatz-IDs. Zweck: erkennen, welche Bereiche genutzt werden und welche nicht, um die Anwendung weiterzuentwickeln. Auswertungen erfolgen nur zusammengefasst je Rolle; Rollen mit weniger als fünf aktiven Personen werden nicht einzeln ausgewiesen. Die Daten werden nicht zur Bewertung einzelner Personen verwendet. Rohdaten werden nach 90 Tagen gelöscht, danach bleiben nur Tageszahlen ohne Personenbezug. Rechtsgrundlage Art. 6 Abs. 1 S. 1 lit. f DSGVO. Sie können jederzeit widersprechen (Art. 21 DSGVO): im Profil unter „Keine Nutzungsanalyse“ oder per E-Mail; Ihre Rohdaten werden dann sofort gelöscht. Die Messung kommt ohne Cookies und ohne Speicherung auf Ihrem Endgerät aus; Nutzungen durch Testkonten von plastship werden erfasst, aber aus allen Auswertungen herausgefiltert.
+
+Es findet keine Aufzeichnung von Bildschirm, Mausbewegungen oder Eingaben statt.
+
+**Fehlerdiagnose (Sentry)**
+
+Zur Erkennung und Behebung technischer Fehler nutzen wir Sentry (Functional Software, Inc.) in der EU-Datenregion. Tritt in Ihrem Browser oder auf dem Server ein Fehler auf, werden übermittelt: technische Fehlerdetails, aufgerufene Adresse, Browser und Betriebssystem sowie zur Zuordnung des Vorfalls Ihre Nutzerkennung, E-Mail-Adresse und Rolle. Ihre IP-Adresse wird nicht übermittelt; es findet keine Aufzeichnung Ihrer Sitzung statt. Messwerte zur Ladezeit und Leistung (Traces) erfassen wir nur, wenn Sie im Cookie-Hinweis zugestimmt haben (Ziff. 9 oben). Die Daten werden nach 90 Tagen gelöscht. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO (Stabilität und Sicherheit der Anwendung); mit Sentry besteht ein Vertrag zur Auftragsverarbeitung nach Art. 28 DSGVO. Der Anbieter hat seinen Sitz in den USA; zur Übermittlung in Drittländer siehe Ziff. 4 oben.
+
+**Kartenansichten, Adresssuche und Routen**
+
+Karten, Adresssuche und Routenberechnung (etwa Standortkarten, Ortsfelder, Reisekosten und die Kartenseite zu Anschriften) betreiben wir selbst auf unseren Servern in Deutschland. Die Kartendaten stammen von OpenStreetMap (© [OpenStreetMap-Mitwirkende](https://www.openstreetmap.org/copyright), ODbL). Kartenkacheln und Schriften sind öffentlich abrufbar und kommen ausschließlich von plastship; dabei verarbeiten wir wie bei jedem Seitenaufruf Ihre IP-Adresse in den Server-Protokollen (siehe oben) und begrenzen die Zahl der Abrufe je IP-Adresse zum Schutz vor Missbrauch. Eingegebene Adressen und Koordinaten verarbeiten wir nur, um Treffer und Strecken zu berechnen; sie werden nicht gespeichert und nicht an Dritte übermittelt. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. b DSGVO (Erfüllung des Vertrags bzw. der Nutzung der Plattform) und im Übrigen lit. f DSGVO (berechtigtes Interesse an einer funktionsfähigen und geschützten Plattform). Ein Kartenlink an einer Anschrift öffnet unsere eigene Kartenseite. Erst wenn Sie dort ausdrücklich auf „In Karten-App öffnen“ klicken, öffnet sich auf Apple-Geräten Apple Karten bzw. auf Android-Geräten die von Ihnen eingestellte Karten-App; dabei gehen Anschrift und Koordinaten an den jeweiligen Anbieter, und es gelten dessen Datenschutzhinweise. Neben Strecken (etwa in den Reisekosten und auf der RIGK-Karte) steht ein Link „Route in Google Maps“: Erst wenn Sie ihn anklicken, öffnet sich Google Maps in einem neuen Tab, und Start und Ziel (Koordinaten) werden an Google (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) übermittelt; ohne Klick besteht keine Verbindung zu Google, und unsere Seiten laden nichts von Google. Für die Verarbeitung durch Google gilt dessen Datenschutzerklärung: [policies.google.com/privacy](https://policies.google.com/privacy).
+
+**KI-Assistent (PIA) und weitere KI-Funktionen**
+
+Der KI-Assistent PIA steht nur Mitarbeitenden von plastship zur Verfügung; er ist in der Oberfläche als KI gekennzeichnet, und seine Antworten werden von einem Sprachmodell erzeugt. Nutzen Mitarbeitende den Assistenten, werden ihre Eingaben und die dafür benötigten Datensätze — dabei können auch Angaben zu Kunden, Ansprechpersonen und Vorgängen enthalten sein — an ein Sprachmodell auf Microsoft Azure OpenAI (Microsoft Ireland Operations Limited) übermittelt und dort nicht zum Training verwendet; die Nutzerkennung wird dabei nur als Prüfsumme (Hash) übermittelt. Für die Spracheingabe und -ausgabe nutzen wir Azure Speech in der Region Deutschland (West-Mitte). Der Gesprächsverlauf wird nach 90 Tagen gelöscht, das Protokoll der vom Assistenten ausgeführten Aktionen nach 180 Tagen. Der Assistent trifft keine Entscheidungen über Personen; Aktionen führt er nur auf Veranlassung und unter Kontrolle der Mitarbeitenden aus.
+
+Dieselben Azure-Dienste nutzen wir, um Inhalte der Website und der Plattform sowie Texte der Oberfläche in weitere Sprachen zu übersetzen, und für die Auswertung von Materialfotos. Maschinell übersetzte Fassungen von Inhalten sind dort, wo sie angezeigt werden, als KI-Übersetzung gekennzeichnet und verlinken auf die deutsche Originalfassung; KI-Auswertungen von Materialfotos sind ebenfalls gekennzeichnet. Rechtstexte (AGB, Impressum, Datenschutzerklärung, E-Mail-Disclaimer, Erklärung zur Barrierefreiheit) werden nie maschinell übersetzt; verbindlich ist jeweils die deutsche Fassung. Für die Übersetzungen werden nur die zu übersetzenden Texte übermittelt, für die Auswertung nur das Foto. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. b und lit. f DSGVO (effiziente Bearbeitung von Vorgängen); mit Microsoft besteht ein Vertrag zur Auftragsverarbeitung, zur Übermittlung in Drittländer siehe Ziff. 4 oben.
+
+**Konto und Registrierung**
+
+Für die Nutzung der Plattform legen wir für Sie ein Konto an oder Sie beantragen eines. Dabei verarbeiten wir Ihre Angaben zu Person und Unternehmen (Name, geschäftliche E-Mail-Adresse und Telefonnummer, Unternehmen, Anschrift, Funktion, Sprache) sowie Anmeldedaten. Passwörter speichern wir nur als Hash; je nach Rolle ist ein zweiter Faktor vorgeschrieben. Ein beantragtes Konto wird erst nach Bestätigung Ihrer E-Mail-Adresse und Freigabe durch plastship aktiv. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. b DSGVO. Wir speichern die Kontodaten für die Dauer der Nutzung; die Löschung Ihres Kontos können Sie jederzeit unter [info@plastship.com](mailto:info@plastship.com) verlangen, soweit keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
+
+**Prüfung von Geschäftspartnern**
+
+Bevor wir Unternehmen als Geschäftspartner freigeben, prüfen Mitarbeitende von plastship deren Angaben mit öffentlichen Quellen (Art. 14 DSGVO). Dazu übermitteln unsere Server Firmenname, Umsatzsteuer-Identifikationsnummer, Internet-Domain bzw. Website-Adresse und gegebenenfalls den Namen einer Ansprechperson an: das Mehrwertsteuer-Informationsaustauschsystem der EU (VIES), Handels- und Unternehmensregister (OpenRegister, Companies House, GLEIF, OpenCorporates, Wikidata), Sanktionslisten (OpenSanctions), Dienste zur Prüfung von Domains und Websites (RDAP, Google Safe Browsing, VirusTotal, DNS-Sperrlisten) sowie — als Prüfsumme der E-Mail-Adresse — Gravatar; außerdem prüfen wir beim Mailserver der Domain, ob eine angegebene E-Mail-Adresse existiert. Zweck ist der Schutz vor Betrug, Scheinfirmen und Sanktionsverstößen; Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO und, soweit Sanktionsrecht gilt, lit. c DSGVO. Die Ergebnisse sind nur ein Vorschlag: über die Freigabe entscheiden Mitarbeitende von plastship, nicht ein automatisiertes Verfahren. Kunden sehen nur, ob ein Unternehmen geprüft ist.
+
+**Kundenverwaltung (Salesforce)**
+
+Unternehmens-, Ansprechpersonen- und Vorgangsdaten (etwa Anfragen, Bedarfe, Angebote, Muster, Aufträge, Rechnungen und Zertifikate) führen wir in unserem Kundenverwaltungssystem Salesforce (Salesforce, Inc.); die Plattform liest und schreibt diese Daten dort. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. b DSGVO und für die Aufbewahrung von Geschäftsunterlagen lit. c DSGVO (handels- und steuerrechtlich bis zu zehn Jahre). Mit Salesforce besteht ein Vertrag zur Auftragsverarbeitung; zur Übermittlung in Drittländer siehe Ziff. 4 oben.
+
+**E-Mails der Plattform**
+
+Systemnachrichten (etwa Zugangsdaten, Bestätigungen und Benachrichtigungen) versenden wir über Microsoft 365. Werbliche Newsletter versendet die Plattform nicht. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. b DSGVO.
+
+**Auktionshaus**
+
+Im Auktionshaus versteigern Anbieter (Hersteller) Chargen an die von ihnen zugelassenen Händler; plastship betreibt das Auktionshaus, Vertragspartner des Kaufs ist der Anbieter. Wir verarbeiten dafür Kontodaten, Gebote mit Betrag und Zeitpunkt, Zuschläge und Protokolle. Der Anbieter sieht die Gebote mit dem Namen des bietenden Unternehmens, nicht der handelnden Person; bietende Unternehmen sehen einander nicht, und Maximalgebote sieht niemand. Über die Schnittstelle zum System des Anbieters fließen Chargen-, Status- und Preisdaten, aber keine Angaben zu Bietern. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. b DSGVO, für Sicherheit und Missbrauchsschutz lit. f und für die Aufbewahrung lit. c DSGVO. Protokolle der Schnittstelle löschen wir nach 90 Tagen.
+
+**Datensicherheit**
+
+Die Verbindung zur Anwendung ist mit TLS verschlüsselt. Die Anwendung wird auf Servern der Hetzner Online GmbH in Deutschland betrieben; verschlüsselte Sicherungskopien liegen zusätzlich bei Hetzner in Finnland und werden nach 21 Tagen überschrieben. Mit Hetzner besteht ein Vertrag zur Auftragsverarbeitung nach Art. 28 DSGVO. Cloudflare nutzen wir ausschließlich für die Namensauflösung (DNS) unserer Domains; Ihr Datenverkehr läuft nicht über Cloudflare.
+
+*Stand: Oktober 2026*180:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$2b","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1308,232,1301,32,false],["Array.map","",0,0,0,0,false],["renderCmsMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1301,28,1295,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",216,221,195,1,false]],"props":{"content":"$181","eagerFirstImage":false,"pageHeading":false,"remarkPlugins":"$undefined"}}
+182:{"time":186.26512499898672}
+183:{"name":"Markdown","key":null,"env":"Server","owner":"$180","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":"$10c:props:components","urlTransform":"$10e","remarkPlugins":"$undefined","rehypePlugins":[["$10f",{"pageHeadingLine":null}],["$110",{"eagerFirst":false}],["$111",{"content":"$Y","fallback":"$undefined"}],"$112","$113"],"children":"$Y"}}
+184:{"time":186.31058299914002}
+185:{"time":192.0846669971943}
+186:[]
+187:[]
+188:[]
+189:[]
+18a:[]
+18b:[]
+18c:[]
+18d:[]
+18e:[]
+18f:[]
+190:[]
+191:[]
+192:[]
+193:[]
+194:[]
+195:[]
+196:[]
+197:[]
+198:[]
+199:[]
+1b3:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2457,282,2369,1,false]]
+1b4:{"time":213.5623329989612}
+1b7:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2458,286,2369,1,false]]
+1bb:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2461,290,2369,1,false]]
+1be:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2463,288,2369,1,false]]
+1c2:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2465,302,2369,1,false]]
+1c5:[["Promise.all","",0,0,0,0,true]]
+1ca:[["Promise.all","",0,0,0,0,true]]
+1cb:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+1cc:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+1cd:[["Promise.all","",0,0,0,0,true]]
+1ce:[]
+1d0:{"name":"NotFound","key":null,"env":"Server","stack":[],"props":{}}
+1d1:{"time":213.99479199945927}
+1d2:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",87,263,86,1,false]]
+1d3:{"time":214.09654199704528}
+1d8:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",88,270,86,1,false]]
+1db:[["Promise.all","",0,0,0,0,true]]
+1dc:[["Promise.all","",0,0,0,0,true]]
+1dd:[["Promise.all","",0,0,0,0,true]]
+1de:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2479,288,2369,1,false]]
+1e1:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2484,288,2369,1,false]]
+1e4:[]
+1e5:{"time":214.26958299800754}
+1e6:[]
+1e7:[]
+1e8:{"time":214.29904199764132}
+1e9:[]
+1ea:{"time":214.31508299708366}
+1eb:[]
+1ec:[]
+1ed:{"time":214.46724999696016}
+1ee:[]
+1ef:{"time":214.4832919985056}
+1f0:[]
+1f1:[]
+1f2:{"time":214.50829199701548}
+1f3:[]
+1f4:{"time":214.52637499943376}
+1f5:[]
+1f6:[]
+1f7:{"time":214.55525000020862}
+1f8:[]
+1f9:{"time":214.5709999985993}
+1fa:[]
+1fb:[]
+1fc:{"time":214.59874999895692}
+1fd:[]
+1fe:[]
+1ff:{"time":214.6258749999106}
+201:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$10c","stack":[],"props":{"href":"/","node":{"type":"element","tagName":"a","properties":{"href":"/"},"children":[{"type":"text","value":"plastship.com","position":{"start":{"line":55,"column":28,"offset":4060},"end":{"line":55,"column":41,"offset":4073}}}],"position":"$Y"},"children":"plastship.com"}}
+202:{"time":214.6613749973476}
+203:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",185,267,174,1,false]]
+204:{"time":214.7404169999063}
+207:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+208:[]
+209:{"time":214.81412499770522}
+20a:[]
+20b:[]
+20c:[]
+20d:[]
+20e:[]
+20f:[]
+210:{"time":214.8888750001788}
+211:[]
+212:{"time":214.90141699835658}
+213:[]
+214:{"time":214.91449999809265}
+215:[]
+216:[]
+217:{"time":214.93816699832678}
+219:[]
+21a:{"time":214.95483299717307}
+21b:[]
+21c:[]
+21d:{"time":214.97770799696445}
+21e:[]
+21f:{"time":214.99012499675155}
+220:[]
+221:[]
+222:{"time":215.01237499713898}
+223:[]
+224:{"time":215.02462499961257}
+225:[]
+226:[]
+227:{"time":215.0525419972837}
+228:[]
+229:{"time":215.06483300030231}
+22a:[]
+22b:[]
+22c:[]
+22d:[]
+22e:[]
+22f:{"time":215.1253749988973}
+230:[]
+231:{"time":215.14141699671745}
+232:[]
+233:[]
+234:[]
+235:[]
+236:[]
+237:[]
+238:[]
+239:[]
+23a:[]
+23b:{"time":215.2572919987142}
+23d:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$10c","stack":[],"props":{"href":"mailto:info@plastship.com","node":{"type":"element","tagName":"a","properties":{"href":"mailto:info@plastship.com"},"children":[{"type":"text","value":"info@plastship.com","position":{"start":{"line":95,"column":486,"offset":9232},"end":{"line":95,"column":504,"offset":9250}}}],"position":"$Y"},"children":"info@plastship.com"}}
+23e:{"time":215.28149999678135}
+23f:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+240:{"time":215.33679199963808}
+241:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+242:[]
+243:{"time":215.36508299782872}
+244:[]
+245:[]
+246:{"time":215.3913329988718}
+247:[]
+248:{"time":215.40558299794793}
+249:[]
+24a:[]
+24b:{"time":215.43312499672174}
+24c:[]
+24d:{"time":215.4452919997275}
+24e:[]
+24f:{"time":215.45762499794364}
+250:[]
+251:{"time":215.4784999974072}
+252:[]
+253:{"time":215.4925419986248}
+254:[]
+255:[]
+256:{"time":215.51483299955726}
+257:[]
+258:{"time":215.52758299931884}
+259:[]
+25a:[]
+25b:{"time":215.5504169985652}
+25c:[]
+25d:{"time":215.56579199805856}
+25e:[]
+25f:{"time":215.57933299988508}
+260:[]
+261:[]
+262:[]
+263:[]
+264:[]
+265:[]
+266:[]
+267:[]
+268:[]
+269:[]
+26a:[]
+26b:[]
+26c:[]
+26d:[]
+26e:[]
+26f:[]
+270:[]
+271:[]
+272:[]
+273:[]
+274:[]
+275:[]
+276:{"time":215.90370799973607}
+277:[]
+278:{"time":215.9170829989016}
+279:[]
+27a:[]
+27b:{"time":215.94379199668765}
+27c:[]
+27d:{"time":215.95616699755192}
+27e:[]
+27f:[]
+280:{"time":215.97879199683666}
+281:[]
+282:{"time":215.99508299678564}
+283:[]
+284:{"time":216.00750000029802}
+285:[]
+286:[]
+287:{"time":216.02979199960828}
+289:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$10c","stack":[],"props":{"href":"https://www.linkedin.com/legal/privacy-policy","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://www.linkedin.com/legal/privacy-policy","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"LinkedIn","position":{"start":{"line":143,"column":388,"offset":15525},"end":"$Y"}}],"position":"$Y"},"children":"LinkedIn"}}
+28a:{"time":216.05624999850988}
+28b:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+28c:{"time":216.12274999916553}
+28d:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+28f:{"name":"SiteMarkdownLink","key":"a-1","env":"Server","owner":"$10c","stack":[],"props":{"href":"https://policies.google.com/privacy","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://policies.google.com/privacy","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"YouTube/Google","position":{"start":{"line":143,"column":451,"offset":15588},"end":"$Y"}}],"position":"$Y"},"children":"YouTube/Google"}}
+290:{"time":216.16504199802876}
+291:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+292:{"time":216.21150000020862}
+293:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+294:[]
+295:{"time":216.24162499979138}
+296:[]
+297:[]
+298:{"time":216.26549999788404}
+299:[]
+29a:{"time":216.27862500026822}
+29b:[]
+29c:{"time":216.2913750000298}
+29d:[]
+29e:{"time":216.30304199829698}
+29f:[]
+2a0:{"time":216.31483300030231}
+2a1:[]
+2a2:{"time":216.32737499848008}
+2a3:[]
+2a4:{"time":216.33979199826717}
+2a5:[]
+2a6:{"time":216.35641700029373}
+2a8:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$10c","stack":[],"props":{"href":"https://datenschutz.hessen.de","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://datenschutz.hessen.de","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"datenschutz.hessen.de","position":{"start":{"line":161,"column":337,"offset":18210},"end":"$Y"}}],"position":"$Y"},"children":"datenschutz.hessen.de"}}
+2a9:{"time":216.3757079988718}
+2aa:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+2ab:{"time":216.4217079989612}
+2ac:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+2ad:[]
+2ae:{"time":216.45304199680686}
+2af:[]
+2b0:{"time":216.46774999797344}
+2b1:[]
+2b2:[]
+2b3:{"time":216.490582998842}
+2b4:[]
+2b5:{"time":216.5047919973731}
+2b7:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$10c","stack":[],"props":{"href":"mailto:info@plastship.com","node":{"type":"element","tagName":"a","properties":{"href":"mailto:info@plastship.com"},"children":[{"type":"text","value":"info@plastship.com","position":{"start":{"line":169,"column":97,"offset":19127},"end":{"line":169,"column":115,"offset":19145}}}],"position":"$Y"},"children":"info@plastship.com"}}
+2b8:{"time":216.52812499925494}
+2b9:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+2ba:{"time":216.5699579976499}
+2bb:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+2bc:[]
+2bd:{"time":216.6114999987185}
+2be:[]
+2bf:[]
+2c0:{"time":216.63604199886322}
+2c1:[]
+2c2:{"time":216.64958299696445}
+2c3:[]
+2c4:{"time":216.66274999827147}
+2c5:[]
+2c6:[]
+2c7:{"time":216.68654199689627}
+2c9:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$10c","stack":[],"props":{"href":"/privacy","node":{"type":"element","tagName":"a","properties":{"href":"/privacy"},"children":[{"type":"text","value":"Datenschutz","position":{"start":{"line":179,"column":339,"offset":20193},"end":{"line":179,"column":350,"offset":20204}}}],"position":"$Y"},"children":"Datenschutz"}}
+2ca:{"time":216.70795799791813}
+2cb:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",185,267,174,1,false]]
+2cc:{"time":216.7558749988675}
+2cd:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+2ce:[]
+2cf:{"time":216.800625000149}
+2d0:[]
+2d1:{"time":216.8151669986546}
+2d2:[]
+2d3:[]
+2d4:{"time":216.84399999678135}
+2d5:[]
+2d6:[]
+2d7:{"time":216.87254199758172}
+2d8:[]
+2d9:[]
+2da:{"time":216.89799999818206}
+2db:[]
+2dd:[]
+2de:{"time":216.9247079975903}
+2df:[]
+2e0:{"time":216.93920799717307}
+2e1:[]
+2e2:[]
+2e3:{"time":216.963041998446}
+2e4:[]
+2e5:{"time":216.9769169986248}
+2e6:[]
+2e7:[]
+2e8:{"time":217.003750000149}
+2ea:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$183","stack":[],"props":{"href":"https://www.openstreetmap.org/copyright","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://www.openstreetmap.org/copyright","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"OpenStreetMap-Mitwirkende","position":{"start":{"line":38,"column":227,"offset":5204},"end":"$Y"}}],"position":"$Y"},"children":"OpenStreetMap-Mitwirkende"}}
+2eb:{"time":217.03433299809694}
+2ec:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+2ed:{"time":217.0884169973433}
+2ee:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+2f1:{"name":"SiteMarkdownLink","key":"a-1","env":"Server","owner":"$183","stack":[],"props":{"href":"https://policies.google.com/privacy","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://policies.google.com/privacy","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"policies.google.com/privacy","position":{"start":{"line":38,"column":1769,"offset":6746},"end":"$Y"}}],"position":"$Y"},"children":"policies.google.com/privacy"}}
+2f2:{"time":217.1340419985354}
+2f3:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+2f4:{"time":217.17587499693036}
+2f5:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+2f6:[]
+2f7:{"time":217.20429199934006}
+2f8:[]
+2f9:[]
+2fa:{"time":217.23308299854398}
+2fb:[]
+2fc:{"time":217.24745799973607}
+2fd:[]
+2fe:{"time":217.26533299684525}
+2ff:[]
+300:[]
+301:{"time":217.29449999704957}
+303:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$183","stack":[],"props":{"href":"mailto:info@plastship.com","node":{"type":"element","tagName":"a","properties":{"href":"mailto:info@plastship.com"},"children":[{"type":"text","value":"info@plastship.com","position":{"start":{"line":48,"column":629,"offset":9363},"end":{"line":48,"column":647,"offset":9381}}}],"position":"$Y"},"children":"info@plastship.com"}}
+304:{"time":217.31662499904633}
+305:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+306:{"time":217.35520799830556}
+307:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+308:[]
+309:{"time":217.38608299940825}
+30a:[]
+30b:[]
+30c:{"time":217.4131669998169}
+30e:[]
+30f:{"time":217.42758299782872}
+310:[]
+311:[]
+312:{"time":217.45395799726248}
+313:[]
+314:{"time":217.47091699764132}
+315:[]
+316:[]
+317:{"time":217.50641699880362}
+318:[]
+319:{"time":217.52387499809265}
+31a:[]
+31b:[]
+31c:{"time":217.5456249974668}
+31d:[]
+31e:{"time":217.56137499958277}
+31f:[]
+320:[]
+321:{"time":217.58524999767542}
+322:[]
+323:{"time":217.6006669998169}
+324:[]

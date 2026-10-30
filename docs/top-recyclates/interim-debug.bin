@@ -1,0 +1,294 @@
+:N1793317090903.9639
+3:"$EObject.defineProperty(()=>{ctx.componentMod.preloadStyle(fullHref,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+4:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+5:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+6:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+2:{"name":"Preloads","key":null,"env":"Server","stack":[],"props":{"preloadCallbacks":["$3","$4","$5","$6"]}}
+7:{"time":0.10908300057053566}
+8:{"time":0.12550000101327896}
+9:[]
+f:[]
+11:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+12:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+13:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+14:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+17:I["[project]/node_modules/next/dist/client/components/layout-router.js [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js"],"default"]
+19:I["[project]/apps/web/src/app/error.tsx [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js","/_next/static/chunks/apps_web_src_app_components_Template_Default_Default_tsx_0cwoqne_kn9rg._.js","/_next/static/chunks/apps_web_src_app_0lnso837mnog3._.js"],"default"]
+1a:{"type":"error","pagePath":"error.tsx","children":[]}
+1b:[["Promise.all","",0,0,0,0,true]]
+18:{"parallelRouterKey":"children","error":"$19","errorStyles":["$","$Le",null,"$1a",null,"$1b",0],"errorScripts":"$Y","template":"$Y","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$Y","forbidden":"$undefined","unauthorized":"$undefined","segmentViewBoundaries":"$Y"}
+1c:[["Promise.all","",0,0,0,0,true]]
+16:{"name":"RootLayout","key":null,"env":"Server","stack":[],"props":{"children":["$","$L17",null,"$18",null,"$1c",1],"params":"$Y"}}
+1d:{"time":0.3983750008046627}
+1f:[["Promise.all","",0,0,0,0,true]]
+20:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+23:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+28:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+29:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2b:{"name":"CmsCatchAllPage","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"params":"$@2c","searchParams":"$@2d"}}
+2e:{"time":1.1659159995615482}
+2f:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+30:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+31:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+32:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+33:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+34:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+35:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+36:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+39:"$EObject.defineProperty(()=>__turbopack_context__.r(\"[project]/apps/web/src/app/[...slug]/page.tsx [app-rsc] (ecmascript, Next.js Server Component)\"),\"name\",{value:\"\"})"
+38:{"name":"Next.MetadataOutlet","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"tree":["__PAGE__",{},{"metadata":{},"page":["$39","[project]/apps/web/src/app/[...slug]/page.tsx"]},[]]}}
+3a:{"time":1.8444999977946281}
+3b:[]
+3c:{"time":3.1200000010430813}
+3f:[]
+42:[]
+45:"$EObject.defineProperty(function(type,config,children){for(var propName,i=2;i<arguments.length;i++)validateChildKeys(arguments[i]);i={};var key=null;if(null!=config)for(propName in didWarnAboutOldJSXRuntime||!(\"__self\"in config)||\"key\"in config||(didWarnAboutOldJSXRuntime=!0,console.warn(\"Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform\")),hasValidKey(config)&&(checkKeyStringCoercion(config.key),key=\"\"+config.key),config)hasOwnProperty.call(config,propName)&&\"key\"!==propName&&\"__self\"!==propName&&\"__source\"!==propName&&(i[propName]=config[propName]);var childrenLength=arguments.length-2;if(1===childrenLength)i.children=children;else if(1<childrenLength){for(var childArray=Array(childrenLength),_i=0;_i<childrenLength;_i++)childArray[_i]=arguments[_i+2];Object.freeze&&Object.freeze(childArray),i.children=childArray}if(type&&type.defaultProps)for(propName in childrenLength=type.defaultProps)void 0===i[propName]&&(i[propName]=childrenLength[propName]);return key&&function(props,displayName){function warnAboutAccessingKey(){specialPropKeyWarningShown||(specialPropKeyWarningShown=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",displayName))}warnAboutAccessingKey.isReactWarning=!0,Object.defineProperty(props,\"key\",{get:warnAboutAccessingKey,configurable:!0})}(i,\"function\"==typeof type?type.displayName||type.name||\"Unknown\":type),(propName=1e4>ReactSharedInternals.recentlyCreatedOwnerStacks++)?(childArray=Error.stackTraceLimit,Error.stackTraceLimit=10,childrenLength=Error(\"react-stack-top-frame\"),Error.stackTraceLimit=childArray):childrenLength=unknownOwnerDebugStack,ReactElement(type,key,i,getOwner(),childrenLength,propName?createTask(getTaskName(type)):unknownOwnerDebugTask)},\"name\",{value:\"\"})"
+44:{"name":"NonIndex","key":null,"env":"Server","stack":[],"props":{"createElement":"$45","pagePath":"/[...slug]","statusCode":200,"isPossibleServerAction":false}}
+46:{"time":3.353540997952223}
+47:{"time":3.356665998697281}
+49:{"name":"ViewportWrapper","key":null,"env":"Server","stack":[],"props":{}}
+4a:{"time":3.3759999983012676}
+4b:[]
+4c:{"time":3.4212079979479313}
+50:{"name":"Next.Viewport","key":null,"env":"Server","owner":"$49","stack":[],"props":{}}
+51:{"time":3.4417500011622906}
+53:{"name":"MetadataWrapper","key":null,"env":"Server","stack":[],"props":{}}
+54:{"time":3.7069579996168613}
+55:[]
+56:{"time":3.790624998509884}
+59:[]
+5a:[]
+5c:{"name":"Next.Metadata","key":null,"env":"Server","owner":"$53","stack":[],"props":{}}
+5d:{"time":3.83466599881649}
+5f:{"name":"MetadataBlocker","key":null,"env":"Server","owner":"$53","stack":[],"props":{}}
+60:{"time":4.108791001141071}
+61:{"time":4.110957998782396}
+62:[]
+67:[]
+68:[]
+2c:{"slug":["top-recyclates"]}
+2d:
+69:{"time":5.415624998509884}
+6a:[]
+6b:[]
+6c:[]
+6e:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+6d:J{"name":"headers","start":0.529874999076128,"end":58.376915998756886,"env":"Server","stack":"$6e","owner":"$16","value":"$@6f"}
+70:{"time":5.87933300063014}
+71:[["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",4056,346,4054,240,false],["getPageTranslation","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",4073,207,4071,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2334,182,2332,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+72:{"awaited":"$6d","env":"Server","owner":"$38","stack":"$71"}
+73:{"time":58.47179099917412}
+75:[["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",178,44,177,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+74:J{"name":"laden","start":6.700082998722792,"end":6.931708000600338,"env":"Server","stack":"$75","owner":"$38","value":"$@76"}
+77:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",178,44,177,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+78:{"awaited":"$74","env":"Server","owner":"$38","stack":"$77"}
+79:{"time":58.47179099917412}
+7a:{"time":5.87933300063014}
+7b:[["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",4056,346,4054,240,false],["getPageTranslation","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",4073,207,4071,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2334,182,2332,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+7c:{"awaited":"$6d","env":"Server","owner":"$38","stack":"$7b"}
+7d:{"time":58.47179099917412}
+7e:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",178,44,177,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+7f:{"awaited":"$74","env":"Server","owner":"$38","stack":"$7e"}
+80:{"time":58.47179099917412}
+81:["host","localhost"]
+82:["user-agent","plastship-interim-mirror"]
+83:["accept","text/html"]
+84:["accept-encoding","gzip, deflate"]
+85:["accept-language","*"]
+86:["sec-fetch-mode","cors"]
+87:["via","1.1 Caddy"]
+88:["x-forwarded-for","172.18.0.1"]
+89:["x-forwarded-host","localhost"]
+8a:["x-forwarded-proto","http"]
+8b:["x-real-ip","172.18.0.1"]
+8c:["x-forwarded-port","3000"]
+8d:["content-security-policy","default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+8e:["x-nonce","GfExZnjg7RoFpnhHfa3p0A=="]
+8f:["x-plastship-locale","de"]
+90:["x-plastship-route-kind","public"]
+91:["cache-control","private, no-cache, must-revalidate"]
+92:["content-security-policy-report-only","default-src 'self'; script-src 'self' 'nonce-GfExZnjg7RoFpnhHfa3p0A==' 'strict-dynamic' 'wasm-unsafe-eval' 'report-sample' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+93:["permissions-policy","camera=(), microphone=(self), geolocation=(), interest-cohort=()"]
+94:["referrer-policy","same-origin"]
+95:["reporting-endpoints","csp-endpoint=\"https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local\""]
+96:["strict-transport-security","max-age=63072000; includeSubDomains; preload"]
+97:["x-content-type-options","nosniff"]
+98:["x-frame-options","DENY"]
+6f:["$81","$82","$83","$84","$85","$86","$87","$88","$89","$8a","$8b","$8c","$8d","$8e","$8f","$90","$91","$92","$93","$94","$95","$96","$97","$98"]
+76:{}
+99:{"time":228.23212499916553}
+9a:{"time":228.2423329986632}
+9b:[]
+9c:[]
+9d:[]
+9e:[]
+9f:[]
+a0:[]
+a1:[]
+a2:[]
+a3:[]
+a4:[]
+a5:[]
+a6:[]
+a7:[]
+a8:[]
+a9:[]
+aa:[]
+ab:[]
+ac:[]
+ad:[]
+ae:[]
+af:[]
+b0:[]
+b1:[]
+b2:[]
+b3:[]
+b4:[]
+b5:[]
+b6:[]
+b7:[]
+b8:[]
+b9:[]
+ba:[]
+bb:[]
+bc:[]
+bd:[]
+be:[]
+bf:[]
+c0:[]
+c1:[]
+c2:[]
+c3:[]
+c4:[]
+c7:{"time":0.581165999174118}
+c8:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+c9:{"awaited":"$6d","env":"Server","owner":"$16","stack":"$c8"}
+ca:{"time":58.37808299809694}
+cc:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+cb:J{"name":"cookies","start":58.81987499818206,"end":236.9826250001788,"env":"Server","stack":"$cc","owner":"$16","value":"$@cd"}
+ce:{"time":58.848457999527454}
+cf:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+d0:{"awaited":"$cb","env":"Server","owner":"$16","stack":"$cf"}
+d1:{"time":236.98516700044274}
+d3:[["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",196,44,195,1,false]]
+d2:J{"name":"laden","start":1.3855409994721413,"end":4.262540999799967,"env":"Server","stack":"$d3","owner":"$2b","value":"$@d4"}
+d5:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",196,44,195,1,false]]
+d6:{"awaited":"$d2","env":"Server","owner":"$2b","stack":"$d5"}
+d7:{"time":236.98516700044274}
+d8:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",178,44,177,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+d9:{"awaited":"$74","env":"Server","owner":"$38","stack":"$d8"}
+da:{"time":236.98516700044274}
+dc:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+db:J{"name":"","start":-0.4007500000298023,"end":58.34316600114107,"env":"Server","stack":"$dc","value":"$@dd"}
+de:[["sprachParameter","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",160,31,159,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",210,431,195,1,false]]
+df:{"awaited":"$db","env":"Server","owner":"$2b","stack":"$de"}
+e0:{"time":236.98516700044274}
+cd:[]
+d4:{}
+dd:"$undefined"
+e1:[["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,24,1071,1,true],["Promise.all","",0,0,0,0,true],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",222,48,195,1,true]]
+e2:{"time":1.4202079996466637}
+e3:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",196,44,195,1,false]]
+e4:{"awaited":"$d2","env":"Server","owner":"$2b","stack":"$e3"}
+e5:{"time":58.34899999946356}
+e6:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",178,44,177,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+e7:{"awaited":"$74","env":"Server","owner":"$38","stack":"$e6"}
+e8:{"time":58.34899999946356}
+e9:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",157,421,157,234,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",179,39,177,1,false]]
+ea:{"awaited":"$6d","env":"Server","owner":"$38","stack":"$e9"}
+eb:{"time":58.477540999650955}
+ec:{"time":59.05120800063014}
+ed:[["sprachParameter","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",160,31,159,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",210,431,195,1,false]]
+ee:{"awaited":"$db","env":"Server","owner":"$2b","stack":"$ed"}
+ef:{"time":59.06758299842477}
+f0:{"time":59.27833300083876}
+f1:[["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13518,212,13516,245,false],["resolveCmsDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13531,9,13524,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",158,520,158,333,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",210,412,195,1,false]]
+f2:{"awaited":"$cb","env":"Server","owner":"$2b","stack":"$f1"}
+f3:{"time":241.74599999934435}
+f5:[["loadCmsTranslationStates","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",11066,40,11066,1,false],["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,214,1071,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",223,192,195,1,false]]
+f4:J{"name":"loadCmsTranslationStates","start":242.6859170012176,"end":242.80370799824595,"env":"Server","stack":"$f5","owner":"$2b","value":"$@f6"}
+f7:{"time":242.72504200041294}
+f8:[["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,214,1071,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",223,192,195,1,false]]
+f9:{"awaited":"$f4","env":"Server","owner":"$2b","stack":"$f8"}
+fa:{"time":250.1033330000937}
+f6:
+fb:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2425,256,2369,1,false]]
+fc:{"time":340.5627079978585}
+fd:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2429,270,2369,1,false]]
+fe:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2431,268,2369,1,false]]
+ff:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2443,268,2369,1,false]]
+100:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2454,268,2369,1,false]]
+104:[["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",226,267,195,1,false]]
+105:{"time":341.7496250011027}
+117:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2457,282,2369,1,false]]
+118:{"time":365.8101669996977}
+11b:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2458,286,2369,1,false]]
+11f:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2461,290,2369,1,false]]
+122:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2463,288,2369,1,false]]
+126:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2465,302,2369,1,false]]
+129:[["Promise.all","",0,0,0,0,true]]
+12e:[["Promise.all","",0,0,0,0,true]]
+12f:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+130:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+131:[["Promise.all","",0,0,0,0,true]]
+132:[]
+134:{"name":"NotFound","key":null,"env":"Server","stack":[],"props":{}}
+135:{"time":366.2322079986334}
+136:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",87,263,86,1,false]]
+137:{"time":366.30583300068974}
+13c:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",88,270,86,1,false]]
+13f:[["Promise.all","",0,0,0,0,true]]
+140:[["Promise.all","",0,0,0,0,true]]
+141:[["Promise.all","",0,0,0,0,true]]
+142:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2479,288,2369,1,false]]
+145:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2484,288,2369,1,false]]
+148:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$2b","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1341,245,1340,52,false],["Array.forEach","",0,0,0,0,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1340,44,1301,32,false],["Array.map","",0,0,0,0,false],["renderCmsMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1301,28,1295,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",216,221,195,1,false]],"props":{"content":"Auswahl geprüfter Rezyklatqualitäten für sichere Materialentscheidungen","remarkPlugins":"$undefined"}}
+149:{"time":366.5181250013411}
+14b:"$EObject.defineProperty(function SiteMarkdownLink({ href, children }) {\n    const ziel = href ?? '#';\n    const zweck = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$LinkPurpose$2f$LinkPurpose$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"LinkPurpose\"], {\n        text: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$a11y$2f$linkPurpose$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"textOfChildren\"])(children),\n        href: ziel\n    }, void 0, false, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 92,\n        columnNumber: 17\n    }, this);\n    if (ziel.startsWith('/') && !ziel.startsWith('//') && !istDatei(ziel)) {\n        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$NavLink$2f$NavLink$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NavLink\"], {\n            href: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$trailingSlash$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"ensureTrailingSlashHref\"])(ziel),\n            children: [\n                children,\n                zweck\n            ]\n        }, void 0, true, {\n            fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n            lineNumber: 95,\n            columnNumber: 7\n        }, this);\n    }\n    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(\"a\", {\n        href: ziel,\n        ...(0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"externalLinkProps\"])(ziel),\n        children: [\n            children,\n            zweck\n        ]\n    }, void 0, true, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 102,\n        columnNumber: 5\n    }, this);\n},\"name\",{value:\"SiteMarkdownLink\"})"
+14c:"$EObject.defineProperty((url)=>TEL.test(url) ? url : (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"defaultUrlTransform\"])(url),\"name\",{value:\"siteUrlTransform\"})"
+14d:"$EObject.defineProperty(function rehypePageHeading(options = {}) {\n    const zeile = options.pageHeadingLine ?? null;\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    // `#` sieht aus wie die h2, aus der es jetzt wird\n                    const aussehen = Math.max(2, Number(match[1]));\n                    if (zeile !== null && node.position?.start.line === zeile) {\n                        node.tagName = 'h1';\n                        node.properties['data-render-as'] = String(aussehen);\n                    } else if (node.tagName === 'h1') {\n                        node.tagName = 'h2';\n                    }\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypePageHeading\"})"
+14e:"$EObject.defineProperty(function rehypeSiteImages(options = {}) {\n    return (tree)=>{\n        let index = 0;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    Object.assign(node.properties, siteImageProperties(node.properties['src'], index, options));\n                    index += 1;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeSiteImages\"})"
+14f:"$EObject.defineProperty(function rehypeImageAlt(options = {}) {\n    const content = options.content ?? '';\n    const quelle = {\n        headings: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownHeadings\"])(content),\n        lead: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownLead\"])(content)\n    };\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    const eigener = node.properties['alt'];\n                    node.properties['alt'] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"imageAltFor\"])(typeof eigener === 'string' ? eigener : undefined, node.position?.start.line, quelle, options.fallback);\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeImageAlt\"})"
+150:"$EObject.defineProperty(function rehypeHeadingOrder(options = {}) {\n    return (tree)=>{\n        let previous = options.parentLevel ?? 1;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    const chosen = Number(match[1]);\n                    const level = headingLevel(chosen, previous);\n                    if (level !== chosen) {\n                        node.tagName = `h${level}`;\n                        node.properties['data-render-as'] = String(chosen);\n                    }\n                    previous = level;\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeHeadingOrder\"})"
+151:"$EObject.defineProperty(function rehypeExternalLinks() {\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'a') {\n                    const href = node.properties['href'];\n                    if (typeof href === 'string' && (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"isExternalHref\"])(href)) {\n                        const rel = relListe(node.properties['rel']);\n                        for (const noetig of __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_REL\"].split(' ')){\n                            if (!rel.some((r)=>r.toLowerCase() === noetig)) rel.push(noetig);\n                        }\n                        node.properties['rel'] = rel;\n                        node.properties['target'] = '_blank';\n                        node.properties['referrerPolicy'] = __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_POLICY\"];\n                    }\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeExternalLinks\"})"
+14a:{"name":"Markdown","key":null,"env":"Server","owner":"$148","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":{"a":"$14b"},"urlTransform":"$14c","remarkPlugins":"$undefined","rehypePlugins":[["$14d",{"pageHeadingLine":null}],["$14e",{"eagerFirst":false}],["$14f","$Y"],"$150","$151"],"children":"Auswahl geprüfter Rezyklatqualitäten für sichere Materialentscheidungen"}}
+152:{"time":366.59133299812675}
+153:[]
+154:{"time":366.8622500002384}
+155:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$2b","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1341,245,1340,52,false],["Array.forEach","",0,0,0,0,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1340,44,1301,32,false],["Array.map","",0,0,0,0,false],["renderCmsMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1301,28,1295,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",216,221,195,1,false]],"props":{"content":"Unsere Auswahl an Top-Rezyklaten bietet Ihnen geprüfte und einsatzfähige Kunststoffrezyklate für unterschiedliche Anwendungen.","remarkPlugins":"$undefined"}}
+156:{"time":366.9167499989271}
+157:{"name":"Markdown","key":null,"env":"Server","owner":"$155","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":"$14a:props:components","urlTransform":"$14c","remarkPlugins":"$undefined","rehypePlugins":[["$14d",{"pageHeadingLine":null}],["$14e",{"eagerFirst":false}],["$14f",{"content":"Unsere Auswahl an Top-Rezyklaten bietet Ihnen geprüfte und einsatzfähige Kunststoffrezyklate für unterschiedliche Anwendungen.","fallback":"$undefined"}],"$150","$151"],"children":"Unsere Auswahl an Top-Rezyklaten bietet Ihnen geprüfte und einsatzfähige Kunststoffrezyklate für unterschiedliche Anwendungen."}}
+158:{"time":366.9729579985142}
+159:[]
+15a:{"time":367.1494579985738}
+15b:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$2b","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1341,245,1340,52,false],["Array.forEach","",0,0,0,0,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1340,44,1301,32,false],["Array.map","",0,0,0,0,false],["renderCmsMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1301,28,1295,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",216,221,195,1,false]],"props":{"content":"Alle Materialien basieren auf qualifizierten Stoffströmen, erfüllen regulatorische Anforderungen und sind hinsichtlich Qualität und Einsatzfähigkeit bewertet.","remarkPlugins":"$undefined"}}
+15c:{"time":367.19629199802876}
+15d:{"name":"Markdown","key":null,"env":"Server","owner":"$15b","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":"$14a:props:components","urlTransform":"$14c","remarkPlugins":"$undefined","rehypePlugins":[["$14d",{"pageHeadingLine":null}],["$14e",{"eagerFirst":false}],["$14f",{"content":"Alle Materialien basieren auf qualifizierten Stoffströmen, erfüllen regulatorische Anforderungen und sind hinsichtlich Qualität und Einsatzfähigkeit bewertet.","fallback":"$undefined"}],"$150","$151"],"children":"Alle Materialien basieren auf qualifizierten Stoffströmen, erfüllen regulatorische Anforderungen und sind hinsichtlich Qualität und Einsatzfähigkeit bewertet."}}
+15e:{"time":367.23324999958277}
+15f:[]
+160:{"time":367.381207998842}
+161:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$2b","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1308,232,1301,32,false],["Array.map","",0,0,0,0,false],["renderCmsMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1301,28,1295,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",216,221,195,1,false]],"props":{"content":"## Frage zu Materialien oder Materialien im Angebot?\n\nKontaktieren Sie uns gerne, wenn Sie bestimmte Materialien suchen oder anbieten können.","eagerFirstImage":false,"pageHeading":false,"remarkPlugins":"$undefined"}}
+162:{"time":367.41962499916553}
+163:{"name":"Markdown","key":null,"env":"Server","owner":"$161","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":"$14a:props:components","urlTransform":"$14c","remarkPlugins":"$undefined","rehypePlugins":[["$14d",{"pageHeadingLine":null}],["$14e",{"eagerFirst":false}],["$14f",{"content":"## Frage zu Materialien oder Materialien im Angebot?\n\nKontaktieren Sie uns gerne, wenn Sie bestimmte Materialien suchen oder anbieten können.","fallback":"$undefined"}],"$150","$151"],"children":"## Frage zu Materialien oder Materialien im Angebot?\n\nKontaktieren Sie uns gerne, wenn Sie bestimmte Materialien suchen oder anbieten können."}}
+164:{"time":367.4526249989867}
+165:{"time":367.6365419998765}
+166:[]
+167:[]
+168:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$2b","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1323,242,1322,47,false],["Array.forEach","",0,0,0,0,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1322,39,1301,32,false],["Array.map","",0,0,0,0,false],["renderCmsMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1301,28,1295,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",216,221,195,1,false]],"props":{"content":"In diesem Fall wird ein passendes Rezyklat gezielt für Ihre Anwendung gesourct oder entwickelt.","remarkPlugins":"$undefined"}}
+169:{"time":367.70425000041723}
+16a:{"name":"Markdown","key":null,"env":"Server","owner":"$168","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":"$14a:props:components","urlTransform":"$14c","remarkPlugins":"$undefined","rehypePlugins":[["$14d",{"pageHeadingLine":null}],["$14e",{"eagerFirst":false}],["$14f",{"content":"In diesem Fall wird ein passendes Rezyklat gezielt für Ihre Anwendung gesourct oder entwickelt.","fallback":"$undefined"}],"$150","$151"],"children":"In diesem Fall wird ein passendes Rezyklat gezielt für Ihre Anwendung gesourct oder entwickelt."}}
+16b:{"time":367.73570799827576}
+16c:[]
+16d:{"time":367.85024999827147}
+16e:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$2b","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1323,242,1322,47,false],["Array.forEach","",0,0,0,0,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1322,39,1301,32,false],["Array.map","",0,0,0,0,false],["renderCmsMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1301,28,1295,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",216,221,195,1,false]],"props":{"content":"Die Auswahl basiert auf Qualität, Stoffstrom, regulatorischen Anforderungen und praktischer Einsatzfähigkeit in Anwendungen.","remarkPlugins":"$undefined"}}
+16f:{"time":367.88058299943805}
+170:{"name":"Markdown","key":null,"env":"Server","owner":"$16e","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":"$14a:props:components","urlTransform":"$14c","remarkPlugins":"$undefined","rehypePlugins":[["$14d",{"pageHeadingLine":null}],["$14e",{"eagerFirst":false}],["$14f",{"content":"Die Auswahl basiert auf Qualität, Stoffstrom, regulatorischen Anforderungen und praktischer Einsatzfähigkeit in Anwendungen.","fallback":"$undefined"}],"$150","$151"],"children":"Die Auswahl basiert auf Qualität, Stoffstrom, regulatorischen Anforderungen und praktischer Einsatzfähigkeit in Anwendungen."}}
+171:{"time":367.9140419997275}
+172:[]
+173:{"time":368.0414169989526}
+174:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$2b","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1323,242,1322,47,false],["Array.forEach","",0,0,0,0,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1322,39,1301,32,false],["Array.map","",0,0,0,0,false],["renderCmsMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1301,28,1295,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",216,221,195,1,false]],"props":{"content":"Top-Rezyklate sind geprüfte Kunststoffrezyklate mit definierter Qualität, nachvollziehbarer Herkunft und hoher Einsatzfähigkeit.","remarkPlugins":"$undefined"}}
+175:{"time":368.0824170000851}
+176:{"name":"Markdown","key":null,"env":"Server","owner":"$174","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":"$14a:props:components","urlTransform":"$14c","remarkPlugins":"$undefined","rehypePlugins":[["$14d",{"pageHeadingLine":null}],["$14e",{"eagerFirst":false}],["$14f",{"content":"Top-Rezyklate sind geprüfte Kunststoffrezyklate mit definierter Qualität, nachvollziehbarer Herkunft und hoher Einsatzfähigkeit.","fallback":"$undefined"}],"$150","$151"],"children":"Top-Rezyklate sind geprüfte Kunststoffrezyklate mit definierter Qualität, nachvollziehbarer Herkunft und hoher Einsatzfähigkeit."}}
+177:{"time":368.11462499946356}
+178:[]
+179:{"time":368.2279580011964}

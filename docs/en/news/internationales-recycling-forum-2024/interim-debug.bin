@@ -1,0 +1,338 @@
+:N1793317106279.162
+3:"$EObject.defineProperty(()=>{ctx.componentMod.preloadStyle(fullHref,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+4:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+5:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+6:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+2:{"name":"Preloads","key":null,"env":"Server","stack":[],"props":{"preloadCallbacks":["$3","$4","$5","$6"]}}
+7:{"time":0.1072079986333847}
+8:{"time":0.12470799684524536}
+9:[]
+f:[]
+11:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+12:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+13:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+14:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+17:I["[project]/node_modules/next/dist/client/components/layout-router.js [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js"],"default"]
+19:I["[project]/apps/web/src/app/error.tsx [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js","/_next/static/chunks/apps_web_src_app_components_Template_Default_Default_tsx_0cwoqne_kn9rg._.js","/_next/static/chunks/apps_web_src_app_0lnso837mnog3._.js"],"default"]
+1a:{"type":"error","pagePath":"error.tsx","children":[]}
+1b:[["Promise.all","",0,0,0,0,true]]
+18:{"parallelRouterKey":"children","error":"$19","errorStyles":["$","$Le",null,"$1a",null,"$1b",0],"errorScripts":"$Y","template":"$Y","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$Y","forbidden":"$undefined","unauthorized":"$undefined","segmentViewBoundaries":"$Y"}
+1c:[["Promise.all","",0,0,0,0,true]]
+16:{"name":"RootLayout","key":null,"env":"Server","stack":[],"props":{"children":["$","$L17",null,"$18",null,"$1c",1],"params":"$Y"}}
+1d:{"time":0.44954099878668785}
+1f:[["Promise.all","",0,0,0,0,true]]
+20:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+23:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+28:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+29:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2a:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2c:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2d:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2f:{"name":"NewsArticlePage","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"params":"$@30","searchParams":"$@31"}}
+32:{"time":1.2864159978926182}
+33:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+34:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+35:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+38:"$EObject.defineProperty(()=>__turbopack_context__.r(\"[project]/apps/web/src/app/news/[slug]/page.tsx [app-rsc] (ecmascript, Next.js Server Component)\"),\"name\",{value:\"\"})"
+37:{"name":"Next.MetadataOutlet","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"tree":["__PAGE__",{},{"metadata":{},"page":["$38","[project]/apps/web/src/app/news/[slug]/page.tsx"]},[]]}}
+39:{"time":1.6328749991953373}
+3a:[]
+3b:{"time":2.9317079968750477}
+3e:[]
+41:[]
+44:"$EObject.defineProperty(function(type,config,children){for(var propName,i=2;i<arguments.length;i++)validateChildKeys(arguments[i]);i={};var key=null;if(null!=config)for(propName in didWarnAboutOldJSXRuntime||!(\"__self\"in config)||\"key\"in config||(didWarnAboutOldJSXRuntime=!0,console.warn(\"Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform\")),hasValidKey(config)&&(checkKeyStringCoercion(config.key),key=\"\"+config.key),config)hasOwnProperty.call(config,propName)&&\"key\"!==propName&&\"__self\"!==propName&&\"__source\"!==propName&&(i[propName]=config[propName]);var childrenLength=arguments.length-2;if(1===childrenLength)i.children=children;else if(1<childrenLength){for(var childArray=Array(childrenLength),_i=0;_i<childrenLength;_i++)childArray[_i]=arguments[_i+2];Object.freeze&&Object.freeze(childArray),i.children=childArray}if(type&&type.defaultProps)for(propName in childrenLength=type.defaultProps)void 0===i[propName]&&(i[propName]=childrenLength[propName]);return key&&function(props,displayName){function warnAboutAccessingKey(){specialPropKeyWarningShown||(specialPropKeyWarningShown=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",displayName))}warnAboutAccessingKey.isReactWarning=!0,Object.defineProperty(props,\"key\",{get:warnAboutAccessingKey,configurable:!0})}(i,\"function\"==typeof type?type.displayName||type.name||\"Unknown\":type),(propName=1e4>ReactSharedInternals.recentlyCreatedOwnerStacks++)?(childArray=Error.stackTraceLimit,Error.stackTraceLimit=10,childrenLength=Error(\"react-stack-top-frame\"),Error.stackTraceLimit=childArray):childrenLength=unknownOwnerDebugStack,ReactElement(type,key,i,getOwner(),childrenLength,propName?createTask(getTaskName(type)):unknownOwnerDebugTask)},\"name\",{value:\"\"})"
+43:{"name":"NonIndex","key":null,"env":"Server","stack":[],"props":{"createElement":"$44","pagePath":"/news/[slug]","statusCode":200,"isPossibleServerAction":false}}
+45:{"time":3.20533299818635}
+46:{"time":3.209165997803211}
+48:{"name":"ViewportWrapper","key":null,"env":"Server","stack":[],"props":{}}
+49:{"time":3.22987499833107}
+4a:[]
+4b:{"time":3.268665999174118}
+4f:{"name":"Next.Viewport","key":null,"env":"Server","owner":"$48","stack":[],"props":{}}
+50:{"time":3.291999999433756}
+52:{"name":"MetadataWrapper","key":null,"env":"Server","stack":[],"props":{}}
+53:{"time":3.6089999973773956}
+54:[]
+55:{"time":3.677957996726036}
+58:[]
+59:[]
+5b:{"name":"Next.Metadata","key":null,"env":"Server","owner":"$52","stack":[],"props":{}}
+5c:{"time":3.7225829996168613}
+5e:{"name":"MetadataBlocker","key":null,"env":"Server","owner":"$52","stack":[],"props":{}}
+5f:{"time":4.01120799779892}
+60:{"time":4.012999996542931}
+61:[]
+66:[]
+67:[]
+30:{"slug":"internationales-recycling-forum-2024"}
+31:
+68:{"time":5.547332998365164}
+69:[]
+6a:[]
+6b:[]
+6d:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+6c:J{"name":"headers","start":0.5965409986674786,"end":47.343874998390675,"env":"Server","stack":"$6d","owner":"$16","value":"$@6e"}
+6f:{"time":4.562457997351885}
+70:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+71:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$70"}
+72:{"time":47.45974999666214}
+73:{"time":4.562457997351885}
+74:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+75:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$74"}
+76:{"time":47.45974999666214}
+77:["host","localhost"]
+78:["user-agent","plastship-interim-mirror"]
+79:["accept","text/html"]
+7a:["accept-encoding","gzip, deflate"]
+7b:["accept-language","*"]
+7c:["sec-fetch-mode","cors"]
+7d:["via","1.1 Caddy"]
+7e:["x-forwarded-for","172.18.0.1"]
+7f:["x-forwarded-host","localhost"]
+80:["x-forwarded-proto","http"]
+81:["x-real-ip","172.18.0.1"]
+82:["x-forwarded-port","3000"]
+83:["content-security-policy","default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+84:["x-nonce","/9cmLwvh3uX8LukTQTBAqQ=="]
+85:["x-plastship-locale","en"]
+86:["x-plastship-route-kind","public"]
+87:["cache-control","private, no-cache, must-revalidate"]
+88:["content-security-policy-report-only","default-src 'self'; script-src 'self' 'nonce-/9cmLwvh3uX8LukTQTBAqQ==' 'strict-dynamic' 'wasm-unsafe-eval' 'report-sample' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+89:["permissions-policy","camera=(), microphone=(self), geolocation=(), interest-cohort=()"]
+8a:["referrer-policy","same-origin"]
+8b:["reporting-endpoints","csp-endpoint=\"https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local\""]
+8c:["strict-transport-security","max-age=63072000; includeSubDomains; preload"]
+8d:["x-content-type-options","nosniff"]
+8e:["x-frame-options","DENY"]
+6e:["$77","$78","$79","$7a","$7b","$7c","$7d","$7e","$7f","$80","$81","$82","$83","$84","$85","$86","$87","$88","$89","$8a","$8b","$8c","$8d","$8e"]
+8f:{"time":111.71258299797773}
+90:{"time":111.72070799767971}
+91:[]
+92:[]
+93:[]
+94:[]
+95:[]
+96:[]
+97:[]
+98:[]
+99:[]
+9a:[]
+9b:[]
+9c:[]
+9d:[]
+9e:[]
+9f:[]
+a0:[]
+a1:[]
+a2:[]
+a3:[]
+a4:[]
+a5:[]
+a6:[]
+a7:[]
+a8:[]
+a9:[]
+aa:[]
+ab:[]
+ac:[]
+ad:[]
+ae:[]
+af:[]
+b0:[]
+b1:[]
+b2:[]
+b3:[]
+b4:[]
+b5:[]
+b6:[]
+b7:[]
+b8:[]
+b9:[]
+ba:[]
+bd:{"time":0.652540996670723}
+be:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+bf:{"awaited":"$6c","env":"Server","owner":"$16","stack":"$be"}
+c0:{"time":47.34629099816084}
+c2:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+c1:J{"name":"cookies","start":47.810582999140024,"end":120.37608299776912,"env":"Server","stack":"$c2","owner":"$16","value":"$@c3"}
+c4:{"time":47.84008299931884}
+c5:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+c6:{"awaited":"$c1","env":"Server","owner":"$16","stack":"$c5"}
+c7:{"time":120.37874999642372}
+c3:[]
+c8:[]
+c9:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2425,256,2369,1,false]]
+ca:{"time":215.9832919985056}
+cb:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2429,270,2369,1,false]]
+cc:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2431,268,2369,1,false]]
+cd:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2443,268,2369,1,false]]
+ce:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2454,268,2369,1,false]]
+d2:[["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,24,1071,1,true],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,24,1086,1,true],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+d3:{"time":4.562457997351885}
+d4:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+d5:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$d4"}
+d6:{"time":47.45974999666214}
+d7:{"time":48.093457996845245}
+d8:[["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13518,212,13516,245,false],["resolveCmsDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13531,9,13524,1,false],["resolveCmsPublicDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13540,12,13539,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",370,188,361,1,false]]
+d9:{"awaited":"$c1","env":"Server","owner":"$2f","stack":"$d8"}
+da:{"time":131.43062499910593}
+db:{"name":"NewsArticlePage","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"params":"$@dc","searchParams":"$@dd"}}
+de:J{"name":"","start":-2972.2533770017326,"end":136.21808299794793,"env":"Server","owner":"$db","value":"$@df"}
+e0:{"time":132.05595799908042}
+e1:[["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1088,204,1086,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",392,194,361,1,false]]
+e2:{"awaited":"$de","env":"Server","owner":"$2f","stack":"$e1"}
+e3:{"time":136.37662499770522}
+e5:[["loadCmsTranslationStates","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",11066,40,11066,1,false],["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,214,1071,1,false],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,30,1086,1,false],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+e4:J{"name":"loadCmsTranslationStates","start":136.42624999955297,"end":136.4831249974668,"env":"Server","stack":"$e5","owner":"$2f","value":"$@e6"}
+e7:{"time":136.463041998446}
+e8:[["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,214,1071,1,false],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,30,1086,1,false],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+e9:{"awaited":"$e4","env":"Server","owner":"$2f","stack":"$e8"}
+ea:{"time":220.67333299666643}
+dc:{"slug":"fachpack-2025-rueckblick"}
+dd:{}
+df:"$undefined"
+e6:
+eb:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2457,282,2369,1,false]]
+ec:{"time":232.23974999785423}
+ef:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2458,286,2369,1,false]]
+f3:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2461,290,2369,1,false]]
+f6:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2463,288,2369,1,false]]
+fa:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2465,302,2369,1,false]]
+fd:[["Promise.all","",0,0,0,0,true]]
+102:[["Promise.all","",0,0,0,0,true]]
+103:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+104:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+105:[["Promise.all","",0,0,0,0,true]]
+106:[]
+108:{"name":"NotFound","key":null,"env":"Server","stack":[],"props":{}}
+109:{"time":232.57833299785852}
+10a:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",87,263,86,1,false]]
+10b:{"time":232.62849999964237}
+110:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",88,270,86,1,false]]
+113:[["Promise.all","",0,0,0,0,true]]
+114:[["Promise.all","",0,0,0,0,true]]
+115:[["Promise.all","",0,0,0,0,true]]
+116:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2479,288,2369,1,false]]
+119:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2484,288,2369,1,false]]
+11c:[["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",395,263,361,1,false]]
+11d:{"time":232.814291998744}
+127:Tbe6,*Waldems, July 2024 –* plastship is pleased to participate as a sponsor and exhibitor at the [4th International Recycling Forum](https://www.international-recycling-forum.de/en/) organized by [RIGK](/partners/)in collaboration with the European Association of Plastics Recycling and Recovery Organisations ([EPRO](https://epro-plasticscircularity.org/)). The event will take place on **December 10 and 11, 2024, at the Dorint Hotel in Wiesbaden, Germany**, under the theme **"Networking towards a Circular Economy."**
+
+The Recycling Forum offers a unique opportunity to actively shape the future of plastics recycling and discuss innovative solutions for a sustainable circular economy. Key topics include:
+
+- Use of recyclates
+- Design for recycling
+- Innovative and chemical recycling technologies
+- Collection and recycling of agricultural plastics
+
+An accompanying exhibition allows for direct contact with leading companies in the industry. The last forum in 2019 recorded 150 participants from 22 countries. The conference language is English.
+
+In addition to plastship, renowned companies such as [EREMA Group GmbH](https://erema-group.com/en), [Herbold Meckesheim GmbH](https://www.herbold.com/en/) and [Hessen Trade & Invest GmbH](https://www.htai.de/), with which RIGK has already successfully advanced funding projects in collaboration with plastship, are among the sponsors and exhibitors for 2024. Media partners [Circular Technology](https://circular-technology.com/en/), [Kunststoff Information](https://www.kiweb.de/), and [Plastics Information Europe](https://pieweb.plasteurope.com/) will support the high-caliber program and report on the speakers' contributions.
+
+**Save the date and become part of the Recycling Forum**
+
+The Recycling Forum is the perfect opportunity to further advance the circular economy with plastics. The entire value chain of plastics recycling is represented, both in the exhibitor area and among the participants. From raw material manufacturers to processors, recycling and technology companies, as well as EPR systems from around the world, the forum brings together all relevant stakeholders.
+
+*“The forum provides a unique platform to discuss the latest developments and challenges in plastics recycling,"* explains plastship CEO Andreas Bastian. He adds, *"After our successful participation in the last forum, we are very much looking forward to sharing best practices with all participants. This is crucial to strengthening the circular economy and developing sustainable solutions. We look forward to shaping the future of plastic recycling together with our partners and forum participants.”*
+
+Register for the forum [here](https://www.international-recycling-forum.de/en/registration). We look forward to your participation and advancing the circular economy together.
+
+If you have questions or suggestions, please contact me!
+
+**Mirco Gattinger**, Marketing & Social Media Manager\
+[+49 172 1369 774](tel:+49-172-1369-774) · [gattinger@plastship.com](mailto:gattinger@plastship.com)128:"$EObject.defineProperty(function remarkGfm(options) {\n    // @ts-expect-error: TS is wrong about `this`.\n    // eslint-disable-next-line unicorn/no-this-assignment\n    const self = this;\n    const settings = options || emptyOptions;\n    const data = self.data();\n    const micromarkExtensions = data.micromarkExtensions || (data.micromarkExtensions = []);\n    const fromMarkdownExtensions = data.fromMarkdownExtensions || (data.fromMarkdownExtensions = []);\n    const toMarkdownExtensions = data.toMarkdownExtensions || (data.toMarkdownExtensions = []);\n    micromarkExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$micromark$2d$extension$2d$gfm$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfm\"])(settings));\n    fromMarkdownExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$mdast$2d$util$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfmFromMarkdown\"])());\n    toMarkdownExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$mdast$2d$util$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfmToMarkdown\"])(settings));\n},\"name\",{value:\"remarkGfm\"})"
+126:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$2f","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",381,202,361,1,false]],"props":{"content":"$127","eagerFirstImage":false,"imageAlt":"International Recycling Forum 2024 – plastship is participating!","remarkPlugins":["$128"]}}
+129:{"time":266.8667919971049}
+12b:"$EObject.defineProperty(function SiteMarkdownLink({ href, children }) {\n    const ziel = href ?? '#';\n    const zweck = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$LinkPurpose$2f$LinkPurpose$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"LinkPurpose\"], {\n        text: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$a11y$2f$linkPurpose$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"textOfChildren\"])(children),\n        href: ziel\n    }, void 0, false, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 92,\n        columnNumber: 17\n    }, this);\n    if (ziel.startsWith('/') && !ziel.startsWith('//') && !istDatei(ziel)) {\n        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$NavLink$2f$NavLink$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NavLink\"], {\n            href: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$trailingSlash$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"ensureTrailingSlashHref\"])(ziel),\n            children: [\n                children,\n                zweck\n            ]\n        }, void 0, true, {\n            fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n            lineNumber: 95,\n            columnNumber: 7\n        }, this);\n    }\n    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(\"a\", {\n        href: ziel,\n        ...(0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"externalLinkProps\"])(ziel),\n        children: [\n            children,\n            zweck\n        ]\n    }, void 0, true, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 102,\n        columnNumber: 5\n    }, this);\n},\"name\",{value:\"SiteMarkdownLink\"})"
+12c:"$EObject.defineProperty((url)=>TEL.test(url) ? url : (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"defaultUrlTransform\"])(url),\"name\",{value:\"siteUrlTransform\"})"
+12d:"$EObject.defineProperty(function rehypePageHeading(options = {}) {\n    const zeile = options.pageHeadingLine ?? null;\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    // `#` sieht aus wie die h2, aus der es jetzt wird\n                    const aussehen = Math.max(2, Number(match[1]));\n                    if (zeile !== null && node.position?.start.line === zeile) {\n                        node.tagName = 'h1';\n                        node.properties['data-render-as'] = String(aussehen);\n                    } else if (node.tagName === 'h1') {\n                        node.tagName = 'h2';\n                    }\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypePageHeading\"})"
+12e:"$EObject.defineProperty(function rehypeSiteImages(options = {}) {\n    return (tree)=>{\n        let index = 0;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    Object.assign(node.properties, siteImageProperties(node.properties['src'], index, options));\n                    index += 1;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeSiteImages\"})"
+12f:"$EObject.defineProperty(function rehypeImageAlt(options = {}) {\n    const content = options.content ?? '';\n    const quelle = {\n        headings: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownHeadings\"])(content),\n        lead: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownLead\"])(content)\n    };\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    const eigener = node.properties['alt'];\n                    node.properties['alt'] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"imageAltFor\"])(typeof eigener === 'string' ? eigener : undefined, node.position?.start.line, quelle, options.fallback);\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeImageAlt\"})"
+130:"$EObject.defineProperty(function rehypeHeadingOrder(options = {}) {\n    return (tree)=>{\n        let previous = options.parentLevel ?? 1;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    const chosen = Number(match[1]);\n                    const level = headingLevel(chosen, previous);\n                    if (level !== chosen) {\n                        node.tagName = `h${level}`;\n                        node.properties['data-render-as'] = String(chosen);\n                    }\n                    previous = level;\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeHeadingOrder\"})"
+131:"$EObject.defineProperty(function rehypeExternalLinks() {\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'a') {\n                    const href = node.properties['href'];\n                    if (typeof href === 'string' && (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"isExternalHref\"])(href)) {\n                        const rel = relListe(node.properties['rel']);\n                        for (const noetig of __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_REL\"].split(' ')){\n                            if (!rel.some((r)=>r.toLowerCase() === noetig)) rel.push(noetig);\n                        }\n                        node.properties['rel'] = rel;\n                        node.properties['target'] = '_blank';\n                        node.properties['referrerPolicy'] = __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_POLICY\"];\n                    }\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeExternalLinks\"})"
+12a:{"name":"Markdown","key":null,"env":"Server","owner":"$126","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":{"a":"$12b"},"urlTransform":"$12c","remarkPlugins":"$126:props:remarkPlugins","rehypePlugins":[["$12d",{"pageHeadingLine":null}],["$12e",{"eagerFirst":false}],["$12f","$Y"],"$130","$131"],"children":"$Y"}}
+132:{"time":266.9487079977989}
+133:{"time":270.30958299711347}
+134:[]
+135:[]
+137:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12a","stack":[],"props":{"href":"https://www.international-recycling-forum.de/en/","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://www.international-recycling-forum.de/en/","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"4th International Recycling Forum","position":{"start":{"line":1,"column":95,"offset":94},"end":"$Y"}}],"position":"$Y"},"children":"4th International Recycling Forum"}}
+138:{"time":270.3853329978883}
+139:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+13a:{"time":270.4416249990463}
+13b:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+13f:{"name":"SiteMarkdownLink","key":"a-1","env":"Server","owner":"$12a","stack":[],"props":{"href":"/partners/","node":{"type":"element","tagName":"a","properties":{"href":"/partners/"},"children":[{"type":"text","value":"RIGK","position":{"start":{"line":1,"column":194,"offset":193},"end":{"line":1,"column":198,"offset":197}}}],"position":"$Y"},"children":"RIGK"}}
+140:{"time":270.50312499701977}
+141:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",185,267,174,1,false]]
+142:{"time":270.54320799931884}
+145:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+147:{"name":"SiteMarkdownLink","key":"a-2","env":"Server","owner":"$12a","stack":[],"props":{"href":"https://epro-plasticscircularity.org/","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://epro-plasticscircularity.org/","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"EPRO","position":{"start":{"line":1,"column":309,"offset":308},"end":"$Y"}}],"position":"$Y"},"children":"EPRO"}}
+148:{"time":270.5852079987526}
+149:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+14a:{"time":270.62012499943376}
+14b:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+14c:[]
+14d:[]
+14e:[]
+14f:[]
+150:[]
+151:[]
+152:[]
+153:[]
+154:[]
+155:[]
+157:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12a","stack":[],"props":{"href":"https://erema-group.com/en","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://erema-group.com/en","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"EREMA Group GmbH","position":{"start":{"line":12,"column":55,"offset":1105},"end":"$Y"}}],"position":"$Y"},"children":"EREMA Group GmbH"}}
+158:{"time":270.76587499678135}
+159:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+15a:{"time":270.79870799928904}
+15b:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+15d:{"name":"SiteMarkdownLink","key":"a-1","env":"Server","owner":"$12a","stack":[],"props":{"href":"https://www.herbold.com/en/","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://www.herbold.com/en/","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"Herbold Meckesheim GmbH","position":{"start":{"line":12,"column":103,"offset":1153},"end":"$Y"}}],"position":"$Y"},"children":"Herbold Meckesheim GmbH"}}
+15e:{"time":270.82783299684525}
+15f:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+160:{"time":270.85841699689627}
+161:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+163:{"name":"SiteMarkdownLink","key":"a-2","env":"Server","owner":"$12a","stack":[],"props":{"href":"https://www.htai.de/","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://www.htai.de/","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"Hessen Trade & Invest GmbH","position":{"start":{"line":12,"column":162,"offset":1212},"end":"$Y"}}],"position":"$Y"},"children":"Hessen Trade & Invest GmbH"}}
+164:{"time":270.88612499833107}
+165:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+166:{"time":270.9206249974668}
+167:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+169:{"name":"SiteMarkdownLink","key":"a-3","env":"Server","owner":"$12a","stack":[],"props":{"href":"https://circular-technology.com/en/","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://circular-technology.com/en/","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"Circular Technology","position":{"start":{"line":12,"column":377,"offset":1427},"end":"$Y"}}],"position":"$Y"},"children":"Circular Technology"}}
+16a:{"time":270.9506669975817}
+16b:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+16c:{"time":270.99137499928474}
+16d:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+16f:{"name":"SiteMarkdownLink","key":"a-4","env":"Server","owner":"$12a","stack":[],"props":{"href":"https://www.kiweb.de/","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://www.kiweb.de/","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"Kunststoff Information","position":{"start":{"line":12,"column":437,"offset":1487},"end":"$Y"}}],"position":"$Y"},"children":"Kunststoff Information"}}
+170:{"time":271.0179169997573}
+171:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+172:{"time":271.05049999803305}
+173:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+175:{"name":"SiteMarkdownLink","key":"a-5","env":"Server","owner":"$12a","stack":[],"props":{"href":"https://pieweb.plasteurope.com/","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://pieweb.plasteurope.com/","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"Plastics Information Europe","position":{"start":{"line":12,"column":490,"offset":1540},"end":"$Y"}}],"position":"$Y"},"children":"Plastics Information Europe"}}
+176:{"time":271.0776249989867}
+177:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+178:{"time":271.10749999806285}
+179:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+17a:[]
+17b:[]
+17c:[]
+17d:[]
+17e:[]
+17f:[]
+180:[]
+182:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12a","stack":[],"props":{"href":"https://www.international-recycling-forum.de/en/registration","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://www.international-recycling-forum.de/en/registration","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"here","position":{"start":{"line":20,"column":25,"offset":2673},"end":"$Y"}}],"position":"$Y"},"children":"here"}}
+183:{"time":271.2277919985354}
+184:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+185:{"time":271.2622079998255}
+186:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+187:[]
+188:[]
+189:[]
+18a:[]
+18c:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12a","stack":[],"props":{"href":"tel:+49-172-1369-774","node":{"type":"element","tagName":"a","properties":{"href":"tel:+49-172-1369-774"},"children":[{"type":"text","value":"+49 172 1369 774","position":{"start":{"line":25,"column":2,"offset":2940},"end":{"line":25,"column":18,"offset":2956}}}],"position":"$Y"},"children":"+49 172 1369 774"}}
+18d:{"time":271.34154199808836}
+18e:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+18f:{"time":271.375}
+190:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+192:{"name":"SiteMarkdownLink","key":"a-1","env":"Server","owner":"$12a","stack":[],"props":{"href":"mailto:gattinger@plastship.com","node":{"type":"element","tagName":"a","properties":{"href":"mailto:gattinger@plastship.com"},"children":[{"type":"text","value":"gattinger@plastship.com","position":{"start":{"line":25,"column":45,"offset":2983},"end":{"line":25,"column":68,"offset":3006}}}],"position":"$Y"},"children":"gattinger@plastship.com"}}
+193:{"time":271.4034169986844}
+194:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+195:{"time":271.43637499958277}
+196:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]

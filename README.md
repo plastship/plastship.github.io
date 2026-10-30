@@ -1,154 +1,195 @@
-# plastship Interim-Seite (statischer Spiegel für GitHub Pages)
+# plastship Interim-Seite (statisches Abbild für GitHub Pages)
 
-Statische Kopie des öffentlichen, ausgeloggten Bereichs von plastship.com. Gedacht als
-Ausweichseite, falls der Live-Server ausfällt. Erzeugt aus der lokal laufenden App
+Statisches 1:1-Abbild des öffentlichen, ausgeloggten Bereichs von plastship.com, **mit CSS und
+JavaScript**: React hydriert im Browser wie auf der echten Seite. Waben-Hero-Slider (WebGL),
+Imagefilm-Animation, Menü-Flyouts, Mobilmenü, Hell/Dunkel-Schalter, Sprachumschalter und alle
+Animationen laufen. Es fehlt nur, was einen Server braucht (Login, Formulare, Messung).
+
+Gedacht als Ausweichseite, falls der Live-Server ausfällt. Erzeugt aus der lokal laufenden App
 (`http://localhost`, Stand dev).
 
 ## Inhalt
 
 ```
-interim-docs/
-├── docs/               fertiges Paket – dieser Inhalt kommt ins Pages-Repo
-├── interim-site.zip    dasselbe gepackt (Ordner docs/)
-├── build.sh            erzeugt docs/ und die ZIP neu
-├── tools/              build.py, snapshot.cjs, interim.js/.css, Testskripte
-└── shots/              Screenshots vom lokalen Test
+interim-site/
+├── docs/               fertiges Paket – das liefert GitHub Pages aus
+├── build.sh            erzeugt docs/ (und interim-site.zip) neu
+├── tools/
+│   ├── build.py        Routen, Umschreiben, Assets laden, Prüfung
+│   ├── fetch.cjs       Server-HTML + React-Debug-Daten je Route
+│   ├── crawl.cjs       öffnet jede Route im Browser, protokolliert nachgeladene Dateien
+│   ├── test.cjs        Browser-Test gegen das fertige Paket
+│   ├── interim-boot.js läuft vor den Next-Skripten (HMR-Platzhalter, Bild-URLs, SW-Registrierung)
+│   ├── interim-sw.js   Service Worker (Vorlage, Routenliste wird beim Bauen eingesetzt)
+│   ├── interim.css     blendet Login, Cookie-Banner, Absenden aus
+│   └── interim.js      Hinweis am Kontaktformular
+└── shots/              Screenshots vom Test (nicht im Repo)
 ```
 
-### Seiten (202 + 404)
+### Seiten
 
-Genau die Routen aus `/sitemap.xml` (die App nimmt dort alle öffentlichen Seiten auf),
-jeweils Deutsch ohne Präfix und Englisch unter `/en/`:
+Genau die Routen aus `/sitemap.xml` (alle öffentlichen Seiten), Deutsch ohne Präfix und
+Englisch unter `/en/`, jeweils als `<route>/index.html` (die App nutzt Schrägstriche am Ende):
+Startseite, Inhaltsseiten, News-Artikel und -Kategorien, Partner- und Produktseiten. Dazu
+`404.html` (die Nicht-gefunden-Seite der App), `robots.txt`, `sitemap.xml`, `.nojekyll`.
 
-- Startseite `/`, `/en/`
-- Inhaltsseiten: `/services/`, `/news/`, `/design-for-recycling/`, `/about/`, `/accessibility/`,
-  `/agb/`, `/benchmark/`, `/contact-us/`, `/email-disclaimer/`, `/end-to-end-supply/`, `/faq/`,
-  `/imprint/`, `/industry-survey/`, `/laboratory-services/`, `/material-quality/`,
-  `/material-search/`, `/monitored-material-system/`, `/partners/`, `/privacy/`, `/procurement/`,
-  `/recyclate-performance/`, `/recycler-circle/`, `/story/`, `/strategy-mix/`, `/team/`,
-  `/top-recyclates/`, `/waste-disposal/`, `/whitepaper/`
-- 46 News-Artikel `/news/<slug>/` und 7 Kategorien `/news/category/<slug>/`
-- 6 Partnerseiten `/partners/<partner>/` und 13 Produktseiten `/partners/<partner>/<produkt>/`
-- alles davon auch unter `/en/…`
-- `404.html` (die Nicht-gefunden-Seite der App; GitHub Pages zeigt sie für jeden unbekannten Pfad)
-- `robots.txt`, `sitemap.xml` (URLs auf https://plastship.com), `.nojekyll`
+## Wie das Paket entsteht
 
-## Wie die Seiten entstehen
+1. **Routen** aus `/sitemap.xml`; jede wird ohne Cookies abgefragt, was auf `/login/`
+   umleitet oder nicht 200 liefert, fällt raus.
+2. **Server-HTML** jeder Route per HTTP ohne Cookies (`Accept: text/html`), genau so, wie der
+   Server es ausliefert: mit dem inline CSS von styled-components und den
+   `self.__next_f`-Flight-Skripten. Dadurch hydriert React im Browser.
+3. **React-Debug-Daten:** Die Quelle ist der Next-*Entwicklungsserver* (der lokale Container
+   läuft mit `next dev`). Der schickt einen Teil der Flight-Daten (Debug-Infos) nicht im HTML,
+   sondern über die HMR-Verbindung `/_next/hmr?id=<__next_r>`; ohne sie hydriert React nicht.
+   `fetch.cjs` liest sie direkt nach dem HTML über diese Verbindung mit und legt sie als
+   `<route>/interim-debug.bin` ab (404: `/404-debug.bin`). Konsolen-Mitschnitte des Servers
+   (Zeilen `:W[…]`, z. B. Datenbankabfragen) werden dabei entfernt.
+4. **Browser-Durchlauf:** `crawl.cjs` öffnet jede Route in Chromium (Desktop 1440 px und
+   mobil 390 px), scrollt durch, öffnet Menüs, Sprachwahl, Theme-Schalter bzw. Mobilmenü und
+   protokolliert jede angefragte Datei (dynamisch nachgeladene Chunks für Slider, WebGL,
+   Imagefilm, Formulare usw.).
+5. **Zusammenbau** (`build.py assemble`): Vereinigung aus HTML-Verweisen, Browser-Protokoll,
+   `url()` in CSS und Chunk-Verweisen in JS herunterladen, unter demselben Pfad ablegen.
+   Danach prüft `build.py check`, dass jede lokale Referenz in HTML/CSS/JS/Manifest eine Datei
+   hat, und meldet den Rest.
 
-Jede Route wird in einem Headless-Chromium (Playwright) ohne Cookies geöffnet, einmal
-durchgescrollt und das fertig gerenderte DOM gespeichert. Danach (tools/build.py):
+### Was beim Umschreiben passiert
 
-1. **Alles Next-/React-JavaScript entfernt.** Die Seiten sind reines HTML + CSS. Dadurch gibt
-   es keine RSC-Abrufe (`?_rsc=`), keine Client-Navigation, kein Sentry, keine Nutzungsmessung,
-   keinen Cookie-Banner-Endpunkt – jeder Klick ist eine normale Seitennavigation.
-   JSON-LD (strukturierte Daten) bleibt.
-2. **`/_next/image?url=…`** durch das Originalbild ersetzt (src, srcset, Preloads); die
-   Originale liegen mit im Paket (`/IH/`, `/images/`, `/team/`, `/api/cms/media/…`).
-3. **Links auf nicht gespiegelte Pfade** (`/login/`, `/map/`, alles Geschützte) zeigen absolut auf
-   `https://plastship.com/…` und funktionieren, sobald der Live-Server zurück ist.
-   canonical, hreflang, og:* und JSON-LD zeigen ebenfalls auf https://plastship.com.
-4. **Alle referenzierten Dateien** (CSS, Fonts, Bilder, Favicons, Manifest) werden nachgeladen,
-   auch `url()` aus den CSS-Dateien. Der Lauf meldet jede fehlende Datei.
-5. Ein kleines Skript `interim.js` + `interim.css` ersetzt das Nötigste an Interaktion.
-
-### Entschärft bzw. ersetzt
-
-| Teil | Interim-Verhalten |
+| Stelle | Änderung |
 | --- | --- |
-| Kontaktformular (`/contact-us/`, POST an `/api/…`) | ersetzt durch Hinweis „vorübergehend nicht verfügbar“ mit `mailto:info@plastship.com` und `tel:+49 6126 5898010` (de/en). Kein Formular mehr, also kein 405 auf Pages. |
-| Login-Button, Links in den geschützten Bereich, Karten-Link (`/map/`) | absolute Links auf https://plastship.com/… |
-| Cookie-Banner, „Cookie-Einstellungen“ im Footer | entfernt – ohne Skripte setzt die Seite keine Cookies und misst nichts |
-| Nutzungsmessung, Sentry, Web-Vitals | weg (kein App-JavaScript) |
-| Hero-Slider der Startseite (WebGL) | erstes Bild statisch, Slider-Steuerung ausgeblendet |
-| Hauptmenü (Flyouts) | öffnen per Hover, Tastaturfokus oder Klick auf den Pfeil (interim.js/.css) |
-| Mobilmenü | einfache Linkliste aus der Desktop-Navigation, plus Sprache und Login |
-| Sprachumschalter | funktioniert (normale Links auf `/` bzw. `/en/…`) |
-| Hell/Dunkel-Schalter | ausgeblendet (nur helles Design) |
+| `<head>` (ganz vorn) | `<meta name="robots" content="noindex, nofollow">`, CSP-Meta `connect-src 'self' blob: data:`, `/interim.css`, `/interim-boot.js` (synchron, vor den Next-Skripten), Pfad der Debug-Daten. React 19 überspringt fremde Knoten im `<head>`. |
+| `/_next/image?url=X&w=…` in `src`, `srcset`, `imageSrcSet` (nur Markup, nicht in Skripten) | → Originaldatei `X` (liegt im Paket). Die Flight-Daten enthalten keine Optimierer-URLs. |
+| canonical, hreflang, og:*, twitter:*, JSON-LD, Flight-Daten | `http://localhost` → `https://plastship.com` (Flight nur, wo kein Längenpräfix betroffen ist; der Lauf warnt sonst) |
+| vorhandene `robots`-Metas (Markup und Flight) | → `noindex, nofollow` |
+| `</body>` | `/interim.js` (defer) |
+
+Nichts wird aus dem DOM gelöscht – sonst gäbe es Hydration-Fehler. Was weg soll, blendet
+`interim.css` aus.
+
+### Was das Paket bewusst tut
+
+- **Nie indexieren:** Die Ersatzseite darf unter `*.github.io` (oder einer Interim-Domain)
+  nicht in Suchmaschinen landen. Jede HTML-Seite trägt beim Bauen
+  `<meta name="robots" content="noindex, nofollow">` (vorne im `<head>`, nicht erst nach der
+  Hydration), vorhandene robots-Angaben der App werden angeglichen, und `robots.txt` lautet
+  `User-agent: *` / `Disallow: /` (ohne Sitemap-Zeile). canonical bleibt auf
+  https://plastship.com.
+- **Kein Login:** Header-Login (`header-login`) und Login im Mobilmenü
+  (`mobile-menu-item-login`) sind per CSS ausgeblendet. Links auf `/login/` und andere nicht
+  gespiegelte Pfade leitet der Service Worker auf https://plastship.com weiter.
+- **Kein Cookie-Banner, keine Cookie-Einstellungen** im Footer (ausgeblendet): Das Interim
+  misst nichts.
+- **Kontaktformular:** bleibt 1:1 sichtbar und ausfüllbar, „Absenden“ ist ausgeblendet,
+  Absenden per Enter wird abgefangen. Darüber steht der Hinweis „vorübergehend nicht
+  verfügbar, bitte Mail an info@plastship.com“ (de/en, mit Telefonnummer). Entscheidung:
+  Ein Formular, das scheinbar abschickt, aber nichts ankommt, wäre schlechter als ein
+  ehrlicher Hinweis; das Formular ganz zu entfernen bräche die Hydration.
+- **Keine Fehlerberichte:** Sentry ist doppelt gesperrt (CSP-Meta `connect-src 'self'` auch
+  beim ersten Aufruf, Service Worker antwortet 204).
+- **Entwicklungs-Overlay von Next** (`nextjs-portal`) ist ausgeblendet.
+
+### `interim-boot.js`
+
+Läuft synchron als erstes Skript jeder Seite:
+
+1. **HMR-Platzhalter:** ersetzt die WebSocket-Verbindung zu `/_next/hmr` durch einen
+   Platzhalter, der „verbunden“ meldet, die aufgezeichneten Debug-Daten einspielt und dann das
+   Ende-Signal sendet. Kein Reconnect, kein Neuladen, keine Fehlermeldungen in der Konsole.
+2. **Bild-URLs:** setzt React oder WebGL zur Laufzeit `/_next/image?url=X…` (z. B. Texturen des
+   Hero-Sliders), wird daraus `X` – auch beim allerersten Aufruf, bevor der Service Worker greift.
+3. registriert den **Service Worker**.
+4. nur `404.html`: Pfade außerhalb des Spiegels → Weiterleitung auf https://plastship.com.
+
+### Service Worker (`/interim-sw.js`)
+
+| Anfrage | Antwort |
+| --- | --- |
+| `/_next/image?url=X…` | Datei `X` (gleicher Ursprung) bzw. Redirect (fremder Ursprung) |
+| `/api/*` außer `/api/cms/media/` | GET/HEAD: `200 {}`; sonst `204` (Nutzungsmessung, Session, Kontakt-Token, Web-Vitals) |
+| `*.sentry.io` | `204` |
+| `/__nextjs*` (außer Schriften) | `204` (Entwicklungs-Endpunkte) |
+| Seitenaufruf auf nicht gespiegelten Pfad (`/login/`, `/map/`, geschützte Seiten) | Redirect auf `https://plastship.com<pfad>` |
+| `?_rsc=` (Client-Navigation) | unberührt: statt RSC-Daten kommt HTML, der Next-Router fällt auf eine normale Seitennavigation zurück (getestet) |
+
+Schutz gegen Schleifen: Läuft das Paket selbst unter `plastship.com`/`www.plastship.com`
+(Notfall-DNS auf Pages), leiten weder Service Worker noch `404.html` weiter, sondern zeigen die
+404-Seite.
 
 ### Was nicht geht
 
-- Login und alles dahinter (Links führen auf plastship.com)
-- Kontaktformular, Umfrage- und Download-Formulare, jede Eingabe an den Server
-- Suche/Filter, die Daten vom Server laden (z. B. auf `/material-search/` sind nur die
-  gerenderten Inhalte da), Karten (`/map/`)
-- Animationen und Effekte, die React/WebGL brauchen, stehen im Endzustand
-- Andere Sprachen als de/en (öffentlich gibt es nur diese beiden)
+- Login und alles dahinter (Weiterleitung auf plastship.com)
+- Formulare und alles, was Daten an den Server schickt (Kontakt, Umfrage, Downloads mit
+  Formular); Suche/Filter, die Server-Daten nachladen; Karten (`/map/`)
+- Sprachen außer de/en (öffentlich gibt es nur diese beiden)
+- Erster Aufruf ohne JavaScript: Inhalte sind vollständig da (Server-HTML), Interaktion nicht
+
+### Bekannte Konsolenmeldungen (harmlos)
+
+- „A tree hydrated but some attributes … didn't match“: die umgeschriebenen Bild-URLs
+  (Markup zeigt das Original, React erwartet `/_next/image…`). Wird nicht „repariert“, die
+  Bilder bleiben korrekt.
+- Zwei bzw. ein Chunk-Preload mit 404 auf der Startseite und `/contact-us/`: genau dieselben
+  404 liefert die Quelle (Entwicklungsserver) – Preload-Hinweise auf Chunks, die er nicht
+  erzeugt. Folgenlos.
+- „preloaded using link preload but not used“: Preload-Hinweise des Entwicklungsservers.
 
 ## Auf GitHub Pages hochladen
 
-Das Paket ist für eine **Wurzel-Site** gebaut: alle Pfade beginnen mit `/`. Das passt für
+Das Paket ist für eine **Wurzel-Site** gebaut: alle Pfade beginnen mit `/`, der Service Worker
+hat den Scope `/`. Das passt für
 - eine User-/Org-Site (`<name>.github.io`, Repo heißt genau so), oder
-- jede Pages-Site mit eigener Domain (z. B. `interim.plastship.com` oder im Notfall `plastship.com`).
+- jede Pages-Site mit eigener Domain (z. B. `interim.plastship.com`).
 
-### Schritte
-
-1. Auf GitHub ein Repo anlegen (privat geht nur mit kostenpflichtigem Plan; für Pages aus einem
-   Free-Account muss das Repo öffentlich sein – Inhalt ist ohnehin die öffentliche Website).
-2. Inhalt von `docs/` (nicht den Ordner selbst) ins Wurzelverzeichnis legen:
-   ```bash
-   unzip interim-site.zip            # oder direkt docs/ nehmen
-   cd docs
-   git init -b main
-   git add -A && git commit -m "Interim-Seite"
-   git remote add origin git@github.com:<org>/<repo>.git
-   git push -u origin main
-   ```
-   Alternativ Branch `gh-pages` statt `main`.
-   Wichtig: `.nojekyll` muss mit (versteckte Datei), sonst ignoriert Pages den Ordner `_next/`.
-3. Repo → Settings → Pages → „Deploy from a branch“, Branch `main` (bzw. `gh-pages`), Ordner `/ (root)`.
-4. Nach 1–2 Minuten ist die Seite unter `https://<org>.github.io/` erreichbar.
+Dieses Repo: Settings → Pages → „Deploy from a branch“, Branch `main`, Ordner `/docs`.
+`.nojekyll` liegt in `docs/` (sonst ignoriert Pages `_next/`).
 
 ### Eigene Domain (optional)
 
-- Repo → Settings → Pages → „Custom domain“ eintragen (z. B. `interim.plastship.com`) und
-  „Enforce HTTPS“ aktivieren, sobald das Zertifikat da ist.
-- DNS (Cloudflare): für eine Subdomain `CNAME interim → <org>.github.io` (DNS-only, graue Wolke);
-  für die Apex-Domain A-Records auf `185.199.108.153`, `185.199.109.153`, `185.199.110.153`,
-  `185.199.111.153` (und AAAA `2606:50c0:8000::153` … `8003::153`).
-- Eine `CNAME`-Datei ist **bewusst nicht** im Paket: GitHub legt sie beim Speichern der
-  Custom Domain selbst an. Wer das Paket per Push neu hochlädt, nimmt sie vorher aus dem Repo
-  mit (oder setzt die Domain danach erneut in den Einstellungen).
+- Repo → Settings → Pages → „Custom domain“ eintragen und „Enforce HTTPS“ aktivieren, sobald
+  das Zertifikat da ist. Service Worker brauchen HTTPS (oder localhost).
+- DNS (Cloudflare): Subdomain `CNAME interim → <org>.github.io` (DNS-only, graue Wolke); Apex
+  A-Records `185.199.108.153`, `.109.153`, `.110.153`, `.111.153` (AAAA `2606:50c0:8000::153` …
+  `8003::153`).
+- Eine `CNAME`-Datei ist **bewusst nicht** im Paket: GitHub legt sie beim Speichern der Custom
+  Domain selbst an. `build.sh` löscht `docs/` komplett – danach die Domain in den Einstellungen
+  erneut setzen oder die Datei vor dem Commit wiederherstellen.
 
 ### Projekt-Site (`<name>.github.io/<repo>/`)
 
-Dann liegt alles unter einem Unterpfad, und die wurzelrelativen Pfade zeigen ins Leere. Vor
-dem Hochladen einen Basis-Pfad voranstellen (Beispiel `/plastship-interim`):
-
-```bash
-BASE=/plastship-interim
-cd docs
-find . -name '*.html' -o -name '*.css' -o -name '*.webmanifest' | while read -r f; do
-  perl -pi -e 's#(href|src|action|poster|content)="/(?!/)#$1="'"$BASE"'/#g;
-               s#(srcset|imagesrcset|imageSrcSet)="([^"]*)"#my($a,$v)=($1,$2); $v=~s{(^|,\s*)/(?!/)}{$1'"$BASE"'/}g; "$a=\"$v\""#ge;
-               s#url\((["'"'"']?)/(?!/)#url($1'"$BASE"'/#g' "$f"
-done
-```
-
-(`content="/…"` betrifft nur wenige Meta-Tags; absolute Links auf https://plastship.com
-bleiben unverändert.) Einfacher ist meist eine eigene Domain.
+Geht mit diesem Paket nicht ohne Weiteres: Next lädt Chunks über absolute Pfade
+(`/_next/…`, auch aus JavaScript heraus), der Service Worker braucht den Scope `/`. Ein
+Basis-Pfad müsste beim Bauen der App (`basePath`) gesetzt werden. Darum: Wurzel-Site oder
+eigene Domain.
 
 ## Neu erzeugen
 
 ```bash
 cd ~/plastship/interim-site
-./build.sh                        # Quelle http://localhost, ca. 10 Minuten
-SOURCE=http://localhost:3110 ./build.sh   # andere Quelle
+./build.sh                                  # Quelle http://localhost
+PAR=3 SOURCE=http://localhost:3110 ./build.sh
 ```
 
-Voraussetzungen: die App läuft lokal (Docker-Container `plastship-nextjs-local`), python3,
-node, zip, ein plastship-Checkout mit Playwright (`PLASTSHIP_REPO`, Vorgabe
-`~/plastship/plastship`). Das Skript ist idempotent: `docs/` und die ZIP werden komplett neu
-gebaut, Zwischenstände (`.work/`) danach gelöscht. Bei 502/503 der Quelle wartet es je 30 s,
-höchstens 5 Versuche. `PAR=1 ./build.sh` rendert nur eine Seite gleichzeitig (schont den
-Dev-Container).
+- `SOURCE`: Quelle (Vorgabe `http://localhost`); `LIVE`: Ziel der absoluten URLs (Vorgabe
+  `https://plastship.com`); `PAR`: parallele Browser-Seiten (Vorgabe 2; HTML-Abruf mit
+  doppelt so vielen); `PLASTSHIP_REPO`: Checkout mit Playwright (Vorgabe `~/plastship/plastship`).
+- Voraussetzungen: App läuft lokal (Container `plastship-nextjs-local`), python3, node ≥ 22
+  (eingebautes `WebSocket`), zip.
+- Idempotent: `docs/` und die ZIP werden komplett neu gebaut, `.work/` danach gelöscht. Bei
+  502/503 der Quelle je 30 s warten, höchstens 5 Versuche.
+- HTML, Debug-Daten und Chunks müssen aus **demselben Stand** des Entwicklungsservers kommen.
+  Während des Laufs nichts im plastship-Checkout ändern (jede Änderung kompiliert neu und
+  benennt Chunks um). Der Lauf meldet am Ende jede Referenz ohne Datei.
 
-Hinweis: Bewusst kein `wget --mirror`. wget sieht nur das Server-HTML; Teile wie die
-Hero-Bilder rendert erst React im Browser, und `--convert-links` zerlegt `srcset` mit
-`/_next/image`-URLs und macht die Pfade relativ. Darum Browser-Rendering + eigenes
-Umschreiben.
+Prüfen:
 
-Lokal ansehen: `python3 -m http.server 8099 --directory docs` und http://localhost:8099/ öffnen.
+```bash
+python3 -m http.server 8099 --directory docs &
+node tools/test.cjs http://localhost:8099 http://localhost shots
+```
 
-## Dieses Repo
-
-GitHub Pages liefert den Ordner `docs/` aus (Settings → Pages → Branch `main`, Ordner `/docs`). `build.sh` erzeugt `docs/` neu; `shots/`, `.work/` und die ZIP bleiben lokal (.gitignore).
+Der Test prüft je Seite Konsole und Netzwerk (erster Aufruf und mit Service Worker),
+Hero-Slider, Imagefilm, Flyout, Login ausgeblendet, Klick auf Unterseite, Dark Mode,
+Mobilmenü, Weiterleitung von `/login/`, Kontaktformular-Hinweis und vergleicht die
+Seitenhöhen mit der Quelle. Screenshots landen in `shots/`.

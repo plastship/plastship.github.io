@@ -1,0 +1,344 @@
+:N1793317098209.4902
+3:"$EObject.defineProperty(()=>{ctx.componentMod.preloadStyle(fullHref,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+4:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+5:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+6:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+2:{"name":"Preloads","key":null,"env":"Server","stack":[],"props":{"preloadCallbacks":["$3","$4","$5","$6"]}}
+7:{"time":0.06754100322723389}
+8:{"time":0.07791600003838539}
+9:[]
+f:[]
+11:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+12:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+13:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+14:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+17:I["[project]/node_modules/next/dist/client/components/layout-router.js [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js"],"default"]
+19:I["[project]/apps/web/src/app/error.tsx [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js","/_next/static/chunks/apps_web_src_app_components_Template_Default_Default_tsx_0cwoqne_kn9rg._.js","/_next/static/chunks/apps_web_src_app_0lnso837mnog3._.js"],"default"]
+1a:{"type":"error","pagePath":"error.tsx","children":[]}
+1b:[["Promise.all","",0,0,0,0,true]]
+18:{"parallelRouterKey":"children","error":"$19","errorStyles":["$","$Le",null,"$1a",null,"$1b",0],"errorScripts":"$Y","template":"$Y","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$Y","forbidden":"$undefined","unauthorized":"$undefined","segmentViewBoundaries":"$Y"}
+1c:[["Promise.all","",0,0,0,0,true]]
+16:{"name":"RootLayout","key":null,"env":"Server","stack":[],"props":{"children":["$","$L17",null,"$18",null,"$1c",1],"params":"$Y"}}
+1d:{"time":0.2953750006854534}
+1f:[["Promise.all","",0,0,0,0,true]]
+20:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+23:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+28:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+29:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2a:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2c:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2d:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2e:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+30:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+31:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+33:{"name":"PartnerProductPage","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"params":"$@34","searchParams":"$@35"}}
+36:{"time":1.0293330028653145}
+37:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+38:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+39:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+3a:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+3b:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+3e:"$EObject.defineProperty(()=>__turbopack_context__.r(\"[project]/apps/web/src/app/partners/[brand]/[product]/page.tsx [app-rsc] (ecmascript, Next.js Server Component)\"),\"name\",{value:\"\"})"
+3d:{"name":"Next.MetadataOutlet","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"tree":["__PAGE__",{},{"metadata":{},"page":["$3e","[project]/apps/web/src/app/partners/[brand]/[product]/page.tsx"]},[]]}}
+3f:{"time":1.3242500014603138}
+40:[]
+41:{"time":2.3234160020947456}
+44:[]
+47:[]
+4a:"$EObject.defineProperty(function(type,config,children){for(var propName,i=2;i<arguments.length;i++)validateChildKeys(arguments[i]);i={};var key=null;if(null!=config)for(propName in didWarnAboutOldJSXRuntime||!(\"__self\"in config)||\"key\"in config||(didWarnAboutOldJSXRuntime=!0,console.warn(\"Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform\")),hasValidKey(config)&&(checkKeyStringCoercion(config.key),key=\"\"+config.key),config)hasOwnProperty.call(config,propName)&&\"key\"!==propName&&\"__self\"!==propName&&\"__source\"!==propName&&(i[propName]=config[propName]);var childrenLength=arguments.length-2;if(1===childrenLength)i.children=children;else if(1<childrenLength){for(var childArray=Array(childrenLength),_i=0;_i<childrenLength;_i++)childArray[_i]=arguments[_i+2];Object.freeze&&Object.freeze(childArray),i.children=childArray}if(type&&type.defaultProps)for(propName in childrenLength=type.defaultProps)void 0===i[propName]&&(i[propName]=childrenLength[propName]);return key&&function(props,displayName){function warnAboutAccessingKey(){specialPropKeyWarningShown||(specialPropKeyWarningShown=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",displayName))}warnAboutAccessingKey.isReactWarning=!0,Object.defineProperty(props,\"key\",{get:warnAboutAccessingKey,configurable:!0})}(i,\"function\"==typeof type?type.displayName||type.name||\"Unknown\":type),(propName=1e4>ReactSharedInternals.recentlyCreatedOwnerStacks++)?(childArray=Error.stackTraceLimit,Error.stackTraceLimit=10,childrenLength=Error(\"react-stack-top-frame\"),Error.stackTraceLimit=childArray):childrenLength=unknownOwnerDebugStack,ReactElement(type,key,i,getOwner(),childrenLength,propName?createTask(getTaskName(type)):unknownOwnerDebugTask)},\"name\",{value:\"\"})"
+49:{"name":"NonIndex","key":null,"env":"Server","stack":[],"props":{"createElement":"$4a","pagePath":"/partners/[brand]/[product]","statusCode":200,"isPossibleServerAction":false}}
+4b:{"time":2.5064580030739307}
+4c:{"time":2.5087500028312206}
+4e:{"name":"ViewportWrapper","key":null,"env":"Server","stack":[],"props":{}}
+4f:{"time":2.527666002511978}
+50:[]
+51:{"time":2.5556660033762455}
+55:{"name":"Next.Viewport","key":null,"env":"Server","owner":"$4e","stack":[],"props":{}}
+56:{"time":2.573166001588106}
+58:{"name":"MetadataWrapper","key":null,"env":"Server","stack":[],"props":{}}
+59:{"time":2.792958002537489}
+5a:[]
+5b:{"time":2.852166000753641}
+5e:[]
+5f:[]
+61:{"name":"Next.Metadata","key":null,"env":"Server","owner":"$58","stack":[],"props":{}}
+62:{"time":2.8900410011410713}
+64:{"name":"MetadataBlocker","key":null,"env":"Server","owner":"$58","stack":[],"props":{}}
+65:{"time":3.1297500021755695}
+66:{"time":3.1318750008940697}
+67:[]
+6c:[]
+6d:[]
+34:{"brand":"veridis","product":"madscan"}
+35:
+6e:{"time":4.5123330019414425}
+6f:[]
+70:[]
+71:[]
+73:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+72:J{"name":"headers","start":0.38625000044703484,"end":24.813875000923872,"env":"Server","stack":"$73","owner":"$16","value":"$@74"}
+75:{"time":3.554958000779152}
+76:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1azar7oc5fz_v._.js",337,529,337,332,false],["PartnerProductPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1azar7oc5fz_v._.js",382,9,378,1,false]]
+77:{"awaited":"$72","env":"Server","owner":"$33","stack":"$76"}
+78:{"time":24.909916002303362}
+79:{"time":3.554958000779152}
+7a:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1azar7oc5fz_v._.js",337,529,337,332,false],["PartnerProductPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1azar7oc5fz_v._.js",382,9,378,1,false]]
+7b:{"awaited":"$72","env":"Server","owner":"$33","stack":"$7a"}
+7c:{"time":24.909916002303362}
+7d:["host","localhost"]
+7e:["user-agent","plastship-interim-mirror"]
+7f:["accept","text/html"]
+80:["accept-encoding","gzip, deflate"]
+81:["accept-language","*"]
+82:["sec-fetch-mode","cors"]
+83:["via","1.1 Caddy"]
+84:["x-forwarded-for","172.18.0.1"]
+85:["x-forwarded-host","localhost"]
+86:["x-forwarded-proto","http"]
+87:["x-real-ip","172.18.0.1"]
+88:["x-forwarded-port","3000"]
+89:["content-security-policy","default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+8a:["x-nonce","GJd6TOSEqoXAUA/0n1OeTw=="]
+8b:["x-plastship-locale","de"]
+8c:["x-plastship-route-kind","public"]
+8d:["cache-control","private, no-cache, must-revalidate"]
+8e:["content-security-policy-report-only","default-src 'self'; script-src 'self' 'nonce-GJd6TOSEqoXAUA/0n1OeTw==' 'strict-dynamic' 'wasm-unsafe-eval' 'report-sample' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+8f:["permissions-policy","camera=(), microphone=(self), geolocation=(), interest-cohort=()"]
+90:["referrer-policy","same-origin"]
+91:["reporting-endpoints","csp-endpoint=\"https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local\""]
+92:["strict-transport-security","max-age=63072000; includeSubDomains; preload"]
+93:["x-content-type-options","nosniff"]
+94:["x-frame-options","DENY"]
+74:["$7d","$7e","$7f","$80","$81","$82","$83","$84","$85","$86","$87","$88","$89","$8a","$8b","$8c","$8d","$8e","$8f","$90","$91","$92","$93","$94"]
+95:{"time":63.03425000235438}
+96:{"time":63.04366600140929}
+97:[]
+98:[]
+99:[]
+9a:[]
+9b:[]
+9c:[]
+9d:[]
+9e:[]
+9f:[]
+a0:[]
+a1:[]
+a2:[]
+a3:[]
+a4:[]
+a5:[]
+a6:[]
+a7:[]
+a8:[]
+a9:[]
+aa:[]
+ab:[]
+ac:[]
+ad:[]
+ae:[]
+af:[]
+b0:[]
+b1:[]
+b2:[]
+b3:[]
+b4:[]
+b5:[]
+b6:[]
+b7:[]
+b8:[]
+b9:[]
+ba:[]
+bb:[]
+bc:[]
+bd:[]
+be:[]
+c1:{"time":0.4226660020649433}
+c2:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+c3:{"awaited":"$72","env":"Server","owner":"$16","stack":"$c2"}
+c4:{"time":24.81512500345707}
+c6:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+c5:J{"name":"cookies","start":25.2262080013752,"end":74.40945800021291,"env":"Server","stack":"$c6","owner":"$16","value":"$@c7"}
+c8:{"time":25.249250002205372}
+c9:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+ca:{"awaited":"$c5","env":"Server","owner":"$16","stack":"$c9"}
+cb:{"time":74.41429100185633}
+c7:[]
+cc:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2425,256,2369,1,false]]
+cd:{"time":124.16816600039601}
+ce:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2429,270,2369,1,false]]
+cf:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2431,268,2369,1,false]]
+d0:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2443,268,2369,1,false]]
+d1:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2454,268,2369,1,false]]
+d5:[["loadCmsMachineLocalesForProduct","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1118,23,1116,1,true],["Promise.all","",0,0,0,0,true],["PartnerProductPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1azar7oc5fz_v._.js",398,44,378,1,true]]
+d6:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2457,282,2369,1,false]]
+d7:{"time":140.14337500184774}
+da:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2458,286,2369,1,false]]
+de:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2461,290,2369,1,false]]
+e1:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2463,288,2369,1,false]]
+e5:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2465,302,2369,1,false]]
+e8:[["Promise.all","",0,0,0,0,true]]
+ed:[["Promise.all","",0,0,0,0,true]]
+ee:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+ef:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+f0:[["Promise.all","",0,0,0,0,true]]
+f1:[]
+f3:{"name":"NotFound","key":null,"env":"Server","stack":[],"props":{}}
+f4:{"time":140.49900000169873}
+f5:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",87,263,86,1,false]]
+f6:{"time":140.5612500011921}
+fb:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",88,270,86,1,false]]
+fe:[["Promise.all","",0,0,0,0,true]]
+ff:[["Promise.all","",0,0,0,0,true]]
+100:[["Promise.all","",0,0,0,0,true]]
+101:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2479,288,2369,1,false]]
+104:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2484,288,2369,1,false]]
+107:[["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,24,1071,1,true],["loadCmsMachineLocalesForProduct","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1129,24,1116,1,true],["Promise.all","",0,0,0,0,true],["PartnerProductPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1azar7oc5fz_v._.js",398,44,378,1,true]]
+108:{"time":3.554958000779152}
+109:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1azar7oc5fz_v._.js",337,529,337,332,false],["PartnerProductPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1azar7oc5fz_v._.js",382,9,378,1,false]]
+10a:{"awaited":"$72","env":"Server","owner":"$33","stack":"$109"}
+10b:{"time":24.909916002303362}
+10c:{"time":25.408833000808954}
+10d:[["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13518,212,13516,245,false],["resolveCmsDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13531,9,13524,1,false],["resolveCmsPublicDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13540,12,13539,1,false],["PartnerProductPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1azar7oc5fz_v._.js",387,220,378,1,false]]
+10e:{"awaited":"$c5","env":"Server","owner":"$33","stack":"$10d"}
+10f:{"time":78.92875000089407}
+111:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",8050,50,8049,190,true],["Promise.all","",0,0,0,0,true],["ladeInhalte","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",23526,77,23524,1,true],["sitemapEntries","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",23567,21,23565,1,true],["GET","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",2280,23,2278,1,true]]
+110:J{"name":"a","start":-34217.53889099881,"end":129.0131250023842,"env":"Server","stack":"$111","value":"$@112"}
+113:{"time":82.1253750026226}
+114:[["loadCmsMachineLocalesForProduct","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1118,189,1116,1,false],["PartnerProductPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1azar7oc5fz_v._.js",399,198,378,1,false]]
+115:{"awaited":"$110","env":"Server","owner":"$33","stack":"$114"}
+116:{"time":129.26129100099206}
+118:[["loadCmsTranslationStates","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",11066,40,11066,1,false],["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,214,1071,1,false],["loadCmsMachineLocalesForProduct","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1129,30,1116,1,false],["Promise.all","",0,0,0,0,true],["PartnerProductPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1azar7oc5fz_v._.js",398,44,378,1,true]]
+117:J{"name":"loadCmsTranslationStates","start":129.30600000172853,"end":129.35166600346565,"env":"Server","stack":"$118","owner":"$33","value":"$@119"}
+11a:{"time":129.33887500315905}
+11b:[["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,214,1071,1,false],["loadCmsMachineLocalesForProduct","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1129,30,1116,1,false],["Promise.all","",0,0,0,0,true],["PartnerProductPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1azar7oc5fz_v._.js",398,44,378,1,true]]
+11c:{"awaited":"$117","env":"Server","owner":"$33","stack":"$11b"}
+11d:{"time":150.48783300071955}
+112:"$undefined"
+119:[{"fieldPath":"title","locale":"en","status":"reviewed","sourceHash":"efb3309d8cd24df4e96832fda166233f31055231b59c2e5ba5b4096cc2e7a720","sourceLocale":"de"},{"fieldPath":"description","locale":"en","status":"reviewed","sourceHash":"ade08ba92d5b498c711ddb03928a8765e7ca53f2be1695c1ad32a3695f979101","sourceLocale":"de"},{"fieldPath":"body","locale":"en","status":"reviewed","sourceHash":"a14fe8b2e51f9c20a04367e361a57c666cede4ce2082da769abf32ded0d66d3a","sourceLocale":"de"}]
+11e:[["PartnerProductPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1azar7oc5fz_v._.js",402,263,378,1,false]]
+11f:{"time":153.49845800176263}
+12b:Tacf,![](/images/cms/64ca19af7fb75792749827-908a98.webp)
+
+## MADSCAN - Wenn die genaue Zusammensetzung Ihres Kunststoffs ankommt
+
+Erfahren Sie mit Veridis' patentiertem MADSCAN die genaue Zusammensetzung Ihrer Kunststoffströme und -chargen. Veridis bietet die erste chargenrepräsentative thermische Analysemethode für Polymere, die verschiedene Polymertypen, Untertypen und deren Anteile innerhalb einer Charge unterscheidet.
+
+Mit dem wachsenden Bedarf an hochwertigem recyceltem Kunststoff, der in den kommenden Jahren exponentiell wachsen soll, sind innovative und skalierbare neue Technologien für die Polymeranalyse erforderlich, um Qualität und Sicherheit zu gewährleisten und diesen wachsenden Anforderungen gerecht zu werden. Mit MADSCAN ermöglicht Veridis hochpräzise Polymererkenntnisse im industriellen Maßstab, bereits in einem frühen Stadium des Recyclingprozesses.
+
+![](/images/cms/64ca19af801f5005460366-3d4c4c.webp)
+
+## Vorteile des MADSCANS
+
+\- Analysiert sowohl Flakes als auch Granulate von bis zu 1000 Flakes/Granulaten pro Scan.
+
+\- Erkennt die verschiedenen (Unter)typen von Polyolefinen, einschließlich PP, HDPE, LDPE & LLDPE sowie PET in PO-Chargen.
+
+\- Misst die Größe jeder Fraktion genau in Prozent (mit einer Genauigkeit von 5 %).
+
+\- Analysiert alle Farben, einschließlich Kohlenstoffschwarz und dunkle Polymere.
+
+\- Analysiert auch Mehrschichtmaterialien und Folien.
+
+\- Kann gewaschene Flakes-Eingangsströme vor dem Extrudieren oder Compoundieren messen.
+
+Aufgrund des größeren Volumens, das im Vergleich zu bestehenden (thermischen) Analysemethoden gemessen werden kann, kann jeder Scan mit Veridis MADSCAN bis zu 1000 Flakes oder Granulate pro Scan analysieren und die genauen Anteile von HDPE, LDPE, LLDPE, PP und PET innerhalb von PE messen, um recycelbaren Kunststoffen, Verarbeitern, Compoundierern und Markeninhabern, die Recyclate verwenden, genaue und zuverlässige Polymererkenntnisse zu liefern.
+
+![](/images/cms/64ca19af806dd451478134-2f4134.webp)
+
+## Technische Spezifikationen
+
+| **INFO** | **SPECIFICATIONS** |
+| --- | --- |
+| Sample size | 50-500 grams |
+| Measuring time | 1-2 hours |
+| Temperature range | RT – 300°C |
+| Sample types | Flakes, granulate and powder |
+| Atmospheric conditions | N2 |
+| Software | Peak separation, purity determination, determination of phase transitions (Tg, Tm, Tc), polymer identification and quantification. |
+| Accuracy | ±1% ∆H |
+
+**Hier**können Sie weitere MADSCAN Produktinformationen und die Roadmap herunterladen.
+
+Eine weiterentwickelte Version des MADSCAN, das T-50-Modell, ist außerdem kürzlich erschienen. Alle Infos hierzu finden Sie [**hier**](https://www.youtube.com/watch?v=-4ra87YVIWk).
+
+[Video ansehen](https://www.youtube.com/watch?v=-4ra87YVIWk)12c:"$EObject.defineProperty(function remarkGfm(options) {\n    // @ts-expect-error: TS is wrong about `this`.\n    // eslint-disable-next-line unicorn/no-this-assignment\n    const self = this;\n    const settings = options || emptyOptions;\n    const data = self.data();\n    const micromarkExtensions = data.micromarkExtensions || (data.micromarkExtensions = []);\n    const fromMarkdownExtensions = data.fromMarkdownExtensions || (data.fromMarkdownExtensions = []);\n    const toMarkdownExtensions = data.toMarkdownExtensions || (data.toMarkdownExtensions = []);\n    micromarkExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$micromark$2d$extension$2d$gfm$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfm\"])(settings));\n    fromMarkdownExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$mdast$2d$util$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfmFromMarkdown\"])());\n    toMarkdownExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$mdast$2d$util$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfmToMarkdown\"])(settings));\n},\"name\",{value:\"remarkGfm\"})"
+12a:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$33","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["PartnerProductPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1azar7oc5fz_v._.js",390,202,378,1,false]],"props":{"content":"$12b","eagerFirstImage":true,"remarkPlugins":["$12c"]}}
+12d:{"time":162.62333300337195}
+12f:"$EObject.defineProperty(function SiteMarkdownLink({ href, children }) {\n    const ziel = href ?? '#';\n    const zweck = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$LinkPurpose$2f$LinkPurpose$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"LinkPurpose\"], {\n        text: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$a11y$2f$linkPurpose$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"textOfChildren\"])(children),\n        href: ziel\n    }, void 0, false, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 92,\n        columnNumber: 17\n    }, this);\n    if (ziel.startsWith('/') && !ziel.startsWith('//') && !istDatei(ziel)) {\n        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$NavLink$2f$NavLink$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NavLink\"], {\n            href: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$trailingSlash$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"ensureTrailingSlashHref\"])(ziel),\n            children: [\n                children,\n                zweck\n            ]\n        }, void 0, true, {\n            fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n            lineNumber: 95,\n            columnNumber: 7\n        }, this);\n    }\n    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(\"a\", {\n        href: ziel,\n        ...(0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"externalLinkProps\"])(ziel),\n        children: [\n            children,\n            zweck\n        ]\n    }, void 0, true, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 102,\n        columnNumber: 5\n    }, this);\n},\"name\",{value:\"SiteMarkdownLink\"})"
+130:"$EObject.defineProperty((url)=>TEL.test(url) ? url : (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"defaultUrlTransform\"])(url),\"name\",{value:\"siteUrlTransform\"})"
+131:"$EObject.defineProperty(function rehypePageHeading(options = {}) {\n    const zeile = options.pageHeadingLine ?? null;\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    // `#` sieht aus wie die h2, aus der es jetzt wird\n                    const aussehen = Math.max(2, Number(match[1]));\n                    if (zeile !== null && node.position?.start.line === zeile) {\n                        node.tagName = 'h1';\n                        node.properties['data-render-as'] = String(aussehen);\n                    } else if (node.tagName === 'h1') {\n                        node.tagName = 'h2';\n                    }\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypePageHeading\"})"
+132:"$EObject.defineProperty(function rehypeSiteImages(options = {}) {\n    return (tree)=>{\n        let index = 0;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    Object.assign(node.properties, siteImageProperties(node.properties['src'], index, options));\n                    index += 1;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeSiteImages\"})"
+133:"$EObject.defineProperty(function rehypeImageAlt(options = {}) {\n    const content = options.content ?? '';\n    const quelle = {\n        headings: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownHeadings\"])(content),\n        lead: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownLead\"])(content)\n    };\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    const eigener = node.properties['alt'];\n                    node.properties['alt'] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"imageAltFor\"])(typeof eigener === 'string' ? eigener : undefined, node.position?.start.line, quelle, options.fallback);\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeImageAlt\"})"
+134:"$EObject.defineProperty(function rehypeHeadingOrder(options = {}) {\n    return (tree)=>{\n        let previous = options.parentLevel ?? 1;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    const chosen = Number(match[1]);\n                    const level = headingLevel(chosen, previous);\n                    if (level !== chosen) {\n                        node.tagName = `h${level}`;\n                        node.properties['data-render-as'] = String(chosen);\n                    }\n                    previous = level;\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeHeadingOrder\"})"
+135:"$EObject.defineProperty(function rehypeExternalLinks() {\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'a') {\n                    const href = node.properties['href'];\n                    if (typeof href === 'string' && (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"isExternalHref\"])(href)) {\n                        const rel = relListe(node.properties['rel']);\n                        for (const noetig of __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_REL\"].split(' ')){\n                            if (!rel.some((r)=>r.toLowerCase() === noetig)) rel.push(noetig);\n                        }\n                        node.properties['rel'] = rel;\n                        node.properties['target'] = '_blank';\n                        node.properties['referrerPolicy'] = __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_POLICY\"];\n                    }\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeExternalLinks\"})"
+12e:{"name":"Markdown","key":null,"env":"Server","owner":"$12a","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":{"a":"$12f"},"urlTransform":"$130","remarkPlugins":"$12a:props:remarkPlugins","rehypePlugins":[["$131",{"pageHeadingLine":null}],["$132",{"eagerFirst":true}],["$133","$Y"],"$134","$135"],"children":"$Y"}}
+136:{"time":162.73125000298023}
+137:{"time":166.19383300095797}
+138:[]
+139:[]
+13a:[]
+13b:[]
+13c:[]
+13d:[]
+13e:[]
+13f:[]
+140:[]
+141:[]
+142:[]
+143:[]
+144:[]
+145:[]
+146:[]
+147:[]
+148:[]
+149:[]
+14a:[]
+14b:[]
+14c:[]
+14d:[]
+14e:[]
+14f:[]
+150:[]
+151:[]
+152:[]
+153:[]
+154:[]
+155:[]
+156:[]
+157:[]
+158:[]
+159:[]
+15a:[]
+15b:[]
+15c:[]
+15d:[]
+164:[]
+165:{"time":206.50595800206065}
+166:[]
+167:[]
+168:[]
+169:{"time":206.56929100304842}
+16a:[]
+16b:[]
+16c:[]
+16d:{"time":206.60450000315905}
+16e:[]
+16f:[]
+170:[]
+171:{"time":206.64337500184774}
+172:[]
+173:[]
+174:{"time":206.66758300364017}
+176:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12e","stack":[],"props":{"href":"https://www.youtube.com/watch?v=-4ra87YVIWk","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://www.youtube.com/watch?v=-4ra87YVIWk","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"element","tagName":"strong","properties":{},"children":["$Y"],"position":"$Y"}],"position":"$Y"},"children":"$Y"}}
+177:{"time":206.70075000077486}
+178:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+179:{"time":206.81562500074506}
+17a:[]
+17b:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+17e:[]
+17f:{"time":206.92516600340605}
+181:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12e","stack":[],"props":{"href":"https://www.youtube.com/watch?v=-4ra87YVIWk","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://www.youtube.com/watch?v=-4ra87YVIWk","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"Video ansehen","position":{"start":{"line":45,"column":2,"offset":2681},"end":"$Y"}}],"position":"$Y"},"children":"Video ansehen"}}
+182:{"time":206.9455000013113}
+183:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+184:{"time":206.99462500214577}
+185:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]

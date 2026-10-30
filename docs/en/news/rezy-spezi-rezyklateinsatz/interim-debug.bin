@@ -1,0 +1,547 @@
+:N1793317106177.6355
+3:"$EObject.defineProperty(()=>{ctx.componentMod.preloadStyle(fullHref,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+4:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+5:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+6:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+2:{"name":"Preloads","key":null,"env":"Server","stack":[],"props":{"preloadCallbacks":["$3","$4","$5","$6"]}}
+7:{"time":0.10804199799895287}
+8:{"time":0.12487499788403511}
+9:[]
+f:[]
+11:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+12:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+13:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+14:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+17:I["[project]/node_modules/next/dist/client/components/layout-router.js [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js"],"default"]
+19:I["[project]/apps/web/src/app/error.tsx [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js","/_next/static/chunks/apps_web_src_app_components_Template_Default_Default_tsx_0cwoqne_kn9rg._.js","/_next/static/chunks/apps_web_src_app_0lnso837mnog3._.js"],"default"]
+1a:{"type":"error","pagePath":"error.tsx","children":[]}
+1b:[["Promise.all","",0,0,0,0,true]]
+18:{"parallelRouterKey":"children","error":"$19","errorStyles":["$","$Le",null,"$1a",null,"$1b",0],"errorScripts":"$Y","template":"$Y","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$Y","forbidden":"$undefined","unauthorized":"$undefined","segmentViewBoundaries":"$Y"}
+1c:[["Promise.all","",0,0,0,0,true]]
+16:{"name":"RootLayout","key":null,"env":"Server","stack":[],"props":{"children":["$","$L17",null,"$18",null,"$1c",1],"params":"$Y"}}
+1d:{"time":0.4081670008599758}
+1f:[["Promise.all","",0,0,0,0,true]]
+20:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+23:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+28:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+29:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2a:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2c:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2d:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2f:{"name":"NewsArticlePage","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"params":"$@30","searchParams":"$@31"}}
+32:{"time":1.2782499976456165}
+33:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+34:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+35:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+38:"$EObject.defineProperty(()=>__turbopack_context__.r(\"[project]/apps/web/src/app/news/[slug]/page.tsx [app-rsc] (ecmascript, Next.js Server Component)\"),\"name\",{value:\"\"})"
+37:{"name":"Next.MetadataOutlet","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"tree":["__PAGE__",{},{"metadata":{},"page":["$38","[project]/apps/web/src/app/news/[slug]/page.tsx"]},[]]}}
+39:{"time":1.5890420004725456}
+3a:[]
+3b:{"time":2.7994170002639294}
+3e:[]
+41:[]
+44:"$EObject.defineProperty(function(type,config,children){for(var propName,i=2;i<arguments.length;i++)validateChildKeys(arguments[i]);i={};var key=null;if(null!=config)for(propName in didWarnAboutOldJSXRuntime||!(\"__self\"in config)||\"key\"in config||(didWarnAboutOldJSXRuntime=!0,console.warn(\"Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform\")),hasValidKey(config)&&(checkKeyStringCoercion(config.key),key=\"\"+config.key),config)hasOwnProperty.call(config,propName)&&\"key\"!==propName&&\"__self\"!==propName&&\"__source\"!==propName&&(i[propName]=config[propName]);var childrenLength=arguments.length-2;if(1===childrenLength)i.children=children;else if(1<childrenLength){for(var childArray=Array(childrenLength),_i=0;_i<childrenLength;_i++)childArray[_i]=arguments[_i+2];Object.freeze&&Object.freeze(childArray),i.children=childArray}if(type&&type.defaultProps)for(propName in childrenLength=type.defaultProps)void 0===i[propName]&&(i[propName]=childrenLength[propName]);return key&&function(props,displayName){function warnAboutAccessingKey(){specialPropKeyWarningShown||(specialPropKeyWarningShown=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",displayName))}warnAboutAccessingKey.isReactWarning=!0,Object.defineProperty(props,\"key\",{get:warnAboutAccessingKey,configurable:!0})}(i,\"function\"==typeof type?type.displayName||type.name||\"Unknown\":type),(propName=1e4>ReactSharedInternals.recentlyCreatedOwnerStacks++)?(childArray=Error.stackTraceLimit,Error.stackTraceLimit=10,childrenLength=Error(\"react-stack-top-frame\"),Error.stackTraceLimit=childArray):childrenLength=unknownOwnerDebugStack,ReactElement(type,key,i,getOwner(),childrenLength,propName?createTask(getTaskName(type)):unknownOwnerDebugTask)},\"name\",{value:\"\"})"
+43:{"name":"NonIndex","key":null,"env":"Server","stack":[],"props":{"createElement":"$44","pagePath":"/news/[slug]","statusCode":200,"isPossibleServerAction":false}}
+45:{"time":3.0519169978797436}
+46:{"time":3.0554169975221157}
+48:{"name":"ViewportWrapper","key":null,"env":"Server","stack":[],"props":{}}
+49:{"time":3.0752919986844063}
+4a:[]
+4b:{"time":3.1121249981224537}
+4f:{"name":"Next.Viewport","key":null,"env":"Server","owner":"$48","stack":[],"props":{}}
+50:{"time":3.133416999131441}
+52:{"name":"MetadataWrapper","key":null,"env":"Server","stack":[],"props":{}}
+53:{"time":3.3890419974923134}
+54:[]
+55:{"time":3.4541249983012676}
+58:[]
+59:[]
+5b:{"name":"Next.Metadata","key":null,"env":"Server","owner":"$52","stack":[],"props":{}}
+5c:{"time":3.491209000349045}
+5e:{"name":"MetadataBlocker","key":null,"env":"Server","owner":"$52","stack":[],"props":{}}
+5f:{"time":3.7558749988675117}
+60:{"time":3.7577500008046627}
+61:[]
+66:[]
+67:[]
+30:{"slug":"rezy-spezi-rezyklateinsatz"}
+31:
+68:{"time":5.304042000323534}
+69:[]
+6a:[]
+6b:[]
+6d:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+6c:J{"name":"headers","start":0.5738339982926846,"end":14.22979199886322,"env":"Server","stack":"$6d","owner":"$16","value":"$@6e"}
+6f:{"time":4.2770840004086494}
+70:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+71:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$70"}
+72:{"time":14.360874999314547}
+73:{"time":4.2770840004086494}
+74:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+75:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$74"}
+76:{"time":14.360874999314547}
+77:["host","localhost"]
+78:["user-agent","plastship-interim-mirror"]
+79:["accept","text/html"]
+7a:["accept-encoding","gzip, deflate"]
+7b:["accept-language","*"]
+7c:["sec-fetch-mode","cors"]
+7d:["via","1.1 Caddy"]
+7e:["x-forwarded-for","172.18.0.1"]
+7f:["x-forwarded-host","localhost"]
+80:["x-forwarded-proto","http"]
+81:["x-real-ip","172.18.0.1"]
+82:["x-forwarded-port","3000"]
+83:["content-security-policy","default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+84:["x-nonce","c/w/0da4QmrIYZBxGIp/yQ=="]
+85:["x-plastship-locale","en"]
+86:["x-plastship-route-kind","public"]
+87:["cache-control","private, no-cache, must-revalidate"]
+88:["content-security-policy-report-only","default-src 'self'; script-src 'self' 'nonce-c/w/0da4QmrIYZBxGIp/yQ==' 'strict-dynamic' 'wasm-unsafe-eval' 'report-sample' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+89:["permissions-policy","camera=(), microphone=(self), geolocation=(), interest-cohort=()"]
+8a:["referrer-policy","same-origin"]
+8b:["reporting-endpoints","csp-endpoint=\"https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local\""]
+8c:["strict-transport-security","max-age=63072000; includeSubDomains; preload"]
+8d:["x-content-type-options","nosniff"]
+8e:["x-frame-options","DENY"]
+6e:["$77","$78","$79","$7a","$7b","$7c","$7d","$7e","$7f","$80","$81","$82","$83","$84","$85","$86","$87","$88","$89","$8a","$8b","$8c","$8d","$8e"]
+8f:{"time":29.461666997522116}
+90:{"time":29.471666999161243}
+91:[]
+92:[]
+93:[]
+94:[]
+95:[]
+96:[]
+97:[]
+98:[]
+99:[]
+9a:[]
+9b:[]
+9c:[]
+9d:[]
+9e:[]
+9f:[]
+a0:[]
+a1:[]
+a2:[]
+a3:[]
+a4:[]
+a5:[]
+a6:[]
+a7:[]
+a8:[]
+a9:[]
+aa:[]
+ab:[]
+ac:[]
+ad:[]
+ae:[]
+af:[]
+b0:[]
+b1:[]
+b2:[]
+b3:[]
+b4:[]
+b5:[]
+b6:[]
+b7:[]
+b8:[]
+bb:{"time":0.630791999399662}
+bc:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+bd:{"awaited":"$6c","env":"Server","owner":"$16","stack":"$bc"}
+be:{"time":14.230624999850988}
+c0:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+bf:J{"name":"cookies","start":14.6990419998765,"end":36.79837499931455,"env":"Server","stack":"$c0","owner":"$16","value":"$@c1"}
+c2:{"time":14.726792000234127}
+c3:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+c4:{"awaited":"$bf","env":"Server","owner":"$16","stack":"$c3"}
+c5:{"time":36.80037499964237}
+c1:[]
+c6:[]
+c7:[]
+c8:{"time":68.46858399733901}
+c9:[]
+ca:{"time":68.49825000017881}
+cd:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2425,256,2369,1,false]]
+ce:{"time":68.58554200083017}
+cf:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2429,270,2369,1,false]]
+d0:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2431,268,2369,1,false]]
+d1:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2443,268,2369,1,false]]
+d2:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2454,268,2369,1,false]]
+d6:[["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,24,1071,1,true],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,24,1086,1,true],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+d7:{"time":4.2770840004086494}
+d8:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+d9:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$d8"}
+da:{"time":14.360874999314547}
+db:{"time":14.988749999552965}
+dc:[["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13518,212,13516,245,false],["resolveCmsDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13531,9,13524,1,false],["resolveCmsPublicDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13540,12,13539,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",370,188,361,1,false]]
+dd:{"awaited":"$bf","env":"Server","owner":"$2f","stack":"$dc"}
+de:{"time":47.92991700023413}
+e0:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",8092,53,8091,193,true],["Promise.all","",0,0,0,0,true],["ladeInhalte","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",23526,77,23524,1,true],["sitemapEntries","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",23567,21,23565,1,true],["GET","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",2280,23,2278,1,true]]
+df:J{"name":"a","start":-42185.124561000615,"end":66.35549999773502,"env":"Server","stack":"$e0","value":"$@e1"}
+e2:{"time":48.57241699844599}
+e3:[["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1088,204,1086,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",392,194,361,1,false]]
+e4:{"awaited":"$df","env":"Server","owner":"$2f","stack":"$e3"}
+e5:{"time":66.59600000083447}
+e7:[["loadCmsTranslationStates","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",11066,40,11066,1,false],["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,214,1071,1,false],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,30,1086,1,false],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+e6:J{"name":"loadCmsTranslationStates","start":66.66624999791384,"end":66.71529199928045,"env":"Server","stack":"$e7","owner":"$2f","value":"$@e8"}
+e9:{"time":66.70191700011492}
+ea:[["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,214,1071,1,false],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,30,1086,1,false],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+eb:{"awaited":"$e6","env":"Server","owner":"$2f","stack":"$ea"}
+ec:{"time":108.8913340009749}
+e1:"$undefined"
+e8:
+ed:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2457,282,2369,1,false]]
+ee:{"time":114.09083399921656}
+f1:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2458,286,2369,1,false]]
+f5:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2461,290,2369,1,false]]
+f8:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2463,288,2369,1,false]]
+fc:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2465,302,2369,1,false]]
+ff:[["Promise.all","",0,0,0,0,true]]
+104:[["Promise.all","",0,0,0,0,true]]
+105:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+106:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+107:[["Promise.all","",0,0,0,0,true]]
+108:[]
+10a:{"name":"NotFound","key":null,"env":"Server","stack":[],"props":{}}
+10b:{"time":114.53991699963808}
+10c:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",87,263,86,1,false]]
+10d:{"time":114.61441699787974}
+112:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",88,270,86,1,false]]
+115:[["Promise.all","",0,0,0,0,true]]
+116:[["Promise.all","",0,0,0,0,true]]
+117:[["Promise.all","",0,0,0,0,true]]
+118:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2479,288,2369,1,false]]
+11b:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2484,288,2369,1,false]]
+11e:[["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",395,263,361,1,false]]
+11f:{"time":114.77104200050235}
+129:T18f6,Welcome to "Rezy-Spezi" – a research project for advanced solutions in recycled material use. In light of the growing importance of sustainability and the circular economy, Rezy-Spezi is dedicated to exploring efficient applications of recycled materials across various industries. Our focus is on identifying potential uses for recycled materials through the systematic analysis of relevant standards and requirements. Together, we are shaping a sustainable future.
+
+## Project overview
+
+Rezy-Spezi is a pioneering research project funded by the[**German Federal Environmental Foundation (DBU)**](https://www.dbu.de/en/) and conducted by [**SKZ - The Plastics Centre**](https://www.skz.de/en/) in collaboration with plastship. The project analyses specific standards and requirements across various industrial sectors to identify potential applications for recyclates. Our focus is on the automotive, construction, and packaging industries, where we are closely examining the use of recyclates and developing solutions for the industry.
+
+![](/images/cms/firefly-materialvermarktung-plattform-ha-60d109.webp)
+
+## Main objectives of the project
+
+### Identification of recyclate usage potentials
+
+Analysis of standards and manufacturer-specific requirements across industries
+
+### Analysis of standards and requirements
+
+Examination of standards that promote or hinder the use of recyclates
+
+### Development of action recommendations
+
+Specific recommendations for the industry to increase the use of recyclates
+
+### Enhancing societal acceptance
+
+Exploration of customer perspectives on products containing recyclates
+
+## Project results
+
+► A total of 33 recycling companies participated in the survey, providing both post-industrial and post-consumer qualities.\
+► The participating companies represent 10% of the European recyclate market based on their production capacities.
+
+### Standards analysis
+
+Our analysis shows that general standards restrict the use of secondary plastics, particularly in drinking water and hygiene applications. However, we see significant potential in the automotive and construction industries.
+
+### Specific requirements
+
+Many companies continue to use virgin materials because customer requirements often exclude recyclates. However, our research shows the possibility to adjust requirements to increase the use of recyclates without compromising quality.
+
+### Acceptance
+
+The acceptance of recyclates heavily depends on the perception of quality attributes such as smell, texture, and appearance. However, our surveys show that many consumers are willing to pay higher prices for sustainable products.
+
+## Recyclate volumes by industry
+
+As part of our project, we have obtained detailed and insightful results across various industries. These provide important insights into current developments, particularly regarding current recyclate volumes and the potential that arises from reduced requirements in the plastics recycling industry.
+
+### Packaging
+
+*► Current recyclate volumes:* 150.000 t/y\
+*► Potential recyclate volumes:* 195.000 t/y (30% increase)
+
+### Automotive industry
+
+*► Current recyclate volumes:* 80.000 t/y\
+*► Potential recyclate volumes:* 100.000 t/y (25% increase)
+
+### Construction industry
+
+*► Current recyclate volumes:* 100.000 t/y\
+*► Potential recyclate volumes:* 135.000 t/y (35% increase)
+
+### Electronics industry
+
+*► Current recyclate volumes:* 50.000 t/y\
+*► Potential recyclate volumes:* 60.000 t/y (20% increase)
+
+## Potential to increase volumes and required investments
+
+**Overall potential across all industries**\
+With a cross-industry reduction in certain technical requirements, recyclate volumes could be increased by up to 28%.
+
+**Key levers**\
+*► Contamination tolerances: A slight increase in acceptable contamination levels could significantly boost recyclate volumes.*\
+*► Material diversity: Expanding the types of plastics used while simultaneously adapting processing technologies.*
+
+**Required investments**\
+*► Machinery optimisation:* 60% of surveyed companies see the need to invest in new separation and sorting technologies.\
+*► Collaborations: 70% of companies highlight the importance of closer cooperation along the value chain to improve material quality.*
+
+![](/images/cms/firefly-werksentsorgung-analyse-34677-bb41a5.webp)
+
+## Cross-industry recommendations
+
+Based on the insights gained, we have developed the following cross-industry recommendations:
+
+### Expansion of recyclate markets
+
+*► Cross-industry collaboration:*\
+There should be a stronger exchange between different industries to identify synergies and utilise recyclates more efficiently.
+
+*► Promotion of research and development:*\
+Investments in new recycling technologies and processes should be prioritised to enable the processing of more complex plastic waste.
+
+### Adjustment of regulations
+
+*► More flexible quality standards:*\
+Adjusting regulatory frameworks to facilitate the use of recyclates while ensuring product safety.
+
+*► Incentives for promotion:*\
+Financial incentives for companies that use high proportions of recycled materials.
+
+### Awareness-raising and training
+
+*► Training programmes:*\
+Development of training for the entire supply chain to improve the processing and utilisation of recyclates.
+
+*► Public outreach:*\
+Raising consumer awareness of the benefits of recyclates to increase demand.
+
+### [Tool for analysing survey results](/end-to-end-supply/)
+
+Use our interactive tool to discover the potentials for your industry:
+
+*►* **Target audience:** Companies supplying recyclates to various industries.
+
+*►* **Focus:** Increasing recyclate volumes while reducing certain requirements.
+
+*►* **Results:** Results segmented by industry, based on Circular Plastic Alliance.
+
+*►* **Case studies:** Simulate the impact of reducing specific requirements.
+
+[Try it out here!](/end-to-end-supply/)
+
+For more information, please refer to the project report at SKZ - The Plastics Centre or download the results report **here**.
+
+[Project report "Rezy-Spezi"](https://www.skz.de/forschung/projekt/rezy-spezi)
+
+![](/images/cms/rahh-d9bce7.webp)
+
+If you have questions or suggestions, please contact me!
+
+**Andreas Bastian**, Founder and Managing Director\
+[+49 6126 589 80 10](tel:+49-6126-589-80-10) · [bastian@plastship.com](mailto:bastian@plastship.com)12a:"$EObject.defineProperty(function remarkGfm(options) {\n    // @ts-expect-error: TS is wrong about `this`.\n    // eslint-disable-next-line unicorn/no-this-assignment\n    const self = this;\n    const settings = options || emptyOptions;\n    const data = self.data();\n    const micromarkExtensions = data.micromarkExtensions || (data.micromarkExtensions = []);\n    const fromMarkdownExtensions = data.fromMarkdownExtensions || (data.fromMarkdownExtensions = []);\n    const toMarkdownExtensions = data.toMarkdownExtensions || (data.toMarkdownExtensions = []);\n    micromarkExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$micromark$2d$extension$2d$gfm$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfm\"])(settings));\n    fromMarkdownExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$mdast$2d$util$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfmFromMarkdown\"])());\n    toMarkdownExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$mdast$2d$util$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfmToMarkdown\"])(settings));\n},\"name\",{value:\"remarkGfm\"})"
+128:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$2f","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",381,202,361,1,false]],"props":{"content":"$129","eagerFirstImage":false,"imageAlt":"Rezy-Spezi: Innovative solutions for recycled materials and sustainability in the circular economy","remarkPlugins":["$12a"]}}
+12b:{"time":162.93741700053215}
+12d:"$EObject.defineProperty(function SiteMarkdownLink({ href, children }) {\n    const ziel = href ?? '#';\n    const zweck = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$LinkPurpose$2f$LinkPurpose$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"LinkPurpose\"], {\n        text: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$a11y$2f$linkPurpose$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"textOfChildren\"])(children),\n        href: ziel\n    }, void 0, false, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 92,\n        columnNumber: 17\n    }, this);\n    if (ziel.startsWith('/') && !ziel.startsWith('//') && !istDatei(ziel)) {\n        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$NavLink$2f$NavLink$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NavLink\"], {\n            href: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$trailingSlash$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"ensureTrailingSlashHref\"])(ziel),\n            children: [\n                children,\n                zweck\n            ]\n        }, void 0, true, {\n            fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n            lineNumber: 95,\n            columnNumber: 7\n        }, this);\n    }\n    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(\"a\", {\n        href: ziel,\n        ...(0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"externalLinkProps\"])(ziel),\n        children: [\n            children,\n            zweck\n        ]\n    }, void 0, true, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 102,\n        columnNumber: 5\n    }, this);\n},\"name\",{value:\"SiteMarkdownLink\"})"
+12e:"$EObject.defineProperty((url)=>TEL.test(url) ? url : (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"defaultUrlTransform\"])(url),\"name\",{value:\"siteUrlTransform\"})"
+12f:"$EObject.defineProperty(function rehypePageHeading(options = {}) {\n    const zeile = options.pageHeadingLine ?? null;\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    // `#` sieht aus wie die h2, aus der es jetzt wird\n                    const aussehen = Math.max(2, Number(match[1]));\n                    if (zeile !== null && node.position?.start.line === zeile) {\n                        node.tagName = 'h1';\n                        node.properties['data-render-as'] = String(aussehen);\n                    } else if (node.tagName === 'h1') {\n                        node.tagName = 'h2';\n                    }\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypePageHeading\"})"
+130:"$EObject.defineProperty(function rehypeSiteImages(options = {}) {\n    return (tree)=>{\n        let index = 0;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    Object.assign(node.properties, siteImageProperties(node.properties['src'], index, options));\n                    index += 1;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeSiteImages\"})"
+131:"$EObject.defineProperty(function rehypeImageAlt(options = {}) {\n    const content = options.content ?? '';\n    const quelle = {\n        headings: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownHeadings\"])(content),\n        lead: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownLead\"])(content)\n    };\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    const eigener = node.properties['alt'];\n                    node.properties['alt'] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"imageAltFor\"])(typeof eigener === 'string' ? eigener : undefined, node.position?.start.line, quelle, options.fallback);\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeImageAlt\"})"
+132:"$EObject.defineProperty(function rehypeHeadingOrder(options = {}) {\n    return (tree)=>{\n        let previous = options.parentLevel ?? 1;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    const chosen = Number(match[1]);\n                    const level = headingLevel(chosen, previous);\n                    if (level !== chosen) {\n                        node.tagName = `h${level}`;\n                        node.properties['data-render-as'] = String(chosen);\n                    }\n                    previous = level;\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeHeadingOrder\"})"
+133:"$EObject.defineProperty(function rehypeExternalLinks() {\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'a') {\n                    const href = node.properties['href'];\n                    if (typeof href === 'string' && (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"isExternalHref\"])(href)) {\n                        const rel = relListe(node.properties['rel']);\n                        for (const noetig of __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_REL\"].split(' ')){\n                            if (!rel.some((r)=>r.toLowerCase() === noetig)) rel.push(noetig);\n                        }\n                        node.properties['rel'] = rel;\n                        node.properties['target'] = '_blank';\n                        node.properties['referrerPolicy'] = __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_POLICY\"];\n                    }\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeExternalLinks\"})"
+12c:{"name":"Markdown","key":null,"env":"Server","owner":"$128","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":{"a":"$12d"},"urlTransform":"$12e","remarkPlugins":"$128:props:remarkPlugins","rehypePlugins":[["$12f",{"pageHeadingLine":null}],["$130",{"eagerFirst":false}],["$131","$Y"],"$132","$133"],"children":"$Y"}}
+134:{"time":163.02933399751782}
+135:{"time":170.52570899948478}
+136:[]
+137:[]
+138:[]
+13a:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12c","stack":[],"props":{"href":"https://www.dbu.de/en/","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://www.dbu.de/en/","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"element","tagName":"strong","properties":{},"children":["$Y"],"position":"$Y"}],"position":"$Y"},"children":"$Y"}}
+13b:{"time":170.65512499958277}
+13c:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+13d:{"time":170.7551249973476}
+13e:[]
+13f:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+143:{"name":"SiteMarkdownLink","key":"a-1","env":"Server","owner":"$12c","stack":[],"props":{"href":"https://www.skz.de/en/","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://www.skz.de/en/","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"element","tagName":"strong","properties":{},"children":["$Y"],"position":"$Y"}],"position":"$Y"},"children":"$Y"}}
+144:{"time":170.896292001009}
+145:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+146:{"time":170.94233400002122}
+147:[]
+148:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+149:[]
+14a:[]
+14b:[]
+14c:[]
+14d:[]
+14e:[]
+14f:[]
+150:[]
+151:[]
+152:[]
+153:[]
+154:[]
+155:[]
+156:[]
+157:[]
+158:[]
+159:[]
+15a:[]
+15b:[]
+15c:[]
+15d:[]
+15e:[]
+183:[]
+184:{"time":239.1683339998126}
+185:[]
+186:{"time":239.20479200035334}
+187:[]
+188:[]
+189:[]
+18a:[]
+18b:{"time":239.26487600058317}
+18c:[]
+18d:{"time":239.2803759984672}
+18e:[]
+18f:[]
+190:[]
+191:[]
+192:{"time":239.33695900067687}
+193:[]
+194:{"time":239.35291700065136}
+195:[]
+196:[]
+197:[]
+198:[]
+199:{"time":239.40291699767113}
+19a:[]
+19b:{"time":239.41645899787545}
+19c:[]
+19d:[]
+19e:[]
+19f:[]
+1a0:{"time":239.46462599933147}
+1a1:[]
+1a2:{"time":239.47891699895263}
+1a3:[]
+1a4:[]
+1a5:[]
+1a6:{"time":239.51675099879503}
+1a7:[]
+1a8:[]
+1a9:[]
+1aa:[]
+1ab:[]
+1ac:[]
+1ad:{"time":239.58200100064278}
+1ae:[]
+1af:[]
+1b0:[]
+1b1:[]
+1b2:[]
+1b3:[]
+1b4:{"time":239.64670899882913}
+1b5:[]
+1b6:[]
+1b7:{"time":239.67962599918246}
+1b8:[]
+1b9:{"time":239.69150099903345}
+1ba:[]
+1bb:{"time":239.70583399757743}
+1bc:[]
+1bd:{"time":239.71845899894834}
+1be:[]
+1bf:[]
+1c0:[]
+1c1:{"time":239.7965420000255}
+1c2:[]
+1c3:[]
+1c4:[]
+1c5:{"time":239.8472919985652}
+1c6:[]
+1c7:{"time":239.8618759997189}
+1c8:[]
+1c9:[]
+1ca:[]
+1cb:{"time":239.89912600070238}
+1cc:[]
+1cd:[]
+1ce:[]
+1cf:{"time":239.9342919997871}
+1d0:[]
+1d1:{"time":239.94733399897814}
+1d2:[]
+1d3:[]
+1d4:[]
+1d5:{"time":239.98133400082588}
+1d6:[]
+1d7:[]
+1d8:[]
+1d9:{"time":240.0159589983523}
+1db:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12c","stack":[],"props":{"href":"/end-to-end-supply/","node":{"type":"element","tagName":"a","properties":{"href":"/end-to-end-supply/"},"children":[{"type":"text","value":"Tool for analysing survey results","position":{"start":{"line":111,"column":6,"offset":5391},"end":{"line":111,"column":39,"offset":5424}}}],"position":"$Y"},"children":"Tool for analysing survey results"}}
+1dc:{"time":240.05408399924636}
+1dd:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",185,267,174,1,false]]
+1de:{"time":240.17325099930167}
+1e1:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+1e2:[]
+1e3:{"time":240.27437599748373}
+1e4:[]
+1e5:{"time":240.28987599909306}
+1e6:[]
+1e7:[]
+1e8:[]
+1e9:{"time":240.32925099879503}
+1ea:[]
+1eb:[]
+1ec:[]
+1ed:{"time":240.369291998446}
+1ee:[]
+1ef:[]
+1f0:[]
+1f1:{"time":240.40425099804997}
+1f2:[]
+1f3:[]
+1f4:[]
+1f5:{"time":240.44037599861622}
+1f7:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12c","stack":[],"props":{"href":"/end-to-end-supply/","node":{"type":"element","tagName":"a","properties":{"href":"/end-to-end-supply/"},"children":[{"type":"text","value":"Try it out here!","position":{"start":{"line":123,"column":2,"offset":5846},"end":{"line":123,"column":18,"offset":5862}}}],"position":"$Y"},"children":"Try it out here!"}}
+1f8:{"time":240.46162600070238}
+1f9:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",185,267,174,1,false]]
+1fa:{"time":240.5122510008514}
+1fb:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+1fc:[]
+1fd:{"time":240.540500998497}
+1fe:[]
+1ff:[]
+200:{"time":240.56366699934006}
+202:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12c","stack":[],"props":{"href":"https://www.skz.de/forschung/projekt/rezy-spezi","rel":"noopener noreferrer","target":"_blank","referrerPolicy":"no-referrer","node":{"type":"element","tagName":"a","properties":{"href":"https://www.skz.de/forschung/projekt/rezy-spezi","rel":["noopener","noreferrer"],"target":"_blank","referrerPolicy":"no-referrer"},"children":[{"type":"text","value":"Project report \"Rezy-Spezi\"","position":{"start":{"line":127,"column":2,"offset":6015},"end":"$Y"}}],"position":"$Y"},"children":"Project report \"Rezy-Spezi\""}}
+203:{"time":240.58779199793935}
+204:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+205:{"time":240.65525100007653}
+206:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+207:[]
+208:{"time":240.68487599864602}
+209:[]
+20a:[]
+20b:{"time":240.71187599748373}
+20c:[]
+20d:{"time":240.72608399763703}
+20e:[]
+20f:[]
+211:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$12c","stack":[],"props":{"href":"tel:+49-6126-589-80-10","node":{"type":"element","tagName":"a","properties":{"href":"tel:+49-6126-589-80-10"},"children":[{"type":"text","value":"+49 6126 589 80 10","position":{"start":{"line":134,"column":2,"offset":6240},"end":{"line":134,"column":20,"offset":6258}}}],"position":"$Y"},"children":"+49 6126 589 80 10"}}
+212:{"time":240.76541699841619}
+213:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+214:{"time":240.81079199910164}
+215:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+217:{"name":"SiteMarkdownLink","key":"a-1","env":"Server","owner":"$12c","stack":[],"props":{"href":"mailto:bastian@plastship.com","node":{"type":"element","tagName":"a","properties":{"href":"mailto:bastian@plastship.com"},"children":[{"type":"text","value":"bastian@plastship.com","position":{"start":{"line":134,"column":49,"offset":6287},"end":{"line":134,"column":70,"offset":6308}}}],"position":"$Y"},"children":"bastian@plastship.com"}}
+218:{"time":240.85462599992752}
+219:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+21a:{"time":240.89954200014472}
+21b:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]

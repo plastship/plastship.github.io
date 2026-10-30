@@ -1,0 +1,656 @@
+:N1793317088358.0361
+3:"$EObject.defineProperty(()=>{ctx.componentMod.preloadStyle(fullHref,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+4:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+5:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+6:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+2:{"name":"Preloads","key":null,"env":"Server","stack":[],"props":{"preloadCallbacks":["$3","$4","$5","$6"]}}
+7:{"time":0.12858400121331215}
+8:{"time":0.1448340006172657}
+9:[]
+f:[]
+11:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+12:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+13:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+14:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+17:I["[project]/node_modules/next/dist/client/components/layout-router.js [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js"],"default"]
+19:I["[project]/apps/web/src/app/error.tsx [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js","/_next/static/chunks/apps_web_src_app_components_Template_Default_Default_tsx_0cwoqne_kn9rg._.js","/_next/static/chunks/apps_web_src_app_0lnso837mnog3._.js"],"default"]
+1a:{"type":"error","pagePath":"error.tsx","children":[]}
+1b:[["Promise.all","",0,0,0,0,true]]
+18:{"parallelRouterKey":"children","error":"$19","errorStyles":["$","$Le",null,"$1a",null,"$1b",0],"errorScripts":"$Y","template":"$Y","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$Y","forbidden":"$undefined","unauthorized":"$undefined","segmentViewBoundaries":"$Y"}
+1c:[["Promise.all","",0,0,0,0,true]]
+16:{"name":"RootLayout","key":null,"env":"Server","stack":[],"props":{"children":["$","$L17",null,"$18",null,"$1c",1],"params":"$Y"}}
+1d:{"time":0.460292000323534}
+1f:[["Promise.all","",0,0,0,0,true]]
+20:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+23:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+28:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+29:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2b:{"name":"CmsCatchAllPage","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"params":"$@2c","searchParams":"$@2d"}}
+2e:{"time":1.6291670016944408}
+2f:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+30:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+31:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+32:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+33:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+34:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+35:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+36:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+39:"$EObject.defineProperty(()=>__turbopack_context__.r(\"[project]/apps/web/src/app/[...slug]/page.tsx [app-rsc] (ecmascript, Next.js Server Component)\"),\"name\",{value:\"\"})"
+38:{"name":"Next.MetadataOutlet","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"tree":["__PAGE__",{},{"metadata":{},"page":["$39","[project]/apps/web/src/app/[...slug]/page.tsx"]},[]]}}
+3a:{"time":2.5225419998168945}
+3b:[]
+3c:{"time":3.8749170005321503}
+3f:[]
+42:[]
+45:"$EObject.defineProperty(function(type,config,children){for(var propName,i=2;i<arguments.length;i++)validateChildKeys(arguments[i]);i={};var key=null;if(null!=config)for(propName in didWarnAboutOldJSXRuntime||!(\"__self\"in config)||\"key\"in config||(didWarnAboutOldJSXRuntime=!0,console.warn(\"Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform\")),hasValidKey(config)&&(checkKeyStringCoercion(config.key),key=\"\"+config.key),config)hasOwnProperty.call(config,propName)&&\"key\"!==propName&&\"__self\"!==propName&&\"__source\"!==propName&&(i[propName]=config[propName]);var childrenLength=arguments.length-2;if(1===childrenLength)i.children=children;else if(1<childrenLength){for(var childArray=Array(childrenLength),_i=0;_i<childrenLength;_i++)childArray[_i]=arguments[_i+2];Object.freeze&&Object.freeze(childArray),i.children=childArray}if(type&&type.defaultProps)for(propName in childrenLength=type.defaultProps)void 0===i[propName]&&(i[propName]=childrenLength[propName]);return key&&function(props,displayName){function warnAboutAccessingKey(){specialPropKeyWarningShown||(specialPropKeyWarningShown=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",displayName))}warnAboutAccessingKey.isReactWarning=!0,Object.defineProperty(props,\"key\",{get:warnAboutAccessingKey,configurable:!0})}(i,\"function\"==typeof type?type.displayName||type.name||\"Unknown\":type),(propName=1e4>ReactSharedInternals.recentlyCreatedOwnerStacks++)?(childArray=Error.stackTraceLimit,Error.stackTraceLimit=10,childrenLength=Error(\"react-stack-top-frame\"),Error.stackTraceLimit=childArray):childrenLength=unknownOwnerDebugStack,ReactElement(type,key,i,getOwner(),childrenLength,propName?createTask(getTaskName(type)):unknownOwnerDebugTask)},\"name\",{value:\"\"})"
+44:{"name":"NonIndex","key":null,"env":"Server","stack":[],"props":{"createElement":"$45","pagePath":"/[...slug]","statusCode":200,"isPossibleServerAction":false}}
+46:{"time":4.124416999518871}
+47:{"time":4.127749998122454}
+49:{"name":"ViewportWrapper","key":null,"env":"Server","stack":[],"props":{}}
+4a:{"time":4.147959001362324}
+4b:[]
+4c:{"time":4.1845839992165565}
+50:{"name":"Next.Viewport","key":null,"env":"Server","owner":"$49","stack":[],"props":{}}
+51:{"time":4.208250001072884}
+53:{"name":"MetadataWrapper","key":null,"env":"Server","stack":[],"props":{}}
+54:{"time":4.485791999846697}
+55:[]
+56:{"time":4.5592090003192425}
+59:[]
+5a:[]
+5c:{"name":"Next.Metadata","key":null,"env":"Server","owner":"$53","stack":[],"props":{}}
+5d:{"time":4.606750000268221}
+5f:{"name":"MetadataBlocker","key":null,"env":"Server","owner":"$53","stack":[],"props":{}}
+60:{"time":4.915584001690149}
+61:{"time":4.91729199886322}
+62:[]
+67:[]
+68:[]
+2c:{"slug":["agb"]}
+2d:
+69:{"time":6.111625000834465}
+6a:[]
+6b:[]
+6c:[]
+6e:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+6d:J{"name":"headers","start":0.6924999989569187,"end":14.137416999787092,"env":"Server","stack":"$6e","owner":"$16","value":"$@6f"}
+70:{"time":6.502709001302719}
+71:[["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",4056,346,4054,240,false],["getPageTranslation","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",4073,207,4071,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2334,182,2332,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+72:{"awaited":"$6d","env":"Server","owner":"$38","stack":"$71"}
+73:{"time":14.270334001630545}
+75:[["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",178,44,177,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+74:J{"name":"laden","start":7.277541998773813,"end":7.543749999254942,"env":"Server","stack":"$75","owner":"$38","value":"$@76"}
+77:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",178,44,177,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+78:{"awaited":"$74","env":"Server","owner":"$38","stack":"$77"}
+79:{"time":14.270334001630545}
+7a:{"time":6.502709001302719}
+7b:[["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",4056,346,4054,240,false],["getPageTranslation","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",4073,207,4071,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2334,182,2332,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+7c:{"awaited":"$6d","env":"Server","owner":"$38","stack":"$7b"}
+7d:{"time":14.270334001630545}
+7e:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",178,44,177,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+7f:{"awaited":"$74","env":"Server","owner":"$38","stack":"$7e"}
+80:{"time":14.270334001630545}
+81:["host","localhost"]
+82:["user-agent","plastship-interim-mirror"]
+83:["accept","text/html"]
+84:["accept-encoding","gzip, deflate"]
+85:["accept-language","*"]
+86:["sec-fetch-mode","cors"]
+87:["via","1.1 Caddy"]
+88:["x-forwarded-for","172.18.0.1"]
+89:["x-forwarded-host","localhost"]
+8a:["x-forwarded-proto","http"]
+8b:["x-real-ip","172.18.0.1"]
+8c:["x-forwarded-port","3000"]
+8d:["content-security-policy","default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+8e:["x-nonce","RCdPz4+QlEkQE9H9sZMKkg=="]
+8f:["x-plastship-locale","de"]
+90:["x-plastship-route-kind","public"]
+91:["cache-control","private, no-cache, must-revalidate"]
+92:["content-security-policy-report-only","default-src 'self'; script-src 'self' 'nonce-RCdPz4+QlEkQE9H9sZMKkg==' 'strict-dynamic' 'wasm-unsafe-eval' 'report-sample' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+93:["permissions-policy","camera=(), microphone=(self), geolocation=(), interest-cohort=()"]
+94:["referrer-policy","same-origin"]
+95:["reporting-endpoints","csp-endpoint=\"https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local\""]
+96:["strict-transport-security","max-age=63072000; includeSubDomains; preload"]
+97:["x-content-type-options","nosniff"]
+98:["x-frame-options","DENY"]
+6f:["$81","$82","$83","$84","$85","$86","$87","$88","$89","$8a","$8b","$8c","$8d","$8e","$8f","$90","$91","$92","$93","$94","$95","$96","$97","$98"]
+76:{}
+99:{"time":31.95133399963379}
+9a:{"time":31.961417000740767}
+9b:[]
+9c:[]
+9d:[]
+9e:[]
+9f:[]
+a0:[]
+a1:[]
+a2:[]
+a3:[]
+a4:[]
+a5:[]
+a6:[]
+a7:[]
+a8:[]
+a9:[]
+aa:[]
+ab:[]
+ac:[]
+ad:[]
+ae:[]
+af:[]
+b0:[]
+b1:[]
+b2:[]
+b3:[]
+b4:[]
+b5:[]
+b6:[]
+b7:[]
+b8:[]
+b9:[]
+ba:[]
+bb:[]
+bc:[]
+bd:[]
+be:[]
+bf:[]
+c0:[]
+c1:[]
+c2:[]
+c3:[]
+c4:[]
+c7:{"time":0.7733750008046627}
+c8:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+c9:{"awaited":"$6d","env":"Server","owner":"$16","stack":"$c8"}
+ca:{"time":14.138709001243114}
+cc:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+cb:J{"name":"cookies","start":14.662209000438452,"end":40.67062500119209,"env":"Server","stack":"$cc","owner":"$16","value":"$@cd"}
+ce:{"time":14.690083999186754}
+cf:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+d0:{"awaited":"$cb","env":"Server","owner":"$16","stack":"$cf"}
+d1:{"time":40.67270899936557}
+d3:[["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",196,44,195,1,false]]
+d2:J{"name":"laden","start":2.059875000268221,"end":5.133958999067545,"env":"Server","stack":"$d3","owner":"$2b","value":"$@d4"}
+d5:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",196,44,195,1,false]]
+d6:{"awaited":"$d2","env":"Server","owner":"$2b","stack":"$d5"}
+d7:{"time":40.67270899936557}
+d8:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",178,44,177,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+d9:{"awaited":"$74","env":"Server","owner":"$38","stack":"$d8"}
+da:{"time":40.67270899936557}
+dc:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+db:J{"name":"","start":-0.5252080000936985,"end":14.07362499833107,"env":"Server","stack":"$dc","value":"$@dd"}
+de:[["sprachParameter","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",160,31,159,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",210,431,195,1,false]]
+df:{"awaited":"$db","env":"Server","owner":"$2b","stack":"$de"}
+e0:{"time":40.67270899936557}
+cd:[]
+d4:{}
+dd:"$undefined"
+e1:{"time":2.1022090017795563}
+e2:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",196,44,195,1,false]]
+e3:{"awaited":"$d2","env":"Server","owner":"$2b","stack":"$e2"}
+e4:{"time":14.078584000468254}
+e5:[["Promise.then","",0,0,0,0,false],["Promise.all","",0,0,0,0,false],["laden","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",164,45,163,1,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",178,44,177,1,false],["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false],["ContextAPI.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",283,46,282,9,false],["SentryTracer.startActiveSpan","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10374,32,10364,5,false],["SentryAsyncLocalStorageContextManager.with","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10682,40,10679,5,false]]
+e6:{"awaited":"$74","env":"Server","owner":"$38","stack":"$e5"}
+e7:{"time":14.078584000468254}
+e8:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",157,421,157,234,false],["Module.generateMetadata","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",179,39,177,1,false]]
+e9:{"awaited":"$6d","env":"Server","owner":"$38","stack":"$e8"}
+ea:{"time":14.273917000740767}
+eb:{"time":14.826542001217604}
+ec:[["sprachParameter","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",160,31,159,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",210,431,195,1,false]]
+ed:{"awaited":"$db","env":"Server","owner":"$2b","stack":"$ec"}
+ee:{"time":14.845084000378847}
+ef:{"time":15.084874998778105}
+f0:[["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13518,212,13516,245,false],["resolveCmsDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13531,9,13524,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",158,520,158,333,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",210,412,195,1,false]]
+f1:{"awaited":"$cb","env":"Server","owner":"$2b","stack":"$f0"}
+f2:{"time":45.542167000472546}
+f3:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2425,256,2369,1,false]]
+f4:{"time":53.7397090010345}
+f5:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2429,270,2369,1,false]]
+f6:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2431,268,2369,1,false]]
+f7:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2443,268,2369,1,false]]
+f8:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2454,268,2369,1,false]]
+fc:[["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",226,267,195,1,false]]
+fd:{"time":54.94737499952316}
+10a:T77c2,## Allgemeine Geschäftsbedingungen (AGB) der plastship GmbH, Auf der Lind 10, 65529 Waldems, Deutschland
+
+PLASTSHIP ® ist eine Online-Plattform im B2B-Bereich von Unternehmen für Unternehmen, die von der plastship GmbH (Auf der Lind 10, 65529 Waldems, Deutschland) betrieben wird (nachfolgend „PLASTSHIP“, „Online-Plattform“, „plastship GmbH“). Als Online-Plattform vermittelt sie insbesondere Angebote für die Vermarktung von recycelten Kunststoffen und Dienstleistungen zwischen Lieferanten und Abnehmern, bzw. zwischen Kunststoffverwertern und Kunststoffverarbeitern. Daneben betreibt PLASTSHIP ein Auktionshaus, in dem Anbieter Materialien an von ihnen zugelassene Händler versteigern (Abschnitt X), und stellt weitere Funktionen bereit, etwa zu Mustern, Aufträgen, Zertifikaten, Rechnungen und Rücknahmesystemen (Abschnitt XI). Informationen zum Geschäftsablauf, zu den Funktionen der Online-Plattform und zu weiteren Angeboten der plastship GmbH sind unter https://plastship.com zugänglich oder werden durch PLASTSHIP selbst in der direkten Kommunikation zur Verfügung gestellt.
+
+**I. ALLGEMEINES / GELTUNGSBEREICH / ÄNDERUNGEN**
+
+1\. Diese Allgemeinen Geschäftsbedingungen („AGB“) gelten zwischen der plastship GmbH und den Nutzern von PLASTSHIP und sonstigen Vertragspartnern (der oder die „Nutzer“).
+
+2\. Das Angebot zur Nutzung von PLASTSHIP richtet sich ausschließlich an Unternehmer. Unternehmer ist eine natürliche oder juristische Person oder eine rechtsfähige Personengesellschaft, die bei Abschluss eines Rechtsgeschäfts in Ausübung ihrer gewerblichen oder selbständigen beruflichen Tätigkeit handelt. Die Nutzung der Dienste von PLASTSHIP durch Verbraucher ist nicht gestattet. Verbraucher ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken abschließt, die überwiegend weder ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zugerechnet werden können.
+
+3\. Diese AGB gelten, soweit nicht ausdrücklich etwas anderes vereinbart ist, für alle unsere Angebote und Verträge. Sie sind durchweg Bestandteil des jeweiligen Vertrages. Abweichende Allgemeine Geschäftsbedingungen des Nutzers werden nicht anerkannt, auch wenn wir ihnen nicht ausdrücklich widersprechen. Abweichende Bedingungen des Nutzers gelten nur, wenn dies von uns ausdrücklich schriftlich bestätigt worden ist.
+
+4\. Unsere AGB gelten in ihrer jeweils neuesten Fassung für alle Folgegeschäfte, ohne dass das bei deren Abschluss noch ausdrücklich erwähnt oder vereinbart werden müsste, soweit es sich bei den Folgegeschäften um Rechtsgeschäfte verwandter Art handelt.
+
+5\. Im Einzelfall getroffene, individuelle Vereinbarungen mit dem Käufer (einschließlich Nebenabreden, Ergänzungen und Änderungen) haben in jedem Fall Vorrang vor diesen AGB. Für den Inhalt derartiger Vereinbarungen ist, vorbehaltlich des Gegenbeweises, ein schriftlicher Vertrag maßgebend.
+
+6\. Rechtserhebliche Erklärungen und Anzeigen, die nach Vertragsschluss vom Nutzer oder vom sonstigen Vertragspartner uns gegenüber abzugeben sind (z.B. Fristsetzungen, Mahnungen, Erklärungen von Rücktritt), bedürfen zu ihrer Wirksamkeit der Schriftform. Soweit diese Bedingungen schriftliche Erklärungen voraussetzen, genügen im Rahmen der Verkehrsüblichkeit auch E-Mail, Telefax oder elektronische Erklärungen dieser Form. Gesetzliche Formvorschriften und weitere Nachweise insbesondere bei Zweifeln über die Legitimation des Erklärenden bleiben unberührt.
+
+7\. Wir sind berechtigt, die AGB im Laufe der Vertragslaufzeit anzupassen. Dies erfolgt, indem wir den Nutzer oder den sonstigen Vertragspartnern mit angemessener Vorlaufzeit auf die neuen AGB hinweisen.
+
+**II. GEGENSTAND DER ONLINE-PLATTFORM PLASTSHIP / ANGEBOT UND AUSWAHL**
+
+1\. PLASTSHIP stellt im Rahmen einer reinen Vermittlungstätigkeit Lieferanten und Abnehmern die Online-Plattform zur Verfügung und bietet den Nutzern hiermit die Möglichkeit, auf PLASTSHIP Materialien anzubieten oder anzufragen, Einkaufsspezifikationen zu erstellen und Angebote abzugeben, um Rohstoffe und Dienstleistungen aus dem Bereich des Kunststoffrecyclings zugänglich zu machen. PLASTSHIP bietet den Nutzern ferner die Möglichkeit, mit anderen Nutzern Verträge über angebotene oder angefragte Materialien zu schließen, wobei PLASTSHIP insoweit am Vertragsschluss nicht beteiligt ist und somit auch nicht Vertragspartei wird. PLASTSHIP berät im Bedarfsfall die Nutzer im Hinblick auf die optimale Nutzung der Online-Plattform. Für einen wie auch immer gearteten wirtschaftlichen Erfolg auf Seiten des Nutzers übernimmt PLASTSHIP weder eine Garantie noch eine sonstige Gewährleistung.
+
+2\. Angebote zwischen Lieferanten und Abnehmern werden durch PLASTSHIP regelmäßig lediglich vermittelt. Ein über PLASTSHIP getätigter Verkauf von Materialien oder der Erwerb einer Dienstleistung zwischen dem Lieferanten und dem Abnehmer (nachfolgend „Transaktion“) kommt als Vertrag ausschließlich zwischen dem Lieferanten und dem Abnehmer (nachfolgend „Drittvertrag“) zu Stande und verpflichtet PLASTSHIP selbst nicht. Sämtliche Vertragsbestandteile sind von den beteiligten Nutzern selbst auszuhandeln. Der Abschluss, der Inhalt und die Durchführung des Drittvertrags obliegt allein den Nutzern. Für einen wie auch immer gearteten wirtschaftlichen Erfolg auf Seiten des Nutzers übernimmt PLASTSHIP auch insoweit weder eine Garantie noch eine sonstige Gewährleistung.
+
+3\. PLASTSHIP bietet den Nutzern über die Online-Plattform oder außerhalb der Online-Plattform weitere Leistungen und gegebenenfalls Materialien an, hierüber ist jedoch eine gesonderte Vereinbarung zwischen PLASTSHIP und dem jeweiligen Nutzer zu treffen. Diesbezüglich können auch Kaufverträge mit PLASTSHIP geschlossen werden.
+
+4\. PLASTSHIP kann die Bedingungen über die Registrierung und Nutzung jederzeit einseitig ändern, sofern dies für einen ordnungsgemäßen Betrieb der Online-Plattform erforderlich ist.
+
+5\. Der Lieferant kann nach Anlage eines Materials auf PLASTSHIP ein unverbindliches Angebot für ein Material abgeben. Soweit nicht ausdrücklich im Einzelfall etwas anderes geregelt wird, ist das Angebot nur für registrierte Nutzer zugänglich.
+
+6\. PLASTSHIP übermittelt auf Anfrage des Abnehmers ein Materialmuster zu einem unverbindlichen Angebot des Lieferanten.
+
+7\. PLASTSHIP übermittelt ferner auf Anfrage des Abnehmers ein verbindliches Angebot des Lieferanten. Eine Annahme des verbindlichen Angebots des Lieferanten durch den Abnehmer hat innerhalb der vom Lieferanten vorgegebenen Annahmefrist zu erfolgen. Die Einzelheiten des Drittvertrages werden zwischen dem Lieferanten und dem Abnehmer vereinbart, hiervon unberührt bleiben jedoch die vom Lieferanten und dem Abnehmer gegenüber PLASTSHIP übernommenen Verpflichtungen aus der Anbahnung des Drittvertrages. Im Rahmen bestehender Provisionsvereinbarungen, die sich aus der Vermittlungstätigkeit von PLASTSHIP ergeben, hat PLASTSHIP - soweit nicht ausdrücklich etwas anderes vereinbart wurde - einen Anspruch auf Provision für alle während des Vertragsbildnisses abgeschlossenen Geschäfte, die auf die Vermittlungstätigkeit von PLASTSHIP zurückzuführen sind.
+
+8\. Bezüglich aller Inhalte von PLASTSHIP ist es den Nutzern oder sonstigen Vertragspartnern grundsätzlich untersagt, diese für eigene gewerbliche Zwecke ganz oder teilweise zu verarbeiten, zu übernehmen, zu kopieren oder in sonstiger Weise zu nutzen, soweit dies nicht dem mit uns vereinbarten Vertragszweck entspricht. Statistische Daten und/oder sonstige Informationen außerhalb des gesetzlichen Urheberrechtes können für eine redaktionelle oder bilanzielle Arbeit im angemessenen Rahmen verwendet werden. Jede darüberhinausgehende gewerbliche und kommerzielle Nutzung dieses Materials ist aber ausdrücklich untersagt. Darüber hinaus wird darauf hingewiesen, dass Logos, Marken, Videoclips, Filme, Fotos, Texte, Geschäftsbezeichnungen und ähnliche gewerbliche Schutzrechte in der Regel urheber- und leistungsschutzrechtlich geschützt sind. Deren Nutzung ist daher grundsätzlich verboten.
+
+9\. Alle Daten, die durch den operativen Betrieb entstehen, können den Teilnehmern in einem definierten Zyklus oder auf Abfrage in einem zu definierenden Austauschformat zur Verfügung gestellt werden, soweit dies technisch und inhaltlich möglich ist.
+
+**III. REGISTRIERUNG**
+
+1\. Für die Nutzung von PLASTSHIP ist eine Registrierung erforderlich. Die Registrierung ist kostenlos. Mit der Registrierung kann die Verpflichtung zum Abschluss einer weiteren separaten Vereinbarung mit PLASTSHIP entstehen (auf die Abschnitte II. 3. und VI. 2. wird beispielhaft verwiesen). Ein Anspruch auf Registrierung besteht nicht. PLASTSHIP behält sich vor, (vermeintliche) Nutzer von der Registrierung auszuschließen, z.B. wenn ein vertrags- und/oder rechtswidriges Verhalten auf Seiten des Nutzers festgestellt wurde. Ein Ausschluss von der Registrierung ist auch dann möglich, wenn mit der Registrierung der Abschluss eines weiteren, separaten Vertrags mit PLASTSHIP zwingend erforderlich ist, es jedoch insoweit nicht zu einer Einigung kommt.
+
+2\. Der Nutzer ist verpflichtet, sich unter seinen eigenen Daten zu registrieren. Bei der Registrierung ist der Nutzer verpflichtet, richtige und vollständige Informationen insbesondere über seine Identität, Anschrift, Rechtsform (z.B. GmbH), Telefonnummer, E-Mail-Adresse und - soweit dies verlangt wird - seine Bankverbindung zu machen. PLASTSHIP behält sich vor, vor oder nach der Registrierung die durch den Nutzer getätigten Angaben selbst oder durch Dritte überprüfen zu lassen.
+
+3\. Auch während der Laufzeit seines Vertrages muss der Nutzer die von ihm angegebenen Informationen und vorgelegten Unterlagen stets auf dem aktuellen Stand halten. Notwendige Änderungen können über die von uns bereitgestellten Funktionen vorgenommen werden.
+
+4\. Bei der Registrierung und Nutzung von PLASTSHIP ist die Unternehmereigenschaft nachzuweisen.
+
+5\. Der Nutzer darf seine Zugangsdaten nicht an Dritte weitergeben. Die Weitergabe an seine Mitarbeiter zu dienstlichen Zwecken ist gestattet. Dabei ist aber sicherzustellen, dass die Mitarbeiter diese AGB beachten.
+
+**IV. ANGEBOTE VON PLASTSHIP**
+
+1\. Soweit wir Angebote gegenüber Nutzern und sonstigen Vertragspartnern unterbreiten, sind diese stets freibleibend.
+
+2\. Soweit wir im Rahmen unserer Angebote Qualitäten, Liefertermine und/oder Mengen angeben, stehen diese Angebote in jedem Fall unter dem Vorbehalt der richtigen, rechtzeitigen und ausreichenden Selbstbelieferung. Eine Garantie dahingehend, dass abgegebene Angebote auch jeweils noch aktuell sind, wird von uns nicht übernommen.
+
+**V. MATERIALIEN**
+
+1\. Nutzer und sonstige Vertragspartner einschließlich Lieferanten verpflichten sich, nur Materialien auf PLASTSHIP anzubieten, welche die insoweit einschlägigen gesetzlichen Anforderungen erfüllen (nachfolgend „Materialien“).
+
+2\. Jeder Nutzer und jeder sonstige Vertragspartner einschließlich der Lieferanten ist allein dafür verantwortlich, dass seine Daten über die Materialien korrekt, aktuell und vollständig sind sowie geltendem Recht entsprechen. PLASTSHIP bietet den Nutzern einen Service an, der diese darin unterstützt, die Daten zu Materialien aktuell zu halten.
+
+3\. PLASTSHIP übernimmt keine Gewährleistung für die Richtigkeit und Wahrhaftigkeit der auf PLASTSHIP durch die Nutzer eingestellten Daten der Materialien, behält sich aber jederzeit das Recht vor, diese Daten zu prüfen und den Nutzer anzuhalten, gegebenenfalls Änderungen vorzunehmen oder bei wiederholtem Verstoß gegen diese Bestimmungen den Nutzer zeitweise oder dauerhaft von der Nutzung auszuschließen.
+
+**VI. PREISE UND ZAHLUNG / VERTRAGSKONDITIONEN**
+
+1\. Die Nutzung der Online-Plattform durch Abnehmer bzw. Kunststoffverarbeiter ist kostenlos.
+
+2\. Für jeden durch PLASTSHIP zwischen den Nutzern vermittelten Verkauf, der ohne Reklamation abgewickelt wird und für den der Kaufpreis durch den Abnehmer in voller Höhe einredefrei bezahlt wurde, erhält PLASTSHIP vom Lieferanten eine erfolgsbasierte Provision. Die Höhe der Provision, Abrechnung, Zahlungsbedingungen sowie weitere Vertragskonditionen zwischen PLASTSHIP und dem Lieferanten, dem Abnehmer und/oder sonstigen Dritten werden auf Basis einer gesonderten Vereinbarung zwischen PLASTSHIP und dem Lieferanten geregelt.
+
+3\. Alle durch PLASTSHIP ausgewiesenen Preise verstehen sich als Nettopreise zuzüglich gesetzlicher Mehrwertsteuer.
+
+4\. Ausgestellte Rechnungsbeträge sind zahlbar innerhalb von 14 Tagen ab Rechnungszugang bei dem Nutzer ohne Abzug. Soweit nicht ausdrücklich etwas anderes vereinbart wurde, erfolgt die Zustellung von Rechnungen per E-Mail an die E-Mail-Adresse des Nutzers.
+
+**VII. VERFÜGBARKEIT DER ONLINE-PLATTFORM PLASTSHIP**
+
+1\. PLASTSHIP stellt die Online-Plattform „as is“ zur Verfügung und entwickelt diese ständig weiter.
+
+2\. PLASTSHIP bemüht sich um einen möglichst störungsfreien Betrieb, weist jedoch darauf hin, dass den Nutzern eine durchgehende Verfügbarkeit bzw. Nutzbarkeit von PLASTSHIP – etwa aufgrund von Wartungsarbeiten - weder geschuldet wird noch garantiert werden kann.
+
+3\. PLASTSHIP ist berechtigt, jederzeit den Betrieb der Online-Plattform ganz oder teilweise einzustellen, zu verändern und/oder zu löschen. Aufgrund dessen übernimmt PLASTSHIP keine Gewähr für die ununterbrochene Verfügbarkeit der Website.
+
+4\. Obgleich wir uns stets bemühen, die Online-Plattform virenfrei zu halten, können wir keine durchgängige Virenfreiheit garantieren. Vor dem Herunterladen von Informationen oder ähnlichen Handlungen ist der Nutzer daher gehalten, zum eigenen Schutz sowie zur Verhinderung von Viren auf der Online-Plattform für angemessene Sicherheitsvorrichtungen und Virenscanner zu sorgen.
+
+5\. PLASTSHIP ist für eigene Inhalte, die zur Nutzung bereitgehalten werden, nach den allgemeinen Gesetzen verantwortlich. Von diesen eigenen Inhalten sind Links auf die von anderen Anbietern bereitgehaltenen Inhalte zu unterscheiden. PLASTSHIP überprüft die Inhalte dieser fremden Links grundsätzlich nicht. Wenn wir jedoch feststellen oder von Dritten darauf hingewiesen werden, dass der Inhalt der Links bzw. der dritten Website oder des Dokumentes, zu dem wir einen Link hergestellt haben, eine zivil- oder strafrechtliche Verantwortung auslöst, werden wir den diesbezüglichen Verweis umgehend aufheben. Für Informationen, die Nutzer auf der Plattform einstellen und die PLASTSHIP in ihrem Auftrag speichert, haftet PLASTSHIP nach Maßgabe von Art. 6 der Verordnung (EU) 2022/2065 (Digital Services Act, „DSA“); wir machen uns diese Inhalte nicht zu eigen. Für eine automatische, zeitlich begrenzte Zwischenspeicherung, die allein dem Zweck dient, die Übermittlung fremder Informationen an andere Nutzer auf deren Anfrage effizienter zu machen, gilt Art. 5 DSA. Eine allgemeine Verpflichtung, die von Nutzern eingestellten Informationen zu überwachen oder aktiv nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hindeuten, besteht nicht (Art. 8 DSA).
+
+**VIII. WEITERE VERPFLICHTUNGEN DER NUTZER**
+
+1\. Der Nutzer darf die Online-Plattform ausschließlich selbst und zu dem von PLASTSHIP vorgesehenen Zweck nutzen. Er darf unsere Dienste nur in einer Weise oder zu Zwecken nutzen, die nicht gegen diese AGB bzw. gegen geltendes Recht verstoßen oder Rechte Dritter verletzen. Wenn gegen diese AGB oder gegen geltendes Recht schuldhaft verstoßen wird, können und dürfen wir die notwendigen Maßnahmen ergreifen. Diese können sich bei geringen Verstößen auf den Hinweis beschränken, dass die AGB, gesetzliche Bestimmungen oder die Pflicht zur Rücksichtnahme verletzt wurden. Schwere Verstöße können zur vorübergehenden oder völligen Sperrung einzelner Leistungen oder des Zugangs des Nutzers oder sogar zur fristlosen Kündigung des Vertragsverhältnisses führen.
+
+2\. Der Nutzer darf auf der Online-Plattform ausschließlich Daten und sonstige Inhalte einstellen, die vollständig und korrekt sind, zu deren entsprechender Nutzung er berechtigt ist und die nicht gegen geltendes Recht oder Rechte Dritter verstoßen.
+
+3\. PLASTSHIP ist zur Sperrung von durch den Nutzer eingestellten Inhalten sowie zum Ausschluss des Nutzers berechtigt, wenn ein begründeter Verdacht besteht, dass auf PLASTSHIP eingestellte Daten oder sonstige Inhalte rechtswidrig sind, gegen diese AGB verstoßen wird oder Rechte Dritter verletzt werden.
+
+4\. Der Nutzer ist verpflichtet, PLASTSHIP unverzüglich darüber zu unterrichten, falls ein von PLASTSHIP vermittelter Drittvertrag außerhalb der Plattform abgeschlossen wird. Dies betrifft insbesondere alle während des Vertragsverhältnisses abgeschlossenen Geschäfte, die auf die Vermittlungstätigkeit von PLASTSHIP zurückzuführen sind.
+
+**IX. BETRIEB EINER EIGENEN PARTNERSEITE ODER EINES SHOWROOMS AUF PLASTSHIP DURCH DEN NUTZER**
+
+1\. Soweit ein Nutzer die Online-Plattform im Rahmen einer Partnerschaft (etwa als Showroom-Partner mit eigener Partnerseite) dahingehend verwendet, dass er auf dieser Plattform eine eigene Seite gestaltet, über diese Seite Kundenkontakte abwickelt und dementsprechend auf dieser Seite seinen Firmennamen, seine Marken oder auch eine Kontaktperson abbildet, Inhalte bereitstellt oder ähnliches, gewährt der Nutzer uns für diesen Zweck eine nicht ausschließliche, gebührenfreie, nicht übertragbare, nicht unterlizenzierbare, weltweite Lizenz, den Inhalt dieser Seite auf unserer Online-Plattform zu verwenden, zu speichern, anzuzeigen, zu reproduzieren, aufzuheben, zu ändern und zu verbreiten.
+
+2\. Durch keine Bedingung dieser AGB werden etwaige sonstige Rechte von uns an dem jeweiligen diesbezüglichen Nutzerinhalt eingeschränkt, beispielsweise aus anderen Lizenzen. PLASTSHIP behält sich das Recht vor, die Inhalte auf diesen Seiten der Nutzer nach eigenem Ermessen zu entfernen oder zu bearbeiten bzw. deren Verwendungsweise auf PLASTSHIP zu ändern, soweit dies notwendig und angemessen erscheint.
+
+3\. Soweit der Nutzer seine eigene Seite für kommerzielle Zwecke auf PLASTSHIP verwendet, verpflichtet er sich, uns und unsere Geschäftsführer und Angestellten von jeglichen Ansprüchen, Klagen, Gerichtsverfahren, Streitigkeiten, Forderungen, Schäden, Verlusten, Kosten und sonstigen Ausgaben schadlos zu halten („Haftungsfreistellung“). Dazu gehören auch vertretbare Anwalts- und Buchhaltungskosten, inklusive der Kosten für die notwendig gewordenen Verteidigung im Rahmen von Gerichts- oder sonstigen Verfahren, die Dritte gegen uns im Zusammenhang mit der Verwendung der eigenen Seite des Nutzers auf PLASTSHIP einleiten.
+
+4\. PLASTSHIP lehnt im Hinblick auf die Nutzung der eigenen Seite des Nutzers auf PLASTSHIP weitere Gewährleistungen und Bedingungen der Handelsüblichkeit, Eignung für einen bestimmten Zweck, Nichtverletzung von Schutzrechten sowie Gewährleistungen ab, die sich aus einer regelmäßigen handelsüblichen Verhaltensweise bzw. dem Handelsverkehr ergeben.
+
+5\. PLASTSHIP übernimmt keine Verantwortung oder Haftung für Nutzerinhalte, die der Nutzer oder ein Dritter über diese Seite auf PLASTSHIP postet oder sonst wie überträgt.
+
+6\. Weitere vertragliche Absprachen im Zusammenhang mit dem Betrieb einer eigenen Seite auf der Plattform durch den Nutzer wie z.B. die Kosten für die Nutzung werden zwischen PLASTSHIP und dem jeweiligen Nutzer im Rahmen einer separaten, individuellen Vereinbarung geregelt.
+
+**X. AUKTIONSHAUS**
+
+1\. PLASTSHIP betreibt auf der Online-Plattform ein Auktionshaus. Darin bieten Anbieter (insbesondere Hersteller) Materialien in Chargen zur Versteigerung an; bieten können nur Unternehmen, die der jeweilige Anbieter zur Teilnahme zugelassen hat.
+
+2\. Der Kaufvertrag über eine versteigerte Charge kommt ausschließlich zwischen dem Anbieter und dem bietenden Unternehmen zustande. PLASTSHIP stellt das Auktionshaus technisch bereit und wird nicht Partei des Kaufvertrags; Abschnitt II. 2. gilt entsprechend.
+
+3\. Für die Teilnahme an Auktionen gelten ergänzend die im Auktionshaus bekannt gegebenen Auktionsbedingungen und die Vereinbarungen zwischen PLASTSHIP und dem jeweiligen Anbieter. Im Widerspruchsfall gehen die Auktionsbedingungen diesen AGB vor.
+
+4\. Absprachen zwischen Bietern sowie jede Beeinflussung des Auktionsverlaufs sind untersagt und berechtigen PLASTSHIP zum Ausschluss von Auktionen nach Abschnitt VIII.
+
+**XI. WEITERE FUNKTIONEN DER ONLINE-PLATTFORM**
+
+1\. PLASTSHIP stellt registrierten Nutzern je nach Rolle weitere Funktionen bereit, etwa zur Verwaltung von Bedarfen, Produkten, Musterversand, Aufträgen und Rechnungen (einschließlich elektronischer Rechnungen), zur Hinterlegung von Zertifikaten und Nachweisen, zur Sendungs- und Mengenverfolgung (PlasTrack) sowie zur Zusammenarbeit mit Rücknahmesystemen wie der RIGK GmbH.
+
+2\. Umfang und Verfügbarkeit dieser Funktionen richten sich nach der jeweiligen Rolle des Nutzers und gegebenenfalls nach einer gesonderten Vereinbarung; Abschnitt VII gilt entsprechend.
+
+3\. Für die Richtigkeit von Angaben, Zertifikaten und Nachweisen, die Nutzer hinterlegen, ist der jeweilige Nutzer verantwortlich; Abschnitte V. 2. und VIII. 2. gelten entsprechend. Ein Prüfvermerk von PLASTSHIP (etwa „geprüftes Unternehmen“) bestätigt nur, dass die Angaben zum Zeitpunkt der Prüfung mit den herangezogenen Quellen übereinstimmten.
+
+4\. Einzelne Funktionen nutzen künstliche Intelligenz (KI), etwa maschinelle Übersetzungen von Inhalten, die Auswertung von Materialfotos und den internen Assistenten der Mitarbeitenden von PLASTSHIP. KI-Ergebnisse sind in der Oberfläche als solche gekennzeichnet und können fehlerhaft sein; sie ersetzen keine Prüfung durch den Nutzer. Maßgeblich sind die Angaben der Vertragspartner und bei Übersetzungen die deutsche Originalfassung. Die verwendeten KI-Dienste und die Verarbeitung der Daten beschreibt die Datenschutzerklärung.
+
+**XII. MELDUNG RECHTSWIDRIGER INHALTE, MODERATION UND BESCHWERDEN**
+
+1\. Jede Person kann PLASTSHIP Inhalte auf der Online-Plattform melden, die sie für rechtswidrig hält (Art. 16 der Verordnung (EU) 2022/2065, „Digital Services Act“). Meldungen richten Sie bitte an [info@plastship.com](mailto:info@plastship.com). Eine Meldung sollte enthalten: eine Begründung, warum der Inhalt rechtswidrig ist, den genauen Ort des Inhalts (z. B. die Adresse der Seite), Ihren Namen und Ihre E-Mail-Adresse sowie die Erklärung, dass Sie die Angaben in gutem Glauben für richtig und vollständig halten. Wir bestätigen den Eingang, prüfen die Meldung zeitnah, sorgfältig und objektiv und teilen Ihnen unsere Entscheidung mit.
+
+2\. Inhalte und Konten prüfen Mitarbeitende von PLASTSHIP; automatisierte Entscheidungen über die Moderation von Inhalten treffen wir nicht. Als Maßnahmen kommen insbesondere in Betracht: der Hinweis an den Nutzer, die Korrektur oder Entfernung einzelner Inhalte, die Einschränkung ihrer Sichtbarkeit, der Ausschluss von einzelnen Funktionen (etwa von Auktionen) sowie die vorübergehende oder dauerhafte Sperrung des Zugangs (Abschnitt VIII). Wir wählen die Maßnahme verhältnismäßig und berücksichtigen die Rechte und berechtigten Interessen aller Beteiligten.
+
+3\. Schränken wir Inhalte oder den Zugang eines Nutzers ein, teilen wir dem Nutzer dies mit einer Begründung mit (Art. 17 Digital Services Act), es sei denn, eine gesetzliche Pflicht oder eine behördliche Anordnung steht dem entgegen. Der Nutzer kann der Entscheidung über [info@plastship.com](mailto:info@plastship.com) widersprechen; wir prüfen sie dann erneut durch eine andere Person. Der Rechtsweg bleibt unberührt.
+
+4\. Die zentrale Kontaktstelle für Behörden und Nutzer nach Art. 11 und 12 Digital Services Act ist im [Impressum](/imprint) angegeben.
+
+**XIII. RECHTE AN DATEN / NUTZUNGSRECHTE**
+
+1\. Sämtliche Rechte an den Daten über den Nutzer sowie seine Angebote bzw. Materialien stehen dem Nutzer zu, der die Daten an PLASTSHIP übermittelt hat. Keinem Nutzer steht das Recht zu, die an PLASTSHIP übermittelten Daten zu anderen Zwecken als für das jeweilige Angebot und im Rahmen der Nutzung von Leistungen nach Abschnitt IX. zu nutzen oder an Dritte, die nicht an der Transaktion beteiligt sind, innerhalb oder außerhalb der von PLASTSHIP betriebenen Online-Plattform zu verbreiten oder zu nutzen.
+
+2\. Der Nutzer räumt mit der Registrierung sowie mit der Einstellung von Daten PLASTSHIP das nicht ausschließliche, weltweite Recht ein, diese Daten insbesondere auch zum Zweck des Betriebs von PLASTSHIP, der Vertragsanbahnung, der Erstellung von Analysen, der Erstellung von Marktübersichten (auch auf der Grundlage von kumulierten Daten) und der Durchführung von Verträgen zu nutzen.
+
+**XIV. DATENSCHUTZ**
+
+1\. Soweit der Nutzer im Rahmen der Registrierung und/oder Nutzung von PLASTSHIP personenbezogene Daten übermittelt, so erfolgt die Übermittlung, Erhebung und Verarbeitung dieser Daten auf Grundlage der gesonderten Datenschutzerklärung von PLASTSHIP (nachfolgend „Datenschutzerklärung“), die online abrufbar und herunterzuladen ist unter https://plastship.com/privacy.
+
+2\. Übermittelt der Nutzer personenbezogene Daten Dritter (etwa seiner Mitarbeitenden oder Ansprechpersonen bei Geschäftspartnern), ist er dafür verantwortlich, dass die Übermittlung rechtmäßig ist und die betroffenen Personen die erforderlichen Informationen erhalten haben.
+
+3\. Der Nutzer haftet auch für unternehmensbezogene Daten von juristischen Personen, die nicht personenbezogen sind.
+
+**XV. VERTRAULICHKEIT**
+
+1\. PLASTSHIP verpflichtet sich, die vom Nutzer eingestellten Daten – soweit nicht auf der Online-Plattform für andere Nutzer zugänglich - vertraulich zu behandeln.
+
+2\. Der Nutzer ist verpflichtet, die ihm über PLASTSHIP zur Verfügung gestellten Daten und Dokumente, gleich in welcher Art und Form, vertraulich zu behandeln und innerhalb des vorgesehenen Zwecks zu verwenden.
+
+3\. Die Verpflichtung zur Vertraulichkeit gilt nicht, soweit diese Daten offenkundig und aus anderen Quellen öffentlich zugänglich sind oder wenn der zur Vertraulichkeit berechtigte Nutzer das Recht zur Offenlegung ausdrücklich gestattet hat. Dies gilt auch dann nicht, wenn die Offenlegung aufgrund einer behördlichen Anordnung oder weil dies aus gesetzlichen Gründen zu erfolgen hat, geschieht. Jeder Nutzer verpflichtet sich weiterhin, alle notwendigen Maßnahmen zu ergreifen, um den Zugriff Dritter auf diese vertraulichen Daten zu verhindern.
+
+**XVI. HAFTUNG**
+
+1\. PLASTSHIP haftet bei Vorsatz, bei Arglist, nach dem Produkthaftungsgesetz, beim Fehlen der von uns garantierten Beschaffenheit sowie für Schäden, die aus der Verletzung des Lebens, des Körpers oder der Gesundheit entstehen, nach den gesetzlichen Vorschriften. Sofern wir grobe Fahrlässigkeit zu vertreten haben, ist unsere Haftung auf den vorhersehbaren, vertragstypischen Schaden begrenzt.
+
+2\. Für alle Fälle leichter Fahrlässigkeit ist die Haftung auf Schadensersatz statt der Leistung (§ 281 BGB) ausgeschlossen. Im Übrigen haftet PLASTSHIP bei leichter Fahrlässigkeit, gleich aus welchem Rechtsgrund, nur dann, wenn wir eine wesentliche Vertragspflicht verletzt haben, d. h. eine Pflicht, deren Erfüllung die ordnungsgemäße Durchführung des Vertrages überhaupt erst ermöglicht und auf deren Einhaltung der Vertragspartner regelmäßig vertraut und vertrauen darf. In diesem Fall ist unsere Haftung ebenfalls auf den vorhersehbaren, vertragstypischen Schaden begrenzt.
+
+3\. PLASTSHIP haftet insbesondere nicht für die von Nutzern eingestellten Daten über Materialien und deren Eigenschaften, Lieferfähigkeit und Mengen sowie das in diesem Zusammenhang vom Abnehmer abgegebene Angebot. Danach haftet PLASTSHIP nicht für Inhalt und Abschluss des zwischen den Nutzern abgeschlossenen Drittvertrags. Der Nutzer stellt PLASTSHIP von sämtlichen Ansprüchen, gleich welcher Art, von Dritten, die diese im Zusammenhang mit der Nutzung von PLASTSHIP durch Nutzer geltend machen könnten, frei.
+
+4\. Soweit der Nutzer Vertragsmuster oder sonstige Dokumente verwendet, die auf PLASTSHIP zur Verfügung gestellt werden und vom Nutzer heruntergeladen werden können und juristische Inhalte aufweisen, wie zum Beispiel vertragliche Klauseln, schließt PLASTSHIP im Hinblick auf den Inhalt dieser Vertragsmuster oder der sonstigen Dokumente jedwede Haftung aus. Der Nutzer wird insoweit ausdrücklich darauf hingewiesen, dass wir schon von Gesetzes wegen keinerlei Tätigkeit auf dem Gebiet der Rechtsberatung entfalten dürfen. Dem Nutzer steht es insoweit offen, sich entsprechenden juristischen Rat einzuholen.
+
+**XVII. LAUFZEIT / KÜNDIGUNG**
+
+1\. Das Nutzungsverhältnis wird auf unbestimmte Zeit geschlossen.
+
+2\. Der Nutzer und PLASTSHIP können dieses ohne Angabe von Gründen mit einer Frist von zwei Wochen beenden; das Recht zur außerordentlichen Kündigung bleibt hiervon unberührt.
+
+3\. Eine Kündigung ist so lange ausgeschlossen, solange eine Transaktion zwischen einem Lieferanten und Abnehmer nicht abgeschlossen ist; es sei denn, diese erklären ausdrücklich das Einverständnis mit der Beendigung des Nutzungsverhältnisses. Etwaige Zahlungsverpflichtungen gegenüber PLASTSHIP aus dem Nutzungsverhältnis bleiben hiervon unberührt.
+
+**XVIII. GELTENDES RECHT / GERICHTSSTAND / SONSTIGES**
+
+1\. Diese AGB sowie die gesamten Rechtsbeziehungen zwischen dem Nutzer, dem sonstigen Vertragspartner und PLASTSHIP unterliegen dem Recht der Bundesrepublik Deutschland unter ausdrücklichem Ausschluss des UN-Kaufrechts.
+
+2\. Erfüllungsort und Gerichtsstand für alle Streitigkeiten aus oder in Zusammenhang mit dem Nutzungs- und Vertragsverhältnis /diesen AGB zwischen dem Nutzer der Online-Plattform und PLASTSHIP ist der Sitz von PLASTSHIP. Hiervon unberührt bleibt der Gerichtsstand bei Streitigkeiten, die Nutzer untereinander wegen des Abschlusses oder der Durchführung eines über PLASTSHIP vermittelten Drittvertrages führen.
+
+3\. Für den Fall, dass einzelne Bestimmungen dieser AGB ungültig oder nicht durchsetzbar sind, werden die übrigen Bestimmungen der AGB hiervon nicht berührt. In einem solchen Fall ersetzen die Parteien die ungültige oder nicht durchsetzbare Bestimmung durch eine dem wirtschaftlichen Zweck des Nutzungsverhältnisses entsprechende Bestimmung, die dieser möglichst nahe zu kommen hat.
+
+4\. Diese AGB werden in deutscher Sprache verfasst. Die englische Fassung ist eine unverbindliche Übersetzung; maßgeblich ist allein die deutsche Fassung.109:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$2b","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1308,232,1301,32,false],["Array.map","",0,0,0,0,false],["renderCmsMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1301,28,1295,1,false],["CmsCatchAllPage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",216,221,195,1,false]],"props":{"content":"$10a","eagerFirstImage":false,"pageHeading":false,"remarkPlugins":"$undefined"}}
+10b:{"time":55.06791700050235}
+10d:"$EObject.defineProperty(function SiteMarkdownLink({ href, children }) {\n    const ziel = href ?? '#';\n    const zweck = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$LinkPurpose$2f$LinkPurpose$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"LinkPurpose\"], {\n        text: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$a11y$2f$linkPurpose$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"textOfChildren\"])(children),\n        href: ziel\n    }, void 0, false, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 92,\n        columnNumber: 17\n    }, this);\n    if (ziel.startsWith('/') && !ziel.startsWith('//') && !istDatei(ziel)) {\n        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$NavLink$2f$NavLink$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NavLink\"], {\n            href: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$trailingSlash$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"ensureTrailingSlashHref\"])(ziel),\n            children: [\n                children,\n                zweck\n            ]\n        }, void 0, true, {\n            fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n            lineNumber: 95,\n            columnNumber: 7\n        }, this);\n    }\n    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(\"a\", {\n        href: ziel,\n        ...(0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"externalLinkProps\"])(ziel),\n        children: [\n            children,\n            zweck\n        ]\n    }, void 0, true, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 102,\n        columnNumber: 5\n    }, this);\n},\"name\",{value:\"SiteMarkdownLink\"})"
+10e:"$EObject.defineProperty((url)=>TEL.test(url) ? url : (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"defaultUrlTransform\"])(url),\"name\",{value:\"siteUrlTransform\"})"
+10f:"$EObject.defineProperty(function rehypePageHeading(options = {}) {\n    const zeile = options.pageHeadingLine ?? null;\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    // `#` sieht aus wie die h2, aus der es jetzt wird\n                    const aussehen = Math.max(2, Number(match[1]));\n                    if (zeile !== null && node.position?.start.line === zeile) {\n                        node.tagName = 'h1';\n                        node.properties['data-render-as'] = String(aussehen);\n                    } else if (node.tagName === 'h1') {\n                        node.tagName = 'h2';\n                    }\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypePageHeading\"})"
+110:"$EObject.defineProperty(function rehypeSiteImages(options = {}) {\n    return (tree)=>{\n        let index = 0;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    Object.assign(node.properties, siteImageProperties(node.properties['src'], index, options));\n                    index += 1;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeSiteImages\"})"
+111:"$EObject.defineProperty(function rehypeImageAlt(options = {}) {\n    const content = options.content ?? '';\n    const quelle = {\n        headings: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownHeadings\"])(content),\n        lead: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownLead\"])(content)\n    };\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    const eigener = node.properties['alt'];\n                    node.properties['alt'] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"imageAltFor\"])(typeof eigener === 'string' ? eigener : undefined, node.position?.start.line, quelle, options.fallback);\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeImageAlt\"})"
+112:"$EObject.defineProperty(function rehypeHeadingOrder(options = {}) {\n    return (tree)=>{\n        let previous = options.parentLevel ?? 1;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    const chosen = Number(match[1]);\n                    const level = headingLevel(chosen, previous);\n                    if (level !== chosen) {\n                        node.tagName = `h${level}`;\n                        node.properties['data-render-as'] = String(chosen);\n                    }\n                    previous = level;\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeHeadingOrder\"})"
+113:"$EObject.defineProperty(function rehypeExternalLinks() {\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'a') {\n                    const href = node.properties['href'];\n                    if (typeof href === 'string' && (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"isExternalHref\"])(href)) {\n                        const rel = relListe(node.properties['rel']);\n                        for (const noetig of __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_REL\"].split(' ')){\n                            if (!rel.some((r)=>r.toLowerCase() === noetig)) rel.push(noetig);\n                        }\n                        node.properties['rel'] = rel;\n                        node.properties['target'] = '_blank';\n                        node.properties['referrerPolicy'] = __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_POLICY\"];\n                    }\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeExternalLinks\"})"
+10c:{"name":"Markdown","key":null,"env":"Server","owner":"$109","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":{"a":"$10d"},"urlTransform":"$10e","remarkPlugins":"$undefined","rehypePlugins":[["$10f",{"pageHeadingLine":null}],["$110",{"eagerFirst":false}],["$111","$Y"],"$112","$113"],"children":"$Y"}}
+114:{"time":55.19783399999142}
+115:{"time":74.89316700026393}
+116:[]
+117:[]
+118:[]
+119:[]
+11a:[]
+11b:[]
+11c:[]
+11d:[]
+177:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2457,282,2369,1,false]]
+178:{"time":97.53254200145602}
+17b:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2458,286,2369,1,false]]
+17f:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2461,290,2369,1,false]]
+182:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2463,288,2369,1,false]]
+186:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2465,302,2369,1,false]]
+189:[["Promise.all","",0,0,0,0,true]]
+18e:[["Promise.all","",0,0,0,0,true]]
+18f:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+190:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+191:[["Promise.all","",0,0,0,0,true]]
+192:[]
+194:{"name":"NotFound","key":null,"env":"Server","stack":[],"props":{}}
+195:{"time":97.93400000035763}
+196:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",87,263,86,1,false]]
+197:{"time":98.03474999964237}
+19c:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",88,270,86,1,false]]
+19f:[["Promise.all","",0,0,0,0,true]]
+1a0:[["Promise.all","",0,0,0,0,true]]
+1a1:[["Promise.all","",0,0,0,0,true]]
+1a2:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2479,288,2369,1,false]]
+1a5:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2484,288,2369,1,false]]
+1a8:[]
+1a9:{"time":98.22562500089407}
+1aa:[]
+1ab:{"time":98.24762500077486}
+1ac:[]
+1ad:{"time":98.26375000178814}
+1ae:[]
+1af:{"time":98.28204200044274}
+1b0:[]
+1b1:[]
+1b2:{"time":98.30933399870992}
+1b3:[]
+1b4:{"time":98.32504199817777}
+1b5:[]
+1b6:{"time":98.3421670012176}
+1b7:[]
+1b8:{"time":98.35541699826717}
+1b9:[]
+1ba:{"time":98.37124999985099}
+1bb:[]
+1bc:{"time":98.38358400017023}
+1bd:[]
+1be:{"time":98.40141699835658}
+1bf:[]
+1c0:{"time":98.41716700047255}
+1c1:[]
+1c2:{"time":98.43166700005531}
+1c3:[]
+1c4:{"time":98.46095899865031}
+1c5:[]
+1c6:[]
+1c7:{"time":98.4868750013411}
+1c8:[]
+1c9:{"time":98.50145899876952}
+1ca:[]
+1cb:{"time":98.51783400028944}
+1cc:[]
+1cd:{"time":98.53291700035334}
+1ce:[]
+1cf:{"time":98.54679200053215}
+1d0:[]
+1d1:{"time":98.56424999982119}
+1d2:[]
+1d3:[]
+1d4:{"time":98.59141699969769}
+1d5:[]
+1d6:{"time":98.60679199919105}
+1d7:[]
+1d8:{"time":98.62400000169873}
+1d9:[]
+1da:[]
+1db:{"time":98.64708400145173}
+1dc:[]
+1dd:{"time":98.663708999753}
+1de:[]
+1df:{"time":98.67799999937415}
+1e0:[]
+1e1:{"time":98.69216699898243}
+1e2:[]
+1e3:[]
+1e4:{"time":98.71599999815226}
+1e5:[]
+1e6:{"time":98.73158400133252}
+1e7:[]
+1e8:{"time":98.74616700038314}
+1e9:[]
+1ea:{"time":98.75966700166464}
+1eb:[]
+1ec:{"time":98.7764590010047}
+1ed:[]
+1ee:[]
+1ef:{"time":98.80074999853969}
+1f0:[]
+1f1:{"time":98.81395899876952}
+1f2:[]
+1f3:{"time":98.82858400046825}
+1f4:[]
+1f5:{"time":98.8472919985652}
+1f6:[]
+1f7:{"time":98.86508399993181}
+1f9:[]
+1fa:{"time":98.88691699877381}
+1fb:[]
+1fc:[]
+1fd:{"time":98.91391700133681}
+1fe:[]
+1ff:{"time":98.92833400145173}
+200:[]
+201:{"time":98.94525000080466}
+202:[]
+203:{"time":98.96099999919534}
+204:[]
+205:{"time":98.97529200091958}
+206:[]
+207:[]
+208:{"time":98.9987500011921}
+209:[]
+20a:{"time":99.01599999889731}
+20b:[]
+20c:{"time":99.03045900166035}
+20d:[]
+20e:{"time":99.04699999839067}
+20f:[]
+210:{"time":99.06070899963379}
+211:[]
+212:{"time":99.07508400082588}
+213:[]
+214:{"time":99.08945899829268}
+215:[]
+216:[]
+217:{"time":99.11458399891853}
+218:[]
+219:{"time":99.12791699916124}
+21a:[]
+21b:{"time":99.14137500151992}
+21c:[]
+21d:{"time":99.18858399987221}
+21e:[]
+21f:{"time":99.20191700011492}
+220:[]
+221:[]
+222:{"time":99.22700000181794}
+223:[]
+224:{"time":99.24345900118351}
+225:[]
+226:{"time":99.25645900145173}
+227:[]
+228:{"time":99.27608399838209}
+229:[]
+22a:{"time":99.28991699963808}
+22b:[]
+22c:[]
+22d:{"time":99.319958999753}
+22f:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$10c","stack":[],"props":{"href":"mailto:info@plastship.com","node":{"type":"element","tagName":"a","properties":{"href":"mailto:info@plastship.com"},"children":[{"type":"text","value":"info@plastship.com","position":{"start":{"line":135,"column":200,"offset":21977},"end":{"line":135,"column":218,"offset":21995}}}],"position":"$Y"},"children":"info@plastship.com"}}
+230:{"time":99.35716700181365}
+231:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+232:{"time":99.47208400070667}
+233:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+236:[]
+237:{"time":99.55058399960399}
+238:[]
+239:{"time":99.56508399918675}
+23b:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$10c","stack":[],"props":{"href":"mailto:info@plastship.com","node":{"type":"element","tagName":"a","properties":{"href":"mailto:info@plastship.com"},"children":[{"type":"text","value":"info@plastship.com","position":{"start":{"line":139,"column":275,"offset":23257},"end":{"line":139,"column":293,"offset":23275}}}],"position":"$Y"},"children":"info@plastship.com"}}
+23c:{"time":99.587542001158}
+23d:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+23e:{"time":99.63695900142193}
+23f:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+240:[]
+241:{"time":99.66770900040865}
+243:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$10c","stack":[],"props":{"href":"/imprint","node":{"type":"element","tagName":"a","properties":{"href":"/imprint"},"children":[{"type":"text","value":"Impressum","position":{"start":{"line":141,"column":105,"offset":23509},"end":{"line":141,"column":114,"offset":23518}}}],"position":"$Y"},"children":"Impressum"}}
+244:{"time":99.68595900014043}
+245:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",185,267,174,1,false]]
+246:{"time":99.73945900052786}
+249:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+24a:[]
+24b:{"time":99.7784169986844}
+24c:[]
+24d:[]
+24e:{"time":99.80366700142622}
+24f:[]
+250:{"time":99.81795899942517}
+251:[]
+252:{"time":99.83337499946356}
+253:[]
+254:[]
+255:{"time":99.86050000041723}
+256:[]
+257:{"time":99.87437500059605}
+258:[]
+259:{"time":99.88770899921656}
+25a:[]
+25b:{"time":99.90070899948478}
+25c:[]
+25d:[]
+25e:{"time":99.92337499931455}
+25f:[]
+260:{"time":99.93841699883342}
+261:[]
+262:{"time":99.95475000143051}
+263:[]
+264:{"time":99.96770900115371}
+265:[]
+266:[]
+267:{"time":99.99008399993181}
+268:[]
+269:{"time":100.00541700050235}
+26a:[]
+26b:{"time":100.01920900121331}
+26c:[]
+26d:{"time":100.03362499922514}
+26e:[]
+26f:{"time":100.04791700094938}
+270:[]
+271:[]
+272:{"time":100.07058399915695}
+273:[]
+274:{"time":100.08379200100899}
+275:[]
+276:{"time":100.09775000065565}
+277:[]
+278:{"time":100.11112499982119}
+279:[]
+27a:[]
+27b:{"time":100.1340419985354}
+27c:[]
+27d:{"time":100.1491670012474}
+27e:[]
+27f:{"time":100.1652919985354}
+280:[]
+281:{"time":100.18008400127292}

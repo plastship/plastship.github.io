@@ -1,0 +1,603 @@
+:N1793317102534.6785
+3:"$EObject.defineProperty(()=>{ctx.componentMod.preloadStyle(fullHref,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+4:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+5:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+6:"$EObject.defineProperty(()=>{ctx.componentMod.preloadFont(href,type,ctx.renderOpts.crossOrigin,ctx.nonce)},\"name\",{value:\"\"})"
+2:{"name":"Preloads","key":null,"env":"Server","stack":[],"props":{"preloadCallbacks":["$3","$4","$5","$6"]}}
+7:{"time":0.11066699773073196}
+8:{"time":0.12724999710917473}
+9:[]
+f:[]
+11:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+12:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+13:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+14:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+17:I["[project]/node_modules/next/dist/client/components/layout-router.js [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js"],"default"]
+19:I["[project]/apps/web/src/app/error.tsx [app-client] (ecmascript)",["/_next/static/chunks/apps_web_src_app_0ii6-wjvlgijk._.js","/_next/static/chunks/apps_web_src_1_9elhcitribv._.js","/_next/static/chunks/_0nn30q6tpurty._.js","/_next/static/chunks/apps_web_src_app_components_Template_Default_Default_tsx_0cwoqne_kn9rg._.js","/_next/static/chunks/apps_web_src_app_0lnso837mnog3._.js"],"default"]
+1a:{"type":"error","pagePath":"error.tsx","children":[]}
+1b:[["Promise.all","",0,0,0,0,true]]
+18:{"parallelRouterKey":"children","error":"$19","errorStyles":["$","$Le",null,"$1a",null,"$1b",0],"errorScripts":"$Y","template":"$Y","templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$Y","forbidden":"$undefined","unauthorized":"$undefined","segmentViewBoundaries":"$Y"}
+1c:[["Promise.all","",0,0,0,0,true]]
+16:{"name":"RootLayout","key":null,"env":"Server","stack":[],"props":{"children":["$","$L17",null,"$18",null,"$1c",1],"params":"$Y"}}
+1d:{"time":0.39695799723267555}
+1f:[["Promise.all","",0,0,0,0,true]]
+20:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+23:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+28:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+29:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2a:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2c:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2d:[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]]
+2f:{"name":"NewsArticlePage","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"params":"$@30","searchParams":"$@31"}}
+32:{"time":1.2701249979436398}
+33:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+34:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+35:[["Array.map","",0,0,0,0,false],["Promise.all","",0,0,0,0,true]]
+38:"$EObject.defineProperty(()=>__turbopack_context__.r(\"[project]/apps/web/src/app/news/[slug]/page.tsx [app-rsc] (ecmascript, Next.js Server Component)\"),\"name\",{value:\"\"})"
+37:{"name":"Next.MetadataOutlet","key":null,"env":"Server","stack":[["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true],["Promise.all","",0,0,0,0,true]],"props":{"tree":["__PAGE__",{},{"metadata":{},"page":["$38","[project]/apps/web/src/app/news/[slug]/page.tsx"]},[]]}}
+39:{"time":1.6070419996976852}
+3a:[]
+3b:{"time":2.9091250002384186}
+3e:[]
+41:[]
+44:"$EObject.defineProperty(function(type,config,children){for(var propName,i=2;i<arguments.length;i++)validateChildKeys(arguments[i]);i={};var key=null;if(null!=config)for(propName in didWarnAboutOldJSXRuntime||!(\"__self\"in config)||\"key\"in config||(didWarnAboutOldJSXRuntime=!0,console.warn(\"Your app (or one of its dependencies) is using an outdated JSX transform. Update to the modern JSX transform for faster performance: https://react.dev/link/new-jsx-transform\")),hasValidKey(config)&&(checkKeyStringCoercion(config.key),key=\"\"+config.key),config)hasOwnProperty.call(config,propName)&&\"key\"!==propName&&\"__self\"!==propName&&\"__source\"!==propName&&(i[propName]=config[propName]);var childrenLength=arguments.length-2;if(1===childrenLength)i.children=children;else if(1<childrenLength){for(var childArray=Array(childrenLength),_i=0;_i<childrenLength;_i++)childArray[_i]=arguments[_i+2];Object.freeze&&Object.freeze(childArray),i.children=childArray}if(type&&type.defaultProps)for(propName in childrenLength=type.defaultProps)void 0===i[propName]&&(i[propName]=childrenLength[propName]);return key&&function(props,displayName){function warnAboutAccessingKey(){specialPropKeyWarningShown||(specialPropKeyWarningShown=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",displayName))}warnAboutAccessingKey.isReactWarning=!0,Object.defineProperty(props,\"key\",{get:warnAboutAccessingKey,configurable:!0})}(i,\"function\"==typeof type?type.displayName||type.name||\"Unknown\":type),(propName=1e4>ReactSharedInternals.recentlyCreatedOwnerStacks++)?(childArray=Error.stackTraceLimit,Error.stackTraceLimit=10,childrenLength=Error(\"react-stack-top-frame\"),Error.stackTraceLimit=childArray):childrenLength=unknownOwnerDebugStack,ReactElement(type,key,i,getOwner(),childrenLength,propName?createTask(getTaskName(type)):unknownOwnerDebugTask)},\"name\",{value:\"\"})"
+43:{"name":"NonIndex","key":null,"env":"Server","stack":[],"props":{"createElement":"$44","pagePath":"/news/[slug]","statusCode":200,"isPossibleServerAction":false}}
+45:{"time":3.1706249974668026}
+46:{"time":3.1748329997062683}
+48:{"name":"ViewportWrapper","key":null,"env":"Server","stack":[],"props":{}}
+49:{"time":3.1947499997913837}
+4a:[]
+4b:{"time":3.236874997615814}
+4f:{"name":"Next.Viewport","key":null,"env":"Server","owner":"$48","stack":[],"props":{}}
+50:{"time":3.2559169977903366}
+52:{"name":"MetadataWrapper","key":null,"env":"Server","stack":[],"props":{}}
+53:{"time":3.531582999974489}
+54:[]
+55:{"time":3.6024580001831055}
+58:[]
+59:[]
+5b:{"name":"Next.Metadata","key":null,"env":"Server","owner":"$52","stack":[],"props":{}}
+5c:{"time":3.6389999985694885}
+5e:{"name":"MetadataBlocker","key":null,"env":"Server","owner":"$52","stack":[],"props":{}}
+5f:{"time":3.9269999973475933}
+60:{"time":3.929457999765873}
+61:[]
+66:[]
+67:[]
+30:{"slug":"kreislaufwirtschaft-rezyklateinsatz-strategie"}
+31:
+68:{"time":5.58245799690485}
+69:[]
+6a:[]
+6b:[]
+6d:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+6c:J{"name":"headers","start":0.5370000004768372,"end":33.23983299732208,"env":"Server","stack":"$6d","owner":"$16","value":"$@6e"}
+6f:{"time":4.488582998514175}
+70:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+71:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$70"}
+72:{"time":33.41345799714327}
+73:{"time":4.488582998514175}
+74:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+75:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$74"}
+76:{"time":33.41345799714327}
+77:["host","localhost"]
+78:["user-agent","plastship-interim-mirror"]
+79:["accept","text/html"]
+7a:["accept-encoding","gzip, deflate"]
+7b:["accept-language","*"]
+7c:["sec-fetch-mode","cors"]
+7d:["via","1.1 Caddy"]
+7e:["x-forwarded-for","172.18.0.1"]
+7f:["x-forwarded-host","localhost"]
+80:["x-forwarded-proto","http"]
+81:["x-real-ip","172.18.0.1"]
+82:["x-forwarded-port","3000"]
+83:["content-security-policy","default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+84:["x-nonce","RCpqij3DF8NKIfDFMoYgWg=="]
+85:["x-plastship-locale","en"]
+86:["x-plastship-route-kind","public"]
+87:["cache-control","private, no-cache, must-revalidate"]
+88:["content-security-policy-report-only","default-src 'self'; script-src 'self' 'nonce-RCpqij3DF8NKIfDFMoYgWg==' 'strict-dynamic' 'wasm-unsafe-eval' 'report-sample' 'unsafe-eval'; worker-src 'self' blob:; media-src 'self' blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: blob: https:; connect-src 'self' blob: https://*.sentry.io; frame-src 'none'; child-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; report-uri https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local; report-to csp-endpoint"]
+89:["permissions-policy","camera=(), microphone=(self), geolocation=(), interest-cohort=()"]
+8a:["referrer-policy","same-origin"]
+8b:["reporting-endpoints","csp-endpoint=\"https://o4511139981426688.ingest.de.sentry.io/api/4511140106207312/security/?sentry_key=6c8511f8f80732bf9baf5e1a8da299af&sentry_environment=local\""]
+8c:["strict-transport-security","max-age=63072000; includeSubDomains; preload"]
+8d:["x-content-type-options","nosniff"]
+8e:["x-frame-options","DENY"]
+6e:["$77","$78","$79","$7a","$7b","$7c","$7d","$7e","$7f","$80","$81","$82","$83","$84","$85","$86","$87","$88","$89","$8a","$8b","$8c","$8d","$8e"]
+8f:{"time":55.70704199746251}
+90:{"time":55.7148329988122}
+91:[]
+92:[]
+93:[]
+94:[]
+95:[]
+96:[]
+97:[]
+98:[]
+99:[]
+9a:[]
+9b:[]
+9c:[]
+9d:[]
+9e:[]
+9f:[]
+a0:[]
+a1:[]
+a2:[]
+a3:[]
+a4:[]
+a5:[]
+a6:[]
+a7:[]
+a8:[]
+a9:[]
+aa:[]
+ab:[]
+ac:[]
+ad:[]
+ae:[]
+af:[]
+b0:[]
+b1:[]
+b2:[]
+b3:[]
+b4:[]
+b5:[]
+b6:[]
+b7:[]
+b8:[]
+b9:[]
+ba:[]
+bd:{"time":0.5899579972028732}
+be:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2381,170,2369,1,false]]
+bf:{"awaited":"$6c","env":"Server","owner":"$16","stack":"$be"}
+c0:{"time":33.24195799976587}
+c2:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+c1:J{"name":"cookies","start":33.849999997764826,"end":61.734249997884035,"env":"Server","stack":"$c2","owner":"$16","value":"$@c3"}
+c4:{"time":33.883791998028755}
+c5:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2396,175,2369,1,false]]
+c6:{"awaited":"$c1","env":"Server","owner":"$16","stack":"$c5"}
+c7:{"time":61.73658299818635}
+c3:[]
+c8:[]
+c9:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2425,256,2369,1,false]]
+ca:{"time":100.50420799851418}
+cb:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2429,270,2369,1,false]]
+cc:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2431,268,2369,1,false]]
+cd:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2443,268,2369,1,false]]
+ce:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2454,268,2369,1,false]]
+d2:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2457,282,2369,1,false]]
+d3:{"time":144.4600419998169}
+d6:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2458,286,2369,1,false]]
+da:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2461,290,2369,1,false]]
+dd:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2463,288,2369,1,false]]
+e1:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2465,302,2369,1,false]]
+e4:[["Promise.all","",0,0,0,0,true]]
+e9:[["Promise.all","",0,0,0,0,true]]
+ea:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+eb:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__0ombtmus8erhp._.js",10376,20,10374,91,false]]
+ec:[["Promise.all","",0,0,0,0,true]]
+ed:[]
+ef:{"name":"NotFound","key":null,"env":"Server","stack":[],"props":{}}
+f0:{"time":144.87137499824166}
+f1:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",87,263,86,1,false]]
+f2:{"time":144.94774999842048}
+f7:[["NotFound","/app/apps/web/.next/dev/server/chunks/ssr/apps_web_src_app_0_c5j44xsld-1._.js",88,270,86,1,false]]
+fa:[["Promise.all","",0,0,0,0,true]]
+fb:[["Promise.all","",0,0,0,0,true]]
+fc:[["Promise.all","",0,0,0,0,true]]
+fd:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2479,288,2369,1,false]]
+100:[["RootLayout","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",2484,288,2369,1,false]]
+103:[["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,24,1071,1,true],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,24,1086,1,true],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+104:{"time":4.488582998514175}
+105:[["getRequestSiteLocaleOrNull","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13339,329,13338,1,false],["getRequestSiteLocale","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13342,18,13341,1,false],["resolveSiteLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13491,26,13490,1,false],["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",336,421,336,234,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",365,9,361,1,false]]
+106:{"awaited":"$6c","env":"Server","owner":"$2f","stack":"$105"}
+107:{"time":33.41345799714327}
+108:{"time":34.15954199805856}
+109:[["","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13518,212,13516,245,false],["resolveCmsDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13531,9,13524,1,false],["resolveCmsPublicDelivery","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",13540,12,13539,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",370,188,361,1,false]]
+10a:{"awaited":"$c1","env":"Server","owner":"$2f","stack":"$109"}
+10b:{"time":72.84933299943805}
+10d:[["","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",8092,53,8091,193,true],["Promise.all","",0,0,0,0,true],["ladeInhalte","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",23526,77,23524,1,true],["sitemapEntries","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",23567,21,23565,1,true],["GET","/app/apps/web/.next/dev/server/chunks/[root-of-the-server]__108h125n2y47l._.js",2280,23,2278,1,true]]
+10c:J{"name":"a","start":-38542.16751800105,"end":89.40916699916124,"env":"Server","stack":"$10d","value":"$@10e"}
+10f:{"time":73.488624997437}
+110:[["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1088,204,1086,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",392,194,361,1,false]]
+111:{"awaited":"$10c","env":"Server","owner":"$2f","stack":"$110"}
+112:{"time":89.54891699925065}
+114:[["loadCmsTranslationStates","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0e0dfngankqt8._.js",11066,40,11066,1,false],["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,214,1071,1,false],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,30,1086,1,false],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+113:J{"name":"loadCmsTranslationStates","start":89.58662499859929,"end":89.63216700032353,"env":"Server","stack":"$114","owner":"$2f","value":"$@115"}
+116:{"time":89.62066699936986}
+117:[["loadCmsMachineLocales","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1076,214,1071,1,false],["loadCmsMachineLocalesBySlug","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__0s8yetrxx9fn5._.js",1110,30,1086,1,false],["Promise.all","",0,0,0,0,true],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",391,44,361,1,true]]
+118:{"awaited":"$113","env":"Server","owner":"$2f","stack":"$117"}
+119:{"time":177.47949999943376}
+10e:"$undefined"
+115:
+11a:[["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",395,263,361,1,false]]
+11b:{"time":185.48183299973607}
+125:T2388,**Why the use of recycled materials is a strategic decision – not a procurement project**
+
+The use of recycled materials is now firmly on the agenda for many companies – driven by regulation, sustainability targets, customer expectations and volatile raw material markets. Hardly any strategic document in the plastics industry today omits the topic of circular economy.
+
+And yet, many projects fail.\
+Not in the laboratory. Not in pilot plants. But in real-world implementation.
+
+**Why?**\
+Because the use of recyclates is often treated as a material project – when in reality it is a raw material, supply chain and strategic issue.
+
+This discrepancy was the focus of a recent expert dialogue between Dominik Händler and Andreas Bastian from plastship. Their goal was to establish the foundation for a practical, application-oriented white paper. The discussion did not centre on individual material solutions, but rather on the overarching question:
+
+#### What does the use of recyclates actually mean for companies – from a strategic perspective?
+
+## Strategy Mix in the Plastics Industry
+
+The key insights from this dialogue have also been translated into a complementary **white paper**.\
+It converts the challenges discussed into a concrete decision-making framework and demonstrates how companies can systematically assess:\
+▪️ where the use of recyclates is economically viable\
+▪️ where risks arise\
+▪️ and which parts of the portfolio should be prioritised strategically
+
+The following discussion makes one thing clear:\
+**The bottleneck is rarely the material – it is the system behind it.**
+
+[Try our assesment tool](/strategy-mix/)
+
+![](/images/cms/portfolioauswertung-deckblatt-710edc.webp)
+
+## Recyclate Supply: Market Situation & Reality
+
+Dominik Händler reflects on developments over recent years and highlights how significantly the dynamics have changed:
+
+“If we go back a few years, circular economy was the dominant topic. Every company had to position itself – anything else was hardly justifiable. At the same time, it quickly became clear that the politically discussed quotas far exceeded the actually available volumes.”
+
+Many companies responded strategically – securing material sources, considering backward integration and building initial structures.
+
+#### However, the reality in 2026 looks different:
+
+“Today, we are facing massive price pressure, declining demand, and many companies have reverted to pure cost optimisation. Over the past one to two years, there has been a stronger shift back to virgin material because it was cheaper in the short term. At the same time, we have lost capacity. Recyclers are closing, plants are being shut down – and waste that would actually be available is no longer sorted but incinerated.”
+
+**Good to know:**\
+Scarcity does not arise from waste availability – but from sorting, processing, and qualified material streams.\
+The raw material exists. The infrastructure is the bottleneck.
+
+Händler summarises: “To be honest, over the past three years we have not seen any positive development in recyclate supply – quite the opposite, the situation has become more critical.”
+
+## The Biggest Misconception in Using Recyclates
+
+A recurring pattern can be observed across nearly all failed projects:
+
+#### Recyclates are procured like virgin materials.
+
+Händler explains the typical approach:
+
+“Most companies go to market saying: this is my specification – now please supply it with 10, 20 or 30 percent recycled content, including datasheet and samples. Exactly as they are used to in the virgin materials business. Especially for large volumes, this quickly becomes critical. Procurement then says: we need 3,000 tonnes. But the first question should actually be: where does the input stream come from?”
+
+This highlights the structural issue:
+
+#### Recyclates are not a standardised raw material – they are the result of a functioning material stream.
+
+Bastian puts it succinctly:
+
+"The use of recyclates does not start with screening the market and buying material like virgin grades. The real question is: where do I secure my waste streams? We need stable access to defined, homogeneous material streams – not just a datasheet.”
+
+**Common misconception:**\
+Recyclate = a material purchased like virgin material
+
+**What actually works:**\
+Recyclate = the outcome of a material stream that must be understood, qualified and secured
+
+**Key takeaway:**
+
+> The use of recyclates does not start with procurement – it starts with the waste stream.
+
+## Recyclate Use Begins with Product Design
+
+Another key insight: circular economy starts much earlier than many companies assume. Bastian explains:
+
+“If I want to use recyclates, I inevitably need to engage with waste. That doesn’t mean I have to become a recycler myself – but I must understand where my material comes from and how it can be brought back into the loop. The ultimate discipline is, of course, closed loop – turning your own products back into your own products. But even if that is not feasible, companies should ask: which material streams exist within my industry that I can leverage?”
+
+This fundamentally shifts the perspective:
+
+Not: *Where can I source recyclates?*\
+But: *Where will my future raw materials originate?*
+
+## Technical Reality: Where Circular Economy Reaches Its Limits
+
+While the strategic direction is clear, technical constraints remain. Bastian continues:
+
+“Particularly for engineering plastics, we do not have a functioning system for post-consumer material streams at scale. If you consider different vehicles, different materials, everything is shredded – and at the end, a specified material is expected. That is practically unfeasible. Even in packaging, the challenge is evident: sometimes a single incorrect colour is enough to disqualify the material. This shows how sensitive these systems are.”
+
+**Common misconception:**\
+Recyclates can be used everywhere
+
+**What actually works:**\
+Recyclate use works where:\
+▪️ material streams are available\
+▪️ requirements can be adapted\
+▪️ scaling is feasible
+
+**Key takeaway:**
+
+> Circular economy must make technical and economic sense – not just theoretical sense.
+
+## From Sustainability Topic to Business Case
+
+A crucial shift is currently taking place at the strategic level, as Händler explains:
+
+“In the past, the mindset was: recyclate is a cost factor. Today, the focus is on understanding circular economy as a strategic tool to generate return on investment. If I have access to stable material streams, I become less dependent on volatile supply chains and gain better cost control. Ultimately, it comes down to four aspects: cost, revenue, regulatory security and supply chain resilience.”
+
+**Good to know – ROI of recyclate use:**\
+Recyclates impact simultaneously:\
+▪️ cost structure\
+▪️ revenue potential\
+▪️ security of supply\
+▪️ compliance\
+▪️ know-how
+
+**Key takeaway:**
+
+> Recycling is not just about sustainability – it is a raw material strategy.
+
+## How Companies Should Approach It Strategically
+
+The main challenge is not implementation – but prioritisation. Händler explains:
+
+“The first step is always an honest assessment: where do I stand today? Then I identify targeted opportunities. Importantly, it can also be a strategically sound decision not to pursue certain projects – if there is no stable input stream. I need to focus on areas where I can truly create impact, rather than trying to do everything at once.”
+
+This is precisely where the white paper’s logic comes in:
+
+#### Not transforming everything – but identifying the 30–60% where recyclate use truly pays off.
+
+**Key takeaway:**
+
+> Strategy also means consciously choosing what not to do.
+
+## Conclusion of the Dialogue
+
+The discussion makes one thing very clear:
+
+The use of recyclates is not a material issue.\
+Nor is it purely a sustainability topic.
+
+It is fundamentally about:\
+▪️ raw material supply\
+▪️ supply chains\
+▪️ material streams\
+▪️ quality\
+▪️ strategic decision-making
+
+**Core message:**
+
+> The bottleneck is not the material – it is the system.
+
+#### The key question is therefore no longer whether circular economy is relevant – but where and how it delivers tangible value.
+
+## This is exactly where the white paper provides support:
+
+▪️ a clear decision framework to systematically evaluate your portfolio\
+▪️ concrete case studies showing where recyclate use generates real ROI\
+▪️ guidance to identify applications where closed-loop solutions truly make sense
+
+Take advantage of the opportunity for a free potential analysis and have your specific product or project assessed based on data.
+
+[Access the tool](/strategy-mix/)
+
+![](/images/cms/whitpaper-auswertung-2cd070.webp)
+
+If you have questions or suggestions, please contact me!
+
+**Mirco Gattinger**, Marketing & Social Media Manager\
+[+49 172 1369 774](tel:+49-172-1369-774) · [gattinger@plastship.com](mailto:gattinger@plastship.com)126:"$EObject.defineProperty(function remarkGfm(options) {\n    // @ts-expect-error: TS is wrong about `this`.\n    // eslint-disable-next-line unicorn/no-this-assignment\n    const self = this;\n    const settings = options || emptyOptions;\n    const data = self.data();\n    const micromarkExtensions = data.micromarkExtensions || (data.micromarkExtensions = []);\n    const fromMarkdownExtensions = data.fromMarkdownExtensions || (data.fromMarkdownExtensions = []);\n    const toMarkdownExtensions = data.toMarkdownExtensions || (data.toMarkdownExtensions = []);\n    micromarkExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$micromark$2d$extension$2d$gfm$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfm\"])(settings));\n    fromMarkdownExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$mdast$2d$util$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfmFromMarkdown\"])());\n    toMarkdownExtensions.push((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$mdast$2d$util$2d$gfm$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"gfmToMarkdown\"])(settings));\n},\"name\",{value:\"remarkGfm\"})"
+124:{"name":"SiteMarkdownContent","key":null,"env":"Server","owner":"$2f","stack":[["rendere","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1274,263,1272,1,false],["renderLocalizedMarkdown","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",1288,24,1284,1,false],["NewsArticlePage","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1s1qw5xbc_ckj._.js",381,202,361,1,false]],"props":{"content":"$125","eagerFirstImage":false,"imageAlt":"Thinking Circular Economy Holistically","remarkPlugins":["$126"]}}
+127:{"time":195.93345800042152}
+129:"$EObject.defineProperty(function SiteMarkdownLink({ href, children }) {\n    const ziel = href ?? '#';\n    const zweck = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$LinkPurpose$2f$LinkPurpose$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"LinkPurpose\"], {\n        text: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$a11y$2f$linkPurpose$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"textOfChildren\"])(children),\n        href: ziel\n    }, void 0, false, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 92,\n        columnNumber: 17\n    }, this);\n    if (ziel.startsWith('/') && !ziel.startsWith('//') && !istDatei(ziel)) {\n        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(__TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$app$2f$components$2f$Atom$2f$NavLink$2f$NavLink$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NavLink\"], {\n            href: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$trailingSlash$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"ensureTrailingSlashHref\"])(ziel),\n            children: [\n                children,\n                zweck\n            ]\n        }, void 0, true, {\n            fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n            lineNumber: 95,\n            columnNumber: 7\n        }, this);\n    }\n    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"jsxDEV\"])(\"a\", {\n        href: ziel,\n        ...(0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"externalLinkProps\"])(ziel),\n        children: [\n            children,\n            zweck\n        ]\n    }, void 0, true, {\n        fileName: \"[project]/apps/web/src/app/components/Atom/SiteMarkdown/SiteMarkdownContent.tsx\",\n        lineNumber: 102,\n        columnNumber: 5\n    }, this);\n},\"name\",{value:\"SiteMarkdownLink\"})"
+12a:"$EObject.defineProperty((url)=>TEL.test(url) ? url : (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$markdown$2f$lib$2f$index$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"defaultUrlTransform\"])(url),\"name\",{value:\"siteUrlTransform\"})"
+12b:"$EObject.defineProperty(function rehypePageHeading(options = {}) {\n    const zeile = options.pageHeadingLine ?? null;\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    // `#` sieht aus wie die h2, aus der es jetzt wird\n                    const aussehen = Math.max(2, Number(match[1]));\n                    if (zeile !== null && node.position?.start.line === zeile) {\n                        node.tagName = 'h1';\n                        node.properties['data-render-as'] = String(aussehen);\n                    } else if (node.tagName === 'h1') {\n                        node.tagName = 'h2';\n                    }\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypePageHeading\"})"
+12c:"$EObject.defineProperty(function rehypeSiteImages(options = {}) {\n    return (tree)=>{\n        let index = 0;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    Object.assign(node.properties, siteImageProperties(node.properties['src'], index, options));\n                    index += 1;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeSiteImages\"})"
+12d:"$EObject.defineProperty(function rehypeImageAlt(options = {}) {\n    const content = options.content ?? '';\n    const quelle = {\n        headings: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownHeadings\"])(content),\n        lead: (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"markdownLead\"])(content)\n    };\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'img') {\n                    const eigener = node.properties['alt'];\n                    node.properties['alt'] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$markdown$2f$siteMarkdownText$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"imageAltFor\"])(typeof eigener === 'string' ? eigener : undefined, node.position?.start.line, quelle, options.fallback);\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeImageAlt\"})"
+12e:"$EObject.defineProperty(function rehypeHeadingOrder(options = {}) {\n    return (tree)=>{\n        let previous = options.parentLevel ?? 1;\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                const match = HEADING.exec(node.tagName);\n                if (match) {\n                    const chosen = Number(match[1]);\n                    const level = headingLevel(chosen, previous);\n                    if (level !== chosen) {\n                        node.tagName = `h${level}`;\n                        node.properties['data-render-as'] = String(chosen);\n                    }\n                    previous = level;\n                    continue;\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeHeadingOrder\"})"
+12f:"$EObject.defineProperty(function rehypeExternalLinks() {\n    return (tree)=>{\n        const visit = (nodes)=>{\n            for (const node of nodes){\n                if (!isElement(node)) continue;\n                if (node.tagName === 'a') {\n                    const href = node.properties['href'];\n                    if (typeof href === 'string' && (0, __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"isExternalHref\"])(href)) {\n                        const rel = relListe(node.properties['rel']);\n                        for (const noetig of __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_REL\"].split(' ')){\n                            if (!rel.some((r)=>r.toLowerCase() === noetig)) rel.push(noetig);\n                        }\n                        node.properties['rel'] = rel;\n                        node.properties['target'] = '_blank';\n                        node.properties['referrerPolicy'] = __TURBOPACK__imported__module__$5b$project$5d2f$apps$2f$web$2f$src$2f$lib$2f$url$2f$externalLink$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\"NO_REFERRER_POLICY\"];\n                    }\n                }\n                visit(node.children);\n            }\n        };\n        visit(tree.children);\n    };\n},\"name\",{value:\"rehypeExternalLinks\"})"
+128:{"name":"Markdown","key":null,"env":"Server","owner":"$124","stack":[["SiteMarkdownContent","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",248,263,247,1,false]],"props":{"components":{"a":"$129"},"urlTransform":"$12a","remarkPlugins":"$124:props:remarkPlugins","rehypePlugins":[["$12b",{"pageHeadingLine":null}],["$12c",{"eagerFirst":false}],["$12d","$Y"],"$12e","$12f"],"children":"$Y"}}
+130:{"time":196.03024999797344}
+131:{"time":206.5834579989314}
+132:[]
+133:[]
+134:[]
+135:[]
+136:[]
+137:[]
+138:[]
+139:[]
+13a:[]
+13b:[]
+13c:[]
+13d:[]
+13e:[]
+13f:[]
+140:[]
+141:[]
+142:[]
+143:[]
+144:[]
+145:[]
+146:[]
+148:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$128","stack":[],"props":{"href":"/strategy-mix/","node":{"type":"element","tagName":"a","properties":{"href":"/strategy-mix/"},"children":[{"type":"text","value":"Try our assesment tool","position":{"start":{"line":26,"column":2,"offset":1605},"end":{"line":26,"column":24,"offset":1627}}}],"position":"$Y"},"children":"Try our assesment tool"}}
+149:{"time":206.8897500000894}
+14a:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",185,267,174,1,false]]
+14b:{"time":206.9502919986844}
+14e:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+151:[]
+152:[]
+153:[]
+154:[]
+155:[]
+156:[]
+157:[]
+158:[]
+18f:[]
+190:{"time":241.3416249975562}
+191:[]
+192:[]
+193:[]
+194:[]
+195:{"time":241.4197499975562}
+196:[]
+197:{"time":241.4371670000255}
+198:[]
+199:{"time":241.45016700029373}
+19a:[]
+19b:{"time":241.46529199928045}
+19c:[]
+19d:{"time":241.48024999722838}
+19e:[]
+19f:{"time":241.49345799908042}
+1a0:[]
+1a1:{"time":241.5119169987738}
+1a2:[]
+1a3:{"time":241.52604199945927}
+1a4:[]
+1a5:{"time":241.53862499818206}
+1a6:[]
+1a7:{"time":241.55108299851418}
+1a8:[]
+1a9:{"time":241.57095799967647}
+1aa:[]
+1ab:[]
+1ac:[]
+1ad:{"time":241.60895799845457}
+1ae:[]
+1af:[]
+1b0:[]
+1b1:{"time":241.64499999955297}
+1b2:[]
+1b3:[]
+1b4:{"time":241.67083299905062}
+1b5:[]
+1b6:[]
+1b7:{"time":241.6931669972837}
+1b8:[]
+1b9:{"time":241.707374997437}
+1ba:[]
+1bb:{"time":241.7204999998212}
+1bc:[]
+1bd:{"time":241.7334579974413}
+1be:[]
+1bf:{"time":241.74512499943376}
+1c0:[]
+1c1:[]
+1c2:[]
+1c3:[]
+1c4:{"time":241.78891699761152}
+1c5:[]
+1c6:{"time":241.81458299979568}
+1c7:[]
+1c8:{"time":241.82904199883342}
+1c9:[]
+1ca:{"time":241.84187499806285}
+1cb:[]
+1cc:[]
+1cd:[]
+1ce:{"time":241.87404199689627}
+1cf:[]
+1d0:[]
+1d1:[]
+1d2:[]
+1d3:[]
+1d4:[]
+1d5:{"time":241.97258299961686}
+1d6:[]
+1d7:[]
+1d8:{"time":241.9964579977095}
+1d9:[]
+1da:[]
+1db:{"time":242.01920799911022}
+1dc:[]
+1dd:{"time":242.0309170000255}
+1de:[]
+1df:{"time":242.04258299991488}
+1e0:[]
+1e1:{"time":242.0559169985354}
+1e2:[]
+1e3:[]
+1e4:[]
+1e5:[]
+1e6:[]
+1e7:[]
+1e8:[]
+1e9:[]
+1ea:{"time":242.15458299964666}
+1eb:[]
+1ec:[]
+1ed:{"time":242.17633299902081}
+1ee:[]
+1ef:[]
+1f0:{"time":242.20104200020432}
+1f1:[]
+1f2:{"time":242.21658299863338}
+1f3:[]
+1f4:{"time":242.22804199904203}
+1f5:[]
+1f6:{"time":242.23937499895692}
+1f7:[]
+1f8:{"time":242.25183299928904}
+1f9:[]
+1fa:{"time":242.2652499973774}
+1fb:[]
+1fc:[]
+1fd:{"time":242.29070799797773}
+1fe:[]
+1ff:[]
+200:{"time":242.3125}
+201:[]
+202:{"time":242.32462500035763}
+203:[]
+204:{"time":242.33633299916983}
+205:[]
+206:[]
+207:{"time":242.35854199901223}
+208:[]
+209:[]
+20a:[]
+20b:[]
+20c:[]
+20d:[]
+20e:{"time":242.4201250001788}
+20f:[]
+210:[]
+211:{"time":242.4408749975264}
+212:[]
+213:[]
+214:{"time":242.46354199945927}
+215:[]
+216:{"time":242.47579199820757}
+217:[]
+218:{"time":242.48762499913573}
+219:[]
+21a:[]
+21b:[]
+21c:{"time":242.51958299800754}
+21d:[]
+21e:{"time":242.5321249999106}
+220:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$128","stack":[],"props":{"href":"/strategy-mix/","node":{"type":"element","tagName":"a","properties":{"href":"/strategy-mix/"},"children":[{"type":"text","value":"Access the tool","position":{"start":{"line":166,"column":2,"offset":8625},"end":{"line":166,"column":17,"offset":8640}}}],"position":"$Y"},"children":"Access the tool"}}
+221:{"time":242.564957998693}
+222:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",185,267,174,1,false]]
+223:{"time":242.6539580002427}
+224:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+225:[]
+226:{"time":242.697416998446}
+227:[]
+228:[]
+229:{"time":242.72891699895263}
+22a:[]
+22b:{"time":242.74345799908042}
+22c:[]
+22d:[]
+22f:{"name":"SiteMarkdownLink","key":"a-0","env":"Server","owner":"$128","stack":[],"props":{"href":"tel:+49-172-1369-774","node":{"type":"element","tagName":"a","properties":{"href":"tel:+49-172-1369-774"},"children":[{"type":"text","value":"+49 172 1369 774","position":{"start":{"line":173,"column":2,"offset":8824},"end":{"line":173,"column":18,"offset":8840}}}],"position":"$Y"},"children":"+49 172 1369 774"}}
+230:{"time":242.7864169999957}
+231:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+232:{"time":242.8352079987526}
+233:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]
+235:{"name":"SiteMarkdownLink","key":"a-1","env":"Server","owner":"$128","stack":[],"props":{"href":"mailto:gattinger@plastship.com","node":{"type":"element","tagName":"a","properties":{"href":"mailto:gattinger@plastship.com"},"children":[{"type":"text","value":"gattinger@plastship.com","position":{"start":{"line":173,"column":45,"offset":8867},"end":{"line":173,"column":68,"offset":8890}}}],"position":"$Y"},"children":"gattinger@plastship.com"}}
+236:{"time":242.86758299916983}
+237:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",197,263,174,1,false]]
+238:{"time":242.90149999782443}
+239:[["SiteMarkdownLink","/app/apps/web/.next/dev/server/chunks/ssr/[root-of-the-server]__1n3w8thybi_rt._.js",176,270,174,1,false]]

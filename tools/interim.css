@@ -1,22 +1,24 @@
-/* Interim-Seite ohne Next-JavaScript */
-/* Menues: Flyouts per Hover, Fokus oder Klick (data-open via interim.js) */
-[data-testid^="header-public-nav-item-"][data-open="true"] > [data-testid$="-children"],
-[data-testid^="header-public-nav-item-"][data-open]:hover > [data-testid$="-children"],
-[data-testid^="header-public-nav-item-"][data-open]:focus-within > [data-testid$="-children"] {
-  visibility: visible !important; opacity: 1 !important; transform: none !important; display: block !important;
+/* Interim-Seite: Ergaenzungen zum 1:1-Abbild. Nur Ausblenden, nichts aus dem DOM entfernen
+   (React hydriert dieselbe Struktur wie auf der echten Seite). */
+
+/* Login gibt es im Interim nicht */
+[data-testid="header-login"],
+[data-testid="mobile-menu-item-login"] { display: none !important; }
+
+/* Ohne Messung kein Cookie-Banner und keine Cookie-Einstellungen */
+[data-testid="cookie-banner"],
+[data-testid="footer-cookie-settings"] { display: none !important; }
+
+/* Entwicklungswerkzeuge von Next (Quelle ist der Entwicklungsserver) */
+nextjs-portal { display: none !important; }
+
+/* Kontaktformular: Absenden geht ohne Server nicht; Hinweis setzt interim.js */
+[data-testid$="contact-form-submit"] { display: none !important; }
+.interim-form-note {
+  margin: 0 0 24px; padding: 16px 20px; border-radius: 4px; line-height: 1.6;
+  border: 1px solid #c8d3df; background: #f4f7fa; color: #003d6b;
 }
-/* Hero-Slider: WebGL fehlt, erstes Bild statisch zeigen, Steuerung ausblenden */
-[data-testid$="-hero-slide-0"] { opacity: 1 !important; }
-[data-testid$="-hero-control-row"] { display: none !important; }
-/* Theme-Schalter braucht React */
-[data-testid="header-theme-toggle"] { display: none !important; }
-/* einfaches Mobilmenue (interim.js) */
-#interim-mobile-menu { position: fixed; inset: 0; z-index: 10000; overflow-y: auto; background: #fff; color: #00416e; padding: 64px 24px 32px; font-family: inherit; }
-#interim-mobile-menu ul { list-style: none; margin: 0; padding: 0; }
-#interim-mobile-menu > ul > li { padding: 12px 0; border-top: 1px solid #e3eaf1; }
-#interim-mobile-menu a { color: #00416e; text-decoration: none; display: block; padding: 6px 0; }
-#interim-mobile-menu .interim-mm-main { font-weight: 600; font-size: 18px; }
-#interim-mobile-menu ul ul a { padding-left: 16px; font-size: 16px; }
-#interim-mobile-menu .interim-mm-close { position: absolute; top: 16px; right: 16px; width: 44px; height: 44px; border: 0; border-radius: 50%; background: #2e8b2e; color: #fff; font-size: 28px; line-height: 1; cursor: pointer; }
-#interim-mobile-menu .interim-mm-extra { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-top: 24px; padding-top: 16px; border-top: 1px solid #e3eaf1; }
-#interim-mobile-menu .interim-mm-login { background: #2e8b2e; color: #fff; padding: 8px 20px; border-radius: 4px; }
+.interim-form-note a { color: inherit; font-weight: 600; }
+html.dark .interim-form-note, html[data-theme="dark"] .interim-form-note {
+  border-color: #2c4a66; background: #10273b; color: #e3eaf1;
+}
