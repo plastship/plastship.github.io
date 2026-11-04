@@ -12,8 +12,9 @@
 /* Entwicklungswerkzeuge von Next (Quelle ist der Entwicklungsserver) */
 nextjs-portal { display: none !important; }
 
-/* Kontaktformular: bleibt sichtbar; Absenden oeffnet eine E-Mail (interim.js).
-   Das Captcha braucht den Server und entfaellt. */
-[data-testid$="contact-form-altcha-slot"] { display: none !important; }
+/* Kontakt- und Bewerbungsformular: bleiben sichtbar; Absenden oeffnet eine E-Mail
+   (interim.js). Das Captcha braucht den Server und entfaellt. */
+[data-testid$="-altcha-slot"] { display: none !important; }
 .interim-form-hint { margin: 12px 0 0; line-height: 1.5; font-size: 0.95em; }
 .interim-form-hint a { color: inherit; font-weight: 600; }
+.interim-field-hint { margin: 4px 0 0; font-size: 0.9em; color: #b3261e; }

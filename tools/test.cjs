@@ -158,15 +158,19 @@ async function scroll(page) {
   res('Weiterleitung /login/ -> Live', p2.url().startsWith('https://plastship.com/login/'), p2.url());
   await p2.close();
 
-  // Kontaktformular: ausfuellen, absenden -> mailto statt Request an /api
-  for (const r of ['/contact-us/', '/en/contact-us/']) {
+  // Kontaktformular (Kontaktseite und Polymerseiten): ausfuellen, absenden -> mailto statt Request an /api
+  for (const [r, F] of [
+    ['/contact-us/', '[data-testid="cms-block-contact-us-form-contact-form-'],
+    ['/en/contact-us/', '[data-testid="cms-block-contact-us-form-contact-form-'],
+    ['/polymere/pe/', '[data-testid="cms-block-polymere-pe-contactForm-contact-form-'],
+    ['/en/polymere/pet/', '[data-testid="cms-block-polymere-pet-contactForm-contact-form-']
+  ]) {
     const p3 = await ctx.newPage();
     await p3.addInitScript(() => { window.__mailto = []; window.addEventListener('interim:mailto', e => window.__mailto.push(e.detail)); });
     const apiCalls = [];
     p3.on('request', q => { if (/\/api\/contact/.test(q.url()) && q.method() !== 'GET') apiCalls.push(q.method() + ' ' + q.url()); });
     await p3.goto(BASE + r, { waitUntil: 'load' });
     await p3.waitForTimeout(3000);
-    const F = '[data-testid="cms-block-contact-us-form-contact-form-';
     const submitVis = await p3.locator(F + 'submit"]').isVisible();
     // leer absenden: Pflichtfeldpruefung greift, keine Mail
     await p3.click(F + 'submit"]');
@@ -192,6 +196,53 @@ async function scroll(page) {
     res(`Kontaktformular ${r} -> mailto`, ok, `Absenden sichtbar=${submitVis}, leer abgesendet: ${emptyMails} Mails, ` +
       `Mails=${mails.length}, Hinweis=${hint}, API-Aufrufe=${apiCalls.length}, Formularstatus=${status} | ${decodeURIComponent(m).slice(0, 220).replace(/\r\n/g, ' / ')}`);
     await p3.close();
+  }
+
+  // Bewerbungsformular (Teamseite, #2236): Pflichtfelder, eigene Bereichs-Auswahl, Einwilligung -> mailto
+  for (const r of ['/team/', '/en/team/']) {
+    const p4 = await ctx.newPage();
+    await p4.addInitScript(() => { window.__mailto = []; window.addEventListener('interim:mailto', e => window.__mailto.push(e.detail)); });
+    const apiCalls = [];
+    p4.on('request', q => { if (/\/api\/(application|contact)/.test(q.url()) && q.method() !== 'GET') apiCalls.push(q.method() + ' ' + q.url()); });
+    await p4.goto(BASE + r, { waitUntil: 'load' });
+    await p4.waitForTimeout(3000);
+    const A = '[data-testid="cms-block-team-3-applicationForm-application-';
+    const submitVis = await p4.locator(A + 'submit"]').isVisible();
+    await p4.locator(A + 'submit"]').scrollIntoViewIfNeeded();
+    // leer absenden: Pflichtfeldpruefung greift, keine Mail
+    await p4.click(A + 'submit"]');
+    await p4.waitForTimeout(300);
+    const emptyMails = await p4.evaluate(() => window.__mailto.length);
+    await p4.fill(A + 'name-input"]', 'Erika Muster');
+    await p4.fill(A + 'email-email"]', 'erika@example.com');
+    await p4.fill(A + 'phone-phone"]', '+49 123 456');
+    await p4.fill(A + 'message-textarea"]', 'Zeile eins\nZeile zwei');
+    await p4.fill(A + 'profileUrl-url"]', 'https://example.com/erika');
+    await p4.locator(A + 'consent-checkbox"]').check({ force: true });
+    // ohne Bereich: Hinweis am Feld, keine Mail
+    await p4.click(A + 'submit"]');
+    await p4.waitForTimeout(300);
+    const noAreaMails = await p4.evaluate(() => window.__mailto.length);
+    const areaHint = await p4.locator(A + 'area-root"] .interim-field-hint').isVisible().catch(() => false);
+    await p4.click(A + 'area-select"]');
+    await p4.click(A + 'area-select-option-digital_platforms"]');
+    await p4.click(A + 'submit"]');
+    await p4.waitForTimeout(800);
+    const mails = await p4.evaluate(() => window.__mailto);
+    const hint = await p4.locator('[data-testid="interim-form-hint"]').isVisible().catch(() => false);
+    const areaHintGone = !(await p4.locator(A + 'area-root"] .interim-field-hint').isVisible().catch(() => false));
+    const status = await p4.locator(A + 'form"]').evaluate(f => f.closest('[data-status]').getAttribute('data-status'));
+    await p4.locator(A + 'submit"]').scrollIntoViewIfNeeded();
+    await p4.evaluate(() => window.scrollBy(0, 250));
+    await p4.screenshot({ path: path.join(SHOTS, `interim-${slug(r)}-bewerbung-mailto.png`) });
+    const m = mails[0] || '';
+    const d = decodeURIComponent(m);
+    const ok = submitVis && emptyMails === 0 && noAreaMails === 0 && areaHint && areaHintGone && mails.length === 1 &&
+      m.startsWith('mailto:info@plastship.com?subject=') && m.includes('%0D%0A') && d.includes('Erika Muster') &&
+      /Digital/.test(d) && d.includes('https://example.com/erika') && hint && apiCalls.length === 0 && status === 'idle';
+    res(`Bewerbungsformular ${r} -> mailto`, ok, `Absenden sichtbar=${submitVis}, leer: ${emptyMails}, ohne Bereich: ${noAreaMails} (Hinweis=${areaHint}, danach weg=${areaHintGone}), ` +
+      `Mails=${mails.length}, Hinweis=${hint}, API-Aufrufe=${apiCalls.length}, Formularstatus=${status} | ${d.slice(0, 260).replace(/\r\n/g, ' / ')}`);
+    await p4.close();
   }
 
   // (h) mobil 390 px
